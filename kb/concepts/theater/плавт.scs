@@ -1,0 +1,16 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+plautus => nrel_main_idtf: //это типа основной идентификатор
+	[плавт](* <-lang_ru;; *);//ну тут понятно
+    [plautus](* <-lang_en;; *);;
+plautus <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Плавт (ок. 254 до н. э., Сарсина, Умбрия — 184 до н. э., Рим) — выдающийся римский комедиограф, мастер паллиаты. Написал около 130 комедий, из которых сохранилось 20.](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Plautus (c. 254 BC. E., Sarsina, Umbria - 184 BC. E., Rome) - an outstanding Roman comedy man, master of palliatas. He wrote about 130 comedies, of which 20 remained. ](* <- lang_en;; 	*);;
+		*);;
+	*);;

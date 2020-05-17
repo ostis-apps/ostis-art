@@ -1,0 +1,15 @@
+sc_node_not_relation->person_Glinka_Mikhail_Ivanovich;;
+
+
+person_Glinka_Mikhail_Ivanovich<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Глинка Михаил Иванович)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Русский композитор, родоначальник национальной классической музыки.](*<- lang_ru;; *);;
+		*);;
+	*);;

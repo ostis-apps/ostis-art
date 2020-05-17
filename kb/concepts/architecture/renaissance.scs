@@ -1,0 +1,52 @@
+renaissance
+<-sc_node_not_relation;
+<-concept_style;;
+renaissance => nrel_main_idtf:
+     [Архитектура Возрождения](* <-lang_ru;; *);
+     [Architecture of the Renaissance](* <-lang_en;; *);;
+
+renaissance 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектура Возрождения] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Architecture of the Renaissance] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектура Возрождения — термин, под которым понимается архитектура европейских стран в период ее развития с начала XV до начала XVII века; при этом в общем течении имеется в виду возрождение и развитие основ духовной и материальной культуры античности — Древней Греции и Рима. Этот период является переломным моментом в истории архитектуры, в особенности по отношению к предшествующему архитектурному стилю — готике.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Architecture of the Renaissance — a term which refers to the architecture of European countries in the period of its development from early XV until early XVII century; thus, in General for referring to the revival and development of the foundations of spiritual and material culture of classical antiquity — Ancient Greece and Rome. This period is a turning point in the history of architecture, especially in relation to the previous architectural style-Gothic.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+renaissance 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Архитектура Возрождения] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Architecture of the Renaissance] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ренессанс.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+renaissance 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архитектура Возрождения)](*<-lang_ru;;*);
+		[Pic. (Architecture of the Renaissance)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://renaissance.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

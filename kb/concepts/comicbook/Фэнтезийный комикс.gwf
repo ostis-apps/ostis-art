@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="26935856" parent="0" x="764.5" y="567.88" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Фэнтезийный комикс - жанр комиксов, произведения которого основываются на использовании мифологических и сказочных мотивов в современном виде. Произведения фэнтези нередко напоминают историко-приключенческий роман, действие которого происходит в вымышленном мире, близком к реальному Средневековью или (реже) эпохе Возрождения, герои которого сталкиваются со сверхъестественными явлениями и существами.В отличие от научной фантастики, фэнтези не стремится объяснить мир, в котором происходит действие произведения, с научной точки зрения. ]]></content>
+        </node>
+        <node type="node/const/group" idtf="concept_fantasy_comic" shapeColor="193" id="22987776" parent="0" left="0" top="0" right="176.031" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="208" y="78.38" haveBus="false" idtf_pos="2">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="193" id="26477856" parent="0" left="0" top="0" right="154.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="463.5" y="269.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="22744912" parent="0" x="200.5" y="386.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="193" id="22475616" parent="0" left="0" top="0" right="61.9219" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="805.5" y="464.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="193" id="26780464" parent="0" left="0" top="0" right="100.672" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="196.5" y="295.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="193" id="27792224" parent="0" left="0" top="0" right="181.859" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="11.5" y="420.88" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="31243920" parent="0" x="200.5" y="460.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="193" id="27465872" parent="0" left="0" top="0" right="102.625" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="259.5" y="555.88" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="23600528" parent="0" id_b="26477856" id_e="25486880" b_x="463.5" b_y="269.88" e_x="-38" e_y="-3.00005" dotBBalance="0" dotEBalance="0.494939">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="23221456" parent="0" id_b="31243920" id_e="26935856" b_x="200.5" b_y="460.88" e_x="764.5" e_y="567.88" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="25486880" parent="0" id_b="22744912" id_e="22987776" b_x="200.5" b_y="386.88" e_x="208" e_y="78.38" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="707" y="383.38"/>
+                <point x="713" y="90.38"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="33071952" parent="0" id_b="26780464" id_e="22744912" b_x="196.5" b_y="295.88" e_x="200.5" e_y="386.88" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="22536928" parent="0" id_b="31243920" id_e="22744912" b_x="200.5" b_y="460.88" e_x="200.5" e_y="386.88" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="23855104" parent="0" id_b="22475616" id_e="26935856" b_x="805.5" b_y="464.88" e_x="764.5" e_y="567.88" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="30750192" parent="0" id_b="27465872" id_e="23221456" b_x="259.5" b_y="555.88" e_x="-38" e_y="-3.00005" dotBBalance="0" dotEBalance="0.489362">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27364672" parent="0" id_b="27792224" id_e="22536928" b_x="11.5" b_y="420.88" e_x="-38" e_y="-3.00005" dotBBalance="0" dotEBalance="0.572727">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

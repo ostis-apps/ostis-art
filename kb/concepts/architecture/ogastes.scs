@@ -1,0 +1,36 @@
+ogastes 
+<-sc_node_not_relation;
+<-concept_architect;;
+ogastes=> nrel_main_idtf:
+     [Ога́стес Уэ́лби Но́ртмор Пью́джин](* <-lang_ru;; *);
+     [Augustus Welby Northmore Pugin](* <-lang_en;; *);; 
+ogastes <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Ога́стес Уэ́лби Но́ртмор Пью́джин] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Augustus Welby Northmore Pugin] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Ога́стес Уэ́лби Но́ртмор Пью́джин - английский архитектор и теоретик архитектуры, международно признанный корифей неоготики, строитель Биг-Бена.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Augustus Welby Northmore Pugin - english architect and architectural theorist, internationally recognized neo-Gothic luminary, builder of Big Ben.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+ogastes <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ога́стес Уэ́лби Но́ртмор Пью́джин)](*<-lang_ru;;*);
+		[Pic. (Augustus Welby Northmore Pugin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://ogastes.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 01031812;
+=> nrel_to_die: 14091852;
+=> nrel_nationality: britain;;

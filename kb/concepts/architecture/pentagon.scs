@@ -1,0 +1,38 @@
+pentagon
+<-sc_node_not_relation;
+<-concept_construction;;
+pentagon=> nrel_main_idtf:
+     [Пентагон](* <-lang_ru;; *);
+     [Pentagon](* <-lang_en;; *);;
+
+pentagon <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Пентагон] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Pentagon] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пентагон в округе Арлингтон, штат Вирджиния, через реку Потомак от Вашингтона, округ Колумбия, является штаб-квартирой Министерства обороны США.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[The Pentagon, in Arlington County, Virginia, across the Potomac River from Washington, D.C., is the headquarters of the United States Department of Defense.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+pentagon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пентагон)](*<-lang_ru;;*);
+		[Pic. (Pentagon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://pentagon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: bergstrom;
+=> nrel_country: usa;
+=> nrel_style_of_building: palladianism;;

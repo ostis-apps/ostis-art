@@ -1,0 +1,30 @@
+thespis //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+<-sc_node_not_relation;
+<-playwright;; //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+thespis => nrel_main_idtf: //это типа основной идентификатор
+	[фелипс](* <-lang_ru;; *);//ну тут понятно
+    [thespis](* <-lang_en;; *);;
+thespis <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Феспис  — древнегреческий поэт и драматург, уроженец аттического дема Икария в филе Эгеиде. ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Thespis - ancient Greek poet and playwright, a native of the Attic deme Ikaria fillet Egeide. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+thespis <- rrel_key_sc_element: ...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Творчество:Феспису приписывается создание архаической, доэсхиловской греческой трагедии, в которой действовали один актёр и хор. Произведения Фесписа до современности не дошли. ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Creativity: Thespis is credited with creating an archaic, pre-Eschilan Greek tragedy, in which one actor and chorus acted. The works of Thespis have not reached modern times. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+

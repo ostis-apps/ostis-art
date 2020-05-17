@@ -1,0 +1,17 @@
+sc_node_not_relation ->musician ;;
+
+musician=> nrel_main_idtf:
+[musician](*<- lang_en;; *);;
+
+musician<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Музыкант)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[специалист в области музыки или тот, кто занимается игрой на музыкальном инструменте. ](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,53 @@
+ariadne_on_naxos
+<-sc_node_not_relation;
+<-concept_ballet ;;
+ariadne_on_naxos => nrel_main_idtf:
+     [Ариадна на Наксосе](* <-lang_ru;; *);
+     [Ariadne on Naxos](* <-lang_en;; *);;
+
+ariadne_on_naxos <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Ариадна на Наксосе» - это отчасти классическая мифология, отчасти комедия даль арте, отчасти венская сатира 18 века. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[“Ariadne on Naxos” is partly classical mythology, partly comedy dal arte, partly Viennese satire of the 18th century.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+ariadne_on_naxos <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Автор] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Author] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Рихард Штраус задумывал ее как … подарок, и вряд ли мог подумать что это небольшое, но невероятно красивое произведение будет звучать на лучших сценах мира не один десяток лет, покоряя сердца самых взыскательных театралов.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Richard Strauss conceived it as ... a gift, and he could hardly have thought that this small but incredibly beautiful piece would sound on the best stages of the world for decades, winning the hearts of the most demanding theater-goers.
+ ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+ariadne_on_naxos <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ариадна на Наксосе)](*<-lang_ru;;*);
+		[Pic. (Ариадна на Наксосе)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_postanovshchik: fry;vereshchagin;;

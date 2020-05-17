@@ -1,0 +1,36 @@
+utcracker
+<-sc_node_not_relation;
+<-concept_ballet ;;
+utcracker => nrel_main_idtf:
+     [Щелкунчик](* <-lang_ru;; *);
+     [  Nutcracker](* <-lang_en;; *);;
+
+utcracker <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Новогодняя балетная постановка «Щелкунчик», изысканно обрамленная чувственной музыкой Петра Ильича Чайковского, – это не просто очередной спектакль. Это замечательная праздничная традиция, настоящий символ Нового года и Рождества. Тысячи театралов мечтают попасть на балет «Щелкунчик» в период новогодних праздников, чтобы окунуться в настоящую рождественскую сказку. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The New Year’s ballet production The Nutcracker, exquisitely framed by the sensual music of Pyotr Ilyich Tchaikovsky, is not just another performance. This is a wonderful holiday tradition, a real symbol of the New Year and Christmas. Thousands of theatergoers dream of getting to the Nutcracker ballet during the New Year holidays to plunge into a real Christmas tale.
+.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+utcracker <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. ( Щелкунчик)](*<-lang_ru;;*);
+		[Pic. ( Nutcracker)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://8.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_postanovshchik: fry;vereshchagin;shapiro;bejart;gchristmas;;

@@ -1,0 +1,35 @@
+fry
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+fry => nrel_main_idtf:
+     [Ханс-Йоахим Фрай](* <-lang_ru;; *);
+     [Hans-Joachim Fry](* <-lang_en;; *);;
+
+fry <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Ханс-Йоахим Фрай (р. 1965, Германия), международный оперный менеджер ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Hans-Joachim Fry (b. 1965, Germany), international opera manager](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+fry <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фрай)](*<-lang_ru;;*);
+		[Pic. (Fry)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

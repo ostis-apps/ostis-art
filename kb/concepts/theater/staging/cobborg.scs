@@ -1,0 +1,35 @@
+cobborg
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+cobborg => nrel_main_idtf:
+     [Йохан Кобборг](* <-lang_ru;; *);
+     [Johan Cobborg](* <-lang_en;; *);;
+
+cobborg <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Йохан Кобборг - танцор из Дании, балетмейстер, режиссер и художник-постановщик. Он больше всего известен как балетный танцор, будучи главным танцором Королевского датского балета и Королевского балета в Лондоне, а также выступал в других балетных труппах. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Johan Cobborg is a dancer from Denmark, a choreographer, director and production designer. He is best known as a ballet dancer, being the main dancer of the Royal Danish Ballet and the Royal Ballet in London, and also performed in other ballet troupes.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+cobborg<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Йохан Кобборг)](*<-lang_ru;;*);
+		[Pic. (Johan Cobborg)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://13.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

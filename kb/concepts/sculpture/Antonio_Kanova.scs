@@ -1,0 +1,87 @@
+concept_author_Kanova
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Антонио Канова]
+	(* <- lang_ru;;	*);
+	[Antonio Kanova]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Антонио Канова)](*<-lang_ru;;*);
+		[Description (Antonio Kanova)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/kanova_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/kanova_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_01_11_1757
+            (*
+                => nrel_main_idtf:
+                    [1 ноября 1757]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_Venecia;
+
+    => nrel_date_of_death:
+        date_13_10_1822
+            (*
+                => nrel_main_idtf:
+                    [13 октября 1822]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Антонио Канова)](*<-lang_ru;;*);
+		[Pic. (Antonio Kanova)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/kanova.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+country_Venecia
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Венецианская республика] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Венецианская республика)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+plastic_arts  => nrel_main_idtf:
+     [изобразительное искусство](* <-lang_ru;; *);
+     [plastic arts](* <-lang_en;; *);;
+
+plastic_arts <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: изобразительное искусство] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: plastic arts] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Изобразительное искусство - направление искусства, при помощи которого создаются произведения, которые в большинстве своем носят визуальный характер. Изобразительное искусство (также известное как пластика) создает предметы.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[Plastic arts - art forms that create works which are primarily visual in nature. The plastic arts (also known as the visual arts) produce objects. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+plastic_arts <= nrel_subdividing: ... // понятие делится на подмножества
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по направлениям](*<-lang_ru;; *); 
+		[Subdividing based on directions](*<-lang_en;; *);;
+	->  ceramics; drawing; painting; concept_sculpture; printmaking;; //идентификаторы, на которые делится разбиение
+*);;

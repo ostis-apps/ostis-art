@@ -1,0 +1,32 @@
+spa=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Спартак](* <-lang_ru;; *);//ну тут понятно
+    [Spartacus
+](* <-lang_en;; *);;
+
+spa <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[История балета Спартак началась в 1933 году, когда драматург Николай Волков написал либретто, используя исторические материалы и произведения Плутарха и Ювенала. Но дальнейшая работа над балетом была отложена, и только в 1950 году Арам Хачатурян после поездки в Италию вернулся к этому замыслу. Три с половиной года продолжалась работа над партитурой, еще два года шла подготовка к постановке и в декабре 1956 года состоялась премьера. Знаменитый балетмейстер Леонид Якобсон представил свой спектакль на сцене Кировского театра. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The history of the Spartak ballet began in 1933, when the playwright Nikolai Volkov wrote the libretto using historical materials and works by Plutarch and Juvenal. But further work on the ballet was postponed, and only in 1950 did Aram Khachaturian return to this idea after a trip to Italy. For three and a half years, work continued on the score, two more years preparations were made for staging, and in December 1956 the premiere took place. The famous choreographer Leonid Yakobson presented his performance on the stage of the Kirov Theater.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+spa<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/13.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

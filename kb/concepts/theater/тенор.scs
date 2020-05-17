@@ -1,0 +1,64 @@
+tenor=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Одолжите тенора!](* <-lang_ru;; *);//ну тут понятно
+    [Borrow a tenor!](* <-lang_en;; *);;
+tenor<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Одолжите тенора!» – спектакль Театра имени Пушкина по пьесе американского комедиографа Кена Людвига. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Borrow a tenor!"performance of theatre of a name of Pushkin under the play of American playwright Ken Ludwig.](*<- lang_en;;*);;
+*);;
+		*);;
+
+
+tenor <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Премьера прошла 29 сентября 2005 года. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The premiere took place on September 29, 2005.](*<- lang_en;;*);;
+			*);;
+		*);;
+tenor <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Спектакль является лауреатом престижных театральных премий – «Чайка» и «Хрустальная Турандот».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The play is the winner of prestigious theater awards – "Seagull" and "crystal Turandot".](*<- lang_en;;*);;
+	*);;
+		*);;
+tenor <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Краткое содержание:
+Действие разворачивается в Америке 30-х годов. Молодого певца Макса никто не воспринимает всерьёз: ни любимая девушка, ни её отец – продюсер. Все словно околдованы знаменитым тенором Тито Мерелли. И вот стараниями папы-продюсера Мерелли приезжает на гастроли вместе со своей женой Марией. Все билеты проданы. Но перед самым концертом звезда внезапно... Одним словом, петь не может. Продюсер умоляет Макса выдать себя за знаменитого тенора. Идёт «Отелло», никто не замечает подвоха. Всем кажется, что положение спасено. Но все только начинается...](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Outline:
+The action takes place in America 30-ies. No one takes the young singer max seriously: neither her beloved girl nor her father is a producer. All as if bewitched by the famous tenor Tito Merelli. And here is through the efforts of Pope-producer Merelli comes on tour together with his wife Maria. All tickets sold. But before the concert, the star suddenly... In one word, sing not can. The producer begs max to impersonate a famous tenor. Is "Othello" nobody notices the trick. Everyone seems to think that the situation is saved. But it's just the beginning...](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+

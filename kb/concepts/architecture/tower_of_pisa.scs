@@ -1,0 +1,55 @@
+tower_of_pisa
+<-sc_node_not_relation;
+<-concept_construction;;
+tower_of_pisa => nrel_main_idtf:
+     [Пизанская Башня](* <-lang_ru;; *);
+     [Tower of Pisa](* <-lang_en;; *);;
+
+tower_of_pisa <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Пизанская Башня] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Tower of Pisa] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пизанская башня - это колокольня, или отдельно стоящая колокольная башня, собора итальянского города Пиза, известного во всем мире своим непреднамеренным наклоном.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[ Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its unintended tilt.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+tower_of_pisa <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Пизанская Башня] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Tower of Pisa] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+          -> rrel_example:
+			[Leaning Tower of Pisa. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+tower_of_pisa <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пизанская Башня)](*<-lang_ru;;*);
+		[Pic. (Tower of Pisa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://towerofpisa.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: pizano;
+=> nrel_city: pisa;
+=> nrel_country: italy;
+=> nrel_style_of_building: roman_style;;
+

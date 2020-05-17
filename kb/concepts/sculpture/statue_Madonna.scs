@@ -1,0 +1,71 @@
+sculpture_madonna_brugge
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мадонна Брюгге]
+	(* <- lang_ru;;	*);
+	[Madonna Bruges]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Michelangelo;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мадонна Брюгге)](*<-lang_ru;;*);
+		[Description (Madonna Bruges)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/madonna_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/madonna_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_15_01_1504
+            (*
+                => nrel_main_idtf:
+                    [1501 - 1504 год]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мадонна Брюгге)](*<-lang_ru;;*);
+		[Pic. (Madonna Bruges)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/madonna.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

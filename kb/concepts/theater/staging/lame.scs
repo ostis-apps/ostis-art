@@ -1,0 +1,35 @@
+lame
+<-sc_node_not_relation;
+<-concept_ballet ;;
+lame => nrel_main_idtf:
+     [Пламя Парижа](* <-lang_ru;; *);
+     [  Flame of Paris](* <-lang_en;; *);;
+
+lame <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Пла́мя Пари́жа» — балет в 4 актах 7 картинах Бориса Асафьева. Либретто Владимира Дмитриева и Николая Волкова по мотивам романа-хроники Ф. Гра «Марсельцы». ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[“The Flames of Paris” - ballet in 4 acts and 7 paintings by Boris Asafiev. Libretto by Vladimir Dmitriev and Nikolai Volkov based on the novel by the chronicles of F. Gra's "Marseilles".](*<- lang_en;;*);;
+			*);;
+          *);;
+
+lame <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. ( Пламя Парижа)](*<-lang_ru;;*);
+		[Pic. ( Flame of Paris)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://10.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_postanovshchik: fry;vereshchagin;shapiro;bejart;gchristmas;ratmansky;;

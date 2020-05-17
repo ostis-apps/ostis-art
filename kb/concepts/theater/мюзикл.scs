@@ -1,0 +1,36 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+theatre_musical => nrel_main_idtf: //это типа основной идентификатор
+	[мюзикл](* <-lang_ru;; *);//ну тут понятно
+    [  musical](* <-lang_en;; *);;
+theatre_musical<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мюзикл — вид музыкального театра, где соединяются диалоги, песни, музыка, танцы. Чтобы сыграть в спектакль, нужно написать пьесу. Сюжет в основном берется из известных литературных произведений мировой драматургии и реализуется режиссёром-постановщиком, балетмейстером, специалистами по пению, постановщиками спецэффектов и др.По форме мюзикл представляет собой, как правило, двухактный спектакль. Постановка вокала или пластики отличается от классического музыкального жанра: голоса не должны звучать «по-оперному», а танец — выглядеть «балетным». Речь, мимика, пластика, танец должны быть в одной линии сценического поведения.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[A musical is a type of musical theater where dialogues, songs, music, and dancing are combined. To play a play, you need to write a play. The plot is mainly taken from well-known literary works of world drama and is implemented by the director, choreographer, singing specialists, special effects directors, etc. In the form of a musical, it is usually a two-act performance. The vocal or plastic production differs from the classical musical genre: the voices should not sound “opera-like”, and the dance should not look “ballet”. Speech, facial expressions, plastic, dance should be in the same line of stage behavior.](*<- lang_en;;*);;
+
+	*);;
+		*);;
+theatre_musical <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Мюзикл зародился в США в начале XX века и долгое время являлся чисто американским видом музыкально-сценического представления.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The musical originated in the USA at the beginning of the 20th century and for a long time was a purely American type of musical and stage performance.](*<- lang_en;;*);;
+			*);;
+		*);;
+theatre_musical <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Мюзиклы](* <-lang_ru;; *);//ну тут понятно
+    [Musicals](* <-lang_en;; *);;
+->romeo_and_juliet;anna_karenina;cinderella;;
+*);;

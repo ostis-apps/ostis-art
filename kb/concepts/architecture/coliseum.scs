@@ -1,0 +1,55 @@
+coliseum 
+<-sc_node_not_relation;
+<-concept_construction;;
+coliseum=> nrel_main_idtf:
+     [Колизей](* <-lang_ru;; *);
+     [Coliseum](* <-lang_en;; *);;
+
+coliseum <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Колизей] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Coliseum] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Колизей - амфитеатр овальной формы, расположенный в центре города Рима, Италия.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Coliseum -  is an oval amphitheatre in the centre of the city of Rome, Italy.  ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+coliseum <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Колизей] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Coliseum] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[амфитеатр Флавиев.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Flavian Amphitheatre, Colosseum. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+coliseum <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Колизей)](*<-lang_ru;;*);
+		[Pic. (Coliseum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://coliseum.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_constructor: vespasianus;
+=> nrel_city: rome_city;
+=> nrel_country: italy;
+=> nrel_style_of_building: roman_style;;

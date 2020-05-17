@@ -1,0 +1,21 @@
+concept_style
+<-sc_node_not_relation;;
+concept_style => nrel_main_idtf:
+     [Архитектурный стиль](* <-lang_ru;; *);
+     [Architectucal style](* <-lang_en;; *);;
+
+concept_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектурный стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Architectural style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектурный стиль — совокупность характерных черт и признаков архитектуры.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[An architectural style is the totality of features and characteristics of architecture.](*<- lang_en;;*);;
+			*);;
+          *);;

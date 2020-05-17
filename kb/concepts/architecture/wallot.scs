@@ -1,0 +1,37 @@
+wallot 
+<-sc_node_not_relation;
+<-concept_architect;;
+wallot=> nrel_main_idtf:
+     [Пауль Валлот](* <-lang_ru;; *);
+     [Johann Paul Wallot](* <-lang_en;; *);;
+
+wallot <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Пауль Валлот] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Paul Wallot] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пауль Валлот — немецкий архитектор. В 1882 году Валлот наряду с другими 190 соискателями принял участие в архитектурном конкурсе, связанном с запланированным строительством здания парламента, и вышел из него победителем вместе с мюнхенским архитектором Фридрихом фон Тиршем. Валлоту были поручены строительные работы, которые продлились десять лет. За свои заслуги в строительстве Рейхстага Валлот получил звание тайного советника по вопросам строительства. После Рейхстага Валлот проявил себя при строительстве дворца президента рейхстага и дома сословий на Брюльской террасе в Дрездене. ](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Paul Wallot is a German architect. In 1882, Wallot took part in an architectural competition related to the planned construction of a parliament building, and he won, together with the Munich architect Friedrich von Tiersch. All done ten years. We have our merits in the construction. After the Reichstag Vallot manifested itself in the construction of the presidential palace, a house in the estate on the Bryulskaya terrace in Dresden.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+wallot <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пауль Валлот)](*<-lang_ru;;*);
+		[Pic. (Пауль Валлот)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://wallot.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 26061841;
+=> nrel_to_die: 10081912;
+=> nrel_nationality: german;;

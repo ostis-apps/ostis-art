@@ -1,0 +1,39 @@
+reichstag
+<-sc_node_not_relation;
+<-concept_construction;;
+reichstag => nrel_main_idtf:
+     [Рейхстаг](* <-lang_ru;; *);
+     [Reichstag](* <-lang_en;; *);;
+
+reichstag <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Рейхстаг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Reichstag] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Рейхстаг - это историческое здание в Берлине, Германия, построенное для размещения Императорского сейма (по-немецки Рейхстаг) Германской империи.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Reichstag is a historic edifice in Berlin, Germany, constructed to house the Imperial Diet (German: Reichstag) of the German Empire. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+reichstag <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рейхстаг)](*<-lang_ru;;*);
+		[Pic. (Reichstag)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://reichstag.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: wallot;
+=> nrel_city: berlin;
+=> nrel_country: germany;
+=> nrel_style_of_building: neo_renaissance;;

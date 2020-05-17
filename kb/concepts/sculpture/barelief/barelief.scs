@@ -1,0 +1,31 @@
+
+concept_barelief => nrel_idtf: [barelief](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Барельеф)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Барельеф - разновидность скульптурного выпуклого рельефа, в котором изображение выступает над плоскостью фона не более, чем на половину объёма.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_barelief ;;
+<= nrel_using_constants :...
+(*
+-> concept_relief; concept_background;;
+*);;
+*);;
+
+ concept_barelief  -> rrel_example: [Барельеф пьедестала Александровской колонны](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Барельеф, )](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Как часть архитектурного декора, барельеф может украшать фронтоны.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_barelief ; concept_fronton;;
+*);; 
+
+concept_relief => nrel_subdividing: concept_barelief ;;
+

@@ -1,0 +1,18 @@
+sc_node_not_relation->concept_teacher;;
+
+concept_teacher => nrel_main_idtf:
+[педагог](*<- lang_ru;; *);
+[teacher](*<- lang_en;; *);;
+
+concept_teacher <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(педагог)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[одна из самых распространённых общественных профессий, преподаватель, педагог. Содержание профессии учителя — воспитание и обучение следующих поколений.](*<- lang_ru;; *);;
+		*);;
+	*);;

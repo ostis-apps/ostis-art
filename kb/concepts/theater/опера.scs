@@ -1,0 +1,48 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+opera_theatre => nrel_main_idtf: //это типа основной идентификатор
+	[опера](* <-lang_ru;; *);//ну тут понятно
+    [ drama theatre](* <-lang_en;; *);;
+opera_theatre <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Опера — сценический вид театрального искусства, в котором драматическое действие тесно слито с вокалом и оркестровой музыкой; в опере нередко присутствует и танец.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Opera is a stage form of theatrical art in which dramatic action is closely merged with vocals and orchestral music; the opera is often present and dance.](*<- lang_en;;*);;
+			*);;
+		*);;
+opera_theatre <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Зародилась она в Италии на рубеже 16-17 веков.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[It originated in Italy at the turn of the 16-17 centuries.](*<- lang_en;;*);;
+			*);;
+		*);;
+opera_theatre <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Существуют такие жанры, как большая опера, комическая опера (opera-buffa в Италии, opеra-comique во Франции, Singspiel в Германии, Тонадилья в Испании, балладная опера в Англии), романтическая опера, опера-балет и др. Жанр комической оперы повлиял в ХХ веке на формирование таких жанров, как оперетта, мюзикл, музыкальная комедия.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[There are such genres as big opera, comic opera (opera-buffa in Italy, opera-comique in France, Singspiel in Germany, Tonadilla in Spain, ballad opera in England), romantic opera, opera-ballet, etc. The genre of comic opera influenced in the twentieth century on the formation of such genres as operetta, musical, musical comedy.](*<- lang_en;;*);;
+			*);;
+		*);;
+opera_theatre <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Оперное произведение — это род музыкально-драматического произведения, основанный на синтезе слова, сценического действия и музыки. В отличие от драматического театра, где музыка выполняет служебные функции, в опере она является основным носителем действия. Литературной основой оперы является либретто, оригинальное или основанное на литературном произведении. Опера представляет собой ансамбль сольных эпизодов — арий, дуэтов, трио, квартетов, ариозо, речитативов, а также ансамблей, хоров, балетных сцен и подразделяется на акты и картины, сцены и номера; в начале оперы перед актами бывает пролог, а в конце — эпилог.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: [The operatic work is a kind of musical drama based on the synthesis of the word, stage action and music. Unlike the drama theater, where music performs official functions, in the opera it is the main bearer of the action. The literary basis of the opera is the libretto, original or based on a literary work. The opera is an ensemble of solo episodes - arias, duets, trios, quartets, ariosos, recitatives, as well as ensembles, choirs, ballet scenes and is divided into acts and paintings, scenes and numbers; at the beginning of the opera there is a prologue before acts, and at the end - an epilogue.](*<- lang_en;;*);;
+			*);;
+		*);;

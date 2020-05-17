@@ -1,0 +1,27 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+puppet_theatre => nrel_main_idtf: //это типа основной идентификатор
+	[театр кукл](* <-lang_ru;; *);//ну тут понятно
+    [ puppet theatre](* <-lang_en;; *);;
+puppet_theatre <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Театр кукол — одна из разновидностей кукольного вида искусства, в который входят мультипликационное и немультипликационное анимационное киноискусство, кукольное искусство эстрады и художественные кукольные программы телевидения. В спектаклях театра кукол внешность и физические действия персонажей изображаются и/или обозначаются, как правило, объёмными, полуобъёмными (барельефными или горельефными) и плоскими куклами (куклами-актёрами). Куклы-актёры обычно управляются и приводятся в движение актёрами-кукловодами, а иногда автоматическими механическими устройствами. В последнем случае куклы-актёры называются куклами-роботами.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Puppet Theater is one of the varieties of puppet art form, which includes animated and non-animated animation cinema, puppet variety art and artistic puppet television programs. In the puppet theater performances, the appearance and physical actions of the characters are depicted and / or denoted, as a rule, by volumetric, semi-volume (bas-relief or high-relief) and flat dolls (actor dolls). Actor dolls are usually controlled and driven by puppeteer actors, and sometimes by automatic mechanical devices. In the latter case, the doll actors are called robot dolls.](*<- lang_en;;*);;
+			*);;
+		*);;
+puppet_theatre <- rrel_key_sc_element: ...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Следует отметить, что словосочетание «кукольный театр» является некорректным и обижает профессиональное достоинство кукольников, поскольку прилагательное «кукольный» ассоциируется с понятием «ненастоящий». Правильно говорить: «театр кукол», так, кстати, называются все профессиональные театры анимации.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[It should be noted that the phrase "puppet theater" is incorrect and offends the professional dignity of puppeteers, since the adjective "puppet" is associated with the concept of "unreal". It is correct to say: “puppet theater”, so, by the way, all professional animation theaters are called.](*<- lang_en;;*);;
+			*);;
+		*);;

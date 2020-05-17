@@ -1,0 +1,17 @@
+sc_node_not_relation ->organ ;;
+
+organ=> nrel_main_idtf:
+[organ](*<- lang_en;; *);;
+
+organ<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(oрга́н )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[(лат. organum из др.-греч. ὄργανον ― инструмент, орудие) — клавишный духовой музыкальный инструмент. ](*<- lang_ru;; *);;
+		*);;
+	*);;

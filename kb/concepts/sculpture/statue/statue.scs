@@ -1,0 +1,33 @@
+
+concept_statue => nrel_idtf: [statue](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Статуя)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Статуя  — один из основных видов круглой скульптуры, представляющее собой трёхмерное 
+изображение человеческой фигуры или животного.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_statue;;
+<= nrel_using_constants :...
+(*
+-> concept_human_figure;;
+*);;
+*);;
+
+ concept_statue -> rrel_example: [Статуя Давида под авторством Микеладжело.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Статуя, статуэтка)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Небольшие статуи, служащие для украшения интерьеров, называются статуэтками.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_statue; concept_statuette;;
+*);; 
+
+concept_round_sculpture => nrel_subdividing: concept_statue;;
+
+

@@ -1,0 +1,15 @@
+sc_node_not_relation->person_Franz_Liszt;;
+
+
+person_Franz_Liszt<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Лист Ференц)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Крупнейший венгерский композитор-романтик, пианист-виртуоз, дирижер, педагог, критик, музыкально-общественный деятель.](*<- lang_ru;; *);;
+		*);;
+	*);;

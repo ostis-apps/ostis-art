@@ -1,0 +1,80 @@
+swan_lake=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Лебединое озеро](* <-lang_ru;; *);//ну тут понятно
+    [Swan Lake](* <-lang_en;; *);;
+swan_lake <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Лебединое озеро» — балет Петра Ильича Чайковского в четырёх актах. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Swan Lake - ballet by Pyotr Ilyich Tchaikovsky in four acts.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+swan_lake <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Либретто Владимира Бегичева и, возможно, Василия Гельцера с дополнениями самого композитора.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Libretto by Vladimir Begichev and, possibly, Vasily Geltser with additions by the composer himself.](*<- lang_en;;*);;
+->liberetto;;
+			*);;
+		*);;
+swan_lake <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:Чары злого гения действуют днем, но с приходом луны белый лебедь превращается в прекрасную Одетту. Она не одинока, на озере её окружают заколдованные девушки-лебеди, назвавшие Одетту королевой лебедей. По легенде, слезы матери по похищенной злодеем дочери образовали волшебное «лебединое озеро». Заклятие может быть разрушено только верной любовью молодого человека, но если обет вечной любви нарушится, она навсегда останется лебедем. В четырёх картинах балета чередуются реальные и фантастические картины. Празднуя своё совершеннолетие в дворцовом парке, принц Зигфрид веселится среди друзей, однако пролетевшая над парком стая лебедей манит его за собой. В лесу, на берегу озера среди девушек-лебедей принц находит Одетту, королеву лебедей с короной на голове. Покорённый её красотой и потрясённый её рассказом о преследованиях злым хозяином озера Ротбартом, Зигфрид клянётся Одетте в вечной любви. На балу в замке, по велению матери Зигфрида, он должен выбрать себе невесту. Самые первые красавицы танцуют перед ним. Происходит чередование национальных танцев: испанский, неаполитанский, венгерский, польский (мазурка) — однако принц безучастен, пока не появляется Одиллия, в которой Зигфриду видится Одетта, ей он и отдаёт предпочтение. Поняв, что совершил роковую ошибку, Зигфрид бежит к озеру и молит Одетту о прощении, но не получает его. Срывая с головы Одетты корону (корона спасала Одетту от преследования), Зигфрид бросает вызов Ротбарту, хозяину озера, олицетворяющему в балете образ фатума. Принц надеется, что девушка-лебедь уйдёт с ним в мир людей. В сказке бурные волны разбушевавшейся на озере стихии поглощают Одетту и Зигфрида.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot:the Spell of the evil genius are day, but with the arrival of the moon white Swan turns into a beautiful Odette. She is not alone, on the lake she is surrounded by enchanted Swan girls, who called Odette the Queen of swans. According to legend, the tears of the mother of the kidnapped villain daughter formed a magical "Swan lake". The spell can only be broken by the faithful love of a young man, but if the vow of eternal love is broken, it will forever remain a Swan. In four pictures of the ballet real and fantastic pictures alternate. Celebrating his coming of age in the Palace Park, Prince Siegfried is having fun among friends, but a flock of swans flying over the Park beckons him. In the forest, on the shore of the lake among the Swan girls, the Prince finds Odette, the Queen of the swans with a crown on her head. Captivated by her beauty and shocked by her story of persecution by the evil owner of lake Rothbart, Siegfried swears to Odette in eternal love. At the ball in the castle, at the behest of Siegfried's mother, he must choose a bride. The very first beauties dance in front of him. There is an alternation of national dances: Spanish, Neapolitan, Hungarian, Polish (Mazurka) — but the Prince is indifferent until Odile appears, in which Siegfried sees Odette, and she prefers. Realizing that he made a fatal mistake, Siegfried runs to the lake and begs Odette for forgiveness, but does not receive it. Tearing the crown from Odette's head (the crown saved Odette from persecution), Siegfried challenges Rothbart, the owner of the lake, who embodies the image of fatum in the ballet. The Prince hoped that the girl-Swan go with him to the human world. In the fairy tale, the stormy waves of the raging elements on the lake absorb Odette and Siegfried.](*<- lang_en;;*);;
+			*);;
+		*);;
+swan_lake <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В честь балета назван сорт розы с лепестками белого цвета 'Schwanensee' , выведенный в 1968 году. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In honor of the ballet named rose variety with white petals 'Schwanensee' , derived in 1968.](*<- lang_en;;*);;
+			*);;
+		*);;
+swan_lake <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В 1994 году вышел в прокат анимационный фильм Ричарда Рича «Принцесса-лебедь», сюжет которого основан на балете.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In 1994, Richard rich's animated film "the Swan Princess" was released, the plot of which is based on the ballet.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

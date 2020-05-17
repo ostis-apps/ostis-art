@@ -1,0 +1,39 @@
+lotus_temple
+<-sc_node_not_relation;
+<-concept_construction;;
+lotus_temple => nrel_main_idtf:
+     [Храм Лотоса](* <-lang_ru;; *);
+     [Lotus temple](* <-lang_en;; *);;
+
+lotus_temple <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Храм Лотоса] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Lotus temple] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Храм Лотоса, расположенный в Дели, Индия, является Домом Бахаи, который был освящен в декабре 1986 года.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[The Lotus Temple, located in Delhi, India, is a Bahá'í House of Worship that was dedicated in December 1986.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+lotus_temple <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Храм Лотоса)](*<-lang_ru;;*);
+		[Pic. (Lotus temple)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://lotustemple.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: sahba;
+=> nrel_city: new_delhi;
+=> nrel_country: india;
+=> nrel_style_of_building: expressionism;;

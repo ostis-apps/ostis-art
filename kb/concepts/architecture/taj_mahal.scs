@@ -1,0 +1,40 @@
+taj_mahal
+<-sc_node_not_relation;
+<-concept_construction;;
+taj_mahal => nrel_main_idtf:
+     [Тадж-Махал](* <-lang_ru;; *);
+     [Taj Mahal](* <-lang_en;; *);;
+
+taj_mahal <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Тадж-Махал] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Taj Mahal] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тадж-Махал - это мраморный мавзолей из слоновой кости на южном берегу реки Ямуна в индийском городе Агре.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+taj_mahal <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тадж-Махал)](*<-lang_ru;;*);
+		[Pic. (Taj Mahal)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://tajmahal.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: ustad; shah_dzahan;
+=> nrel_city: agra;
+=> nrel_country: india;
+=> nrel_style_of_building: islamic; persian; architecture_of_the_mughals;;
+

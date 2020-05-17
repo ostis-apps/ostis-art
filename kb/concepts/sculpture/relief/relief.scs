@@ -1,0 +1,33 @@
+
+concept_relief => nrel_idtf: [relief](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Рельеф)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Рельеф - вид изобразительного искусства, в котором всё изображаемое создаётся с помощью объёмов, выступающих из плоскости фона.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_relief;;
+<= nrel_using_constants :...
+(*
+-> concept_background;;
+*);;
+*);;
+
+ concept_relief -> rrel_example: [В зависимости от назначения различаются архитектурные рельефы.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Рельеф, перспектива)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Рельеф выполняется с применением сокращений в перспективе.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_relief; concept_perspective;;
+*);; 
+
+
+
+concept_sculpture => nrel_subdividing: concept_relief;;
+

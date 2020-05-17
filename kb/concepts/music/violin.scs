@@ -1,0 +1,17 @@
+sc_node_not_relation ->violin ;;
+
+violin=> nrel_main_idtf:
+[violin](*<- lang_en;; *);;
+
+violin<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(скри́пка )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[струнный смычковый музыкальный инструмент высокого регистра.](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,43 @@
+
+nutcracker=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Щелкунчик](* <-lang_ru;; *);//ну тут понятно
+    [Nutcracker](* <-lang_en;; *);;
+
+nutcracker <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Щелку́нчик» — соч. 71, балет П. И. Чайковского в двух актах на либретто Мариуса Петипа по мотивам сказки Э. Т. А. Гофмана «Щелкунчик и мышиный король».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Nutcracker - Op. 71, the ballet by P. I. Tchaikovsky in two acts on the libretto by Marius Petipa based on the tale of E. T. A. Hoffmann “The Nutcracker and the Mouse King”.](*<- lang_en;;*);;
+			*);;
+		*);;
+nutcracker <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Премьера балета состоялась 6 (18) декабря 1892 года в Мариинском театре в Санкт-Петербурге в один вечер с оперой «Иоланта».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[
+The ballet premiered on December 6 (18), 1892 at the Mariinsky Theater in St. Petersburg one evening with the opera Iolanta.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+nutcracker<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,55 @@
+
+sc_node_not_relation->concept_laboratory_assistant;;
+concept_laboratory_assistant => nrel_main_idtf: [лаборант](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_work_experience;;
+concept_work_experience => nrel_main_idtf: [стаж работы](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_education;;
+concept_education => nrel_main_idtf: [среднее образование](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_equipment;;
+concept_equipment => nrel_main_idtf: [оборудование](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

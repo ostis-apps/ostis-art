@@ -1,0 +1,68 @@
+theater=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[театр](* <-lang_ru;; *);//ну тут понятно
+    [theater](* <-lang_en;; *);;
+theater <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: театр] (* <- lang_ru;; *);; //тут тоже ясно
+		=> nrel_main_idtf: [Definition: theater] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Театр  - зрелищный вид искусства, представляющий собой синтез различных искусств - литературы, музыки, хореографии, вокала, изобразительного искусства и других, и обладает собственной спецификой: отражение, взаимопонимание, характеристики, а также их трактовка и оценка, утверждение тех или иных идей, происходящих в результате драматических действий, свободным носителем которого является актёр .](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Theater is a spectacular art form, which is a synthesis of various arts - literature, music, choreography, vocal, visual arts and others, and has its own specifics: reflection, mutual understanding, characteristics, as well as their interpretation and evaluation, approval of certain ideas taking place as a result of dramatic action, the free carrier of which is the actor.](*<- lang_en;;*);;
+			*);;
+		*);;
+theater<= nrel_subdividing: ...
+(*
+<- explanation;;
+	=> nrel_main_idtf:
+		[	Виды театра](*<-lang_ru;; *);
+		[Types of theater](*<-lang_en;; *);;
+	-> view_drama_theatre; opera_theatre;ballet;puppet_theatre;pantomime;theatre_musical;operetta;;
+*);;
+theater <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[История театра ](* <- lang_ru;; 	*);
+	[Theatre history  ](* <- lang_en;; 	*);;
+->ancient_theater;european_theater;theater_east;theatre_in_russia;theatre_in_usa;;
+*);;
+theater <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Драматурги ](* <- lang_ru;; 	*);
+ 	[Playwrights  ](* <- lang_en;; 	*);;
+->thespis;aeschylus;aristophanes;sophocles;euripides;seneca;plautus;;
+*);;
+theater <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Актёры театра](* <-lang_ru;; *);//ну тут понятно
+    [Actors theater](* <-lang_en;; *);;
+->ballet_dancer;mimes;fliaki:ballet_corps;fliaki ;;
+*);;
+theater <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Виды представлений](* <-lang_ru;; *);//ну тут понятно
+    [Types of representations](* <-lang_en;; *);;
+->agon;atellana;buffonade;spectacle;;
+*);;
+theater <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Постановки](* <-lang_ru;; *);//ну тут понятно
+    [Productions](* <-lang_en;; *);;
+->romeo_and_juliet;swan_lake;giselle;master_and_margarita;anna_karenina;scarlet_flower;tenor;cinderella;madman;little_prince;hamlet;;
+*);;
+
+

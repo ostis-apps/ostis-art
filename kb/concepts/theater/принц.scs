@@ -1,0 +1,71 @@
+little_prince=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Маленький принц](* <-lang_ru;; *);//ну тут понятно
+    [Little Prince](* <-lang_en;; *);;
+little_prince<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Ма́ленький принц» (фр. Le Petit Prince) — аллегорическая повесть-сказка, наиболее известное произведение Антуана де Сент-Экзюпери. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Little Prince" (FR. Le Petit Prince) — allegorical tale-tale, the most famous work of Antoine de Saint-Exupery.](*<- lang_en;;*);;
+		*);;
+		*);;
+
+
+little_prince <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[1960-е гг. Постановка в Московском театре им. Станиславского. Режиссёр Екатерина Еланская, в роли принца Ольга Бган, в роли лётчика Василий Бочкарёв. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[1960-ies. Production at the Moscow theater. Stanislavski's. Director Catherine Elanskaya, in the role of Prince Olga BGAN, the role of a pilot Vasily Bochkarev.](*<- lang_en;;*);;
+			*);;
+		*);;
+little_prince<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[1981 — «Маленький принц» — балет композитора Евгения Глебова, в мае 1983 года поставлен на сцене Большого театра Союза ССР](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[1981 — "Little Prince" — ballet by composer Yevgeny Glebov, in may 1983 staged at the Bolshoi theater of the USSR](*<- lang_en;;*);;
+
+	*);;
+		*);;
+little_prince<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:
+Пилот совершает вынужденную посадку в пустыне Сахара и встречает одного необыкновенного и загадочного мальчика — Маленького принца с другой планеты — астероида Б-612. Маленький принц рассказывает о своих приключениях на Земле, говорит об удивительной розе, которую оставил на своей малой планете, о своей жизни на астероиде, где есть три вулкана, два действующих и один потухший, и роза (это была красавица с шипами — гордая, обидчивая и простодушная, Маленький принц полюбил её, но она казалась ему капризной, жестокой и высокомерной). Он проводит время, приводя в порядок свой астероид, выпалывая баобабы, которые всё норовят глубоко укорениться и заполонить всю планету. Маленький принц любит наблюдать закаты, которые на его малой планете можно увидеть несколько десятков раз в день (по земному счёту). Почувствовав себя несчастным, Маленький принц улетает, чтобы изучить и познать другие места Вселенной. Посетив несколько других астероидов, он встречает много странных взрослых: короля, которому кажется, что он правит звёздами, честолюбца, который хочет, чтобы окружающие им восхищались, пьяницу, который пьёт, чтобы забыть, что ему совестно пить, делового человека, который постоянно считает звёзды, думает, что владеет многими из них и хочет купить ещё больше, фонарщика, который, верный своему слову, каждую минуту зажигает и тушит фонарь, географа, который записывает в книгу рассказы путешественников, но сам никогда никуда не путешествует. По совету географа Маленький принц посещает Землю, где, кроме пилота потерпевшего аварию самолёта, встречает и других персонажей и, общаясь с ними, узнаёт много важных вещей.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot
+The pilot makes an emergency landing in the Sahara desert and meets one unusual and mysterious boy — a Little Prince from another planet — asteroid B-612. The little Prince talks about his adventures on Earth, talks about the amazing rose he left on his little planet, about his life on an asteroid where there are three volcanoes, two active and one extinct, and the rose (it was a beauty with thorns — proud, touchy and simple-minded, the Little Prince loved her, but she seemed to him capricious, cruel and arrogant). He spends time, resulting in the order of your asteroid, vypalyvaya baobabs, all of which strive to deeply entrenched and flood the entire planet. The little Prince likes to watch sunsets, which on his small planet can be seen several dozen times a day (according to the earth account). Feeling unhappy, the Little Prince flies away to explore and discover other places in the Universe. After visiting several other asteroids, he meets many strange adults: the king, who seems to rule the stars, an ambitious man who wants to be admired by others, a drunkard who drinks to forget that he is ashamed to drink, a business man who constantly considers the stars, thinks he owns many of them and wants to buy even more, a lamplighter who, true to his word, every minute lights and extinguishes a lantern, a geographer who writes in the book the stories of travelers, but he never travels anywhere. On the advice of the geographer, the Little Prince visits the Earth, where, in addition to the pilot of the crashed plane, he meets other characters and, communicating with them, learns many important things.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

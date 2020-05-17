@@ -1,0 +1,17 @@
+sc_node_not_relation->quartet;;
+
+quartet => nrel_main_idtf:
+[quartet](*<- lang_en;; *);;
+
+quartet <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(квартет)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[музыкальный ансамбль из 4 музыкантов, вокалистов или инструменталистов.](*<- lang_ru;; *);;
+		*);;
+	*);;

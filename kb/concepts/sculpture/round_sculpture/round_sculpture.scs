@@ -1,0 +1,31 @@
+
+concept_round_sculpture => nrel_idtf: [round sculpture](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Круглая скульптура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Круглая скульптура - вид скульптуры, при котором фигура осматривается с разных сторон и окружена свободным пространством;](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_round_sculpture;;
+<= nrel_using_constants :...
+(*
+-> concept_figure;;
+*);;
+*);;
+
+ concept_round_sculpture -> rrel_example: [Скульптура Давида выполнена круглой статуей.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Круглая скульптура, памятник)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Круглой скульптурой выполняются памятники.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_monument;;
+*);; 
+
+concept_sculpture => nrel_subdividing: concept_round_sculpture;;
+

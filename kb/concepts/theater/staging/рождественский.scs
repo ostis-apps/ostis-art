@@ -1,0 +1,36 @@
+gchristmas
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+gchristmas => nrel_main_idtf:
+     [Геннадий Рождественский](* <-lang_ru;; *);
+     [Gennady Rozhdestvensky](* <-lang_en;; *);;
+
+gchristmas<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Генна́дий Никола́евич Рожде́ственский — советский российский дирижёр, пианист, композитор, педагог, музыкально-общественный деятель. Герой Социалистического Труда. Народный артист СССР. Лауреат Ленинской премии и Государственной премии РФ. Полный кавалер ордена «За заслуги перед Отечеством». ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Gennady Nikolayevich Rozhdestvensky - Soviet Russian conductor, pianist, composer, teacher, musical and public figure. Hero of Socialist Labor. People's Artist of the USSR. Laureate of the Lenin Prize and the State Prize of the Russian Federation. Full holder of the Order of Merit to the Fatherland.
+](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+gchristmas<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рождественский)](*<-lang_ru;;*);
+		[Pic. (Rozhdestvensky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://9.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

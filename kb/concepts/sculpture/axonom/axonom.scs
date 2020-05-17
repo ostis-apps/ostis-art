@@ -1,0 +1,31 @@
+
+concept_axonometry => nrel_idtf: [axonometry](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Аксонометрия)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Аксонометрия — один из видов перспективы, основанный на методе проецирования, с помощью которого наглядно изображают пространственные тела на плоскости бумаги.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_axonometry;;
+<= nrel_using_constants :...
+(*
+-> concept_proecting_method;;
+*);;
+*);;
+
+ concept_axonometry -> rrel_example: [Аксонометрия широко применяется в изданиях технической литературы.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Аксонометрия, изометрия)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Изометрия - один из видов аксонометрии.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_axonometry; concept_isometry;;
+*);; 
+
+concept_perspective => nrel_subdividing: concept_axonometry;;
+

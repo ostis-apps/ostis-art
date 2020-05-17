@@ -1,0 +1,39 @@
+krzywy_domek
+<-sc_node_not_relation;
+<-concept_construction;;
+krzywy_domek => nrel_main_idtf:
+     [Кривой домик](* <-lang_ru;; *);
+     [Krzywy domek](* <-lang_en;; *);;
+
+krzywy_domek <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Кривой домик] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Krzywy domek] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кривой домик - офисно-торговый центр в Сопоте, Польша.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Krzywy Domek - office and shopping center in Sopot, Poland](*<- lang_en;;*);;
+			*);;
+          *);;
+
+krzywy_domek <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кривой домик)](*<-lang_ru;;*);
+		[Pic. (Krzywy Domek)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://domek.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: shotinskih;
+=> nrel_city: sopot;
+=> nrel_country: poland;
+=> nrel_style_of_building: postmodernisme;;

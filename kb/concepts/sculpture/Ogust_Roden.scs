@@ -1,0 +1,87 @@
+concept_author_Ogust_Roden
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Огюст Роден]
+	(* <- lang_ru;;	*);
+	[Ogust Roden]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Огюст Роден)](*<-lang_ru;;*);
+		[Description (Ogust Roden)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/ogust_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/ogust_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_12_11_1840
+            (*
+                => nrel_main_idtf:
+                    [12 ноября 1840 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_France;
+
+    => nrel_date_of_death:
+        date_17_11_1917
+            (*
+                => nrel_main_idtf:
+                    [17 ноября 1917]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Огюст Роден)](*<-lang_ru;;*);
+		[Pic. (Ogust Roden)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ogust.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+country_France
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Франция] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Франция)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+

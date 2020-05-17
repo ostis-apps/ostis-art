@@ -1,0 +1,32 @@
+
+concept_panorama => nrel_idtf: [panoramic perspective](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Панорамная перспектива)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Панорамная перспектива - это способ отображения на плоскости объёма и всего того, что зритель видит вокруг себя.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_panorama;;
+<= nrel_using_constants :...
+(*
+-> concept_watcher;;
+*);;
+*);;
+
+ concept_panorama -> rrel_example: [Общеизвестными являются панорамы «Оборона Севастополя» и «Бородинская битва».](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Панорама, опыт работы)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Панорамы с реальными предметами, лежащими между цилиндрической поверхностью и зрителем, называют диорамой.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_panorama; concept_diorama;;
+*);; 
+
+concept_posts_of_panoramas => nrel_inclusion: concept_panorama;;
+
+

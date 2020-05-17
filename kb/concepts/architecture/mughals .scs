@@ -1,0 +1,38 @@
+architecture_of_the_mughals
+<-sc_node_not_relation;
+<-concept_style;;
+architecture_of_the_mughals => nrel_main_idtf:
+     [Архитектура Великих Моголов](* <-lang_ru;; *);
+     [Architecture Of The Mughals](* <-lang_en;; *);;
+
+architecture_of_the_mughals 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектура Великих Моголов] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Architecture Of The Mughals] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектура Великих Моголов — разнообразие архитектурных стилей существовавших на территории современной Индии, процветавший при императорской династии Великих Моголов середины XVI до конца XVII века. Могольский период отмечен стремительным возрождением исламской архитектуры в Северной Индии, где смешались персидский, индийский и различные местные стили, что привело к появлению зданий невероятной утончённости.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Mughal architecture-a variety of architectural styles existed in the territory of modern India, flourished under the Imperial Mughal dynasty of the mid-XVI to the end of the XVII century. The Mongol period was marked by a rapid revival of Islamic architecture in Northern India, where Persian, Indian and various local styles were mixed, resulting in buildings of incredible sophistication. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+
+architecture_of_the_mughals 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архитектура Великих Моголов)](*<-lang_ru;;*);
+		[Pic. (Architecture Of The Mughals)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://mughals .jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,69 @@
+sculpture_centaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Битва кентавров]
+	(* <- lang_ru;;	*);
+	[Centaurus Battle]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_relief;
+    => nrel_author:
+        concept_author_Michelangelo;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Битва кентавров)](*<-lang_ru;;*);
+		[Description (Centaurus Battle)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_relief
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/centaur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/centaur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_05_03_1492
+            (*
+                => nrel_main_idtf:
+                    [5 марта 1492 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Битва кентавров)](*<-lang_ru;;*);
+		[Pic. (Centaurus Battle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/centaur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

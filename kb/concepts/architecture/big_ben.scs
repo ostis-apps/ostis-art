@@ -1,0 +1,55 @@
+big_ben
+<-sc_node_not_relation;
+<-concept_construction;;
+big_ben => nrel_main_idtf:
+     [Биг-Бен](* <-lang_ru;; *);
+     [Big Ben](* <-lang_en;; *);;
+
+big_ben <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Биг-Бен] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Big Ben] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Биг-Бен - это прозвище Большого часового колокола в северном конце Вестминстерского дворца в Лондоне.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+big_ben <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Биг-Бен] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Big Ben] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Башня Елизаветы.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Clock Tower, Elizabeth Tower. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+big_ben <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Биг-Бен)](*<-lang_ru;;*);
+		[Pic. (Big Ben)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://bigben.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_constructor: ogastes;
+=> nrel_city: london;
+=> nrel_country: gb;
+=> nrel_style_of_building: neo_gothic_style;;

@@ -1,0 +1,31 @@
+dream=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Сон в летнюю ночь](* <-lang_ru;; *);//ну тут понятно
+    [
+A dream in a summer night](* <-lang_en;; *);;
+
+dream <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Комедия Шекспира «Сон в летнюю ночь» была адаптирована ко многим стилям искусства. Первый полнометражный балет (на весь вечер) по этому произведению поставил в 1962 году Джордж Баланчин на музыку Мендельсона. Сегодня «Сон в летнюю ночь» -очень популярный балет, который любят многие.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Shakespeare's comedy Midsummer Night's Dream has been adapted to many styles of art. The first full-length ballet (for the whole evening) on ​​this piece was staged by George Balanchine in 1962 to the music of Mendelssohn. Today, “A Midsummer Night's Dream” is a very popular ballet that many love.
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+dream<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

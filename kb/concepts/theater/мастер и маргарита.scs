@@ -1,0 +1,52 @@
+master_and_margarita=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Мастер и Маргарита](* <-lang_ru;; *);//ну тут понятно
+    [Master and Margarita](* <-lang_en;; *);;
+master_and_margarita <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Ма́стер и Маргари́та» — роман Михаила Афанасьевича Булгакова, работа над которым началась в конце 1920-х годов и продолжалась вплоть до смерти писателя.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Master and Margarita" is a novel by Mikhail Afanasievich Bulgakov, the work on which began in the late 1920s and continued until the writer's death.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+master_and_margarita<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Первой в СССР инсценировкой романа стал спектакль «Мастер и Маргарита», поставленный Юрием Любимовым в Театре на Таганке.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The first in the USSR staging of the novel was the play "Master and Margarita", staged by Yuri Lyubimov at the Taganka Theater.](*<- lang_en;;*);;
+		->spectacle;;
+	*);;
+		*);;
+master_and_margarita<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:Действие романа начинается в один из майских дней, когда два московских литератора — председатель правления МАССОЛИТа Михаил Александрович Берлиоз и поэт Иван Бездомный — во время прогулки на Патриарших прудах встречают незнакомца, похожего на иностранца. Он включается в разговор об Иисусе Христе, рассказывает о своём пребывании на балконе прокуратора Иудеи Понтия Пилата и предрекает, что Берлиозу отрежет голову «русская женщина, комсомолка». Литераторы не знают, что перед ними Воланд — дьявол, прибывший в советскую столицу со своей свитой: Фаготом-Коровьевым, Азазелло, котом Бегемотом и служанкой Геллой.
+
+После гибели Берлиоза под колёсами трамвая Воланд поселяется в «нехорошей квартире» Михаила Александровича, расположенной по адресу: Большая Садовая улица, 302-бис. Сатана и его помощники устраивают в Москве череду розыгрышей и мистификаций: они отправляют в Ялту директора Варьете Стёпу Лиходеева, проводят сеанс чёрной магии, организуют принудительное хоровое пение сотрудников филиала зрелищной комиссии, разоблачают председателя акустической комиссии Аркадия Аполлоновича Семплеярова и театрального буфетчика Андрея Фокича Сокова. Для Ивана Бездомного встреча с Воландом и его приближёнными оборачивается душевным недугом: поэт становится пациентом психиатрической больницы. Там он знакомится с Мастером и узнаёт историю его романа о Понтии Пилате. Написав это произведение, автор столкнулся с миром столичной литературы, в котором отказы печатать сопровождались травлей в прессе и предложениями ударить по «пилатчине». Не выдержав давления, Мастер сжёг рукопись в камине; после ареста и череды испытаний он попал в дом скорби.Для Маргариты — бездетной тридцатилетней жены очень крупного специалиста и тайной жены Мастера — исчезновение любимого становится драмой. Однажды она признаётся себе, что готова заложить душу дьяволу ради того, чтобы узнать, жив он или нет. Мысли измученной неведением женщины оказываются услышанными, и Азазелло вручает ей баночку с чудодейственным кремом. Маргарита превращается в ведьму и исполняет роль королевы на великом балу сатаны. Её заветная мечта осуществляется: Воланд устраивает встречу Мастера с возлюбленной и возвращает им рукопись сожжённого романа.
+
+Произведение, написанное Мастером, представляет собой историю, начавшуюся во дворце Ирода Великого. К прокуратору Иудеи Понтию Пилату приводят подследственного Иешуа Га-Ноцри, приговорённого Синедрионом к смерти за пренебрежительное отношение к власти кесаря. Беседуя с Иешуа, прокуратор понимает, что перед ним — бродячий философ; его взгляды на истину и мысли о том, что всякая власть является насилием над людьми, интересны Пилату, однако спасти скитальца от казни он не может. Зная, что Иуда из Кириафа получил деньги за то, что разрешил арестовать Га-Ноцри в своём доме, прокуратор поручает начальнику тайной службы Афранию убить предателя.
+Совмещение двух сюжетных линий происходит в заключительных главах. Воланду наносит визит ученик Иешуа Левий Матвей, который просит наградить Мастера и Маргариту покоем; эта просьба выполняется. Ночью Москву покидает группа летящих всадников; среди них не только мессир и его свита, но и автор романа о Понтии Пилате со своей возлюбленной.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot:the Novel begins on one of the may days, when two Moscow writers — Chairman of the Board of Massolit Mikhail Berlioz and poet Ivan Bezdomny — during a walk on the Patriarch's ponds meet a stranger who looks like a foreigner. He has been involved in a conversation about Jesus Christ, talks about his time on the balcony, the Procurator of Judea, Pontius Pilate, and predicts that Berlioz's head cut off "by a Russian woman, a Komsomol member". Writers do not know that before them Voland is a devil who arrived in the Soviet capital with his retinue: Fagot-Koroviev, Azazello, cat Behemoth and servant Gella.
+
+After the death of Berlioz under the wheels of the tram Woland settled in the "bad apartment" Mikhail Alexandrovich, located at the address: Bolshaya Sadovaya street, 302 bis. Satan and his helpers organize in Moscow a series of pranks and hoaxes: they are sent to Yalta the Manager of the Variety Stepa Likhodeyev, conduct a session of black magic, instituting a mandatory choral singing of the employees in the branch office of the theatrical Commission, expose the Chairman of the acoustic Commission Arkady apollonich Sempleyarov and theatrical barman Andrei Fokich Sokov. For Ivan Homeless meeting with Woland and his entourage turns mental illness: the poet becomes a patient of a psychiatric hospital. There he meets the Master and learns the story of his novel about Pontius Pilate. Writing this work, the author faced the world capital of literature, in which the failure to print was accompanied by harassment in the press and proposals to hit the "pilatchine". Unable to withstand the pressure, the Master burned the manuscript in the fireplace; after the arrest and series of trials he came to the house of mourning.For Margarita — a childless thirty-year-old wife of a very large specialist and the secret wife of the Master — the disappearance of a loved one becomes a drama. One day she admits to herself that she is ready to lay her soul to the devil in order to find out whether he is alive or not. The thoughts of the woman, exhausted by ignorance, are heard, and Azazello hands her a jar of miraculous cream. Margarita turns into a witch and plays the role of Queen at the great ball of Satan. Her cherished dream is realized: Woland arranges a meeting of the Master with his beloved and returns them the manuscript of the burned novel.
+
+The work, written by the Master, is a story that began in the Palace of Herod the Great. To the Procurator of Judea Pontius Pilate lead under investigation Jeshua Ha-Nozri, sentenced to death by the Sanhedrin for neglecting the power of Caesar. Talking with Yeshua, the Procurator understands that before him is a wandering philosopher; his views on the truth and the thought that all power is violence against people are interesting to Pilate, but he can not save the wanderer from execution. Knowing that Judas of Karioth got the money that allowed the arrest of Ha-Notsri in the house, the Governor requests the head of the secret service of Afranius to kill the traitor.
+The combination of the two storylines takes place in the final chapters. Woland pays a visit to a pupil of Joshua, Matthew, who asks to award the Master and Margarita peace; this request is executed. Night Moscow leaves the group, flying horsemen, among them not only the Lord and his entourage, but also the author of a novel about Pontius Pilate with his lover.](*<- lang_en;;*);;
+			*);;
+		*);;

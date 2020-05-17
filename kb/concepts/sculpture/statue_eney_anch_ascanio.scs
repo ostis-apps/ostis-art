@@ -1,0 +1,71 @@
+sculpture_eney
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эней, Анхиз и Асканий]
+	(* <- lang_ru;;	*);
+	[Aeneas, Anchises and Ascanius]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Bernini;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эней, Анхиз и Асканий)](*<-lang_ru;;*);
+		[Description (Aeneas, Anchises and Ascanius)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_round_sculpture
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/eney_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/eney_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_16_18_1619
+            (*
+                => nrel_main_idtf:
+                    [1618 - 1619 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эней, Анхиз и Асканий)](*<-lang_ru;;*);
+		[Pic. (Aeneas, Anchises and Ascanius)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/eney.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

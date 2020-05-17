@@ -1,0 +1,36 @@
+zhan_shel 
+<-sc_node_not_relation;
+<-concept_architect;;
+zhan_shel=> nrel_main_idtf:
+     [Жан де Шель](* <-lang_ru;; *);
+     [Jehan de Chelles](* <-lang_lat;; *);;
+zhan_shel <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Жан де Шель] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Jehan de Chelles] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Жан де Шель -  французский зодчий середины XIII века. Был одним из архитекторов собора парижской богоматери в Париже. Начиная с 1258 года, он возводил боковые фасады, примыкающие к нефу собора, а также его северные и южные врата. В 1265 году его сменил зодчий Пьер де Монтрёй, предполагается, что в связи с его смертью.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Jehan de Chelles - french architect of middle of XIII century. He was one of the architects of the Cathedral of Notre Dame de Paris in Paris. Since 1258, he erected side facades adjacent to the nave of the cathedral, as well as its northern and southern gates. In 1265 he was replaced by architect Pierre de Montreuil, it is assumed that in case of his death.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+zhan_shel <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Жан де Шель)](*<-lang_ru;;*);
+		[Pic. (Jehan de Chelles)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://zhan_shel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 1200;
+=> nrel_to_die: 1265;
+=> nrel_nationality: france;;

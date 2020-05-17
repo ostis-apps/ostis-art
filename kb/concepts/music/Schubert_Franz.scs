@@ -1,0 +1,17 @@
+sc_node_not_relation->person_Schubert_Franz;;
+
+person_Schubert_Franz => nrel_main_idtf:
+[Schubert Franz](*<- lang_en;; *);;
+
+person_Schubert_Franz <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Шуберт Франц)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Австрийский композитор эпохи раннего романтизма.](*<- lang_ru;; *);;
+		*);;
+	*);;

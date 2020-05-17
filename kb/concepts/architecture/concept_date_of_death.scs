@@ -1,0 +1,19 @@
+concept_date_of_death => nrel_main_idtf:
+     [дата рождения](* <-lang_ru;; *);
+     [date of death](* <-lang_en;; *);;
+
+concept_date_of_death <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: дата рождения] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: date of death] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Дата смерти - день, месяц и год, когда умер человек.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Date of death is a complex of a day, month and year when a person died.](*<- lang_en;;*);;
+			*);;
+          *);;

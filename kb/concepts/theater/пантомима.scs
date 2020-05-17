@@ -1,0 +1,49 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+pantomime => nrel_main_idtf: //это типа основной идентификатор
+	[пантомима](* <-lang_ru;; *);//ну тут понятно
+    [ pantomime](* <-lang_en;; *);;
+pantomime <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пантомима — искусство создания художественного образа с помощью мимики и пластики человеческого тела без использования слов.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Pantomime is the art of creating an artistic image with the help of facial expressions and plastics of the human body without the use of words.](*<- lang_en;;*);;
+			*);;
+		*);;
+pantomime <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пантомима зародилась в Древней Греции, где была частью репертуара мимов. В Древнем Риме в эпоху Августа стала полноценным театральным жанром.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Pantomime originated in ancient Greece, where it was part of the mime repertoire. In ancient Rome in the era of Augustus became a full-fledged theatrical genre.](*<- lang_en;;*);;
+			*);;
+		*);;
+pantomime <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В 1702 году пантомима в виде театрализованного балета была поставлена в театре «Друри-Лейн» в Лондоне. В XVIII веке в театре в качестве интермедий в антрактах трагедий и комедий ставили пантомиму.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In 1702, a pantomime in the form of a dramatized ballet was staged at the Drury Lane Theater in London. In the 18th century, pantomime was staged at the theater as interludes during intermissions of tragedies and comedies.](*<- lang_en;;*);;
+			*);;
+		*);;
+pantomime <- rrel_key_sc_element:...
+(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пантомима бывает танцевальная, классическая, акробатическая, эксцентрическая, в начале ХХ века появилась драматическая пантомима](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The pantomime can be dancing, classical, acrobatic, eccentric, in the early twentieth century a dramatic pantomime appeared](*<- lang_en;;*);;
+			*);;
+		*);;

@@ -1,0 +1,6 @@
+sc_text_of_agent_for_finding_simillar_staging
+-> rrel_key_sc_element:
+	agent_for_finding_simillar_staging;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_for_finding_simillar_staging = [*^"file://agent_for_finding_simillar_staging.scsi"*];;

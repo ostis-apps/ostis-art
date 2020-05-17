@@ -1,0 +1,30 @@
+
+concept_sculptor => nrel_idtf: [sculptor](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Скульптор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Скульптор — художник, специализирующийся на скульптуре.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_sculptor;;
+<= nrel_using_constants :...
+(*
+-> concept_sculpture; concept_artist;;	
+*);;
+*);;
+
+ concept_sculptor -> rrel_example: [Скульптор Микеланджело Буонарроти](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Скульптор, школа искусств)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Скульптор основал школу искусств](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_sculptor; concept_art_school;;
+*);; 
+
+

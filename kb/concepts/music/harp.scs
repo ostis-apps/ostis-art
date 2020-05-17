@@ -1,0 +1,18 @@
+sc_node_not_relation ->harp ;;
+
+harp=> nrel_main_idtf:
+[арфа ](*<- lang_ru;; *);
+[harp](*<- lang_en;; *);;
+
+harp<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(aрфа )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ струнный щипковый музыкальный инструмент, состоит из двух расположенных под углом рам, между которыми натянуто множество струн. ](*<- lang_ru;; *);;
+		*);;
+	*);;

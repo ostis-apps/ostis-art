@@ -1,0 +1,20 @@
+playwright //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+<-sc_node_not_relation;
+<-theater;; //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+playwright => nrel_main_idtf: //это типа основной идентификатор
+	[драматург](* <-lang_ru;; *);//ну тут понятно
+    [playwright](* <-lang_en;; *);;
+playwright <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Драматург  - это человек, который пишет пьесы. ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[A playwright is a person who writes plays.  ](* <- lang_en;; 	*);;
+->thespis;aeschylus;aristophanes;sophocles;euripides;seneca;plautus;;
+		*);;
+	*);;
+

@@ -1,0 +1,35 @@
+sahba 
+<-sc_node_not_relation;
+<-concept_architect;;
+sahba=> nrel_main_idtf:
+     [Фариборз Сахба](* <-lang_ru;; *);
+     [Fariborz Sahba](* <-lang_en;; *);; 
+sahba <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Фариборз Сахба] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Fariborz Sahba] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фариборз Сахба - проектировщик террас на горе Кармель, архитектор храма бахаи Лотос. В Иране Ф. Сахба участвовал в проектировании многих престижных строений, среди которых — Центр ремёсел и искусств в Тегеране, Иран; Иранское посольство в Пекине, Китай; Новый город в Махшархе, Иран; Культурный центр Пахлави, Санандадж, Иран, и Школа искусств в Санандадже, Иран. Сахба был одним из архитекторов проекта резиденции Всемирного Дома Справедливости, административного центра Всемирного Центра Бахаи в Хайфе, Израиль.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Fariborz Sahba - the designer of the terraces on Mount Carmel, the architect of the Baha'i Lotus Temple. In Iran, F. Sahba participated in the design of many prestigious buildings, among them - the Center of Crafts and Arts in Tehran, Iran; Iranian Embassy in Beijing, China; New city in Mahsharh, Iran; Pahlavi Cultural Center, Sanandaj, Iran, and the School of Art in Sanandaj, Iran. Sahba was one of the architects of the project for the residence of the Universal House of Justice, the administrative center of the Baha'i World Center in Haifa, Israel.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+sahba <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фариборз Сахба)](*<-lang_ru;;*);
+		[Pic. (Fariborz Sahba)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://sahba.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 1948;
+=> nrel_nationality: iran;;

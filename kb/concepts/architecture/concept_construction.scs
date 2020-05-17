@@ -1,0 +1,22 @@
+concept_construction
+<-sc_node_not_relation;
+<-architecture;;
+concept_construction => nrel_main_idtf:
+     [архитектурное сооружение](* <-lang_ru;; *);
+     [architectural construction](* <-lang_en;; *);;
+
+concept_construction <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: архитектурное сооружение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: architectural construction] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектурное сооружение - результат строительной деятельности для осуществления определённых потребительских функций.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[An architectural structure is the result of construction activity for the implementation of certain consumer functions.](*<- lang_en;;*);;
+			*);;
+          *);;

@@ -1,0 +1,18 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+avlos=> nrel_main_idtf: //это типа основной идентификатор
+	[авлос](* <-lang_ru;; *);//ну тут понятно
+    [avlos](* <-lang_en;; *);;
+avlos <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Авлос — древнегреческий духовой музыкальный инструмент, предположительно с двумя видами тростей: одинарной или двойной.    ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Avlos is an ancient Greek wind musical instrument, presumably with two types of reeds: single or double. ](* <- lang_en;; 	*);;
+->dithyramb;;
+		*);;
+	*);;
+	

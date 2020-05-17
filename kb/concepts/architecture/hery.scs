@@ -1,0 +1,35 @@
+hery 
+<-sc_node_not_relation;
+<-concept_architect;;
+hery=> nrel_main_idtf:
+     [Фрэнк Оуэн Гери](* <-lang_ru;; *);
+     [Frank Owen Gehry](* <-lang_lat;; *);;
+hery <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Фрэнк Оуэн Гери] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Frank Owen Gehry] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фрэнк Оуэн Гери(настоящее имя Эфраим Оуэн Гольдберг) - один из крупнейших архитекторов современности. Гери принадлежат самые известные образцы архитектуры деконструктивизма — музей Фредерика Вейсмана в Миннеаполисе (1993), «танцующий дом» в Праге (1995), обшитый титановыми листами музей Гуггенхейма в Бильбао (1997), концертный зал имени Уолта Диснея в Лос-Анджелесе (2003).](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Frank Owen Gehry(Ephraim Owen Goldberg) - one of the greatest architects of our time. Gehry owns the most famous examples of deconstruction architecture - the Frederick Weismann Museum in Minneapolis (1993), the “Dancing House” in Prague (1995), the Guggenheim Museum in Bilbao (1997), covered with titanium sheets (1997), Walt Disney Concert Hall in Los Angeles (2003) .](*<- lang_en;;*);;
+			*);;
+          *);;
+
+hery <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фрэнк Оуэн Гери)](*<-lang_ru;;*);
+		[Pic. (Frank Owen Gehry)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://henry.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 28021929;
+=> nrel_nationality: canada;;

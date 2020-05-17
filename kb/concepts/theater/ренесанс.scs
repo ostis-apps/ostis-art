@@ -1,0 +1,87 @@
+era_of_the_renaissance //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+<-sc_node_not_relation;
+<-part_of_european_theater;; //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+era_of_the_renaissance => nrel_main_idtf: //это типа основной идентификатор
+	[эпоха ренессанса](* <-lang_ru;; *);//ну тут понятно
+    [ the renaissance](* <-lang_en;; *);;
+era_of_the_renaissance <- rrel_key_sc_element: ...
+	
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Драматический театр
+Театр эпохи Ренессанса родился в Италии, где дольше, чем в других странах, существовала литургическая драма и относительно поздно, лишь в середине XV века, появился итальянский аналог мистерий — rapresentazioni sacre. Во Флоренции тексты для этих представлений писали крупные поэты-гуманисты — Фео Белькари, Луиджи Пульчи и сам Лоренцо Медичи. Увлечённые античной литературой и философией гуманисты поначалу прививали, насколько это было возможно, античный дух священным представлениям, вплоть до использования в мистериях языческих сюжетов, в частности мифа об Орфее.
+
+Параллельно развивалась другая тенденция: в 70-х годах XV века Помпонио Лето в Риме возродил античный римский театр, — со своими учениками он ставил на языке оригинала сочинения Сенеки, Плавта и Теренция. Опыт Лето быстро распространился по всей Италии, и, поскольку латынь была понятна не всем, вскоре появились переводы древнеримский авторов на итальянский язык. Две формы итальянского театра — античные комедии в итальянских переводах (и оригинальные пьесы, долгое время носившие откровенно подражательный характер) и мистерии на мифологические сюжеты — постепенно сближались, заимствовали одна у другой элементы драматургической техники и сценического воплощения.
+
+С распространением мистерий в Италии было связано появление первых театральных коллективов на рубеже XV—XVI веков, поначалу в виде любительских содружеств, которые со временем превращались в полупрофессиональные: ремесленники и представители интеллигенции собирали труппу, когда был спрос на представления, показывали их за плату в богатых домах и возвращались к своим прежним занятиям, когда спроса на представления не было. Важную роль в становлении итальянского профессионального театра сыграла падуанская труппа актёра и драматурга Анджело Беолько, члены которой, выступая в разных пьесах под одними и теми же именами, в одних и тех же костюмах, создавали неизменные типы (tipi fissi), — в этом отношении труппа Беолько предвосхищала комедию дель арте, появившуюся в середине XVI века, вскоре после его смерти. Однако в точном переводе с итальянского commedia dell’arte в то время означала «профессиональный театр» — понятие «комедия масок» появилось позже.
+
+На протяжении долгого времени спектакли играли во дворцах. Лишь в 20-х годах XVI века начали появляться специальные театральные здания, при этом принципы постройки заимствовались у Витрувия: как и в Древнем Риме, зрительный зал строился в виде амфитеатра.
+
+Новый итальянский театр родился как придворный, однако очень скоро завоевал популярность в самых широких слоях итальянского общества, к интересам и вкусам которых он начал приспосабливаться на рубеже XV—XVI веков: мифологические сюжеты постепенно уступали место сюжетам из современной жизни, которые, в свою очередь, диктовали и новые принципы оформления спектаклей, и иной стиль актёрской игры.
+
+Комедия дель арте, благодаря постоянным гастролям итальянских артистов, с конца XVI и на протяжении всего XVII века стала популярна в Испании, Франции, Англии и Германии](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Drama theatre
+Renaissance theatre was born in Italy, where longer than in other countries, there was a liturgical drama and relatively late, only in the middle of the XV century, there was an Italian analogue of the mysteries — rapresentazioni sacre. Florence texts for these representations major wrote poets and humanists — FeO Belcari, Luigi Pulci and Lorenzo Medici himself. Fascinated by ancient literature and philosophy, humanists initially instilled, as far as possible, the ancient spirit of the sacred ideas, up to the use in the mysteries of pagan subjects, in particular the myth of Orpheus.
+
+In parallel, another trend developed: in the 70s of the XV century Pomponio Leto in Rome revived the ancient Roman theater - with his students, he put on the original language of the works of Seneca, plavt and Terence. The summer experience quickly spread throughout Italy, and as Latin was not understood by everyone, translations of the ancient Roman authors into Italian soon appeared. Two forms of Italian theater — ancient comedies in Italian translations (and original plays, which for a long time had a frankly imitative character) and mysteries on mythological subjects — gradually converged, borrowed one from the other elements of dramatic technique and scenic embodiment.
+
+With the proliferation of mysteries in Italy was associated with the appearance of the first theater companies at the turn of XV—XVI centuries, first in the Amateur community, which eventually turned into semi-professional: artisans and intellectuals gathered a company, when there was a demand for submission, showed them for a fee in the homes of the wealthy and returned to their former occupations when the demand for submission was not. Important role in the development of the Italian professional theater played Padua troupe actor and playwright Angelo Beolco, whose members, acting in various plays under the same names, same costumes, creating immutable types (tipi fissi), — in this respect, the troupe Beolco anticipated the Commedia Dell'arte, which appeared in the middle of the XVI century, shortly after his death. However, in the exact translation from the Italian commedia Dell'arte at that time meant "professional theater" — the concept of "Comedy masks" appeared later.
+
+For a long time, performances were played in palaces. Only in the 20s of the XVI century began to appear special theater buildings, with the principles of construction borrowed from Vitruvius: as in Ancient Rome, the auditorium was built in the form of an amphitheater.
+
+The new Italian theater was born as a court, but very soon gained popularity in the widest layers of Italian society, to the interests and tastes of which he began to adapt at the turn of the XV—XVI centuries: mythological subjects gradually gave way to subjects from modern life, which, in turn, dictated new principles of design of performances, and a different style of acting.
+
+Comedy del Arte, thanks to the constant tour of Italian artists, from the end of XVI and throughout the XVII century became popular in Spain, France, England and Germany](* <- lang_en;; 	*);;
+		*);;
+	*);;
+era_of_the_renaissance <- rrel_key_sc_element: ...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Опера и балет
+В эпоху Ренессанса в Италии зародились также опера и балет.
+Вначале в мистериях появилась эпизодически вводимая музыка, позднее музыка стала сопровождать всё действие. В середине XVI века были популярны пасторали, которые сопровождались хоровым пением. В конце XVI века появились произведения с одноголосым пением (монодия).
+
+В 1637 году в Венеции был открыт первый оперный театр.
+
+Первыми оперными композиторами были Якопо Пери, Клаудио Монтеверди и другие.
+
+Первые балеты ставились при дворе для развлечения придворной знати. Хореография была создана на основе придворных танцев.
+
+В XV веке одним из первых мастеров танца был Доменико да Пьяченца (англ.)русск.. Он занимался танцами вместе со своими учениками Антонио Корназано (англ.)русск. и Гульельмо Эбрео, а также обучал этому искусству итальянскую знать. Да Пьяченца написал труд под названием «De arte saltandi et choreus ducendi» («Про искусство танца и ведение танцев»).
+
+В 1489 году Джан Галеаццо Сфорца женился на Изабеле Арагонской (англ.)русск. в Тортоне. В честь свадьбы было дано грандиозное представление, были организованы танцы по сюжету о Ясоне и аргонавтах. Зрелище получилось настолько впечатляющим, что подобные представления стали устраивать и в других местах.
+
+В XVI веке в северной Италии появились грандиозные представления — spectaculi. Они включали не только танцы, но и конные представления и битвы. Екатерина Медичи принесла интерес к танцам во Францию. Она же была первым спонсором балетов, и устраивала грандиозные spectaculi . Одним из заметных был «Польский балет» (Le Ballet des Polonais), который был поставлен к визиту польских послов в 1573 году.
+
+Первые балеты включали не только танцы, но и разговоры и элементы драмы. Постепенно танец вытеснил из балета элементы драмы. Во Франции балет сформировался как отдельный жанр. Балетные представления теперь давали не только при дворе, но и в театрах. Дворяне, включая Людовика XIV, исполняли в балете роли разной важности.
+
+В 1585 году в Вероне открылся театр Олимпико с просцениумом.](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Opera and ballet
+Opera and ballet were also born in Italy during the Renaissance.
+First, in the mysteries appeared occasionally introduced music later, the music began to accompany all the action. In the middle of the XVI century Pastorals were popular, which were accompanied by choral singing. At the end of the XVI century there were works with one-voice singing (monody).
+
+In 1637 the first Opera house was opened in Venice.
+
+The first Opera composers were Jacopo Peri, Claudio Monteverdi and others.
+
+The first ballets were staged at the court for the entertainment of the court nobility. The choreography was created on the basis of court dances.
+
+In the XV century, one of the first masters of dance was Domenico da Piacenza (eng.).. He was dancing together with his disciples Antonio Cornazano (eng.). and Guglielmo Ebreo, and also taught this art to the Italian nobility. Da Piacenza wrote a work entitled "De arte saltandi et choreus ducendi" ("About the art of dance and dance").
+
+In 1489 Gian Galeazzo Sforza married Isabel of Aragon (eng.). in Tortona. In honor of the wedding, a Grand performance was given, dances were organized on the plot of Jason and the Argonauts. The spectacle was so impressive that such performances began to arrange in other places.
+
+In the XVI century in Northern Italy there are terrific views — spectaculi. They included not only dances, but also horse shows and battles. Catherine de Medici brought interest in dancing to France. She was the first sponsor of ballets, and arranged grandiose spectaculi . One notable was the "Polish ballet" (Le Ballet des Polonais), which was staged for the visit of the Polish ambassadors in 1573.
+
+The first ballets included not only dancing, but also conversation and elements of drama. Gradually ousted from the dance ballet drama elements. In France the ballet was formed as a separate genre. Ballet performances were now given not only at court, but also in theaters. The nobles, including Louis XIV, performed roles of different importance in the ballet.
+
+In 1585, the Teatro Olimpico with proscenium was opened in Verona.](* <- lang_en;; 	*);;
+		*);;
+	*);;

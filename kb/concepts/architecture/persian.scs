@@ -1,0 +1,53 @@
+persian 
+<-sc_node_not_relation;
+<-concept_style;;
+persian => nrel_main_idtf:
+     [Персидская архитектура](* <-lang_ru;; *);
+     [Persian architecture](* <-lang_en;; *);;
+
+persian 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Персидская архитектура] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Persian architecture] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Персидская архитектура — разнообразие архитектурных стилей, существовавших на территории современного Ирана и государств, подпадавших под культурную гегемонию Персии. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Persian architecture is a variety of architectural styles existed in the territory of modern Iran and the States that fell under the cultural hegemony of Persia.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+persian 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Персидская архитектура] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Persian architecture] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Иранская архитектура.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+persian 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Персидская архитектура)](*<-lang_ru;;*);
+		[Pic. (Persian architecture)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://persian.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

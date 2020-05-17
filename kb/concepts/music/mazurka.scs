@@ -1,0 +1,17 @@
+sc_node_not_relation ->mazurka;;
+
+mazurka => nrel_main_idtf:
+[mazurka](*<- lang_en;; *);;
+
+mazurka <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(мазу́рка)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[польский народный танец.Название танца произошло от наименования жителей Мазовии — мазуров, у которых впервые появился этот танец. ](*<- lang_ru;; *);;
+		*);;
+	*);;

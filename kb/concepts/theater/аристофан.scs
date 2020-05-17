@@ -1,0 +1,16 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+aristophanes => nrel_main_idtf: //это типа основной идентификатор
+	[аристофан](* <-lang_ru;; *);//ну тут понятно
+    [aristophanes](* <-lang_en;; *);;
+aristophanes <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Аристофан (444 до н. Э. - между 387 и 380 гг., Афины) - древнегреческий комедиограф. Гомер был известен под именем Поэта. ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Aristophanes (444 BC. E. - between 387 and 380, Athens) is an ancient Greek comedy man. Homer was known as the Poet. ](* <- lang_en;; 	*);;
+		*);;
+	*);;

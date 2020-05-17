@@ -1,0 +1,88 @@
+concept_author_Michelangelo
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Микеланджело Буонарроти]
+	(* <- lang_ru;;	*);
+	[Michelangelo Buonarroti]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Микеланджело Буонарроти)](*<-lang_ru;;*);
+		[Description (Michelangelo Buonarroti)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/michelangelo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/michelangelo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_22_05_1859
+            (*
+                => nrel_main_idtf:
+                    [22 мая 1859 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_Italy;
+
+    => nrel_date_of_death:
+        date_18_02_1564
+            (*
+                => nrel_main_idtf:
+                    [18 февраля 1564 года]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_barelief;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Микеланджело Буонарроти)](*<-lang_ru;;*);
+		[Pic. (Michelangelo Buonarroti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/michelangelo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+country_Italy
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Италия] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Италия)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+

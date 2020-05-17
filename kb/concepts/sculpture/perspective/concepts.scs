@@ -1,0 +1,49 @@
+
+sc_node_not_relation->concept_perspective;;
+concept_perspective => nrel_main_idtf: [перспектива](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_form;;
+concept_form => nrel_main_idtf: [форма](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_reverse_persp;;
+concept_reverse_persp => nrel_main_idtf: [обратная перспектива](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_axonometry;;
+concept_axonometry => nrel_main_idtf: [аксонометрия](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

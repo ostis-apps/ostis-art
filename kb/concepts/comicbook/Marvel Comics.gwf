@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="37762400" parent="0" x="702" y="632.36" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Американское издательство комиксов, основанное Мартином Гудманом.]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_logo" shapeColor="193" id="39085536" parent="0" left="0" top="0" right="75.0156" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-1.5" y="402.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_startdate" shapeColor="193" id="42083600" parent="0" left="0" top="0" right="111.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1.5" y="55.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="193" id="30198064" parent="0" left="0" top="0" right="61.9219" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="743" y="529.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="193" id="34613632" parent="0" left="0" top="0" right="100.672" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="286" y="368.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="45668528" parent="0" x="290" y="533.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="193" id="38214256" parent="0" left="0" top="0" right="181.859" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="101" y="493.36" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="&quot;Marvel Comics&quot;" shapeColor="193" id="32536080" parent="0" left="0" top="0" right="127.75" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="297.5" y="148.86" haveBus="false" idtf_pos="2">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="32141776" parent="0" x="290" y="459.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="193" id="36721120" parent="0" left="0" top="0" right="102.625" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="197" y="620.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="193" id="30122432" parent="0" left="0" top="0" right="154.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="401" y="334.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="40095472" parent="0" x="-2.5" y="319.5" haveBus="false" idtf_pos="0">
+            <content type="4" mime_type="image/png" content_visibility="true" file_name="220px-MarvelLogo.svg.png"><![CDATA[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]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="1939" shapeColor="193" id="34484832" parent="0" left="0" top="0" right="44.125" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-57.5" y="154.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="изображение" shapeColor="193" id="47822960" parent="0" left="0" top="0" right="109.297" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-141" y="184" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="год" shapeColor="193" id="40922144" parent="0" left="0" top="0" right="34.1875" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-126" y="60" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="45518960" parent="0" id_b="32536080" id_e="34484832" b_x="297.5" b_y="148.86" e_x="-57.5" e_y="154.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="43109216" parent="0" id_b="32536080" id_e="40095472" b_x="297.5" b_y="148.86" e_x="-2.5" e_y="319.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="31720448" parent="0" id_b="45668528" id_e="32141776" b_x="290" b_y="533.36" e_x="290" e_y="459.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="36782624" parent="0" id_b="30198064" id_e="37762400" b_x="743" b_y="529.36" e_x="702" e_y="632.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="37924992" parent="0" id_b="34613632" id_e="32141776" b_x="286" b_y="368.36" e_x="290" e_y="459.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38655568" parent="0" id_b="42083600" id_e="45518960" b_x="1.5" b_y="55.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.893702">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38592576" parent="0" id_b="32141776" id_e="32536080" b_x="290" b_y="459.36" e_x="297.5" e_y="148.86" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="644.5" y="447.86"/>
+                <point x="650.5" y="154.86"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="34344944" parent="0" id_b="30122432" id_e="38592576" b_x="401" b_y="334.36" e_x="-152" e_y="-8" dotBBalance="0" dotEBalance="0.494939">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="39832192" parent="0" id_b="45668528" id_e="37762400" b_x="290" b_y="533.36" e_x="702" e_y="632.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38541904" parent="0" id_b="38214256" id_e="31720448" b_x="101" b_y="493.36" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.572727">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38213984" parent="0" id_b="36721120" id_e="39832192" b_x="197" b_y="620.36" e_x="-152" e_y="-8" dotBBalance="0" dotEBalance="0.489362">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="35991424" parent="0" id_b="39085536" id_e="43109216" b_x="-1.5" b_y="402.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.6012">
+            <points>
+                <point x="196.5" y="378.5"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38541536" parent="0" id_b="40922144" id_e="34484832" b_x="-126" b_y="60" e_x="-57.5" e_y="154.5" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="-63" y="48"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="30479904" parent="0" id_b="47822960" id_e="40095472" b_x="-141" b_y="184" e_x="-2.5" e_y="319.5" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="-158" y="243"/>
+            </points>
+        </arc>
+    </staticSector>
+</GWF>

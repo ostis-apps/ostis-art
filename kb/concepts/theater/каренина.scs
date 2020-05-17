@@ -1,0 +1,64 @@
+anna_karenina=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Анна Каренина](* <-lang_ru;; *);//ну тут понятно
+    [Anna Karenina](* <-lang_en;; *);;
+anna_karenina <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Оригинальное либретто по мотивам бессмертного романа Льва Толстого, лучшие артисты жанра, великолепный вокал, эффектная хореография, пронзительная музыка, живой оркестр и зрелищное мультимедийное оформление — всё это мюзикл «Анна Каренина»! ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The original libretto based on the immortal novel by Leo Tolstoy, the best artists of the genre, magnificent vocals, spectacular choreography, piercing music, live orchestra and spectacular multimedia design — all this is the musical "Anna Karenina"!](*<- lang_en;;*);;
+
+			*);;
+		*);;
+
+
+anna_karenina <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«А́нна Каре́нина»— роман Льва Толстого о трагической любви замужней дамы Анны Карениной и блестящего офицера Вронского на фоне счастливой семейной жизни дворян Константина Лёвина и Кити Щербацкой. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Anna Karenina" is a novel by Leo Tolstoy about the tragic love of a married lady Anna Karenina and a brilliant officer Vronsky against the background of a happy family life of nobles Konstantin Levin and kitty Shcherbatskaya.](*<- lang_en;;*);;
+			*);;
+		*);;
+anna_karenina <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[26 мая 2003 года в Театре оперы и балета Санкт-Петербургской консерватории состоялась российская премьера драматического мюзикла петербургского композитора Владислава Успенского «Анна Каренина». ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[May 26, 2003 at the Opera and ballet theatre of the St. Petersburg Conservatory was held the Russian premiere of the dramatic musical of St. Petersburg composer Vladislav Uspensky "Anna Karenina".](*<- lang_en;;*);;
+			*);;
+		*);;
+anna_karenina<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Режиссёр-постановщик Ирина Тайманова, дирижёр-постановщик Александр Сладковский, среди исполнителей главных партий: Анна — Галина Сидоренко, Вронский — Сергей Муравьёв, Каренин — Александр Пахмутов, Левин — Александр Минченко, Китти — Алла Маркович, Стива — Алексей Афанасьев, Долли — Наталья Кочубей, Серёжа — Даня Казаков. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Director Irina taimanova, conductor Alexander Sladkovsky, among the performers of the main roles: Anna — Galina Sidorenko, Vronsky — Sergey Muravyev, Karenin — Alexander Pakhmutov, Levin — Alexander Minchenko, kitty — Alla Markovich, Steve — Alexey Afanasiev, Dolly — Natalia Kochubey, Serezha — Danya Kazakov.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+

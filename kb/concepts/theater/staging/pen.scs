@@ -1,0 +1,34 @@
+pen=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Питер Пен
+](* <-lang_ru;; *);//ну тут понятно
+    [
+Peter Pan](* <-lang_en;; *);;
+
+pen <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Питер Пэн - великолепный балет, подходящий для всей семьи. Танцы, декорации и костюмы столь же красочны, как и сама история. Питер Пэн является относительно новым в мире балета, и поскольку не существует его классической единой версии, балет может быть интерпретирован по-разному каждым балетмейстером, хореографом и музыкальным руководителем. Хотя каждая постановка может отличаться друг от друга, история остается почти одной и той же, поэтому данный балет был отнесен к классике.
+ ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Peter Pan is a great ballet suitable for the whole family. Dances, sets and costumes are as colorful as the story itself. Peter Pan is relatively new in the world of ballet, and since there is no classical unified version of it, ballet can be interpreted differently by each choreographer, choreographer and music director. Although each production may differ from each other, the story remains almost the same, so this ballet was attributed to the classics.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+pen<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/4.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

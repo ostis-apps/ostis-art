@@ -1,0 +1,18 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+mimes=> nrel_main_idtf: //это типа основной идентификатор
+	[мимы](* <-lang_ru;; *);//ну тут понятно
+    [mimes](* <-lang_en;; *);;
+mimes <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мимы — у античных греков и римлян сценические представления массового характера во вкусе зрителей из низших слоев — выступления акробатов, фокусников и т. п., сценки с пением и танцами, наконец целый реально-бытовой сатирический фарс.  ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Mimes - among the ancient Greeks and Romans, theatrical performances of a mass character in the taste of the spectators from the lower strata - performances by acrobats, magicians, etc., scenes with singing and dancing, finally a whole real-life satirical farce. ](* <- lang_en;; 	*);;
+
+		*);;
+	*);;
+	

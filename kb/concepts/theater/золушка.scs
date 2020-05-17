@@ -1,0 +1,87 @@
+cinderella=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Всё о Золушке](* <-lang_ru;; *);//ну тут понятно
+    [Cinderella](* <-lang_en;; *);;
+cinderella<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Всё о Зо́лушке» — мюзикл на музыку Раймонда Паулса при участии группы «СЛОТ», либретто Сергея Плотова, слова Сергея Плотова и Дмитрия Быкова. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Cinderella" musical based on the music of Raimonds Pauls with the participation of the group "SLOT", libretto by Sergeyeva, words, Sergeyeva and Dmitry Bykov.](*<- lang_en;;*);;
+
+	*);;
+		*);;
+
+
+cinderella <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Поставлен театральной компанией АНО «Театр мюзикла».  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Staged by the theater company ANO "musical Theater".](*<- lang_en;;*);;
+			*);;
+		*);;
+cinderella <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мировая премьера состоялась 22 октября 2014 года в «Театре мюзикла» в Москве, Россия.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The world premiere took place on October 22, 2014 at the musical Theatre in Moscow, Russia.](*<- lang_en;;*);;
+			*);;
+		*);;
+cinderella<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:Акт I   31 декабря. Королевский лес. Ёлки высказывают желание быть украшением Новогоднего королевского бала, но только одна из них может быть удостоена звания «звезды» и быть срубленной самим принцем («Зимний лес»). Их разговор прерывает монолог Дровосека, в котором он рассуждает о любви и девушках, желающих выходить замуж за принцев, а не за обычных дровосеков («Ария Дровосека»). Выбрав ёлку, Дровосек начинает её рубить, но процесс прерывает неожиданно появившийся Лесничий. Он называет Дровосека браконьером и сообщает, что в Королевском лесу деревья могут рубить только члены королевской семьи. Между Дровосеком и Лесничим завязывается борьба. Парню удаётся бежать, но в руках Лесничего остаётся его перчатка.В это время Золушка занимается уборкой дома. Ей помогают мыши в благодарность за то, что однажды она спасла Мышиного короля от кота. Девушка мечтает попасть на бал, увидеть принца и станцевать с ним хотя бы один танец («Вальс Золушки»). Также рассуждает: смог бы принц полюбить такую простую девушку, как она? Мыши, не раз бывавшие в королевском дворце, отрицают такую возможность. Их беседу прервал приход сводных сестёр Золушки — Снежанны и Изольды. Они просят сшить им платье для бала. Золушка при помощи мышей выполняет их запрос («Дуэт сестёр»).
+
+Затем появляется Мачеха со своими помощниками. Золушка сообщает ей о желании поехать на бал, но той эта идея не понравилась («Стратегия»). С работы возвращается Лесничий. Он рассказывает о встрече с браконьером и показывает семье его перчатку. Золушка забирает её себе. Чтобы избавить падчерицу от мыслей о развлечениях, Мачеха нагружает её делами по дому: пересчитать зерно, почистить медную посуду, постирать бельё, помыть полы, убрать снег во дворе. Отец пытался уговорить жену взять Золушку с собой, но та лишь потуже затянула ему шарф. Лесничий соглашается с Мачехой оставить дочь дома. Он делится со зрителями своими мыслями («Если верить, что всё прекрасно»). Увидев, что Лесничий снял свой шарф, Мачеха кричит на него: «Дорогой, никогда не снимай этот шарф!»После отъезда членов семьи, появляется Крёстная с тыквой на ручной тележке. Девушка просит осуществить мечту: помочь попасть ей на Новогодний королевский бал. Крёстная отказывает. Она считает, что такой честной и трепетной девушке на подобном мероприятии делать нечего. Встречать новый год с Золушкой Крёстная тоже отказалась, но дала пару жизненных советов («Жизнь моя — борьба!»).
+
+Оставшись одна, девушка собралась приняться за работу, но мыши, оказывается, уже всё сделали («Гимн мышей»). Помимо этого они одевают Золушку в починенное платье её матери и предоставляют карету, в которой все вместе отправляются на королевский бал («Лети, карета моя!»).                  Акт II
+Церемониймейстер объявляет о начале Новогоднего королевского бала. Он также уведомляет публику, что ныне модными становятся стулья («Добро пожаловать на бал»). Гости собираются на бал и начинают веселье. Придворные наряжены в костюмы со стульями («Бал»). В парадном зале появляется и сам Король. Ему кажется, что бал скучен. Он сетует на свою нелёгкую судьбу и потерянную любовь («А я король! И что?»).
+
+Тем временем на бал приезжают Золушка и мыши. Последние удаляются в нору, а девушка у парадного входа встречает сопротивление: без приглашения дворцовые охранники отказываются её пропускать. Пытаясь убедить их, что она достойна присутствовать на балу, Золушка танцует. В этот момент появляется Дровосек. Ему очень понравился её танец. Между двумя молодыми завязывается беседа, в процессе которой они понимают, что созданы друг для друга («С тобой рядом!»). Золушка возвращает Дровосеку перчатку и он уходит во дворец за своим отцом, но оставляет топор.Королевский шут в своём монологе рассуждает о гостях бала («Баллада шута»), а Король скучает. Это замечает Мачеха. Она настоятельно предлагает женить принца на своих дочерях Снежанне и Изольде. Также рекомендует объявить соседним королевствам войну («Война»). Король на всё это даёт согласие. Появляется Дровосек, заявив о готовности жениться на любимой девушке. Когда выясняется, что этой девушкой является незнакомка на крыльце, а не Снежанна и/или Изольда, Король приказывает охранникам прогнать её. Не желая жениться не по любви, Дровосек пытается бежать, но его задерживают помощники Мачехи. В ситуацию вмешивается странная гостья бала в маске и с тыквой на ручной тележке. С третьего раза Король узнаёт в ней Анну — первую и единственную любовь всей своей жизни. Она пришла на бал с бомбой в тыкве, чтобы взорвать её: тем самым отомстить Королю за то, что он бросил её («Часы»). Становится известной истинная причина размолвки двух влюблённых много лет назад; у каждого в руках появляется по хрустальной туфельке («Дуэт Короля и Крёстной»). Чтобы избежать подобной ошибки в жизни Дровосека и его любимой девушки, все отправляются за незнакомкой. Получив отказ от прежних планов, Мачеха, Изольда, Снежанна и Лесничий уходят с бала.
+
+Дворцовые охранники пытаются выполнить приказ Короля — прогнать Золушку («Охрана»). Они рассказывают Золушке, что Дровосек на самом деле принц, и он к ней не выйдет, так как, наверное, уже с какой-нибудь другой девушкой танцует на балу. Золушка им не верит, и лишь предоставив ей доказательства того, что Дровосек является принцем, девушка, расстроившись, уходит домой. Там уже были вернувшиеся с бала Лесничий, Изольда, Снежанна и Мачеха со своими помощниками. Семья выясняет, что той самой возлюбленной принца стала Золушка. Рассерженная Мачеха требует Лесничего отправить девушку далеко в лес, и там оставить её. Отец, Снежанна и Изольда встают на защиту Золушки («Изгнание Золушки»), однако она убегает сама. Мачеха отправляет мужа за ней, чтобы тот проверил, что девушка сбежала именно в лес. Также велит привести Дровосека к ним в гости.
+
+Дровосек и Лесничий независимо друг от друга ищут Золушку, которая ждала своего любимого на опушке в лесу. У девушки рухнули мечты и надежды, а Дровосек и Лесничий, встретившись, вновь вступили в бой, во время которого с отца Золушки слетает злополучный шарф («Мрак повсюду»).
+
+Некоторое время спустя Золушку находят замёрзшей в лесу. В её смерти обвиняют Мачеху. Не получив ни от кого поддержки, она сбегает из Королевства. Дровосек прощается с Золушкой, целуя её в губы. Момент приходится ровно в полночь. Новогоднее волшебство возвращает девушку к жизни. Все радуются счастливому окончанию истории: Золушка и Дровосек женятся, Анна выходит замуж за Короля, а Изольда и Снежанна становятся жёнами шута. Дабы не пропадать бомбе-тыкве, Анна приводит её в действие... И жили все долго и счастливо, пока смерть не разлучила их («Будь собой!»).
+
+ ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot:Act I December 31. King's forest. Christmas trees Express a desire to be a decoration of the new Year's Royal ball, but only one of them can be awarded the title of "star" and be cut down by the Prince ("Winter forest"). Their conversation is interrupted by the woodcutter's monologue, in which he talks about love and girls who want to marry princes, not ordinary woodcutters ("Aria Woodcutter"). Having chosen a Christmas tree, the woodcutter begins to cut it, but the process is interrupted by an unexpectedly appeared Forester. He calls the Woodcutter a poacher and says that only members of the Royal family can cut down trees in the Royal forest. A struggle ensues between the Woodcutter and the Forester. The guy manages to escape, but in the hands of the Forester is his glove.At this time, Cinderella is cleaning the house. She helps the mouse in gratitude for the fact that one day she saved the Mouse king from the cat. The girl wants to get to the ball, see the Prince and dance with him at least one dance ("Cinderella Waltz"). Also says: could the Prince fall in love with such ordinary girl like her? Mice, who have been to the Royal Palace more than once, deny this possibility. Their conversation was interrupted by the arrival of Cinderella's stepsisters — Snezhanna and Isolde. They ask to sew them a dress for the ball. Cinderella with mice performs their request ("Duo sisters").
+
+Then there is the Stepmother with her assistants. Cinderella tells her about the desire to go to the ball, but the idea did not like ("Strategy"). The Forester returns from work. He talks about meeting with a poacher, and shows the family his glove. Cinderella takes it for herself. To save her stepdaughter from thoughts of entertainment, her Stepmother loads her with chores around the house: count the grain, clean copper dishes, wash clothes, wash the floors, clean the snow in the yard. His father tried to persuade his wife to take Cinderella with him, but she only tightened his scarf. The Forester agrees with his Stepmother to leave his daughter at home. He shares his thoughts with the audience ("If you believe that everything is fine"). Seeing that the Forester took off his scarf, Stepmother yells at him: "Dear, never take off this scarf!"After the family members leave, the Godmother appears with a pumpkin on a hand cart. The girl asks to realize the dream: to help her get to the new Year's Royal ball. Godmother refuses. She believes that such an honest and trembling girl at such an event has nothing to do. Meet the new year with Cinderella Godmother also refused, but gave a couple of life tips ("my Life is a struggle!").
+
+Left alone, she was going to get to work, but the mouse is already done ("Hymn of mice"). In addition, they dress Cinderella in the repaired dress of her mother and provide a carriage in which all together go to the Royal ball ("Fly, my carriage!").                  Act II
+The master of ceremonies announces the beginning of the new Year's Royal ball. He also informs the public that chairs are becoming fashionable ("Welcome to the ball"). Guests gather for a ball and start the fun. Courtiers dressed in costumes with chairs ("Ball"). The King himself appears in the great hall. He thinks the ball is boring. He complains about his hard fate and lost love ("And I am the king! So what?").
+
+Meanwhile, Cinderella and the mice come to the ball. They are removed in the hole, and the girl at the front door meets resistance: no invitation to the Palace guards refuse to pass. Trying to convince them that she is worthy to attend the ball, Cinderella dances. At this moment the woodcutter appears. He loved her dance. A conversation ensues between the two young people, in the process of which they understand that they are created for each other ("next To you!"). Cinderella returns the woodcutter's glove and he goes to the Palace for his father, but leaves the ax.The Royal jester in his monologue talks about the guests of the ball ("the Ballad of the jester"), and the King is bored. It says the Stepmother. She urges the Prince to marry their daughters Dasha and Isolde. Also recommends declare neighboring kingdoms war ("War"). The king agrees to all this. A woodcutter appears, declaring his readiness to marry his beloved girl. When it turns out that this girl is a stranger on the porch, and not Snezhanna and/or Isolde, the King orders the guards to drive her away. Not wanting to marry not for love, the woodcutter tries to escape, but he is detained by his Stepmother's assistants. A strange guest of the ball in a mask and with a pumpkin on a hand cart intervenes in the situation. The third time the King recognizes her as Anna — the first and only love of his life. She came to the ball with a bomb in a pumpkin to blow it up: thereby to take revenge on the King for the fact that he threw it ("Clock"). It becomes known the true reason for the quarrel of two lovers many years ago, each in the hands of a glass slipper appears ("Duet of the King and the Godmother"). To avoid such a mistake in the life of a Lumberjack and his girlfriend, all go for a stranger. Having received the refusal from the earlier plans, the Stepmother, Isolde, Dasha and the Ranger away from the ball.
+
+Palace guards are trying to execute the order of the King — to drive Cinderella ("Protection"). They tell Cinderella that the woodcutter is really a Prince, and he will not come out to her, since he is probably already dancing with some other girl at the ball. Cinderella does not believe them, and only giving her proof that the woodcutter is a Prince, the girl, upset, goes home. The Forester, Isolde, Snezhanna and Stepmother with their assistants had already returned from the ball. The family finds out that Cinderella became that very beloved of the Prince. The angry Stepmother demands the Forester to send the girl far to the wood, and there to leave her. Father, Snezhanna and Isolde stand up for Cinderella ("Exile Cinderella"), but she runs away herself. Stepmother sends her husband for her to check that the girl ran away into the forest. He also orders to bring the Woodcutter to visit them.
+
+Woodcutter and Forester independently looking for Cinderella, who was waiting for her beloved at the edge of the forest. The girl's dreams and hopes collapsed, and the woodcutter and the Forester, having met, again joined the battle, during which the ill-fated scarf flies from Cinderella's father ("Darkness everywhere").
+
+Some time later Cinderella is found frozen in the forest. Her stepmother is accused of her death. Not received any from anyone, she runs away from the Kingdom. Woodcutter says goodbye to Cinderella, kissing her on the lips. The moment falls exactly at midnight. Christmas magic brings the girl back to life. Everyone rejoices at the happy ending of the story: Cinderella and the woodcutter marry, Anna marries the King, and Isolde and Snezhanna become the wives of the jester. In order not to disappear the pumpkin bomb, Anna puts it into action... And all lived happily ever after, until death separated them ("Be yourself!").](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+

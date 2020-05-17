@@ -1,0 +1,69 @@
+concept_author_Bernini
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джованни Лоренцо Бернини]
+	(* <- lang_ru;;	*);
+	[Giovanni Lorenzo Bernini]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джованни Лоренцо Бернини)](*<-lang_ru;;*);
+		[Description (Giovanni Lorenzo Bernini)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/bernini_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/bernini_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_07_12_1598
+            (*
+                => nrel_main_idtf:
+                    [7 декабря 1598 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_Italy;
+
+    => nrel_date_of_death:
+        date_28_11_1680
+            (*
+                => nrel_main_idtf:
+                    [28 ноября 1680]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джованни Лоренцо Бернини)](*<-lang_ru;;*);
+		[Pic. (Giovanni Lorenzo Bernini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bernini.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+

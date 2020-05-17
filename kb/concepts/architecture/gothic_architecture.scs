@@ -1,0 +1,52 @@
+gothic_architecture
+<-sc_node_not_relation;
+<-concept_style;;
+gothic_architecture => nrel_main_idtf:
+     [Готический стиль](* <-lang_ru;; *);
+     [Gothic architecture](* <-lang_en;; *);;
+
+gothic_architecture 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Готический стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Gothic architecture] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Готический стиль - архитектурный стиль европейского средневековья, характеризующийся остроконечными сооружениями, стрельчатыми сводами, обилием витражей и скульптурного орнамента. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Gothic style is an architectural style of the European middle ages, characterized by pointed structures, pointed arches, an abundance of stained glass and sculptural ornament.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+gothic_architecture 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Готический стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Gothic architecture] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Готика.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+gothic_architecture 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Готический стиль)](*<-lang_ru;;*);
+		[Pic. (Gothic architecture)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://gothic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

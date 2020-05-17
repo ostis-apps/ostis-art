@@ -1,0 +1,32 @@
+sym=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Симфония до мажор](* <-lang_ru;; *);//ну тут понятно
+    [Symphony in C Major
+](* <-lang_en;; *);;
+
+sym <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Выдающийся хореограф Джордж Баланчин в 1947 году поставил на сцене Парижской оперы несколько балетных постановок. Одной из них стал новый балет на малоизвестную симфонию Жоржа Бизе, написанную композитором в семнадцатилетнем возрасте и почти 80 лет пролежавшую в архиве Парижской консерватории. Симфония была обнаружена только в 1935 году.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The outstanding choreographer George Balanchine in 1947 staged several ballet productions on the stage of the Paris Opera. One of them was the new ballet for the little-known symphony of Georges Bizet, written by the composer at the age of seventeen and lying almost in the archives of the Paris Conservatory for almost 80 years. The symphony was discovered only in 1935.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+sym<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/8.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

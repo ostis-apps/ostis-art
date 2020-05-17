@@ -1,0 +1,57 @@
+notre_dame_de_paris
+<-sc_node_not_relation;
+<-concept_construction;;
+notre_dame_de_paris => nrel_main_idtf:
+     [Нотр-Дам де Пари](* <-lang_ru;; *);
+     [Notre Dame de Paris](* <-lang_en;; *);;
+
+notre_dame_de_paris <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Нотр-Дам де Пари] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Notre Dame de Paris] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Нотр-Дам де Пари - средневековый католический собор на Иль-де-ла-Сите в четвертом округе Парижа, Франция.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Notre Dame de Paris is a medieval Catholic cathedral on the Île de la Cité in the fourth arrondissement of Paris, France.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+notre_dame_de_paris <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Нотр-Дам де Пари] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Notre Dame de Paris] (* <- lang_en;; *);;
+	     <- explanation;;
+	     <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Собор Парижской Богоматери, парижский собор Нотр-Да́м.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Notre-Dame Cathedral, Notre-Dame. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+notre_dame_de_paris <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Нотр-Дам де Пари)](*<-lang_ru;;*);
+		[Pic. (Notre Dame de Paris)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://notredame.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: zhan_shel; sulli;
+=> nrel_city: paris;
+=> nrel_country: france_country;
+=> nrel_style_of_building: gothic_architecture;;
+

@@ -1,0 +1,282 @@
+12031876=> nrel_main_idtf:
+    [12 марта 1876](* <-lang_ru;; *);
+    [March 12th, 1876](* <-lang_en;; *);;
+
+17061955=> nrel_main_idtf:
+    [17 июня 1955](* <- lang_ru;; *);
+    [June 17th, 1955](* <-lang_en;; *);;
+
+15121832=> nrel_main_idtf:
+    [15 декабря 1832 года](* <- lang_ru;; *);
+    [December 15th, 1832](* <-lang_en;; *);;
+
+28121923=> nrel_main_idtf:
+    [28 декабря 1923 года](* <- lang_ru;; *);
+    [December 28th, 1923](* <-lang_en;; *);;
+
+25061852=> nrel_main_idtf:
+    [25 июня 1852](* <- lang_ru;; *);
+    [June 25th, 1852](* <-lang_en;; *);;
+
+10061926=> nrel_main_idtf:
+    [10 июня 1926](* <- lang_ru;; *);
+    [June 10th, 1926](* <-lang_en;; *);;
+
+28021929=> nrel_main_idtf:
+    [28 февраля 1929](* <- lang_ru;; *);
+    [February 28th, 1929](* <-lang_en;; *);;
+
+01031812=> nrel_main_idtf:
+    [1 марта 1812](* <- lang_ru;; *);
+    [March 1th, 1812](* <-lang_en;; *);;
+
+14091852=> nrel_main_idtf:
+    [14 сентября 1852](* <- lang_ru;; *);
+    [September 14th, 1852](* <-lang_en;; *);;
+
+1200=> nrel_main_idtf:
+    [приблизительно в 1200](* <- lang_ru;; *);
+    [about 1200](* <-lang_en;; *);;
+
+1265=> nrel_main_idtf:
+    [приблизительно 1265](* <- lang_ru;; *);
+    [about 1265](* <-lang_en;; *);;
+
+1948=> nrel_main_idtf:
+    [1948](* <- lang_ru;; *);
+    [1948](* <-lang_en;; *);;
+
+28121847=> nrel_main_idtf:
+    [28 декабря 1847](* <- lang_ru;; *);
+    [December 28th, 1847](* <-lang_en;; *);;
+
+18061919=> nrel_main_idtf:
+    [18 июня 1919](* <- lang_ru;; *);
+    [June 18th, 1919](* <-lang_en;; *);;
+
+15011592=> nrel_main_idtf:
+    [5 января 1592](* <- lang_ru;; *);
+    [Jenuary 5th, 1592](* <-lang_en;; *);;
+
+22011666=> nrel_main_idtf:
+    [22 января 1666](* <- lang_ru;; *);
+    [Jenuary 22th, 1666](* <-lang_en;; *);;
+
+11091196=> nrel_main_idtf:
+    [11 сентября 1196](* <- lang_ru;; *);
+    [September 11th, 1196](* <-lang_en;; *);;
+
+twelth_centure=> nrel_main_idtf:
+    [начало XII века](* <- lang_ru;; *);
+    [begining of XII centure](* <-lang_en;; *);;
+
+1580=> nrel_main_idtf:
+    [1580](* <- lang_ru;; *);
+    [1580](* <-lang_en;; *);;
+
+1649=> nrel_main_idtf:
+    [1649](* <- lang_ru;; *);
+    [1649](* <-lang_en;; *);;
+
+240679=> nrel_main_idtf:
+    [24 июня 79 ](* <- lang_ru;; *);
+    [June 24th, 79](* <-lang_en;; *);;
+
+17119=> nrel_main_idtf:
+    [17 ноября 9 года](* <- lang_ru;; *);
+    [November 17th, 9](* <-lang_en;; *);;
+
+26061841=> nrel_main_idtf:
+    [26 июня 1841](* <- lang_ru;; *);
+    [June 26th, 1841](* <-lang_en;; *);;
+
+10081912=> nrel_main_idtf:
+    [10 августа 1912](* <- lang_ru;; *);
+    [August 10th, 1912](* <-lang_en;; *);;
+
+american=> nrel_main_idtf:
+    [американец](* <- lang_ru;; *);
+    [american](* <-lang_en;; *);;
+
+france=> nrel_main_idtf:
+    [француз](* <- lang_ru;; *);
+    [france](* <-lang_en;; *);;
+
+catalonian=> nrel_main_idtf:
+    [каталонец](* <- lang_ru;; *);
+    [catalonian](* <-lang_en;; *);;
+
+canada=> nrel_main_idtf:
+    [канадец](* <- lang_ru;; *);
+    [canada](* <-lang_en;; *);;
+
+britain=> nrel_main_idtf:
+    [британец](* <- lang_ru;; *);
+    [britain](* <-lang_en;; *);;
+
+italiano=> nrel_main_idtf:
+    [итальянец](* <- lang_ru;; *);
+    [italiano](* <-lang_en;; *);;
+
+iran=> nrel_main_idtf:
+    [иранец](* <- lang_ru;; *);
+    [iran](* <-lang_en;; *);;
+
+monhol=> nrel_main_idtf:
+    [монгол](* <- lang_ru;; *);
+    [monhol](* <-lang_en;; *);;
+
+polish=> nrel_main_idtf:
+    [поляк](* <- lang_ru;; *);
+    [polish](* <-lang_en;; *);;
+
+persian=> nrel_main_idtf:
+    [перс](* <- lang_ru;; *);
+    [persian](* <-lang_en;; *);;
+
+rome=> nrel_main_idtf:
+    [римлянин](* <- lang_ru;; *);
+    [rome](* <-lang_en;; *);;
+
+german=> nrel_main_idtf:
+    [немец](* <- lang_ru;; *);
+    [german](* <-lang_en;; *);;
+
+fourteen_centure=> nrel_main_idtf:
+    [XIV век](* <- lang_ru;; *);
+    [XIVth centure](* <-lang_en;; *);;
+
+february_of_1413=> nrel_main_idtf:
+    [февраль 1413](* <- lang_ru;; *);
+    [february of 1413](* <-lang_en;; *);;
+
+unknown=> nrel_main_idtf:
+    [неизвестно](* <- lang_ru;; *);
+    [unknown](* <-lang_en;; *);;
+
+london=> nrel_main_idtf:
+    [Лондон](* <- lang_ru;; *);
+    [London](* <-lang_en;; *);;
+
+rome_city=> nrel_main_idtf:
+    [Рим](* <- lang_ru;; *);
+    [Rome](* <-lang_en;; *);;
+
+sopot=> nrel_main_idtf:
+    [Сопот](* <- lang_ru;; *);
+    [Sopot](* <-lang_en;; *);;
+
+paris=> nrel_main_idtf:
+    [Париж](* <- lang_ru;; *);
+    [Paris](* <-lang_en;; *);;
+
+new_delhi=> nrel_main_idtf:
+    [Нью-Дели](* <- lang_ru;; *);
+    [New Delhi](* <-lang_en;; *);;
+
+pisa=> nrel_main_idtf:
+    [немец](* <- lang_ru;; *);
+    [Pisa](* <-lang_en;; *);;
+
+berlin=> nrel_main_idtf:
+    [Берлин](* <- lang_ru;; *);
+    [Berlin](* <-lang_en;; *);;
+
+barselona=> nrel_main_idtf:
+    [Барселона](* <- lang_ru;; *);
+    [Barselona](* <-lang_en;; *);;
+
+agra=> nrel_main_idtf:
+    [Агра](* <- lang_ru;; *);
+    [Agra](* <-lang_en;; *);;
+
+new_york=> nrel_main_idtf:
+    [Нью-Йорк](* <- lang_ru;; *);
+    [New York](* <-lang_en;; *);;
+
+gb=> nrel_main_idtf:
+    [Великобритания](* <- lang_ru;; *);
+    [Great Britain](* <-lang_en;; *);;
+
+italy=> nrel_main_idtf:
+    [Нью-Йорк](* <- lang_ru;; *);
+    [Italy](* <-lang_en;; *);;
+
+poland=> nrel_main_idtf:
+    [Польша](* <- lang_ru;; *);
+    [Poland](* <-lang_en;; *);;
+
+france_country=> nrel_main_idtf:
+    [Франция](* <- lang_ru;; *);
+    [France](* <-lang_en;; *);;
+
+india=> nrel_main_idtf:
+    [Индия](* <- lang_ru;; *);
+    [India](* <-lang_en;; *);;
+
+usa=> nrel_main_idtf:
+    [Америка](* <- lang_ru;; *);
+    [USA](* <-lang_en;; *);;
+
+germany=> nrel_main_idtf:
+    [Германия](* <- lang_ru;; *);
+    [Germany](* <-lang_en;; *);;
+
+spain=> nrel_main_idtf:
+    [Испания](* <- lang_ru;; *);
+    [Spain](* <-lang_en;; *);;
+
+nrel_city<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[город*](* <- lang_ru;; *);
+	[city*](* <- lang_eng;; *);;
+
+nrel_country<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[страна*](* <- lang_ru;; *);
+	[country*](* <- lang_eng;; *);;
+
+nrel_year<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[год постройки*](* <- lang_ru;; *);
+	[year of construction*](* <- lang_eng;; *);;
+
+nrel_value<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[значение*](* <- lang_ru;; *);
+	[value*](* <- lang_eng;; *);;
+
+concept_year=> nrel_main_idtf:
+    [год](* <- lang_ru;; *);
+    [year](* <-lang_en;; *);;
+
+nrel_style<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[архитектурный стиль*](* <- lang_ru;; *);
+	[style*](* <- lang_eng;; *);;
+
+chiswic_house=> nrel_main_idtf:
+    [Чизик-хаус](* <- lang_ru;; *);
+    [Chiswic House](* <-lang_en;; *);
+=> nrel_style_of_building: the_architecture_of_neo_classicism; neo_baroque;;
+
+humauns_tomb=> nrel_main_idtf:
+    [Гробница Хумаюна](* <- lang_ru;; *);
+    [Humaun's Tomb](* <-lang_en;; *);
+=> nrel_style_of_building: persian; architecture_of_the_mughals;;
+
+akhshardham=> nrel_main_idtf:
+    [Акшардхам](* <- lang_ru;; *);
+    [Akhshardham](* <-lang_en;; *);
+=> nrel_style_of_building: islamic;;
+
+casa_battlo=> nrel_main_idtf:
+    [Каса-Батльо](* <- lang_ru;; *);
+    [Casa Battlo](* <-lang_en;; *);
+=> nrel_style_of_building: modernisme;;
+
+votivkirche=> nrel_main_idtf:
+    [Вотивкирке](* <- lang_ru;; *);
+    [Votivkirche](* <-lang_en;; *);
+=> nrel_style_of_building: neo_gothic_style; modernisme;;
+

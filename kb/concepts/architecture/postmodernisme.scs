@@ -1,0 +1,54 @@
+postmodernisme 
+<-sc_node_not_relation;
+<-concept_style;;
+postmodernisme => nrel_main_idtf:
+     [Архитектурный постмодернизм](* <-lang_ru;; *);
+     [Architectural postmodernism](* <-lang_en;; *);;
+
+postmodernisme 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектурный постмодернизм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Architectural postmodernism] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Постмодернизм в архитектуре представляет собой совокупность течений, зародившихся в 1960-х гг., пришедших на смену господствовавшему модернизму. Расцвет стиля начался с 1980-х и продолжается по сей день. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Postmodernism in architecture is a set of trends that originated in the 1960s, which replaced the prevailing modernism. The heyday of the style began in the 1980s and continues to this day.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+postmodernisme 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Архитектурный постмодернизм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Architectural postmodernism] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Постмодернизм.](* <- lang_ru;; *);;
+          -> rrel_example:
+			[Postmodern movement; postmodern. ](* <- lang_en;; *);;
+		*);;
+	*);;
+
+postmodernisme 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ААрхитектурный постмодернизм)](*<-lang_ru;;*);
+		[Pic. (Architectural postmodernism)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://postmodernisme.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

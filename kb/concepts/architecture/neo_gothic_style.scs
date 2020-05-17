@@ -1,0 +1,54 @@
+neo_gothic_style
+<-sc_node_not_relation;
+<-concept_style;;
+neo_gothic_style => nrel_main_idtf:
+     [Неоготичесукий стиль](* <-lang_ru;; *);
+     [Neo-Gothic style](* <-lang_en;; *);;
+
+neo_gothic_style 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Неоготичесукий стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Neo-Gothic style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неоготичесукий стиль  – это архитектурный стиль, вобравший в себя элементы готики и классических композиций.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Neo-Gothic style is an architectural style that incorporates elements of Gothic and classical compositions.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+neo_gothic_style 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Неоготичесукий стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Neo-Gothic style] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Неоготика; Псевдоготика.](* <- lang_ru;; *);;
+          -> rrel_example:
+			[Neo-Gothic; Pseudo-Gothic. ](* <- lang_en;; *);;
+		*);;
+	*);;
+
+neo_gothic_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Неоготичесукий стиль)](*<-lang_ru;;*);
+		[Pic. (Neo-Gothic style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://neo_gothic_style.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

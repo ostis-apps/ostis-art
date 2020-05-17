@@ -1,0 +1,35 @@
+ratmansky
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+ratmansky=> nrel_main_idtf:
+     [Алексей Ратманский](* <-lang_ru;; *);
+     [Alexey Ratmansky](* <-lang_en;; *);;
+
+ratmansky<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Алексе́й Осипович Ратма́нский — российский, украинский, датский и американский солист балета и балетмейстер, с 2004 по 2009 год — художественный руководитель балета Большого театра.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Alexei Osipovich Ratmansky - Russian, Ukrainian, Danish and American ballet soloist and choreographer, from 2004 to 2009 - artistic director of the Bolshoi Ballet.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+ratmansky <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алексей Ратманский)](*<-lang_ru;;*);
+		[Pic. (Alexey Ratmansky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://11.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

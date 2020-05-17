@@ -1,0 +1,54 @@
+the_architecture_of_neo_classicism
+<-sc_node_not_relation;
+<-concept_style;;
+the_architecture_of_neo_classicism => nrel_main_idtf:
+     [Архитектура неоклассицизма](* <-lang_ru;; *);
+     [The architecture of Neoclassicism](* <-lang_en;; *);;
+
+the_architecture_of_neo_classicism 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектура неоклассицизма] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: The architecture of Neoclassicism] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектура неоклассицизма — архитектурный стиль, созданный неоклассическим движением, которое началось в середине XVIII века. В своей чистейшей форме, это стиль, в основном производный от античной архитектуры.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Neoclassical architecture is an architectural style created by the neoclassical movement that began in the mid-eighteenth century. In its purest form, it is a style largely derived from ancient architecture.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+the_architecture_of_neo_classicism 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Архитектура неоклассицизма] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: The architecture of Neoclassicism] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Неоклассицизм.](* <- lang_ru;; *);;
+          -> rrel_example:
+			[Neo-classicism. ](* <- lang_en;; *);;
+		*);;
+	*);;
+
+the_architecture_of_neo_classicism 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архитектура неоклассицизма)](*<-lang_ru;;*);
+		[Pic. (The architecture of Neoclassicism)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://neo_classicism.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,16 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+view_drama_theatre => nrel_main_idtf: //это типа основной идентификатор
+	[драматический театр](* <-lang_ru;; *);//ну тут понятно
+    [ drama theatre](* <-lang_en;; *);;
+view_drama_theatre <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В отличие от других видов сценического искусства, спектакль в драматическом театре основывается на литературном произведении — драме или на сценарии, предполагающем импровизацию или заранее подготовленную постановку. Для артиста драматического театра основным средством выразительности, наряду с физическими действиями, является речь, сценический костюм, грим; вместе с тем драматический театр — искусство синтетическое: он может включать в себя в качестве полноправных элементов и вокал, и танец, и пантомиму. Важную роль в драматическом театре играет режиссёр, который на основе собственной интерпретации литературного произведения руководит работой всего коллектива, а также редактирует сценарий.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Unlike other types of performing arts, a performance in a drama theater is based on a literary work - a drama or a script that presumes improvisation or a previously prepared production. For a dramatic theater artist, the main means of expression, along with physical actions, is speech, stage costume, make-up; At the same time, drama theater is synthetic art: it can include both vocal, dance, and pantomime as full elements. An important role in the drama theater is played by the director, who, on the basis of his own interpretation of the literary work, leads the work of the whole team, and also edits the script.](*<- lang_en;;*);;
+			*);;
+		*);;

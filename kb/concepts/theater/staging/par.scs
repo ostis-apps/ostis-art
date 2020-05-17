@@ -1,0 +1,32 @@
+par=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Петрушка](* <-lang_ru;; *);//ну тут понятно
+    [Parsley
+](* <-lang_en;; *);;
+
+dream <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Игорь Стравинский написал балет Петрушка по предложению своего друга Сергея Дягилева, который подключил к работе над либретто Александра Бенуа. Премьера балета состоялась в июне 1911 года на сцене парижского театра Шатле в программе знаменитых Русских сезонов. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Igor Stravinsky wrote the ballet Petrushka at the suggestion of his friend Sergei Diaghilev, who included Alexander Benois in the work on the libretto. The ballet premiered in June 1911 on the stage of the Chatelet Theater in Paris in the program of the famous Russian seasons.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+dream<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/7.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

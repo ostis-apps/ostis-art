@@ -1,0 +1,19 @@
+concept_counrty_of_birth => nrel_main_idtf:
+     [страна рождения](* <-lang_ru;; *);
+     [counrty of birth](* <-lang_en;; *);;
+
+concept_counrty_of_birth <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: страна рождения] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: counrty of birth] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Под "страной рождения" понимается страна, в которой был рожден человек.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[The words "country of birth" means the country, in which a person was born.](*<- lang_en;;*);;
+			*);;
+          *);;

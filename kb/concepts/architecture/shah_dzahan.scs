@@ -1,0 +1,36 @@
+shah_dzahan 
+<-sc_node_not_relation;
+<-concept_architect;;
+shah_dzahan=> nrel_main_idtf:
+     [Шах-Джахан](* <-lang_ru;; *);
+     [Shah Jahan](* <-lang_en;; *);;
+shah_dzahan <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Шах-Джахан] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Shah Jahan] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Шах-Джахан - монгольский государственный деятель, правитель Монгольской империи. В его правление были построены величественные сооружения: Тадж-Махал, мавзолей себе и своей жене Мумтаз-Махал (в Агре), "Красный форт", "Соборная мечеть" (в Дели) и прочие, принадлежащие к лучшим памятникам монгольской архитектуры.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Shah Jahan - mongolian statesman, ruler of the Mongolian empire. In his reign, magnificent buildings were built: the Taj Mahal, the mausoleum of himself and his wife Mumtaz Mahal (in Agra), the Red Fort, the Cathedral Mosque (in Delhi) and others belonging to the best monuments of Mongolian architecture.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+shah_dzahan <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Шах-Джахан)](*<-lang_ru;;*);
+		[Pic. (Shah Jahan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://shat_jahan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 15011592;
+=> nrel_to_die: 22011666;
+=> nrel_nationality: monhol;;

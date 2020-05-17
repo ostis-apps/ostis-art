@@ -1,0 +1,30 @@
+cop=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Коппелия](* <-lang_ru;; *);//ну тут понятно
+    [Coppelia](* <-lang_en;; *);;
+
+cop<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Балет «Коппелия» был написан французским композитором Лео Делибом, а хореографию под него поставил Артур Сен-Леон. «Коппелия» - это беззаботная история, изображающая конфликт человека между идеализмом и реализмом, искусством и жизнью, с яркой музыкой и оживленными танцами. Его мировая премьера в Парижской опере была крайне успешной в 1871 году, и балет остается успешным и сегодня, находясь в репертуаре многих театров.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The ballet “Coppelia” was written by the French composer Leo Delibes, and the choreography was staged by Arthur Saint-Leon. Coppelia is a carefree story depicting a person’s conflict between idealism and realism, art and life, with vibrant music and lively dances. His world premiere at the Paris Opera was extremely successful in 1871, and the ballet remains successful today, being in the repertoire of many theaters.
+		](*<- lang_en;;*);;
+	*);;
+		*);;
+
+
+cop<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

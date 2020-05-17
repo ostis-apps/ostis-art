@@ -1,0 +1,54 @@
+manon
+<-sc_node_not_relation;
+<-concept_ballet ;;
+manon => nrel_main_idtf:
+     [Манон Леско](* <-lang_ru;; *);
+     [Manon Lesko](* <-lang_en;; *);;
+
+manon <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[трагическая история любви юной красавицы Манон Леско и настоящего романтика кавалера де Грие ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[the tragic love story of the young beauty Manon Lescaut and the real romantic of the cavalier de Grieux.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+manon <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [А так же] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [And] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Манон Леско» станет прекрасным подарком для настоящих ценителей классики.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[
+"Manon Lesko" will be a wonderful gift for true connoisseurs of classics.
+ ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+manon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Манон Леско)](*<-lang_ru;;*);
+		[Pic. (Manon Lesko)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://4.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_postanovshchik: fry;vereshchagin;shapiro;;

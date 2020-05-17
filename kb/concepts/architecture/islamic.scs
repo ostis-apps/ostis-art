@@ -1,0 +1,36 @@
+islamic
+<-sc_node_not_relation;
+<-concept_style;;
+islamic => nrel_main_idtf:
+     [Исламская архитектура](* <-lang_ru;; *);
+     [Islamic architecture](* <-lang_en;; *);;
+
+islamic 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Исламская архитектура] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Islamic architecture] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[К исламской архитектуре также можно отнести архитектурные стили, популярные как в раннеисламскую, так и относящиеся к современной эпохе в мусульманских и в других странах под влиянием ислама. Архитектурный стиль появился на Ближнем Востоке в VII веке и развился в период Средневековья в Северной Африке, Испании, Малой Азии, Индии и Иране, Средней Азии, и Кавказе. Позже исламская архитектура попала также в Юго-Восточную Азию. В современное время мечети в соответствии с исламской архитектурой строятся во всех местах проживания мусульман по всему миру.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Islamic architecture can also refer to architectural styles popular both in the early Islamic and related to the modern era in Muslim and other countries influenced by Islam. The architectural style appeared in the middle East in the VII century and developed during the middle Ages in North Africa, Spain, Asia Minor, India and Iran, Central Asia, and the Caucasus. Later, Islamic architecture also came to Southeast Asia. In modern times, mosques in accordance with Islamic architecture are built in all places of residence of Muslims around the world.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+islamic 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Исламская архитектура)](*<-lang_ru;;*);
+		[Pic. (Islamic architecture)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://islamic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,33 @@
+win=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Зимняя сказка](* <-lang_ru;; *);//ну тут понятно
+    [Winter fairy tale
+
+](* <-lang_en;; *);;
+
+win <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Зимняя сказка - поздняя пьеса Уильяма Шекспира и не самая популярная в творчестве британского драматурга. На музыкальную сцену эта трагикомедия впервые попала в 1908 году: оперный спектакль создал Карой Гольдмарк. В 1920 году свою оперу создал Курт Аттебер и только в 2014 британский композитор Джоби Тэлбот создал музыку для балетного спектакля, который поставил Кристофер Уилдон - один из наиболее востребованных балетмейстеров на современной сцене.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Winter's Tale is a late play by William Shakespeare and not the most popular in the work of the British playwright. This tragicomedy first came to the music scene in 1908: the opera performance was created by Karoy Goldmark. In 1920, Kurt Atteber created his opera and only in 2014 did the British composer Joby Talbot create music for the ballet performance, which was staged by Christopher Wildon, one of the most sought-after choreographers on the modern stage.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+win<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/9.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,31 @@
+
+concept_reverse_persp => nrel_idtf: [reverse persp](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Обратная перспектива)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Обратная перспектива - вид перспективы, когда предметы представляются увеличивающимися по мере удаления от зрителя. ](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_reverse_persp;;
+<= nrel_using_constants :...
+(*
+-> concept_Ph.D; concept_watcher;;
+*);;
+*);;
+
+ concept_reverse_persp -> rrel_example: [При изображении в обратной перспективе предметы расширяются при их удалении от глаз.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Обратная перспектива, прямая перспектива)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Обратная перспектива математически равноценна прямой перспективе.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_reverse_persp; concept_straight_persp;;
+*);; 
+
+concept_perspective => nrel_subdividing: concept_reverse_persp;;
+

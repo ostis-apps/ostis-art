@@ -1,0 +1,37 @@
+neo_renaissance
+<-sc_node_not_relation;
+<-concept_style;;
+neo_renaissance => nrel_main_idtf:
+     [Неоренессанс](* <-lang_ru;; *);
+     [Neo-Renaissance](* <-lang_en;; *);;
+
+neo_renaissance 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Неоренессанс] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Neo-Renaissance] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Неоренессанс – это наиболее распространённая форма историзма XIX века, воспроизводившая формы архитектуры времен Возрождения. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Neo-Renaissance is the most common form of historicism of the XIX century, reproducing the forms of architecture of the Renaissance.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+neo_renaissance 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Неоренессанс)](*<-lang_ru;;*);
+		[Pic. (Neo-Renaissance)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://neorenaissance.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

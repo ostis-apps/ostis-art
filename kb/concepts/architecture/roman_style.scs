@@ -1,0 +1,37 @@
+roman_style
+<-sc_node_not_relation;
+<-concept_style;;
+roman_style => nrel_main_idtf:
+     [Древнеримский стиль](* <-lang_ru;; *);
+     [Roman style](* <-lang_en;; *);;
+
+roman_style 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Древнеримский стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Roman style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектура Древнего Рима, как самобытный вид искусства, была сформирована в период IV—I вв. до н. э. Многие черты греческой архитектуры легли в основу римского искусства.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The architecture of Ancient Rome, as an original art form, was formed during the IV-I centuries BC. Many features of Greek architecture formed the basis of Roman art.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+roman_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Древнеримский стиль)](*<-lang_ru;;*);
+		[Pic. (Roman style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://roman_style.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

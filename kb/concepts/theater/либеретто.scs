@@ -1,0 +1,16 @@
+liberetto=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Либретто](* <-lang_ru;; *);//ну тут понятно
+    [Libretto](* <-lang_en;; *);;
+liberetto <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Либретто (из итал. libretto «книжечка», уменьш. от libro «книга») — литературная основа большого вокального (и не только) сочинения, светского или духовного характера, например, оперы, балета, оперетты, оратории, кантаты, мюзикла; краткое содержание сюжета спектакля.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Libretto (from Italian. Libretto “little book”, reduced from libro “book”) is the literary basis of a large vocal (and not only) composition, of a secular or spiritual character, for example, opera, ballet, operetta, oratorio, cantata, musical; summary of the plot of the play.](*<- lang_en;;*);;
+			*);;
+		*);;
+

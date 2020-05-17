@@ -1,0 +1,71 @@
+sculpture_prophet
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[изваяние Иоанна Пророка]
+	(* <- lang_ru;;	*);
+	[statue of John the Prophet]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Donatello;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (изваяние Иоанна Пророка)](*<-lang_ru;;*);
+		[Description (statue of John the Prophet)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_round_sculpture
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/prophet_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/prophet_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_14_10_1411
+            (*
+                => nrel_main_idtf:
+                    [1410-1411 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Florencia;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (изваяние Иоанна Пророка)](*<-lang_ru;;*);
+		[Pic. (statue of John the Prophet)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/prophet.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

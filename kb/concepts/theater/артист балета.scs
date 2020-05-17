@@ -1,0 +1,16 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+ballet_dancer => nrel_main_idtf: //это типа основной идентификатор
+	[артист балета](* <-lang_ru;; *);//ну тут понятно
+    [ ballet dancer](* <-lang_en;; *);;
+ballet_dancer<- rrel_key_sc_element: 
+		... 
+		(*
+		<- explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Артист  балета — танцовщик, владеющий техникой классического танца и работающий в балетном театре.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Ballet dancer - dancer, who owns the technique of classical dance and works in the ballet theater.](*<- lang_en;;*);;
+			*);;
+		*);;

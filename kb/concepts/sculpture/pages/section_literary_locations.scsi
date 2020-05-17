@@ -1,0 +1,841 @@
+literary_location 
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[литературная локация] 
+			(* <-lang_ru;; *);
+	=> nrel_idtf:
+		[литературное место действий] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(литературная локация)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/literary_location.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> plase;;
+				*);;
+		*);;
+
+planet_Earth 
+	<- literary_location;
+	=> nrel_main_idtf: 
+		[Земля] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Земля)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/planet_Earth.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet;;
+				*);;
+		*);;
+
+continent_Europe
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Европа] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Европа)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_Europe.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+continent_Asia
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Азия] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Азия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_Asia.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+continent_Africa
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Африка] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Африка)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_Africa.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+continent_North_America
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Северная Америка] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Северная Америка)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_North_America.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+continent_South_America
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Южная Америка] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Южная Америка)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_South_America.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+continent_Antarctica
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Антарктида] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Антарктида)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/continent_Antarctica.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+country_Italy
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Италия] 
+			(* <-lang_ru;; *);
+		
+	
+
+
+
+
+
+
+Moscow
+	<- literary_location;
+	<-continent_Europe;
+	<- country_Russia;
+	=> nrel_main_idtf: 
+		[Москва] 
+			(* <-lang_ru;; *);
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			=> nrel_main_idtf: [Поясн.(Москва)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/Moscow.html" (* <-lang_ru;; *);;
+				*);;
+		<= nrel_using_constants:
+				...
+				(*
+					-> country_Russia;
+						rrel_capital;;
+				*);;
+		*);;
+
+
+
+
+St._Petersburg
+	<- literary_location;
+	<- continent_Europe;
+	<- country_Russia;
+	=> nrel_main_idtf: 
+		[Санкт-Петербург] 
+			(* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Ленинград] 
+			(* <-lang_ru;; *);
+	=> nrel_idtf:
+		[Петроград] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Санкт-Петербург)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/St._Petersburg.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country_Russia;
+						city ;;
+				*);;
+		*);;
+
+
+
+country_Great_Britain
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Великобритания] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Великобритания)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Great_Britain.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;
+							country_England;
+								country_Scotland;
+									country_Wales;
+										country_Ireland;;
+				*);;
+		*);;
+
+
+
+London
+	<- literary_locati;
+	<- continent_Europe;
+	<- country_Great_Britain;
+	=> nrel_main_idtf: 
+		[Лондон] 
+			(* <-lang_ru;; *);
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			=> nrel_main_idtf: [Поясн.(Лондон)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/London.html" (* <-lang_ru;; *);;
+				*);;
+		<= nrel_using_constants:
+				...
+				(*
+					-> country_Great_Britain;
+						rrel_capital;;
+				*);;
+		*);;
+
+
+
+country_USA
+	<- literary_location;
+	<- cotinent_North_America;
+	=> nrel_main_idtf: 
+		[США] 
+			(* <-lang_ru;; *);
+	=> nrel_idtf: 
+		[Соединенный Штаты Америки] 
+			(* <-lang_ru;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(США)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_USA.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_North_America;;
+				*);;
+		*);;
+
+
+
+New_York
+	<- literary_locati;
+	<-continent_North_America;
+	<- country_USA;
+	=> nrel_main_idtf: 
+		[Нью-Йорк] 
+			(* <-lang_ru;; *);
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			=> nrel_main_idtf: [Поясн.(Нью-Йорк)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/New_York.html" (* <-lang_ru;; *);;
+				*);;
+		<= nrel_using_constants:
+				...
+				(*
+					-> country_USA;
+						rrel_capital;;
+				*);;
+		*);;
+
+
+
+
+Los_Angeles
+	<- literary_location;
+	<- continent_North_America;
+	<- country_USA;
+	=> nrel_main_idtf: 
+		[Лос-Анджелес] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Лос-Анджелес)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/Los_Angeles.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> city;
+						country_USA;;
+				*);;
+		*);;
+
+
+
+country_Canada
+	<- literary_location;
+	<- continent_North_America;
+	=> nrel_main_idtf: 
+		[Канада] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Канада)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Canada.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						country_USA;;
+				*);;
+		*);;
+
+
+
+Ottawa
+	<- literary_locati;
+	<- continent_North_America;
+	<- country_Canada;
+	=> nrel_main_idtf: 
+		[Оттава] 
+			(* <-lang_ru;; *);
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			=> nrel_main_idtf: [Поясн.(Оттава)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/Ottawa.html" (* <-lang_ru;; *);;
+				*);;
+		<= nrel_using_constants:
+				...
+				(*
+					-> country_Canada;
+						rrel_capital;;
+				*);;
+		*);;
+
+
+
+
+Toronto
+	<- literary_location;
+	<- country_Canada;
+	=> nrel_main_idtf: 
+		[Торонто] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Торонто)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/Toronto.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> city;
+						country_Canada;;
+				*);;
+		*);;
+
+
+
+country_Germany
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Германия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Германия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Germany.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_Brazil
+	<- literary_location;
+	<- continent_South_America;
+	=> nrel_main_idtf: 
+		[Бразилия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Бразилия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Brazil.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_South_America;;
+				*);;
+		*);;
+country_Ireland
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Ирландия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Ирландия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Ireland.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_France
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Франция] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Франция)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_France.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_South_Africa
+	<- literary_location;
+	<- continent_Africa;
+	=> nrel_main_idtf: 
+		[ЮАР] 
+			(* <-lang_ru;; *);
+	=> nrel_idtf: 
+		[Южно-Африканская Республика] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(ЮАР)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_South_Africa.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Africa;;
+				*);;
+		*);;
+country_Columbia
+	<- literary_location;
+	<- continent_South_America;
+	=> nrel_main_idtf: 
+		[Колумбия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Колумбия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Columbia.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_South_America;;
+				*);;
+		*);;
+country_Mexico
+	<- literary_location;
+	<- continent_North_America;
+	=> nrel_main_idtf: 
+		[Мексика] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Мексика)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Mexico.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_North_America;
+							country_USA;;
+				*);;
+		*);;
+country_Austria_Hungary
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Австро-Венгрия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Австро-Венгрия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Austria_Hngary.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_Greece
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Греция] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Греция)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Greece.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_Ukraine
+	<- literary_location;
+	<- continent_Europe;
+	=> nrel_main_idtf: 
+		[Украина] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Украина)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Ukraine.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						continent_Europe;;
+				*);;
+		*);;
+country_Japan
+	<- literary_location;
+	<- continent_Asia;
+	=> nrel_main_idtf: 
+		[Япония] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Япония)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Japan.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;;
+				*);;
+		*);;
+
+country_England
+	<- literary_location;
+	<- continent_Europe;
+	<- country_Great_Britainl;
+	=> nrel_main_idtf: 
+		[Англия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Англия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_England.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						country_Great_Britain;;
+				*);;
+		*);;
+
+country_Scotland
+	<- literary_location;
+	<- continent_Europe;
+	<- country_Great_Britainl;
+	=> nrel_main_idtf: 
+		[Шотландия] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Шотландия)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Scotland.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						country_Great_Britain;;
+				*);;
+		*);;
+country_Wales
+	<- literary_location;
+	<- continent_Europe;
+	<- country_Great_Britainl;
+	=> nrel_main_idtf: 
+		[Уэльс] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Пояс.(Уэльс)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: "file://content/content_htmls/country_Wales.html" (* <-lang_ru;; *);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> country;
+						country_Great_Britain;;
+				*);;
+		*);;
+

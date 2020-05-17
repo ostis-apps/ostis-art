@@ -1,0 +1,28 @@
+
+buffonade => nrel_main_idtf: //это типа основной идентификатор
+	[буффонада](* <-lang_ru;; *);//ну тут понятно
+    [buffonade](* <-lang_en;; *);;
+buffonade<- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Буффонада (от итал. buffonata — шутовство, паясничанье), или слэпстик ( от англ. slapstick - хлопок, пощёчина) — утрированно-комическая манера актёрской игры. Основана на резком преувеличении (гротеск), окарикатуривании действий, явлений, черт характера персонажа, благодаря чему создаётся сатирический эффект. Термин имеет также значение «комическое представление, сценка, построенная на приёмах народного, площадного театра». ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[
+Buffonade (from Italian. Buffonata - joking, clowning), or slapstik (from the English. Slapstick - cotton, slap) - an exaggeratedly comic manner of acting. Based on a sharp exaggeration (grotesque), caricaturing of actions, phenomena, character traits of the character, thereby creating a satirical effect. The term also has the meaning “comic performance, scene, built on the receptions of the national, areal theater”. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+buffonade <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Традиции буффонады восходят к представлениям древнегреческих мимов и древнеримских ателлан, развиты в выступлениях средневековых бродячих артистов (в России — скоморохов и шутов), в спектаклях бродячих трупп итальянской комедии дель арте, арлекинадах, фарсах, представлениях европейских ярмарочных театров и балаганов XVIII—XIX вв. ](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[Traditions buffoonery back to the ideas of ancient Greek mime and Roman atellan farce, developed in the speeches of the medieval troubadours (in Russia - buffoons and jesters), in the performances of wandering troupes of the Italian commedia dell'arte, Arlequin, farces, presented by the European fair shows and booths XVIII-XIX centuries.](*<- lang_en;;*);;
+*);;
+	*);;

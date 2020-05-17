@@ -1,0 +1,71 @@
+middle_ages //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+<-sc_node_not_relation;
+<-european_theater;; //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+middle_ages => nrel_main_idtf: //это типа основной идентификатор
+	[средневековье](* <-lang_ru;; *);//ну тут понятно
+    [middle_ages](* <-lang_en;; *);;
+middle_ages<- rrel_key_sc_element: 
+		... 
+(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example:
+			[После падения Римской империи античный театр был забыт: ранние идеологи христианства осуждали лицедейство, и не только актёры, музыканты и «плясуны», но и все «одержимые страстью к театру» исключались из христианских общин. Средневековый театр фактически рождался заново, из народных обрядов и религиозных праздников — инсценировок церковных служб.](* <- lang_ru;; 	*);;
+    -> rrel_example:              [
+After the fall of the Roman Empire, the ancient theater was forgotten: the early ideologues of Christianity condemned mummery, and not only actors, musicians and “dancers”, but all those “possessed by passion for the theater” were excluded from Christian communities. The medieval theater was actually born anew, from folk rituals and religious holidays - performances of church services.](* <- lang_en;; 	*);;
+		*);;
+	*);;
+middle_ages<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...
+(*
+		-> rrel_example:
+			[К языческим крестьянским праздникам и связанным с ними традиционным играм восходит искусство средневековых гистрионов. К искусству гистрионов восходит фарс, ставший неизменной составной частью городских мистериальных представлений](* <- lang_ru;; 	*);;
+         -> rrel_example:         [The art of medieval histrions — vagrant actors, who could be dancers, singers, storytellers, animal trainers, gymnasts and magicians, play a variety of instruments, goes back to pagan peasant holidays and traditional games associated with them. A farce goes back to the art of the histrions, which has become an integral part of the urban mystery ideas.](* <- lang_en;; 	*);;
+	->gistrion;;
+	*);;
+	*);;
+	middle_ages<- rrel_key_sc_element: ...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...
+(*
+		-> rrel_example:
+			[В противовес языческим, христианская церковь вырабатывала собственные обряды, которые придавали её учению действенную иллюстративность. Уже в IX веке в Западной Европе в день Рождества священники изображали евангельских пастухов, идущих в Назарет, происходил краткий диалог между ними и священником, служившим литургию, — диалогизация службы в своём развитии открывала возможности для драматического действия. В XI веке на Пасху и в Рождество уже разыгрывались настоящие представления](* <- lang_ru;; 	*);;
+          -> rrel_example:        [In contrast to the pagan, the Christian church developed its own rituals, which gave her teaching effective illustrative. Already in the 9th century in Western Europe, on Christmas Day, priests portrayed evangelical shepherds going to Nazareth, there was a brief dialogue between them and the priest who served the liturgy - the dialogization of service in its development opened up possibilities for dramatic action. In the XI century, on Easter and Christmas, real performances were already played out.](* <- lang_en;; 	*);;
+		*);;
+	*);;
+middle_ages<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...
+(*
+		-> rrel_example:
+			[Постепенно литургическая драма становилась более действенной, более содержательной, наполнялась психологическими переживаниями; тенденция к реалистической трактовке евангельских сюжетов и образов, отразившаяся и в оформлении представлений, и в бутафории, противоречила целям церковной службы, и в 1210 году литургическая драма была изгнана из церкви, — в дальнейшем представления давались на паперти, что позволило участвовать в них не только клирикам, но и горожанам](* <- lang_ru;; 	*);;
+          -> rrel_example:        [Gradually the liturgical drama became more effective, more substantial, filled with psychological experiences; the tendency towards a realistic interpretation of gospel subjects and images, reflected both in the presentation of ideas and in props, contradicted the goals of the church service, and in 1210 the liturgical drama was expelled from the church — later on they were presented on the porch, which allowed not only clerics, but also citizens](* <- lang_en;; 	*);;
+		*);;
+	*);;
+middle_ages<- rrel_key_sc_element: ...
+
+(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...	(*
+		-> rrel_example:
+			[Во второй половине XIII века получили широкое распространение представления, посвящённые житиям святых — миракли, которые от собственно евангельских сюжетов отличались и более «бытовым» оформлением. В это же время появились и светские пьесы, в большей степени, чем миракли, связанные с народными фольклорными представлениями, — известны, в частности, «Игра о беседке» и «Игра о Робене и Марион» Адама де ла Аля.](* <- lang_ru;; 	*);;
+            -> rrel_example:      [In the second half of the 13th century, the representations dedicated to the lives of saints, the miracles, which differed from the actual Gospel scenes in a more “everyday” design, were widely spread. At the same time, secular plays appeared, more so than the miracles associated with folklore performances — known in particular, The Game of the Arbor and The Game of Robin and Marion, by Adam de la Alya.](* <- lang_en;; 	*);;
+		*);;
+	*);;
+middle_ages<- rrel_key_sc_element: ...
+
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example:
+			[Одновременно в городах, независимо от церкви, зарождался жанр мистерий — массового, площадного, самодеятельного искусства. Мистерии были частью городских торжеств, которые устраивались в ярмарочные дни, абстрактные церковные сюжеты обретали в них национальный колорит](* <- lang_ru;; 	*);;
+           -> rrel_example:       [At the same time, in the cities, regardless of the church, the genre of mysteries was born - a massive, common, amateur art. Mysteries were part of the city celebrations that were held on fair days, abstract church subjects acquired national character in them.](* <- lang_en;; 	*);;
+		*);;
+	*);;
