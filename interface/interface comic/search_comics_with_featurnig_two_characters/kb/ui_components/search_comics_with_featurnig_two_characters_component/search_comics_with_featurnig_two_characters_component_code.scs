@@ -1,0 +1,27 @@
+format_search_comics_with_featurnig_two_characters_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат comics search (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format comics search (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+search_comics_with_featurnig_two_characters_code <- ui_external_languages;
+=> nrel_main_idtf: 
+	[Поиск комиксов с участием двух персонажей]
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[Find comics with featuring two characters] 
+	(* 
+	<- lang_en;;
+	*);;
