@@ -1,0 +1,18 @@
+sc_node_not_relation->ballada;;
+
+ballada<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(баллада)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Средневековая поэтическая и текстомузыкальная форма.](*<- lang_ru;; *);;
+		-> rrel_example:
+			[Лирический жанр англо-шотландской народной поэзии XIV—XVI вв.](*<- lang_ru;; *);;
+		-> rrel_example:
+			[Поэтический и музыкальный жанр в XVIII и XIX вв., популярный у романтиков и их позднейших эпигонов.](*<- lang_ru;; *);;
+		*);;
+	*);;

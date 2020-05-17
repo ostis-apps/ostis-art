@@ -1,0 +1,17 @@
+sc_node_not_relation ->musical_instrument ;;
+
+musical_instrument=> nrel_main_idtf:
+[musical instrument](*<- lang_en;; *);;
+
+musical_instrument<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(музыкальный инструмент)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[предметы, с помощью которых извлекаются различные музыкальные, а также немузыкальные неорганизованные звуки для исполнения музыкального произведения. ](*<- lang_ru;; *);;
+		*);;
+	*);;

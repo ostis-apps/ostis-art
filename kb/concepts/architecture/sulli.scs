@@ -1,0 +1,36 @@
+sulli 
+<-sc_node_not_relation;
+<-concept_architect;;
+sulli=> nrel_main_idtf:
+     [Мори́с де Сюлли́](* <-lang_ru;; *);
+     [Maurice de Sully](* <-lang_en;; *);;
+sulli <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Мори́с де Сюлли́] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Maurice de Sully] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мори́с де Сюлли -  епископ Парижа с 1160 года, инициатор строительства Собора Парижской Богоматери. Во время своего епископства Морис де Сюлли вёл в Париже широкую строительную деятельность. По предложению нового епископа и при поддержке короля в столице Франции в 1163 году началось строительство величественного храма — Собора Парижской Богоматери.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Maurice de Sully - bishop of Paris from 1160 to 1196. During his bishopric, Morice de Sully conducted extensive construction activities in Paris. At the suggestion of the new bishop and with the support of the king in the capital of France in 1163, construction began on a magnificent temple - the Cathedral of Notre Dame.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+sulli  <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мори́с де Сюлли)](*<-lang_ru;;*);
+		[Pic. (Maurice de Sully)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://sulli.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: twelth_centure;
+=> nrel_to_die: 11091196;
+=> nrel_nationality: france;;

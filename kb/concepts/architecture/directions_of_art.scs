@@ -1,0 +1,68 @@
+ceramics  => nrel_main_idtf:
+     [керамика](* <-lang_ru;; *);
+     [ceramics](* <-lang_en;; *);;
+
+drawing  => nrel_main_idtf:
+     [графика](* <-lang_ru;; *);
+     [drawing](* <-lang_en;; *);;
+
+painting  => nrel_main_idtf:
+     [живопись](* <-lang_ru;; *);
+     [painting](* <-lang_en;; *);;
+
+sculpture  => nrel_main_idtf:
+     [скульптура](* <-lang_ru;; *);
+     [sculpture](* <-lang_en;; *);;
+
+printmaking  => nrel_main_idtf:
+     [декоративно-прикладное искусство](* <-lang_ru;; *);
+     [printmaking](* <-lang_en;; *);;
+
+dance  => nrel_main_idtf:
+     [танцы](* <-lang_ru;; *);
+     [dance](* <-lang_en;; *);;
+
+music  => nrel_main_idtf:
+     [музыка](* <-lang_ru;; *);
+     [music](* <-lang_en;; *);;
+
+opera  => nrel_main_idtf:
+     [опера](* <-lang_ru;; *);
+     [opera](* <-lang_en;; *);;
+
+drama  => nrel_main_idtf:
+     [драма](* <-lang_ru;; *);
+     [drama](* <-lang_en;; *);;
+
+oratory  => nrel_main_idtf:
+     [ораторскоеое искусство](* <-lang_ru;; *);
+     [oratory](* <-lang_en;; *);;
+
+circus_arts  => nrel_main_idtf:
+     [цирк](* <-lang_ru;; *);
+     [circus arts](* <-lang_en;; *);;
+
+literature  => nrel_main_idtf:
+     [литература](* <-lang_ru;; *);
+     [literature](* <-lang_en;; *);;
+
+architecture  => nrel_main_idtf:
+     [архитектура](* <-lang_ru;; *);
+     [architecture](* <-lang_en;; *);;
+
+architecture <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: архитектура] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: architecture] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектура в переводе с латинского обозначает искусство создавать простые и самые необычные проекты домов и прочих зданий, а затем строить по ним различные сооружения.](*<- lang_ru;;*);;
+			-> rrel_example: 
+				[The word "architecture" in translation from Latin means the art of creating simple and most unusual designs of houses and other buildings, and then build on them various buildings ](*<- lang_en;;*);;
+			*);;
+          *);;
+

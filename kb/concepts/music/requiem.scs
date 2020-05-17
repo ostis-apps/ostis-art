@@ -1,0 +1,17 @@
+sc_node_not_relation ->requiem;;
+
+requiem=> nrel_main_idtf:
+[requiem](*<- lang_en;; *);;
+
+requiem<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(ре́квием)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[заупокойная месса (лат. Missa pro defunctis) в католической церкви латинского обряда.](*<- lang_ru;; *);;
+		*);;
+	*);;

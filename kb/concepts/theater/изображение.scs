@@ -1,0 +1,38 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+image => nrel_main_idtf: //это типа основной идентификатор
+	[изображение](* <-lang_ru;; *);//ну тут понятно
+    [image](* <-lang_en;; *);;
+image <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: изображение] (* <- lang_ru;; *);; //тут тоже ясно
+		=> nrel_main_idtf: [Definition:image] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Изображение-одна из разновидностей информационной модели, в которой используется картинный  способ представления информации .](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Image- is one of the varieties of the information model, which uses the picture method of presenting information.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (*//список используемых констант
+                -> a_picture;;
+            *);;
+		*);;
+
+image <- rrel_key_sc_element:...
+		(*
+        <- explanation;;
+        -> rrel_key_sc_element: a_picture;; // используемые константы в утверждениях
+		=> nrel_main_idtf: 
+            [Утв.(картина)] (* <- lang_ru;; *);
+            [Expl.(a picture)] (* <- lang_en;; *);;//тут ясно
+		<= nrel_sc_text_translation: ...
+			(*
+			    -> rrel_example: 
+			    	[Изображение как произведение живописи является картиной.](*<- lang_ru;;*); //и тут тоже
+			    	[An image as a work of art is a painting.](*<- lang_en;;*);;
+			*);;
+               *);;

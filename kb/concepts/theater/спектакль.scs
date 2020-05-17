@@ -1,0 +1,32 @@
+spectacle=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[спектакль](* <-lang_ru;; *);//ну тут понятно
+    [ spectacle](* <-lang_en;; *);;
+spectacle <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Спектакль — театральное зрелище, представление, произведение театрального, сценического искусства. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The performance is a theatrical spectacle, a performance, a work of theatrical, scenic art.](*<- lang_en;;*);;
+		->liberetto;;
+	*);;
+		*);;
+spectacle <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Спектакли](* <-lang_ru;; *);//ну тут понятно
+    [Spectacles](* <-lang_en;; *);;
+->master_and_margarita;scarlet_flower;tenor;;
+*);;
+
+
+
+
+
+
+
+

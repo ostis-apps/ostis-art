@@ -1,0 +1,67 @@
+sculpture_amur_i_psiheya
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Амур и Психея]
+	(* <- lang_ru;;	*);
+	[Cupid and Psyche]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_statue;
+    => nrel_author:
+        concept_author_Kanova;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Амур и Психея)](*<-lang_ru;;*);
+		[Description (David's Statue)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/amur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/amur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_08_09_1787
+            (*
+                => nrel_main_idtf:
+                    [8 сентября 1787 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_France;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Амур и Психея)](*<-lang_ru;;*);
+		[Pic. (David's Statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+

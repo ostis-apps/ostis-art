@@ -1,0 +1,37 @@
+eiffel 
+<-sc_node_not_relation;
+<-concept_architect;;
+eiffel=> nrel_main_idtf:
+     [Алекса́ндр Гюста́в Эйфе́ль](* <-lang_ru;; *);
+     [Gustave Eiffel](* <-lang_en;; *);; 
+eiffel <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Алекса́ндр Гюста́в Эйфе́ль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Gustave Eiffel] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Гюста́в Эйфе́ль - гениальный инженер-строитель, специалист по проектированию металлических конструкций. Гюстав Эйфель стал всемирно известным, благодаря своему творению — башне в Париже, которая сегодня считается выдающимся техническим сооружением 19 века и символом французской столицы. ](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Gustave Eiffel - a brilliant civil engineer, a specialist in the design of metal structures. Gustave Eiffel became world-famous person for his creation, the tower in Paris, which today is considered to be an outstanding technical structure of the 19th century and a symbol of the French capital. That tower is called Eifel Tower after its engineer.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+eiffel <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алекса́ндр Гюста́в Эйфе́ль)](*<-lang_ru;;*);
+		[Pic. (Gustave Eiffel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://eiffel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 15121832;
+=> nrel_to_die: 28121923;
+=> nrel_nationality: france;;
+

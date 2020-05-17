@@ -1,0 +1,24 @@
+pizano
+<-sc_node_not_relation;
+<-concept_architect;;
+pizano => nrel_main_idtf:
+     [Бонанно Пизано](* <-lang_ru;; *);
+     [Bonanno Pisano](* <-lang_en;; *);;
+pizano <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Бонанно Пизано] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Bonanno Pisano] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Бонанно Пизано - итальянский скульптор, создатель Пизанской башни. Однако, считается, что Джорджио Вазари ошибочно приписал ему реализацию Пизанской башни.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Bonanno Pisano - italian sculptor, creator of the Tower of Pisa. However, it is believed that Giorgio Vasari wrongly attributed to him the realization of the Tower of Pisa.](*<- lang_en;;*);;
+			*);;
+          *);
+=> nrel_to_born: 1200;
+=> nrel_to_die: 1265;
+=> nrel_nationality: italiano;;

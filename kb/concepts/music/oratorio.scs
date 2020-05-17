@@ -1,0 +1,17 @@
+sc_node_not_relation ->oratorio;;
+
+oratorio => nrel_main_idtf:
+[oratorio](*<- lang_en;; *);;
+
+oratorio <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(oрато́рия)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[крупное музыкальное произведение для хора, солистов и оркестра.](*<- lang_ru;; *);;
+		*);;
+	*);;

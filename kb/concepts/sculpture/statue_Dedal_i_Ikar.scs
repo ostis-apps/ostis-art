@@ -1,0 +1,69 @@
+sculpture_dedal_i_ikar
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дедал и Икар]
+	(* <- lang_ru;;	*);
+	[Daedalus and Icarus]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_statue;
+    => nrel_author:
+        concept_author_Kanova;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дедал и Икар)](*<-lang_ru;;*);
+		[Description (David's Statue)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/dii_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/dii_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_17_77_1779
+            (*
+                => nrel_main_idtf:
+                    [1777 - 1779 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дедал и Икар)](*<-lang_ru;;*);
+		[Pic. (David's Statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/dii.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+

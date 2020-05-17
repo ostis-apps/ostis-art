@@ -1,0 +1,68 @@
+concept_author_Jambolonya
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джамболонья]
+	(* <- lang_ru;;	*);
+	[Giovanni da Bologna]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джамболонья)](*<-lang_ru;;*);
+		[Description (Giovanni da Bologna)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/jambo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/jambo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_02_09_1529
+            (*
+                => nrel_main_idtf:
+                    [1529 год]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_France;
+
+    => nrel_date_of_death:
+        date_13_08_1608
+            (*
+                => nrel_main_idtf:
+                    [13 августа 1608]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джамболонья)](*<-lang_ru;;*);
+		[Pic. (Giovanni da Bologna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/jambo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+

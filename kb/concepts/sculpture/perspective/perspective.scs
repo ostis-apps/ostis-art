@@ -1,0 +1,30 @@
+
+concept_perspective => nrel_idtf: [perspective](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Перспектива)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [ Перспектива - изобразительное искажение пропорций и формы реальных тел при их визуальном восприятии.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_perspective;;
+<= nrel_using_constants :...
+(*
+-> concept_proportions; concept_form;;
+*);;
+*);;
+
+ concept_perspective -> rrel_example: [Аксонометрия — один из видов перспективы](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Перспектива, барельеф)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Барельеф построен не по перспективе.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_perspective; concept_barelief;;
+*);; 
+
+

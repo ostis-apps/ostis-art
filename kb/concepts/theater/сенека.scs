@@ -1,0 +1,43 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+seneca => nrel_main_idtf: //это типа основной идентификатор
+	[сенека](* <-lang_ru;; *);//ну тут понятно
+    [seneca](* <-lang_en;; *);;
+seneca <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Сенека (4 до н. э., Кордуба — 65, Рим) — римский философ-стоик, поэт и государственный деятель.Воспитатель Нерона и один из крупнейших представителей стоицизма.Сын Луция (Марка) Аннея Сенеки Старшего (выдающегося ритора и историка) и Гельвии. Младший брат Юния Галлиона. Принадлежал к сословию всадников](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Seneca (4 BC, Corduba - 65, Rome) is a Roman Stoic philosopher, poet and statesman.Nero's educator and one of the largest representatives of stoicism.Son of Lucius (Mark) Annei Seneca the Elder (an outstanding orator and historian) and Helvia. The younger brother of Junius Gallion. Belonged to the riders' estate ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+seneca <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Биография:родился в Кордубе (Кордова) в семье римского всадника и ритора Луция Аннея Сенеки Старшего. В раннем возрасте был привезён отцом в Рим. Учился у пифагорейца Сотиона, стоиков Аттала, Секстия Нигера, Папирия Фабиана. Философией увлёкся в юности, хотя из-за влияния отца он чуть не начал государственную карьеру, которая прервалась из-за внезапной болезни. В результате Сенека чуть не покончил с собой, а затем надолго уехал для лечения в Египет, где много лет занимался написанием естественно-научных трактатов.](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[
+Biography: Born in Corduba (Cordoba) in the family of a Roman rider and rhetorician Lucius Annei Seneca the Elder. At an early age, he was brought by his father to Rome. He studied with the Pythagorean Sotion, the Stoics Attalus, Sextius Niger, Papirius Fabian. Philosophy fascinated in his youth, although due to the influence of his father, he almost began a public career, which was interrupted due to a sudden illness. As a result, Seneca almost committed suicide, and then left for a long time for treatment in Egypt, where for many years he was engaged in writing natural science treatises. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+seneca <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Смерть Сенеки:
+Покончил жизнь самоубийством](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[
+Death of seneca:
+Commited suicide](* <- lang_en;; 	*);;
+		*);;
+	*);;
+

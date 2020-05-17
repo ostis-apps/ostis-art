@@ -1,0 +1,37 @@
+expressionism
+<-sc_node_not_relation;
+<-concept_style;;
+expressionism => nrel_main_idtf:
+     [Экспрессионизм](* <-lang_ru;; *);
+     [Expressionism](* <-lang_en;; *);;
+
+expressionism 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Экспрессионизм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Expressionism] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Экспрессионизм — архитектура Первой мировой войны и 1920-х годов в Германии, Нидерландах  и сопредельных странах, для которой свойственно искажение традиционных архитектурных форм с целью достижения максимального эмоционального воздействия на зрителя. Предпочтение нередко отдаётся архитектурным формам, вызывающим в памяти природные ландшафты (горы, скалы, пещеры, сталактиты и т. п.). ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Expressionism-the architecture of the First world war and the 1920s in Germany, the Netherlands and neighboring countries, which is characterized by the distortion of traditional architectural forms in order to achieve maximum emotional impact on the viewer. Preference is often given to architectural forms that evoke natural landscapes (mountains, rocks, caves, stalactites, etc.).](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+expressionism 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Экспрессионизм)](*<-lang_ru;;*);
+		[Pic. (Expressionism)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://expressionism.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

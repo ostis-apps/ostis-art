@@ -1,0 +1,14 @@
+sc_node_not_relation->person_Bach_Johann_Sebastian;;
+
+person_Bach_Johann_Sebastian <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Бах Иоганн Себастьян)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Немецкий композитор, педагог, скрипач, альтист, клавесинист и виртуоз-органист эпохи барокко.](*<- lang_ru;; *);;
+		*);;
+	*);;

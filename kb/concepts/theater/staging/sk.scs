@@ -1,0 +1,33 @@
+sk=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Этюды](* <-lang_ru;; *);//ну тут понятно
+    [
+Sketches
+](* <-lang_en;; *);;
+
+sk <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ На балет Этюды билеты позволят увидеть очень важную постановку в истории европейской сцены. Вообще её автор хотел остаться неизвестным, однако в итоге прославился не только в Дании, где он был художественным руководителем Датского Королевского театра, но и в каждой стране, где серьёзно относятся к балету. Вначале это событие поставили в Мариинском театре в 2003 году и вот премьера в Москве, спустя более полувека после того, как её впервые увидели зрители в Копенгагене. Протяженность постановки составляет сорок пять минут, как урок в школе.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Tickets for the Etude ballet will allow you to see a very important production in the history of the European scene. In general, its author wanted to remain unknown, but in the end he became famous not only in Denmark, where he was the artistic director of the Danish Royal Theater, but also in every country where they take ballet seriously. Initially, this event was staged at the Mariinsky Theater in 2003, and here is the premiere in Moscow, more than half a century after it was first seen by spectators in Copenhagen. The length of the production is forty-five minutes, like a lesson at school.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+sk<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/11.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

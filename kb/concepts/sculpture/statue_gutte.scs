@@ -1,0 +1,71 @@
+sculpture_gutte
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[статуя Гаттамелата]
+	(* <- lang_ru;;	*);
+	[Guttelamata statue]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Donatello;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (статуя Гаттамелата)](*<-lang_ru;;*);
+		[Description (Guttelamata statue)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_round_sculpture
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/gutte_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/gutte_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_14_10_1453
+            (*
+                => nrel_main_idtf:
+                    [14 октября 1453 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Florencia;
+
+    => nrel_material:
+        material_bronze
+            (*
+                => nrel_main_idtf:
+                    [бронза]
+                        (* <- lang_ru;; *);
+ [bronze]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (статуя Гаттамелата)](*<-lang_ru;;*);
+		[Pic. (Guttelamata statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/gutte.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+dithyramb=> nrel_main_idtf: //это типа основной идентификатор
+	[дифирамб](* <-lang_ru;; *);//ну тут понятно
+    [dithyramb](* <-lang_en;; *);;
+dithyramb <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дифирамб  — жанр древнегреческой хоровой лирики, дионисийский гимн; в общелексическом значении — экстатическая песня в возвышенном стиле.  ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Dithyramb - the genre of ancient Greek choral lyricism, the Dionysian hymn; in general terms, an ecstatic song in a sublime style. ](* <- lang_en;; 	*);;
+->dionysus;;
+		*);;
+	*);;
+dithyramb <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Помимо хора в античной реализации дифирамба участвовали профессиональные музыкальные инструменты — кифара и авлос.  ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[In addition to the choir, professional musical instruments, kifara and avlos, participated in the antique realization of the praises. ](* <- lang_en;; 	*);;
+->kifara;avlos;;
+		*);;
+	*);;
+	

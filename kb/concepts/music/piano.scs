@@ -1,0 +1,17 @@
+sc_node_not_relation ->piano ;;
+
+piano=> nrel_main_idtf:
+[piano](*<- lang_en;; *);;
+
+piano<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(пиани́но)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[(итал. pianino, дословно: маленькое фортепиано) — струнно-клавишный музыкальный инструмент с ударным (молоточковым) способом звукоизвлечения, созданный специально для комнатного музицирования в небольших помещениях.  ](*<- lang_ru;; *);;
+		*);;
+	*);;

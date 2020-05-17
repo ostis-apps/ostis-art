@@ -1,0 +1,17 @@
+sc_node_not_relation ->violinist ;;
+
+violinist=> nrel_main_idtf:
+[violinist](*<- lang_en;; *);;
+
+violinist<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(скрипач )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музыкант, специалист по игре на скрипке.](*<- lang_ru;; *);;
+		*);;
+	*);;

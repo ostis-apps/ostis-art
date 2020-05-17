@@ -1,0 +1,109 @@
+giselle=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Жизе́ль](* <-lang_ru;; *);//ну тут понятно
+    [Giselle](* <-lang_en;; *);;
+giselle <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Жизе́ль, или Вили́сы» (фр. Giselle, ou les Wilis) — «фантастический балет» в двух актах композитора Адольфа Адана на либретто Анри де Сен-Жоржа, Теофиля Готье и Жана Коралли по легенде, пересказанной Генрихом Гейне. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Giselle, or the Wilis" (FR. Giselle, ou les Wilis) — "fantastic ballet" in two acts by the composer Adolf Adan on the libretto by Henri de Saint-Georges, Theophile Gautier and Jean Coralli according to legend, retold by Heinrich Heine.](*<- lang_en;;*);;
+	->liberetto;;
+		*);;
+		*);;
+
+
+giselle <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Хореография Жана Коралли с участием Жюля Перро, декорации Пьера Сисери, костюмы Поля Лормье ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Choreography by Jean Coralli, with the participation of Jules Perrot, Pierre Ciceri scenery, costumes, Field Larmie](*<- lang_en;;*);;
+			*);;
+		*);;
+giselle<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Премьера состоялась 28 июня 1841 года в театре Королевской академии музыки, на сцене Опера Ле Пелетье(Париж). ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The premiere took place on 28 June 1841 at the theatre of the Royal Academy of music, at the Opera Le Pelletier(Paris).](*<- lang_en;;*);;
+			*);;
+		*);;
+giselle <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Краткое содержание балета:Действие I
+Деревня в горах, окруженная лесами и виноградниками. Крестьянский дом, в котором живут Берта и её дочь Жизель. Крестьяне направляются на сбор винограда. Девушки приветствуют Жизель, свою подругу, всеобщую любимицу.
+
+Появляется лесничий Ганс. Он клянется разрушить счастье влюбленных: Жизели и юноши, живущего в охотничьем домике. Ганс скрывается; из дома выходит граф Альберт, переодетый в крестьянское платье, и его оруженосец Вильфрид. Альберт пришёл на свидание с Жизель. Вильфрид пытается отговорить его. Но Альберт отстраняет оруженосца, стучится в дверь и прячется. На стук выходит Жизель. Никого не обнаружив, она собирается уйти. Появляется Альберт. Он касается руки Жизели. Постепенно их танец переходит в любовную сцену. Рядом с ними оказывается Ганс. Он заверяет Жизель в своей верности. Альберт прогоняет лесничего.
+
+Из виноградников возвращаются подруги Жизели. Затеваются танцы, и Альберт с удовольствием принимает участие в общем веселье.
+
+Берта выходит из дома и прекращает танцы. Она напоминает дочери, что ей вредно так много танцевать, ведь у неё больное сердце. Все расходятся.
+
+Возвращается Ганс. Уязвленный отказом Жизели, он решает раскрыть тайну соперника, проникает в дом Альберта. Издали доносятся звуки приближающейся охоты, вскоре появляются дамы и кавалеры. Среди них Герцог и его дочь Батильда, невеста Альберта.
+
+Утомлённые охотой, они хотят отдохнуть. Герцог указывает на дом Жизели и просит вызвать хозяйку. Выходит Берта, за ней — Жизель: они предлагают гостям прохладительные напитки. Очарованная обаянием Жизели, Батильда дарит ей ожерелье. Знатные гости уходят в дом, чтобы отдохнуть. В окне появляется Ганс. В его руках графская шпага — неопровержимое доказательство знатного происхождения Альберта.
+
+Праздник урожая. В разгар всеобщего веселья врывается Ганс, он расталкивает Альберта и Жизель и показывает обнаруженную в доме Альберта шпагу. Жизель просит объяснений. Взбешённый Альберт бросается на Ганса. Подоспевший Вильфрид останавливает своего господина. Ганс трубит в рог. Из дома выходит Батильда со своей свитой. Она удивлена, увидев Альберта в крестьянском платье. Альберт целует руку невесте.
+
+Жизель понимает, что клятвы верности и любви — обман. Батильда показывает ей своё обручальное кольцо — она невеста Альберта. Жизель, рыдая, падает на руки матери. Последний раз в помутившемся от потрясения сознании девушки возникают картины недавнего прошлого — клятвы, слова любви, танцы. Жизель умирает.                                                                    Действие II                                                                                                                 Ночью среди могил деревенского кладбища в лунном свете появляются призрачные вилисы — невесты, умершие до свадьбы. «Одетые в подвенечные платья, увенчанные цветами… неодолимо прекрасные пляшут вилисы при свете месяца, пляшут тем страстнее и быстрее, чем больше чувствуют, что данный им для пляски час истекает, и они снова должны сойти в свои холодные, как лёд, могилы…» (Г. Гейне).
+
+Вилисы замечают лесничего. Измученный угрызениями совести, он пришёл к могиле Жизели. По приказу своей неумолимой повелительницы Мирты вилисы кружат его в призрачном хороводе, пока он не падает, бездыханный, на землю.
+
+Но и Альберт не может забыть погибшую Жизель. Глубокой ночью он также приходит на её могилу. Вилисы тотчас окружают юношу. Страшная участь лесничего грозит и Альберту. Но появившаяся тень Жизели, сохранившей самоотверженную любовь, защищает и спасает Альберта от гнева вилис.
+
+С первыми лучами восходящего солнца исчезают белые призраки-вилисы. Исчезает и лёгкая тень Жизели, но сама она всегда будет жить в памяти Альберта как вечное сожаление о потерянной любви — любви, которая сильнее смерти.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Summary of the ballet:Act I
+A village in the mountains, surrounded by forests and vineyards. Peasant house in which they live Bertha and her daughter Giselle. Farmers are sent to the grape harvest. Girls greet Giselle, her friend, everyone's favorite.
+
+The Forester Hans appears. He vows to destroy the happiness of lovers: Giselle and a young man living in a hunting Lodge. Hans disappears; count albert comes out of the house, dressed in a peasant dress, and his squire Wilfrid. Albert came on a date with Giselle. Wilfrid tries to dissuade him. But albert removes the squire, knocks on the door and hides. On thump goes Giselle. Finding no one, she's about to leave. Albert Appears. He touches Giselle's hand. Gradually, their dance turns into a love scene. Next to them is Hans. He assures Giselle of his loyalty. Albert chases the Forester.
+
+Giselle's friends return from the vineyards. Dances are started, and albert with pleasure takes part in the General fun.
+
+Bertha leaves the house and stops dancing. She reminds her daughter that it is harmful for her to dance so much, because she has a sick heart. Everyone leaves.
+
+Hans Returns. Stung by Giselle's refusal, he decides to reveal the secret of the opponent, enters the house of albert. In the distance you hear the sounds of the approaching hunt soon appear ladies and gentlemen. Among them are the Duke and his daughter bathilde, albert's fiancée.
+
+Tired of hunting, they want to rest. The Duke points to Giselle's house and asks to call the hostess. Bertha comes out, followed by Giselle, who offers the guests refreshments. Fascinated by the charm of Giselle, bathilde gives her a necklace. Noble guests go to the house to relax. Hans appears in the window. In his hands the count's sword is an irrefutable proof of albert's noble origin.
+
+Harvest festival. In the midst of the General fun breaks Hans, he pushes albert and Giselle and shows discovered in the house of albert sword. Giselle asks for an explanation. Furious, albert rushes at Hans. Wilfrid comes to the rescue and stops his master. Hans blows the horn. Out of the house his bride and her retinue. She is surprised to see albert in a peasant dress. Albert kisses the bride's hand.
+
+Giselle realizes that the vows of loyalty and love is a sham. Bathilde shows her her engagement ring — she is albert's fiancée. Giselle down, sobbing in her mother's arms. Last clouded from the shock the minds of girls have pictures of the recent past vows, words of love, dancing. Giselle's dying.                                                                    Act II at Night, ghostly Wilis, brides who died before the wedding, appear in the moonlight among the graves of the village cemetery. "Dressed in a wedding dress, crowned with flowers... irresistible perfect the Wilis dance in the moonlight, dancing to the passionate and faster, the more you feel this for them to dance the hour expires and they again have to go to your cold as ice, graves..." (Heinrich Heine).
+
+The Wilis notice the Forester. Exhausted with remorse, he came to Giselle's grave. By order of the unrelenting Queen of the Wilis Myrtha, circling him in a ghostly dance until he drops lifeless, to the ground.
+
+But albert can not forget the dead Giselle. Late at night he also comes to her grave. The Wilis immediately surround the young man. The terrible fate of the Forester threatens albert. But the appearance of the Ghost of Giselle, to preserve self-sacrificing love protects and saves Albrecht from the anger of the Wilis.
+
+With the first rays of the rising sun disappear white ghosts-Wilis. Giselle's light shadow disappears, but she herself will always live in albert's memory as an eternal regret for lost love — love that is stronger than death.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+
+
+
+

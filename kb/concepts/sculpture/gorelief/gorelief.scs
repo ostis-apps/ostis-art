@@ -1,0 +1,31 @@
+
+concept_gorelief => nrel_idtf: [gorelief](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Горельеф)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Горельеф - разновидность скульптурного выпуклого рельефа, в котором изображение выступает над плоскостью фона более чем на половину объёма изображаемых частей](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_gorelief;;
+<= nrel_using_constants :...
+(*
+-> concept_background; concept_relief;;
+*);;
+*);;
+
+ concept_gorelief -> rrel_example: [Горельеф «Марсельеза» скульптора Рюда](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Горельеф, саркофаг)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Горельеф применялся в украшении саркофагов.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_gorelief; concept_sarcophagus;;
+*);; 
+
+concept_relief => nrel_subdividing: concept_gorelief;;
+

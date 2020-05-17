@@ -1,0 +1,87 @@
+concept_author_Donatello
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Донателло ди Бетто Барди]
+	(* <- lang_ru;;	*);
+	[Donatello Bardi]
+	(* <- lang_en;;	*);
+	<- concept_sculptor;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Донателло ди Бетто Барди)](*<-lang_ru;;*);
+		[Description (Donatello Bardi)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_sculptor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/donatello_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/donatello_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_24_05_1386
+            (*
+                => nrel_main_idtf:
+                    [24 мая 1386 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_Florencia;
+
+    => nrel_date_of_death:
+        date_13_12_1466
+            (*
+                => nrel_main_idtf:
+                    [13 декабря 1466 года]
+                        (* <- lang_ru;; *);;
+            *);
+<= nrel_working_genres: ...
+        (*
+            -> concept_statue;
+               concept_statuette;;
+        *);
+
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Донателло ди Бетто Барди)](*<-lang_ru;;*);
+		[Pic. (Donatello Bardi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/donatello.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+country_Florencia
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Флоренция] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Флоренция)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+

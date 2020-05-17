@@ -1,0 +1,33 @@
+d=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Дочь фараона](* <-lang_ru;; *);//ну тут понятно
+    [
+Pharaoh's daughter
+](* <-lang_en;; *);;
+
+d <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Балет «Дочь фараона» в Большом театре поставлен знаменитым французским режиссером Пьером Лакоттом, который известен как мастер возрождения забытых музыкальных шедевров. Премьера балета состоялась в далеком 1862 году в петербургском Большом театре, и тогда на сцене в главной роли блистала выдающаяся русская балерина Матильда Кшесинская. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The ballet “Pharaoh’s Daughter” at the Bolshoi Theater was staged by the famous French director Pierre Lacotte, who is known as the master of the revival of forgotten musical masterpieces. The ballet premiered back in 1862 at the Bolshoi Theater in St. Petersburg, and then the outstanding Russian ballerina Matilda Kshesinskaya shone in the lead role.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+d<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/15.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

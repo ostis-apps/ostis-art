@@ -1,0 +1,18 @@
+sc_node_not_relation ->harpsichord ;;
+
+harpsichord=> nrel_main_idtf:
+[клавеси́н ](*<- lang_ru;; *);
+[harpsichord](*<- lang_en;; *);;
+
+harpsichord<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(клавеси́н )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ клавишный струнный музыкальный инструмент со щипковым способом звукоизвлечения.](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,33 @@
+sylf=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Сильфида](* <-lang_ru;; *);//ну тут понятно
+    [
+Sylphide
+](* <-lang_en;; *);;
+
+sylf<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сильфида является самым старинным классическим балетом, дошедшим до наших дней, и именно в нем балерина Мария Тальони впервые встала на пуанты. Премьера балета, поставленного на музыку Филиппо Тальони на музыку Жана Шнейцхоффера, состоялась в Париже в 1832 году. Эту постановку увидел основатель Королевского Датского балета Август Бурнонвиль, который обратился в Парижскую оперу с целью приобретения партитуры. Парижане заломили такую высокую цену, что Бурнонвилю оказалось проще обратиться к другому композитору. Им оказался Герман Левенскольд, который обогатил музыку исконными шотландскими мелодиями. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[La Sylphide is the oldest classical ballet that has survived to this day, and it was in it that the ballerina Maria Taglioni first got on pointes. The premiere of the ballet, staged to the music of Filippo Taglioni to the music of Jean Schneichhofer, took place in Paris in 1832. This performance was seen by the founder of the Royal Danish Ballet, August Bournonville, who turned to the Paris Opera with the aim of acquiring a score. The Parisians pounded such a high price that it turned out to be easier for Bournonville to turn to another composer. It turned out to be Herman Levenskold, who enriched the music with original Scottish melodies.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+sylf<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/10.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

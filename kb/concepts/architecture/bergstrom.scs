@@ -1,0 +1,36 @@
+bergstrom 
+<-sc_node_not_relation;
+<-concept_architect;;
+bergstrom=> nrel_main_idtf:
+     [Джордж Эдвин Бергстром](* <-lang_ru;; *);
+     [George Edwin Bergstrom](* <-lang_en;; *);;
+bergstrom <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Джордж Эдвин Бергстром] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: George Edwin Bergstrom] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Джордж Эдвин Бергстром - американский архитектор, который спроектировал Пентагон в округе Арлингтон, штат Вирджиния.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[George Edwin Bergstrom  - an American architect who designed The Pentagon in Arlington County, Virginia.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+bergstrom <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джордж Эдвин Бергстром)](*<-lang_ru;;*);
+		[Pic. (George Edwin Bergstrom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://bergstrom.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 12031876;
+=> nrel_to_die: 17061955;
+=> nrel_nationality: american;;

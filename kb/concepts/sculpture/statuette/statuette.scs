@@ -1,0 +1,30 @@
+
+concept_statuette => nrel_idtf: [statuette](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Статуэтка)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Статуэтка - небольшая скульптура, обычно служащая комнатным украшением..](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_statuette;;
+<= nrel_using_constants :...
+(*
+-> concept_sculpture;;
+*);;
+*);;
+
+ concept_statuette -> rrel_example: [Статуэтки являются отличным украшением любой комнаты.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Статуэтка, народное искусство)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Статуэтка - яркий пример народного искусства.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_statuette; concept_folk_art;;
+*);; 
+
+concept_round_statue => nrel_subdividing: concept_statuette;;

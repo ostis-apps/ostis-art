@@ -1,0 +1,40 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+sophocles => nrel_main_idtf: //это типа основной идентификатор
+	[софокл](* <-lang_ru;; *);//ну тут понятно
+    [sophocles](* <-lang_en;; *);;
+sophocles <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Софокл  — афинский драматург, трагик.](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Sophocles - Athenian playwright, tragedian. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+sophocles <- rrel_key_sc_element: ... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Родился в 496 году до н. э., в афинском предместье Колон. Место своего рождения, издавна прославленное святынями и алтарями Посейдона, Афины, Евменид, Деметры, Прометея, поэт воспел в трагедии «Эдип в Колоне». Происходил из обеспеченной семьи Софилла, получил хорошее образование.](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Born in 496 BC. e., in the Athenian suburb of Colon. The place of its birth, which has long been glorified by the shrines and altars of Poseidon, Athens, Eumenides, Demeter, Prometheus, the poet sang in the tragedy “Oedipus in Colon”. He came from a wealthy Sophill family and received a good education. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+sophocles <- rrel_key_sc_element: ...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Творчество:главным его занятием было составление трагедий для афинского театра. Первая тетралогия, поставленная Софоклом в 469 году до н. э., доставила ему победу над Эсхилом и открыла собой ряд побед, одержанных на сцене в состязаниях с другими трагиками. Критик Аристофан Византийский приписывал Софоклу 123 трагедии (в том числе и «Антигону»).](* <- lang_ru;; 	*);;
+	  -> rrel_example: [
+Creativity: his main occupation was compiling tragedies for the Athenian theater. The first tetralogy, set by Sophoklom in 469 BC. Oe., brought him victory over Aeschylus and discovered a number of victories won on the stage in competitions with other tragedians. The critic Aristophanes of Byzantine attributed to Sophocles 123 tragedies (including Antigonus).](* <- lang_en;; 	*);;
+		*);;
+	*);;
+

@@ -1,0 +1,25 @@
+druz 
+<-sc_node_not_relation;
+<-concept_architect;;
+druz=> nrel_main_idtf:
+     [Друэ де Даммартен](* <-lang_ru;; *);
+     [Drouet de Dammartin](* <-lang_en;; *);;
+druz <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Друэ де Даммартен] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Drouet de Dammartin] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Друэ де Даммартен - архитектор и скульптор. О жизни и творчестве этого архитектора известно только благодаря финансовым документам, которые фиксируют участие Друэ де Даммартена в нескольких масштабных проектах эпохи. Он работал под руководством Раймона дю Тампля в 1362 году при перестройке Лувра для Карла V.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Drouet de Dammarten is an architect and sculptor. About the life and work of this architect is known only through financial documents that record the participation of Drouet de Dammarten in several large-scale projects of the era. He worked under the direction of Raymond du Tampl in 1362 during the restructuring of the Louvre for Charles V.](*<- lang_en;;*);;
+			*);;
+          *);
+
+=> nrel_to_born: fourteen_centure;
+=> nrel_to_die: february_of_1413;
+=> nrel_nationality: unknown;;

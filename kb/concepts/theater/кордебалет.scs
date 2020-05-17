@@ -1,0 +1,60 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+ballet_corps => nrel_main_idtf: //это типа основной идентификатор
+	[кордебалет](* <-lang_ru;; *);//ну тут понятно
+    [сorps de ballet](* <-lang_en;; *);;
+ballet_corps<- rrel_key_sc_element: ... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кордебалет (фр. corps de ballet) — артисты балета, исполняющие массовые танцевальные номера; ансамбль из танцовщиков и танцовщиц, в балете, а также опере, оперетте и мюзикле.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Corps de ballet (fr. Corps de ballet) - ballet dancers performing mass dance performances; an ensemble of dancers and dancers, in ballet, as well as opera, operetta and musical.](*<- lang_en;;*);;
+			*);;
+		*);;
+ballet_corps <- rrel_key_sc_element:...
+	(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[По своей функции кордебалет подобен хору в опере. Солирующий артист, который ведёт танец, называется корифей, вокруг него и группируется кордебалет. Искусство кордебалета требует предельной групповой слаженности и точности движений. Танец кордебалета аккомпанирует танцу балерины, премьера, и других солистов, обрамляет его.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In its function, the corps de ballet is like a choir in an opera. The solo artist who leads the dance is called the luminary, around it and the corps de ballet is grouped. The art of a corps de ballet requires the utmost group coordination and precision of movement. The corps de ballet dance accompanies the dance of the ballerina, the premiere, and other soloists, framing it.](*<- lang_en;;*);;
+			*);;
+		*);;
+ballet_corps <- rrel_key_sc_element:...
+	(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В классическом балете традиционно большую роль играет женский кордебалет. Разнообразные массовые танцы с множеством живописных позировок имели большое значение в постановках Артура Сен-Леона — так что хореографа даже критиковали за их избыточность. Из сохранившегося наследия XIX века шедеврами хореографии считаются «Молитва виллис» из II акта балета «Жизель» (хореография Жана Коралли в редакции Мариуса Петипа), «Выход теней» из «Баядерки» и «Картина нереид» из «Спящей красавицы» Мариуса Петипа, «Картина лебедей» из «Лебединого озера» в постановке Льва Иванова.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In the classical ballet, the female corps de ballet has traditionally played a major role. A variety of mass dances with a variety of pictorial pozirovok were of great importance in the productions of Arthur Saint-Leon - so the choreographer was even criticized for their redundancy. From the preserved heritage of the XIX century, masterpieces of choreography are considered Jeep's Prayer from Act II of the ballet Giselle (choreography by Jean Coralli edited by Marius Petipa), Shadows leaving from La Bayadère and Painting Nereid from Sleeping Beauty by Marius Petipa “Picture of Swans” from “Swan Lake” directed by Lev Ivanov.](*<- lang_en;;*);;
+			*);;
+		*);;
+ballet_corps <- rrel_key_sc_element:...
+	(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мужской кордебалет получил большое значение у таких хореографов, как Морис Бежар («Весна священная», 1959, «Болеро», 1961, «Девятая симфония», 1964) и Джон Ноймайер (Симфонии Густава Малера, 1975—1994). У современных хореографов, таких как Иржи Килиан и Начо Дуато границы между солистами и кордебалетом стираются — нередко в их постановках все танцовщики выполняют равноценную творческую задачу.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The men's corps de ballet received great importance among such choreographers as Maurice Bejart (Sacred Spring, 1959, Bolero, 1961, The Ninth Symphony, 1964) and John Neumayer (Gustav Mahler's Symphonies, 1975-1994). Modern choreographers, such as Jiri Kilian and Nacho Duato, blur the boundaries between soloists and corps de ballet - often in their performances, all dancers perform an equivalent creative task.](*<- lang_en;;*);;
+			*);;
+		*);;
+ballet_corps <- rrel_key_sc_element:...
+	(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В балете существует понятие «глухой кордебалет»: в переносном смысле это означает «отодвинуть исполнителя на второй план, на второстепенные роли».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In ballet, there is the concept of "deaf corps de ballet": in a figurative sense, this means "to push the performer to the background, to secondary roles."](*<- lang_en;;*);;
+			*);;
+		*);;
+	

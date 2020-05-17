@@ -1,0 +1,55 @@
+guggenheim 
+<-sc_node_not_relation;
+<-concept_construction;;
+guggenheim=> nrel_main_idtf:
+     [Музей Соломона Гуггенхейма](* <-lang_ru;; *);
+     [Guggenheim](* <-lang_en;; *);;
+
+guggenheim <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Музей Соломона Гуггенхейма] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Guggenheim] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Музей Соломона Гуггенхе́йма - это художественный музей, расположенный на Пятой авеню на углу 89-й улицы в районе Верхнего Ист-Сайд Манхэттена, Нью-Йорк.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Guggenheim is an art museum located at 1071 Fifth Avenue on the corner of East 89th Street in the Upper East Side neighborhood of Manhattan, New York City.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+guggenheim <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Музей Соломона Гуггенхейма] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Guggenheim] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+          -> rrel_example:
+			[Solomon R. Guggenheim Museum. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+guggenheim <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Музей Соломона Гуггенхейма)](*<-lang_ru;;*);
+		[Pic. (Guggenheim)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://guggenheim.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: hery;
+=> nrel_city: new_york;
+=> nrel_country: usa;
+=> nrel_style_of_building: deconstructivism;;
+

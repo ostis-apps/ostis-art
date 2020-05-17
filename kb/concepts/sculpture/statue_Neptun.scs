@@ -1,0 +1,67 @@
+sculpture_neptun
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Статуя Нептуна]
+	(* <- lang_ru;;	*);
+	[Neptune Statue]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_statue;
+    => nrel_author:
+        concept_author_Jambolonya;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Статуя Нептуна)](*<-lang_ru;;*);
+		[Description (Neptune Statue)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/neptun_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/neptun_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_15_03_1566
+            (*
+                => nrel_main_idtf:
+                    [1563 - 1566 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Florencia;
+
+    => nrel_material:
+        material_bronze
+            (*
+                => nrel_main_idtf:
+                    [бронза]
+                        (* <- lang_ru;; *);
+ [bronze]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Статуя Нептуна)](*<-lang_ru;;*);
+		[Pic. (Neptune Statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/neptun.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+

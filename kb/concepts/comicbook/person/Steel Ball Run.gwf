@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="27139664" parent="0" x="782.5" y="869.532" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Действие происходит в альтернативной вселенной, в конце XIX века, где уровень технологического прогресса немного опережает таковой в реальном мире, а также люди имеют иные стандарты моды и внешности. Джайро Цеппели отправляется в США, чтобы принять участие в лошадиных гонках. В гонках также принимает участие Джонни Джостар, у которого парализованы ноги. Победителю обещана награда в 50 миллионов долларов.]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="193" id="27365184" parent="0" left="0" top="0" right="181.859" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="218.5" y="636.532" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="193" id="27231456" parent="0" left="0" top="0" right="61.9219" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="660.5" y="675.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="27353264" parent="0" x="407.5" y="602.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="27352256" parent="0" x="407.5" y="676.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="193" id="27334848" parent="0" left="0" top="0" right="154.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="670.5" y="485.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="193" id="27316256" parent="0" left="0" top="0" right="102.625" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="426.5" y="731.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_superhero_comic" shapeColor="193" id="27300336" parent="0" left="0" top="0" right="196.094" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="706.167" y="336.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="193" id="27281744" parent="0" left="0" top="0" right="100.672" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="403.5" y="511.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_japanese_comic" shapeColor="193" id="27259648" parent="0" left="0" top="0" right="187.094" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-260.5" y="303.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_western_comic" shapeColor="193" id="27248976" parent="0" left="0" top="0" right="180.422" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="706.167" y="297.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_classic_comic" shapeColor="193" id="27231728" parent="0" left="0" top="0" right="169.75" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="49.5" y="477.282" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_comic" shapeColor="193" id="27214400" parent="0" left="0" top="0" right="114.703" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-260.5" y="-16.4676" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="&quot;Shueisha Inc.&quot;" shapeColor="193" id="27197360" parent="0" left="0" top="0" right="119.641" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="574.5" y="-69.167" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Steel Ball Run" shapeColor="193" id="27176992" parent="0" left="0" top="0" right="110.75" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="395" y="318" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Хирохико Араки" shapeColor="193" id="27151696" parent="0" left="0" top="0" right="131.062" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-190" y="681" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_print" shapeColor="193" id="27125152" parent="0" left="0" top="0" right="79.0312" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="72" y="18" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_authors" shapeColor="193" id="18219840" parent="0" left="0" top="0" right="99.9531" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-228" y="598" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="27406176" parent="0" id_b="27352256" id_e="27353264" b_x="407.5" b_y="676.532" e_x="407.5" e_y="602.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="27405072" parent="0" id_b="27176992" id_e="27151696" b_x="395" b_y="318" e_x="-190" e_y="681" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="286" y="557"/>
+            </points>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="27403968" parent="0" id_b="27197360" id_e="27176992" b_x="574.5" b_y="-69.167" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="347" y="140"/>
+            </points>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27352992" parent="0" id_b="27248976" id_e="27176992" b_x="706.167" b_y="297.532" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="532" y="256"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27401696" parent="0" id_b="27125152" id_e="27403968" b_x="72" b_y="18" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.290544">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27400656" parent="0" id_b="27231728" id_e="27176992" b_x="49.5" b_y="477.282" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27399616" parent="0" id_b="27352256" id_e="27139664" b_x="407.5" b_y="676.532" e_x="782.5" e_y="869.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27398576" parent="0" id_b="27281744" id_e="27353264" b_x="403.5" b_y="511.532" e_x="407.5" e_y="602.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27397536" parent="0" id_b="27316256" id_e="27399616" b_x="426.5" b_y="731.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489362">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27396496" parent="0" id_b="27231456" id_e="27139664" b_x="660.5" b_y="675.532" e_x="782.5" e_y="869.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27395456" parent="0" id_b="27365184" id_e="27406176" b_x="218.5" b_y="636.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.572727">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27394416" parent="0" id_b="27334848" id_e="27392272" b_x="670.5" b_y="485.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.366038">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27393376" parent="0" id_b="27214400" id_e="27176992" b_x="-260.5" b_y="-16.4676" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27392272" parent="0" id_b="27353264" id_e="27176992" b_x="407.5" b_y="602.532" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="1079.5" y="602.532"/>
+                <point x="1028.5" y="65.5324"/>
+                <point x="421.5" y="60.5324"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27391168" parent="0" id_b="18219840" id_e="27405072" b_x="-228" b_y="598" e_x="0" e_y="0" dotBBalance="0" dotEBalance="1.78387">
+            <points>
+                <point x="-126" y="595"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27390096" parent="0" id_b="27259648" id_e="27176992" b_x="-260.5" b_y="303.532" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="50" y="251"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="27387264" parent="0" id_b="27300336" id_e="27176992" b_x="706.167" b_y="336.532" e_x="395" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="557" y="275"/>
+            </points>
+        </arc>
+    </staticSector>
+</GWF>

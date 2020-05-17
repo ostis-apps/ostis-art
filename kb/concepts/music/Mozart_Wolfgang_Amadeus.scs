@@ -1,0 +1,17 @@
+sc_node_not_relation->person_Mozart_Wolfgang_Amadeus;;
+
+person_Mozart_Wolfgang_Amadeus => nrel_main_idtf:
+[Mozart Wolfgang Amadeus](*<- lang_en;; *);;
+
+person_Mozart_Wolfgang_Amadeus <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Моцарт Вольфганг Амадей)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Австрийский композитор, клавесинист, дирижер, представитель венского классицизма.](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,38 @@
+buckingham_palace
+<-sc_node_not_relation;
+<-concept_construction;;
+buckingham_palace => nrel_main_idtf:
+     [Букингемский дворец ](* <-lang_ru;; *);
+     [Buckingham palace](* <-lang_en;; *);;
+
+buckingham_palace <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Букингемский дворец] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Buckingham palace] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Букингемский дворец является лондонской резиденцией и административной штаб-квартирой монарха Соединенного Королевства.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Buckingham Palace is the London residence and administrative headquarters of the monarch of the United Kingdom.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+buckingham_palace <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Букингемский дворец)](*<-lang_ru;;*);
+		[Pic. (Buckingham palace)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://buckingham.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_constructor: uald;
+=> nrel_city: london;
+=> nrel_country: gb;
+=> nrel_style_of_building: the_architecture_of_neo_classicism;;

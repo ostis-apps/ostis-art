@@ -1,0 +1,20 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+fliaki=> nrel_main_idtf: //это типа основной идентификатор
+	[флиаки](* <-lang_ru;; *);//ну тут понятно
+    [fliaki](* <-lang_en;; *);;
+fliaki <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Исполнители:
+Флиаки — актёры вышеупомянутых сатирических сценок. Все роли исполнялись только мужчинами. Лицо обычно скрывала смешная выразительная маска. Костюм часто состоял из трико с «толщинками», придававшими телу актёра гротескный вид ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Performers:
+Fliaki - actors of the above satirical scenes. All roles were performed only by men. The face was usually hidden by a funny expressive mask. The costume often consisted of tights with “thicknesses” that gave the body of the actor a grotesque look.  ](* <- lang_en;; 	*);;
+
+		*);;
+	*);;
+	

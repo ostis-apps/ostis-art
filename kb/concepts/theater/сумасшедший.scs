@@ -1,0 +1,52 @@
+madman=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Записки сумасшедшего](* <-lang_ru;; *);//ну тут понятно
+    [Notes of the madman](* <-lang_en;; *);;
+madman<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Запи́ски сумасше́дшего» — повесть Николая Васильевича Гоголя, написанная им в 1834 году.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Notes of the madman" — the story of Nikolai Gogol, written by him in 1834.](*<- lang_en;;*);;
+	*);;
+		*);;
+
+
+madman <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:Повесть представляет собой дневник главного героя. В начале он описывает свою жизнь и работу, а также окружающих его людей. Далее он пишет о своих чувствах к дочери директора, и вскоре после этого начинают проявляться признаки сумасшествия — он разговаривает с её собачкой Меджи, после чего заполучает письма, которые Меджи писала другой собаке. Через несколько дней он полностью отрывается от действительности — он понимает, что он — король Испании. Его безумие видно даже по числам в дневнике — если начинается дневник с 3 октября, то понимание о том, что он — король Испании, приходит, по его датировкам, 43 апреля 2000 года, и чем дальше, тем больше погружается герой вглубь своей фантазии. Он попадает в сумасшедший дом, но воспринимает это как прибытие в Испанию. В конце записи полностью теряют смысл, превращаясь в набор фраз. Последняя фраза повести: «А знаете ли, что у алжирского дея под самым носом шишка?» ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot:
+The story is a diary of the main character. In the beginning, he describes his life and work, as well as the people around him. Then he writes about his feelings for the Director's daughter, and soon after that the signs of insanity begin to appear — he talks to her dog meji, after which he gets the letters that meji wrote to another dog. After a few days, he completely breaks away from reality — he understands that he is the king of Spain. His madness can be seen even by the numbers in the diary — if the diary begins on October 3, then the understanding that he is the king of Spain, comes, on his dates, April 43, 2000, and the further, the more the hero plunges deep into his imagination. He goes to a madhouse, but he sees it as coming to Spain. At the end of the records completely lose their meaning, turning into a set of sentences. The last phrase of the story: "Do you know that the Algerian dey under the nose bump?»](*<- lang_en;;*);;
+			*);;
+		*);;
+madman <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Премьера состоялась в 1985 год — ленинградским театром «Эксперимент» был поставлен спектакль «Записки сумасшедшего». В главной роли — Виктор Гоголев, режиссёр-постановщик — Алексей Штерн.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The premiere took place in 1985 — Leningrad theater "Experiment" was staged performance "Notes of a madman." In the main role — Victor Gogolev, Director — Alexey stern.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+

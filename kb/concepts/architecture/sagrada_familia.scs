@@ -1,0 +1,56 @@
+sagrada_familia
+<-sc_node_not_relation;
+<-concept_construction;;
+sagrada_familia => nrel_main_idtf:
+     [Саграда-Фамилия](* <-lang_ru;; *);
+     [Sagrada Familia](* <-lang_en;; *);;
+
+sagrada_familia <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Саграда-Фамилия] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Sagrada Familia] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Собор Святого Семейства - это большая недостроенная римско-католическая церковь в Барселоне, Испания.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Sagrada Família is a large unfinished Roman Catholic church in Barcelona, Spain.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+sagrada_familia <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Саграда-Фамилия] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Sagrada Familia] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Храм Святого Семейства,  Искупительный храм Святого Семейства.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Temple Expiatori de la Sagrada Família, Expiatory Church of the Holy Family. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+sagrada_familia <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Саграда-Фамилия)](*<-lang_ru;;*);
+		[Pic. (Sagrada Familia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://sagradafamilia.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: gaudi;
+=> nrel_city: berselona;
+=> nrel_country: spain;
+=> nrel_style_of_building: neo_gothic_style; modernisme;;

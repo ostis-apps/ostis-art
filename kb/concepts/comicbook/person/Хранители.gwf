@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="39650480" parent="0" x="785.5" y="858.532" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Действие комикса происходит в альтернативной реальности 1980-х годов, где супергерои появились в 1940—1960-х годах и помогли США выиграть войну во Вьетнаме. Спустя несколько лет США находятся на грани ядерной войны с СССР, а костюмированные герои объявлены вне закона, и большинство из них отошло от дел, но некоторые продолжают тайно работать на правительство. Сюжет построен на расследовании убийства бывшего героя, финансируемого правительством, что в развязке комикса приводит к раскрытию ужасающей правды и смерти миллионов человек для того, чтобы предотвратить ядерную войну. ]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="Алан Мур" shapeColor="193" id="42405488" parent="0" left="0" top="0" right="80.5" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-190" y="681" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Хранители" shapeColor="193" id="41845760" parent="0" left="0" top="0" right="89.0938" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="396" y="318" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="&quot;DC Comics&quot;" shapeColor="193" id="38565872" parent="0" left="0" top="0" right="98.2344" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="447.5" y="-72.167" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_graphic_novel" shapeColor="193" id="36253840" parent="0" left="0" top="0" right="173.969" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-176.5" y="476.282" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_comic" shapeColor="193" id="30284912" parent="0" left="0" top="0" right="114.703" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-260.5" y="-16.4676" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_european_comic" shapeColor="193" id="38351184" parent="0" left="0" top="0" right="190.719" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-259.5" y="238.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_japanese_comic" shapeColor="193" id="37624208" parent="0" left="0" top="0" right="187.094" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-260.5" y="303.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="193" id="31300912" parent="0" left="0" top="0" right="100.672" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="403.5" y="511.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_superhero_comic" shapeColor="193" id="45042432" parent="0" left="0" top="0" right="196.094" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="706.167" y="336.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="193" id="41846032" parent="0" left="0" top="0" right="102.625" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="426.5" y="731.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="193" id="41821216" parent="0" left="0" top="0" right="154.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="670.5" y="485.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="38565536" parent="0" x="407.5" y="676.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="48967328" parent="0" x="407.5" y="602.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="193" id="36805632" parent="0" left="0" top="0" right="61.9219" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="660.5" y="675.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="193" id="39355232" parent="0" left="0" top="0" right="181.859" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="218.5" y="636.532" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_american_comic" shapeColor="193" id="37520368" parent="0" left="0" top="0" right="188.891" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-262.5" y="173.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_detective_comic" shapeColor="193" id="37514704" parent="0" left="0" top="0" right="189.969" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="706.167" y="126.532" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_print" shapeColor="193" id="34152800" parent="0" left="0" top="0" right="79.0312" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="72" y="18" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_authors" shapeColor="193" id="44641072" parent="0" left="0" top="0" right="99.9531" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-228" y="598" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="35599808" parent="0" id_b="38565872" id_e="41845760" b_x="447.5" b_y="-72.167" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="332" y="75"/>
+            </points>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="43026224" parent="0" id_b="41845760" id_e="42405488" b_x="396" b_y="318" e_x="-190" e_y="681" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="286" y="557"/>
+            </points>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="37884480" parent="0" id_b="38565536" id_e="48967328" b_x="407.5" b_y="676.532" e_x="407.5" e_y="602.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42551136" parent="0" id_b="34152800" id_e="35599808" b_x="72" b_y="18" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.785568">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="49079920" parent="0" id_b="37514704" id_e="41845760" b_x="706.167" b_y="126.532" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="483" y="210"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="36253568" parent="0" id_b="45042432" id_e="41845760" b_x="706.167" b_y="336.532" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="528" y="302"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="49079552" parent="0" id_b="38351184" id_e="41845760" b_x="-259.5" b_y="238.532" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="158" y="255"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="32123840" parent="0" id_b="36253840" id_e="41845760" b_x="-176.5" b_y="476.282" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="-49" y="386"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="41525120" parent="0" id_b="44641072" id_e="43026224" b_x="-228" b_y="598" e_x="0" e_y="0" dotBBalance="0" dotEBalance="1.78387">
+            <points>
+                <point x="-126" y="595"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="40278288" parent="0" id_b="48967328" id_e="41845760" b_x="407.5" b_y="602.532" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="1079.5" y="602.532"/>
+                <point x="1028.5" y="65.5324"/>
+                <point x="421.5" y="60.5324"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="40277920" parent="0" id_b="30284912" id_e="41845760" b_x="-260.5" b_y="-16.4676" e_x="396" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="32067648" parent="0" id_b="41821216" id_e="40278288" b_x="670.5" b_y="485.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.366038">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="44652848" parent="0" id_b="39355232" id_e="37884480" b_x="218.5" b_y="636.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.572727">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="44652480" parent="0" id_b="36805632" id_e="39650480" b_x="660.5" b_y="675.532" e_x="785.5" e_y="858.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="40933840" parent="0" id_b="41846032" id_e="36710880" b_x="426.5" b_y="731.532" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489362">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="40933472" parent="0" id_b="31300912" id_e="48967328" b_x="403.5" b_y="511.532" e_x="407.5" e_y="602.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="36710880" parent="0" id_b="38565536" id_e="39650480" b_x="407.5" b_y="676.532" e_x="785.5" e_y="858.532" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

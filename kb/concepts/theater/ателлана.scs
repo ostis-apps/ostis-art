@@ -1,0 +1,41 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+atellana => nrel_main_idtf: //это типа основной идентификатор
+	[ателлана](* <-lang_ru;; *);//ну тут понятно
+    [atellana](* <-lang_en;; *);;
+atellana<- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ателлана (от лат. fabula atellana, басня из Ателлы) — короткие фарсовые представления в духе буффонады, названные по имени города Ателла (совр. Аверса) в Кампанье, где они зародились ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Atellana (from the Latin. Fabula atellana, fable from Atella) - short slapstick-style farcical representations, named after the city of Atella (present-day Obverse) in Campania, where they originated ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+atellana <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Историческая связность:Предшественниками ателлан являются греческие флиаки. А сами они, разыгрывавшиеся римскими комедиантами и фигурировавшие в качестве дополнений к трагедиям, также имеют продолжение. Это комедии дель арте. Родственны им и русские представления Петрушки, немецкие Кашперля и тому подобные.
+Ателланы ставились и в эпоху христианства — об этом свидетельствуют учителя церкви Тертуллиан и Арнобий, возмущавшиеся безнравственным, по их мнению, содержанием пьес. В XVI веке маски ателланы вновь появляются в народной итальянской комедии — таким образом, ателлана оказала влияние на позднейшую итальянскую комедию дель арте. ](* <- lang_ru;; 	*);;
+		  -> rrel_example: [Historical connectedness:The forerunners of atellan are the Greek fliaki. And they themselves, played by the Roman comedians and figured as additions to the tragedies, also have a continuation. This is comedy del arte. Russian performances of Parsley, German Kasperl and the like are also related to them.
+Atellans were placed in the era of Christianity - this is evidenced by the teachers of the church Tertullian and Arnobius, who were indignant at the immoral, in their opinion, content of the plays. In the 16th century, the atellan masks reappear in the Italian folk comedy - in this way, the atellana influenced the later Italian comedy del arte.](*<- lang_en;;*);;
+*);;
+	*);;
+atellana <- rrel_key_sc_element:...
+(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Особенности содержания:Ателланы отличались большой грубостью и часто скабрёзностью содержания; писались они нелитературным латинским языком. По сведениям энциклопедического словаря Ф. А. Брокгауза и И. А. Ефрона, сохранилось всего 106 названий ателлан. В начале I века до н. э. эти безыскусственные комедии получили литературную обработку со стороны двух авторов — Помпония и Новия. ](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[
+Content Features:Atellans were very rude and often scabrous in content; they were written in non-literary Latin language. According to the encyclopedic dictionary of F. A. Brockhaus and I. A. Efron, only 106 names of atellans have survived. At the beginning of the I century BC. er these unsophisticated comedies received literary treatment from two authors, Pomponius and Novy.](*<- lang_en;;*);;
+*);;
+	*);;

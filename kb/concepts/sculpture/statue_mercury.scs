@@ -1,0 +1,71 @@
+sculpture_mercury
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Меркурий]
+	(* <- lang_ru;;	*);
+	[Mercury]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Jambolonya;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Меркурий)](*<-lang_ru;;*);
+		[Description (Mercury)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_round_sculpture
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/mercury_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/mercury_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_24_04_1580
+            (*
+                => nrel_main_idtf:
+                    [1580 год]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Florencia;
+
+    => nrel_material:
+        material_bronze
+            (*
+                => nrel_main_idtf:
+                    [бронза]
+                        (* <- lang_ru;; *);
+ [bronze]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Меркурий)](*<-lang_ru;;*);
+		[Pic. (Mercury)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/mercury.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

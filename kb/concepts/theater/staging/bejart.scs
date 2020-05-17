@@ -1,0 +1,35 @@
+bejart
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+bejart=> nrel_main_idtf:
+     [Морис Бежар](* <-lang_ru;; *);
+     [Maurice Bejart](* <-lang_en;; *);;
+
+bejart <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Мори́с Бежа́р — французский танцовщик и балетмейстер, театральный и оперный режиссёр, один из крупнейших хореографов XX века. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Maurice Bejart is a French dancer and choreographer, theater and opera director, one of the largest choreographers of the 20th century.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+bejart <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Морис Бежар)](*<-lang_ru;;*);
+		[Pic. (Maurice Bejart)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://7.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,71 @@
+sculpture_christ_tearing
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Оплакивание Христа]
+	(* <- lang_ru;;	*);
+	[Lamenting Christ]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Michelangelo;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Оплакивание Христа)](*<-lang_ru;;*);
+		[Description (Lamenting Christ)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/christ_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/christ_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_14_98_1499
+            (*
+                => nrel_main_idtf:
+                    [1498 г.–1499 г.]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Оплакивание Христа)](*<-lang_ru;;*);
+		[Pic. (Lamenting Christ)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/christ.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

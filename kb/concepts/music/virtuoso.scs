@@ -1,0 +1,18 @@
+sc_node_not_relation ->virtuoso ;;
+
+virtuoso=> nrel_main_idtf:
+[виртуо́з ](*<- lang_ru;; *);
+[virtuoso](*<- lang_en;; *);;
+
+virtuoso<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(виртуо́з )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[исполнитель (чаще музыкант), мастерски владеющий техникой искусства; человек, достигший в работе высшей степени мастерства. ](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,18 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+dionysus=> nrel_main_idtf: //это типа основной идентификатор
+	[дионис](* <-lang_ru;; *);//ну тут понятно
+    [dionysus](* <-lang_en;; *);;
+dionysus <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дионис  — в древнегреческой мифологии младший из олимпийцев, бог растительности, виноградарства, виноделия, производительных сил природы, вдохновения и религиозного экстаза, а также театра.  ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Dionysus - in ancient Greek mythology, the youngest of Olympians, the god of vegetation, viticulture, winemaking, the productive forces of nature, inspiration and religious ecstasy, as well as theater. ](* <- lang_en;; 	*);;
+->ancient_theater;;
+		*);;
+	*);;
+	

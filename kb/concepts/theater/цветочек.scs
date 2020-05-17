@@ -1,0 +1,93 @@
+scarlet_flower=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Аленький цветочек](* <-lang_ru;; *);//ну тут понятно
+    [The scarlet flower](* <-lang_en;; *);;
+scarlet_flower<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Аленький цветочек» — легендарный спектакль Театра имени Пушкина. Входит в Книгу рекордов России как «самый продолжительно идущий детский спектакль»](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["The scarlet flower" — the legendary performance of the Theatre named after Pushkin. Included in the Russian Book of records as "the longest-running children's play»](*<- lang_en;;*);;
+		*);;
+		*);;
+
+
+scarlet_flower<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Премьера состоялась 30 декабря 1950 года ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The premiere took place on December 30, 1950.](*<- lang_en;;*);;
+			*);;
+		*);;
+scarlet_flower <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В январе 2011 года был сыгран в 4000-й раз. За время существования постановки её посмотрели более 3 миллионов зрителей](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In January 2011 he was played for the 4000th time. During the existence of the production it was watched by more than 3 million viewers](*<- lang_en;;*);;
+			*);;
+		*);;
+scarlet_flower<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Краткое содержание:
+Спектакль основан на знаменитой сказке С. Т. Аксакова «Аленький цветочек» о любви и бескорыстной дружбе, которые умеют творить чудеса.
+
+Попросила Алёнушка отца, отправляющегося в заморское путешествие, привезти ей в подарок аленький цветочек. Долго пришлось купцу странствовать, прежде чем сумел он отыскать таинственную землю, где рос цветок. Просьбу дочери купец выполнил: сорвал цветочек, да вот только принадлежал он чудищу, жившему там, и взамен пожелало оно, чтобы купец остался на острове или прислал вместо себя одну из своих дочерей…](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Outline:
+The play is based on the famous fairy tale of S. T. Aksakov "Scarlet flower" about love and unselfish friendship that can work miracles.
+
+Alyonushka asked her father, who was going on an overseas trip, to bring her a scarlet flower as a gift. The merchant had to wander for a long time before he managed to find the mysterious land where the flower grew. The merchant fulfilled his daughter's request: he plucked a flower, but only it belonged to the monster living there, and in return it wished that the merchant remained on the island or sent one of his daughters instead of himself…](*<- lang_en;;*);;
+			*);;
+		*);;
+scarlet_flower<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Авторы пьесы – Ирина Карнаухова и Леонид Браусевич;
+Режиссёр-постановщик – Леонид Лукьянов;
+Режиссёр – Степан Бубнов;
+Художник – Яков Штоффер;
+Композитор – Александр Метнер;](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The authors of the play – Irina Karnaukhova and Leonid Brausevich;
+Director – Leonid Lukyanov;
+Directed By Stepan Bubnov;
+Artist – Jacob Stoffer;
+Composer – Alexander Medtner;](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

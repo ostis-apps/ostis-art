@@ -1,0 +1,18 @@
+sc_node_not_relation ->nocturne;;
+
+nocturne => nrel_main_idtf:
+[ноктюрн](*<- lang_ru;; *);
+[nocturne](*<- lang_en;; *);;
+
+waltz<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(ноктюрн)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Небольшое лирическое музыкальное  произведение.](*<- lang_ru;; *);;
+		*);;
+	*);;

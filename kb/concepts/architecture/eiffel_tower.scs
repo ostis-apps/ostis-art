@@ -1,0 +1,39 @@
+eiffel_tower 
+<-sc_node_not_relation;
+<-concept_construction;;
+eiffel_tower=> nrel_main_idtf:
+     [Эйфелева башня](* <-lang_ru;; *);
+     [Eiffel Tower](* <-lang_en;; *);;
+
+eiffel_tower <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Эйфелева башня] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Eiffel Tower] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эйфелева башня - это решетка из кованого железа на Марсовом поле в Париже, Франция.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+eiffel_tower <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эйфелева башня)](*<-lang_ru;;*);
+		[Pic. (Eiffel Tower)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://eiffeltower.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: sauvestre; eiffel;
+=> nrel_city: paris;
+=> nrel_country: france_country;
+=> nrel_style_of_building: modernisme;;

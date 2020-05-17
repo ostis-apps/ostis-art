@@ -1,0 +1,14 @@
+sc_node_not_relation->person_Beethoven_Ludwig_van;;
+
+person_Beethoven_Ludwig_van <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Бетховен Людвиг ван)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Немецкий композитор, пианист, дирижер – последний представитель венского классицизма.](*<- lang_ru;; *);;
+		*);;
+	*);;

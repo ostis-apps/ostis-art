@@ -1,0 +1,30 @@
+
+concept_sculpture => nrel_idtf: [sculpture](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Скульптура)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Скульптура - вид изобразительного искусства, произведения которого имеют объёмную форму и выполняются из твёрдых или пластических материалов. ](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_sculpture;;
+<= nrel_using_constants :...
+(*
+-> plastic_arts; concept_bulk_form;;
+*);;
+*);;
+
+ concept_sculpture -> rrel_example: [Слово скульптура, помимо самого вида искусства, обозначает также каждое отдельное его произведение](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Скульптура, скульптор)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Скульптура создана знаменитым скульптором.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_sculpture; concept_sculptor;;
+*);; 
+
+

@@ -1,0 +1,36 @@
+ustad 
+<-sc_node_not_relation;
+<-concept_architect;;
+ustad=> nrel_main_idtf:
+     [Устад Ахмад Лахаури](* <-lang_ru;; *);
+     [Ustad Ahmad Lahori](* <-lang_lat;; *);;
+ustad <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Устад Ахмад Лахаури] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Ustad Ahmad Lahori] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Устад Ахмад Лахаури - индийский архитектор персидского происхождения, был главным архитектором Тадж-Махала в Агре, Индия, построенного между 1632 и 1648 годами в период правления императора Великих Моголов Шаха Джахана.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Ustad Ahmad Lahori, also spelled as 'Ahmad Lahori' was an Iranian architect. He is said to have been chief architect of the Taj Mahal in Agra, India, built between 1632 and 1648 during the ruling period of Mughal emperor Shah Jahan.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+ustad <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Устад Ахмад Лахаури)](*<-lang_ru;;*);
+		[Pic. (Ustad Ahmad Lahori)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://ustad.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 1580;
+=> nrel_to_die: 1649;
+=> nrel_nationality: persian;;

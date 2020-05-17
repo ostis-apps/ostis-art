@@ -1,0 +1,29 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+kifara=> nrel_main_idtf: //это типа основной идентификатор
+	[кифара](* <-lang_ru;; *);//ну тут понятно
+    [kifara](* <-lang_en;; *);;
+kifara <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кифара — древнегреческий струнный щипковый музыкальный инструмент; самая важная в античности разновидность лиры.   ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Kifara - Ancient Greek stringed plucked musical instrument; the most important type of lyre in antiquity. ](* <- lang_en;; 	*);;
+->dithyramb;;
+		*);;
+	*);;
+kifara <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Описание:кифара имела плоский тяжёлый деревянный корпус с прямыми или фигурными очертаниями; к корпусу крепились струны.  ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Description:kifara had a flat heavy wooden case with straight or curved outlines; Strings were attached to the body. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+	

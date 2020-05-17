@@ -1,0 +1,55 @@
+
+sc_node_not_relation->concept_straight_persp;;
+concept_straight_persp => nrel_main_idtf: [прямая перспектива](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_convergence_point;;
+concept_convergence_point => nrel_main_idtf: [точка схождения](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_foreground;;
+concept_foreground => nrel_main_idtf: [передний план](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_viewpoint;;
+concept_viewpoint => nrel_main_idtf: [точка зрения](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

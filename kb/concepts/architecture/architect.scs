@@ -1,0 +1,22 @@
+concept_architect 
+<-sc_node_not_relation;
+<-architecture;;
+concept_architect=> nrel_main_idtf:
+     [архитектор](* <-lang_ru;; *);
+     [architect](* <-lang_en;; *);;
+
+concept_architect <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: архитектор] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: architect] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архите́ктор — квалифицированный специалист, который на профессиональной основе осуществляет архитектурное проектирование, включая проектирование зданий, в том числе разработку объёмно-планировочных и интерьерных решений.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The architect is a qualified specialist who carries out architectural design on a professional basis, including the design of buildings, including the development of space-planning and interior design solutions.](*<- lang_en;;*);;
+			*);;
+          *);;

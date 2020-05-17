@@ -1,0 +1,9 @@
+uald 
+<-sc_node_not_relation;
+<-concept_architect;;
+uald=> nrel_main_idtf:
+     [Уильям Уальд](* <-lang_ru;; *);
+     [William Wilde](* <-lang_en;; *);
+=> nrel_to_born: unknown;
+=> nrel_to_die: unknown;
+=> nrel_nationality: france;;

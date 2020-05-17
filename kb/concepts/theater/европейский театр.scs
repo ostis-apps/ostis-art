@@ -1,0 +1,15 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+european_theater => nrel_main_idtf: //это типа основной идентификатор
+	[европейский театр](* <-lang_ru;; *);//ну тут понятно
+    [european theater](* <-lang_en;; *);;
+european_theater <= nrel_subdividing: ...
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Европейский театр](*<-lang_ru;; *);
+		[European theater](*<-lang_en;; *);;
+	->middle_ages;era_of_the_renaissance;;
+      	*);;
+
+
+

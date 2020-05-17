@@ -1,0 +1,88 @@
+sculpture_david
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Статуя Давида]
+	(* <- lang_ru;;	*);
+	[David's Statue]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_statue;
+    => nrel_author:
+        concept_author_Michelangelo;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Статуя Давида)](*<-lang_ru;;*);
+		[Description (David's Statue)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_statue
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/david_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/david_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_08_09_1504
+            (*
+                => nrel_main_idtf:
+                    [8 сентября 1504 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);
+ [mramor]
+                        (* <- lang_en;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Статуя Давида)](*<-lang_ru;;*);
+		[Pic. (David's Statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/david.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+country_Italy
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Италия] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Италия)] (* <-lang_ru;; *);;
+		   
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+
+
+
+
+

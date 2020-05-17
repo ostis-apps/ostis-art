@@ -1,0 +1,54 @@
+
+sc_node_not_relation->concept_proportions;;
+concept_proportions => nrel_main_idtf: [пропорции](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_value;;
+concept_value => nrel_main_idtf: [величина](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_antic_art;;
+concept_antic_art => nrel_main_idtf: [античное искусство](* <- lang_ru;; *);;
+
+sc_node_not_relation->concept_element;;
+concept_element => nrel_main_idtf: [элемент](* <- lang_ru;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

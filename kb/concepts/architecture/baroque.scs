@@ -1,0 +1,36 @@
+baroque
+<-sc_node_not_relation;
+<-concept_construction;;
+baroque => nrel_main_idtf:
+     [Барокко](* <-lang_ru;; *);
+     [Baroque](* <-lang_en;; *);;
+
+baroque 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Барокко] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Baroque] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Баро́кко  — характеристика европейской культуры XVII—XVIII веков, центром которой была Италия. Стиль барокко появился в эпоху Позднего Возрождения, в конце XVI — начале XVII веков в Риме, а затем распространился по многим странам Западной Европы. Особенно интенсивное развитие стиль барокко получил в Испании и странах Латинской Америки.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Baroque is a characteristic of the European culture of the XVII—XVIII centuries, the center of which was Italy. Baroque style appeared in The late Renaissance, in the late XVI — early XVII centuries in Rome, and then spread to many countries of Western Europe. Especially intensive development of the Baroque style was in Spain and Latin America.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+baroque 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барокко)](*<-lang_ru;;*);
+		[Pic. (Baroque)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://baroque.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

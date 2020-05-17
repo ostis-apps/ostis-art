@@ -1,0 +1,14 @@
+sc_node_not_relation->person_Chopin_Frederik;;
+
+person_Chopin_Frederik<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Шопен Фридерик)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Крупнейший польский композитор-романтик и пианиствиртуоз.](*<- lang_ru;; *);;
+		*);;
+	*);;

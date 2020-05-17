@@ -1,0 +1,27 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+euripides => nrel_main_idtf: //это типа основной идентификатор
+	[еврипид](* <-lang_ru;; *);//ну тут понятно
+    [euripides](* <-lang_en;; *);;
+euripides <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Еврипид - древнегреческий драматург, широко известный (наряду с Эсхилом и Софоклом) представитель классической афинской трагедии. ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[Euripides - Ancient Greek playwright, widely known (along with Aeschylus and Sophocles) representative of the classical Athenian tragedy. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+euripides <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[ Написал около 90 драм, из которых до нас дошло 17 трагедий и сатировская драма «Киклоп». ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [I wrote about 90 drams, of which 17 tragedies and the Cyclop satyr drama came down to us. ](* <- lang_en;; 	*);;
+		*);;
+	*);;

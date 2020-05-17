@@ -1,0 +1,41 @@
+hamlet=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Га́млет](* <-lang_ru;; *);//ну тут понятно
+    [Hamlet](* <-lang_en;; *);;
+hamlet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ «Га́млет» — трагедия Уильяма Шекспира в пяти актах, одна из самых известных его пьес и одна из самых знаменитых пьес в мировой драматургии ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Hamlet" — the tragedy of William Shakespeare in five acts, one of his most famous plays and one of the most famous plays in the world of drama.](*<- lang_en;;*);;
+		*);;
+		*);;
+
+
+hamlet<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сюжет:Рядом с Эльсинором, королевским дворцом датских монархов, солдаты ночных караулов несколько раз видели призрака, удивительно похожего на недавно умершего короля. Новость доходит до принца Гамлета, сына покойного короля, и он решает увидеть призрака. Встреча с ним приводит принца в ужас и полное смятение — призрак рассказал ему о том, что был убит своим братом Клавдием, нынешним королём, влившим ему в ухо яд во время сна. Тень отца Гамлета завещает сыну месть. Гамлет решает притворяться безумцем, чтобы получить неопровержимые доказательства вины Клавдия. Король, догадываясь, что «Гамлет не сошёл с ума, а притворяется с какой-то целью», посылает к нему его друзей — Розенкранца и Гильденстерна, чтобы те за соответствующее вознаграждение выведали, что на самом деле на уме у Гамлета. Но Гамлет, поняв истинную цель их приезда, ничего им не открывает, отвечая бессмысленными монологами на их расспросы. В это время в Эльсинор приезжает труппа бродячих актёров. Гамлет просит их поставить пьесу «Убийство Гонзаго», однако слегка меняет её сюжет таким образом, чтобы пьеса изображала убийство прежнего короля со слов призрака. Король внимательно следит за действием пьесы и уходит после того, как на сцене происходит убийство; Гамлет, следивший за реакцией Клавдия, теперь уверен в его виновности. Принц вскоре видит короля, молящегося в одиночестве. Гамлет колеблется, но отказывается от немедленного убийства Клавдия, ибо убитый во время покаянной молитвы король, вероятно, попадёт в рай, тогда как его жертва, отец Гамлета, не знает загробного покоя. Принц решает отложить месть до момента, когда душа короля будет готова к аду. После этого Гамлет идёт в покои королевы Гертруды, своей матери, и во время разговора убивает подслушивавшего за ковром королевского советника Полония, решив, что это Клавдий. Далее он упрекает мать в том, что выйдя замуж за Клавдия через месяц после смерти отца Гамлета, она оскорбила прежнего мужа. В этот момент Гамлету вновь является призрак отца и, невидимый королеве, призывает сына щадить мать. Король, понимая, что Гамлет для него опасен, отсылает его в Англию вместе с Розенкранцем и Гильденстерном за данью, передав с ними запечатанное письмо к английскому королю с требованием, чтобы Гамлета сразу же по приезде казнили. Принц спасается от этой участи, подменив письмо. Тем временем Офелия, дочь Полония и возлюбленная его случайного убийцы Гамлета, сходит с ума. Гамлет возвращается в Данию. Его бывший друг Лаэрт, сын Полония и брат Офелии, хочет отомстить принцу за гибель своего отца. Клавдий советует Лаэрту вызвать Гамлета на фехтовальный поединок затупленным оружием и убить, как бы случайно, причём Лаэрт намерен смазать лезвие своей рапиры сильным ядом, а король предлагает, как запасной план, дать принцу отравленного вина. Безумная Офелия тонет, случайно или совершив самоубийство. Гамлет, не знавший об этом, и его друг Горацио на кладбище неожиданно попадают на похороны Офелии и встречают короля, королеву и Лаэрта. Вскоре Лаэрт передаёт Гамлету вызов на поединок. Во время поединка и Гамлет, и Лаэрт получают ранения отравленным клинком, а вино с ядом случайно выпивает королева и умирает. Лаэрт перед смертью открывает принцу замысел короля, Гамлет убивает Клавдия и умирает сам. Датский престол переходит к Фортинбрасу, норвежскому правителю…](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Plot:Near Elsinore, the Royal Palace of the Danish monarchs, the soldiers of the night guards several times saw a Ghost, surprisingly similar to the recently deceased king. The news reaches Prince hamlet, the son of the late king, and he decides to see the Ghost. Meeting with him leads the Prince in horror and complete confusion — the Ghost told him that was killed by his brother Claudius, the current king, viewsim into his ear the poison during sleep. The shadow of hamlet's father bequeaths his son revenge. Hamlet decides to pretend to be a madman to get irrefutable evidence of Claudius ' guilt. The king, knowing that "hamlet is not mad, and pretending with a purpose", sends to him his friends Rosenkrantz and Guildenstern to those for the corresponding reward to find out that in fact the mind of hamlet. But hamlet, having understood the true purpose of their arrival, does not reveal anything to them, answering their questions with meaningless monologues. At this time, a troupe of wandering actors comes to Elsinore. Hamlet asks them to put on a play "the Murder of Gonzago", but slightly changes her story so that the play depicted the murder of the former king with the words of the Ghost. King closely follows the action of the play and leaves after the scene of the murder; hamlet, who followed the reaction of Claudius, is now convinced of his guilt. The Prince soon sees the king praying alone. Hamlet hesitates, but refuses immediate killing Claudius because murdered during the penitential prayers the king will probably go to heaven, while his victim, hamlet's father, does not know the afterlife of rest. The Prince decides to postpone revenge until the moment when the soul king will be ready for hell. After that hamlet goes to the chamber of Queen Gertrude, his mother, and during a conversation kills podsushiwauschego for carpet Royal Advisor Polonius, thinking it was Claudius. He further reproaches his mother for having married Claudius a month after the death of hamlet's father, she insulted her former husband. At this point, hamlet is again the Ghost of the father and invisible to the Queen encourages his son to spare the mother. The king, realizing that hamlet is dangerous for him, sends him to England with Rosencrantz and gildenstern for the tribute, handing them a sealed letter to the king of England demanding that hamlet immediately upon his arrival was executed. The Prince escapes from this fate by replacing the letter. Meanwhile, Ophelia, Polonius ' daughter and lover of his random killer hamlet, goes crazy. Hamlet returns to Denmark. His former friend Laertes, son of Polonius and brother Ofelia, wants to avenge the Prince for the death of his father. Claudius advises Laertes to cause hamlet to the fencing match with blunted weapons and kill, as if by accident, and Laertes intend to coat the blade of his rapier potent poison, and the king offers as a backup plan, give the Prince of poisoned wine. Crazy Ophelia drowns by accident or by suicide. Hamlet, who did not know about it, and his friend Horatio in the cemetery suddenly come to the funeral of Ophelia and meet the king, Queen and Laertes. Soon Laertes hamlet sends a challenge to a duel. During the duel, both hamlet and Laertes are injured with a poisoned blade, and the Queen accidentally drinks the wine with poison and dies. Laertes before his death, reveals to the Prince the plan of the king, hamlet kills Claudius, and dies himself. The Danish throne passes to Fortinbras, the Norwegian ruler…](*<- lang_en;;*);;
+			*);;
+		*);;
+hamlet<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Наиболее вероятная дата первой постановки является 1600-01 гг. (театр «Глобус», Лондон). Первый исполнитель заглавной роли — Р. Бербедж; Шекспир играл тень отца Гамлета.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The most probable date of the first production is 1600-01 (globe theatre, London). The first performer of the title role — R. Burbage; Shakespeare played the shadow of hamlet's father.](*<- lang_en;;*);;
+			*);;
+		*);;

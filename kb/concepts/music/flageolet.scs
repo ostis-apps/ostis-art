@@ -1,0 +1,19 @@
+sc_node_not_relation ->flageolet;;
+
+flageolet => nrel_main_idtf:
+[flageolet](*<- lang_en;; *);;
+
+flageolet<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(флажеолет)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[небольшой флейтообразный духовой инструмент.](*<- lang_ru;; *);;
+-> rrel_example:
+			[ Старинный музыкальный духовой наподобие флейты инструмент.](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,16 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+theatre_in_russia => nrel_main_idtf: //это типа основной идентификатор
+	[театр в россии](* <-lang_ru;; *);//ну тут понятно
+    [theatre in russia](* <-lang_en;; *);;
+theatre_in_russia <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В России театр родился поздно — лишь во второй половине XVII века. Однако в православной церкви были приняты инсценировки отдельных служб — Пещное действо и Шествие на осляти. Эти обряды совершались не позднее, чем с начала XVI столетия. Скоморошество, зародившееся ещё в XI веке, жестко осуждалось Церковью и было официально запрещено в 1648 году указом Алексея Михайловича; города не обладали достаточной самостоятельностью, чтобы своими силами устраивать представления, аналогичные западноевропейским мистериям, — театр в Россию был импортирован из Западной Европы. В 1672 году был создан первый придворный театр, однако он просуществовал всего несколько лет. К этому же времени относится возникновение так называемого «школьного театра» — театра при духовных учебных заведениях; первое упоминание относится к 1672 году, когда в Киево-Могилянской академии была поставлена мистерия «Об Алексее человеке Божием». В 1687 году в Заиконоспасском монастыре в Москве была основана Славяно-греко-латинская академия, при которой также был создан театр.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In Russia, the theater was born late — only in the second half of the XVII century. However, in the Orthodox Church was accepted in the staging of the individual services — the burning fiery furnace event and the Procession on an ass. These ceremonies were performed no later than the beginning of the XVI century. The skomoroshestvo, which originated in the XI century, was severely condemned by the Church and was officially banned in 1648 by the decree of Alexei Mikhailovich; the cities did not have enough independence to organize performances similar to Western European mysteries on their own — the theater in Russia was imported from Western Europe. In 1672, the first court theatre was established, but it lasted only a few years. By this time is the emergence of so-called "school of theater" — theater at spiritual educational institutions; the first reference dates back to 1672, when in the Kiev-Mohyla Academy was given the mystery "About Alexis man of God." In 1687, the Slavonic-Greek-Latin Academy was founded in the Zaikonospassky monastery in Moscow, where a theatre was also established.](*<- lang_en;;*);;
+			*);;
+		*);;

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="34523184" parent="0" x="673.5" y="629.36" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Японское издательство журналов и манги, основанное Такео Огой.]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_logo" shapeColor="193" id="39839664" parent="0" left="0" top="0" right="75.0156" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1" y="402.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_startdate" shapeColor="193" id="44635104" parent="0" left="0" top="0" right="111.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="4" y="54.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="193" id="40839568" parent="0" left="0" top="0" right="102.625" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="168.5" y="617.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="193" id="33247952" parent="0" left="0" top="0" right="100.672" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="288.5" y="367.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="193" id="36774832" parent="0" left="0" top="0" right="181.859" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="103.5" y="492.36" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="40098464" parent="0" x="292.5" y="532.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="193" id="38492032" parent="0" left="0" top="0" right="61.9219" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="714.5" y="526.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="32358736" parent="0" x="292.5" y="458.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="193" id="32594192" parent="0" left="0" top="0" right="154.812" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="372.5" y="331.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="&quot;Shueisha Inc.&quot;" shapeColor="193" id="32291120" parent="0" left="0" top="0" right="119.641" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="300" y="147.86" haveBus="false" idtf_pos="2">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="42468032" parent="0" x="0" y="318.5" haveBus="false" idtf_pos="0">
+            <content type="4" mime_type="image/png" content_visibility="true" file_name="255px-Shueisha.png"><![CDATA[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]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="1925" shapeColor="193" id="33684032" parent="0" left="0" top="0" right="44.125" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-54" y="153.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="год" shapeColor="193" id="34177296" parent="0" left="0" top="0" right="34.1875" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-124" y="19" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="изображение" shapeColor="193" id="32538432" parent="0" left="0" top="0" right="109.297" bottom="23" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-164" y="226" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="34164416" parent="0" id_b="32291120" id_e="33684032" b_x="300" b_y="147.86" e_x="-54" e_y="153.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="40473872" parent="0" id_b="32291120" id_e="42468032" b_x="300" b_y="147.86" e_x="0" e_y="318.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="193" id="42405296" parent="0" id_b="40098464" id_e="32358736" b_x="292.5" b_y="532.36" e_x="292.5" e_y="458.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="39044000" parent="0" id_b="36774832" id_e="42405296" b_x="103.5" b_y="492.36" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.572727">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="30181232" parent="0" id_b="38492032" id_e="34523184" b_x="714.5" b_y="526.36" e_x="673.5" e_y="629.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42057136" parent="0" id_b="33247952" id_e="32358736" b_x="288.5" b_y="367.36" e_x="292.5" e_y="458.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42235408" parent="0" id_b="44635104" id_e="34164416" b_x="4" b_y="54.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.893702">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42342144" parent="0" id_b="39839664" id_e="40473872" b_x="1" b_y="402.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.6012">
+            <points>
+                <point x="199" y="377.5"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="32145616" parent="0" id_b="40839568" id_e="42566000" b_x="168.5" b_y="617.36" e_x="-183" e_y="-10" dotBBalance="0" dotEBalance="0.489362">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42566000" parent="0" id_b="40098464" id_e="34523184" b_x="292.5" b_y="532.36" e_x="673.5" e_y="629.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="38491760" parent="0" id_b="32358736" id_e="32291120" b_x="292.5" b_y="458.36" e_x="300" e_y="147.86" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="616" y="444.86"/>
+                <point x="622" y="151.86"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="32358464" parent="0" id_b="32594192" id_e="38491760" b_x="372.5" b_y="331.36" e_x="-183" e_y="-10" dotBBalance="0" dotEBalance="0.494939">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="44560672" parent="0" id_b="34177296" id_e="33684032" b_x="-124" b_y="19" e_x="-54" e_y="153.5" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="-141" y="99"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="193" id="42081808" parent="0" id_b="32538432" id_e="42468032" b_x="-164" b_y="226" e_x="0" e_y="318.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

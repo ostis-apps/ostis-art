@@ -1,0 +1,17 @@
+sc_node_not_relation->person_Robert_Schumann;;
+
+person_Robert_Schumann=> nrel_main_idtf:
+[Robert Schumann](*<- lang_en;; *);;
+
+person_Robert_Schumann<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Шуман Роберт)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Немецкий композитор-романтик, критик, дирижер, педагог, музыкальный писатель.](*<- lang_ru;; *);;
+		*);;
+	*);;

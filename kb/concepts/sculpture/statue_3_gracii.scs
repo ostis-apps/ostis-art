@@ -1,0 +1,69 @@
+sculpture_tri_gracii
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Три Грации]
+	(* <- lang_ru;;	*);
+	[The Three Graces]
+	(* <- lang_en;;	*);
+	<- concept_sculpture;
+    <- concept_round_sculpture;
+    => nrel_author:
+        concept_author_Kanova;
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Три Грации)](*<-lang_ru;;*);
+		[Description (The Three Graces)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_round_sculpture
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/tri_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/tri_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_14_04_1817
+            (*
+                => nrel_main_idtf:
+                    [14 апреля 1817 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Italy;
+
+    => nrel_material:
+        material_mramor
+            (*
+                => nrel_main_idtf:
+                    [мрамор]
+                        (* <- lang_ru;; *);;
+            *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Три Грации)](*<-lang_ru;;*);
+		[Pic. (The Three Graces)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/tri.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+
+
+
+

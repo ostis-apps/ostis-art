@@ -1,0 +1,17 @@
+sc_node_not_relation->person_Verdi_Giuseppe;;
+
+person_Verdi_Giuseppe=> nrel_main_idtf:
+[Verdi Giuseppe](*<- lang_en;; *);;
+
+person_Verdi_Giuseppe<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Верди Джузеппе)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Великий итальянский оперный композитор и дирижер эпохи романтизма.](*<- lang_ru;; *);;
+		*);;
+	*);;

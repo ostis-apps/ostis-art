@@ -1,0 +1,6 @@
+sc_text_of_agent_for_finding_comics_with_featurnig_two_characters
+-> rrel_key_sc_element:
+	agent_for_finding_comics_with_featurnig_two_characters;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_for_finding_comics_with_featurnig_two_characters = [*^"file://agent_for_finding_comics_with_featurnig_two_characters.scsi"*];;

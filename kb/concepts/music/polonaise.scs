@@ -1,0 +1,17 @@
+sc_node_not_relation ->polonaise;;
+
+polonaise => nrel_main_idtf:
+[polonaise](*<- lang_en;; *);;
+
+polonaise<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(полоне́з)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ торжественный танец-шествие в умеренном темпе, имеющий польское происхождение.](*<- lang_ru;; *);;
+		*);;
+	*);;

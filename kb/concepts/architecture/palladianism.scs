@@ -1,0 +1,54 @@
+palladianism
+<-sc_node_not_relation;
+<-concept_style;;
+palladianism => nrel_main_idtf:
+     [Палладианизм](* <-lang_ru;; *);
+     [Palladianism](* <-lang_en;; *);;
+
+palladianism 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Палладианизм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Palladianism] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Палладианизм  — стилевое течение раннего классицизма, выросшее из идей итальянского архитектора Андреа Палладио (1508—1580). В западноевропейской историографии — палладианизм (ит. palladianizm), в русскоязычной традиции — палладианство. В основе этого стилевого течения — античное наследие: следование композиционным принципам классической храмовой архитектуры Древней Греции и Рима.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Palladianism is a stylistic trend of early classicism, which grew out of the ideas of the Italian architect Andrea Palladio (1508-1580). In Western European historiography — palladianism (it. palladianism), in the Russian — speaking tradition-palladianism. At the heart of this stylistic trend is the ancient heritage: following the compositional principles of classical temple architecture of Ancient Greece and Rome.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+palladianism 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Палладианизм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Palladianism] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Палладиева архитектура.](* <- lang_ru;; *);;
+          -> rrel_example:
+			[Palladian architecture. ](* <- lang_en;; *);;
+		*);;
+	*);;
+
+palladianism 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Палладианизм)](*<-lang_ru;;*);
+		[Pic. (Palladianism)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://palladianism.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

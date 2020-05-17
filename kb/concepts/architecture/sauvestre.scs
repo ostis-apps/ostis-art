@@ -1,0 +1,36 @@
+sauvestre 
+<-sc_node_not_relation;
+<-concept_architect;;
+sauvestre=> nrel_main_idtf:
+     [Стефан Совестр](* <-lang_ru;; *);
+     [Charles Léon Stephen Sauvestre](* <-lang_en;; *);;
+sauvestre <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Стефан Совестр] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: Charles Léon Stephen Sauvestre] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Шарль Леон Стефан Совестр был французским архитектором. Он известен тем, что был одним из архитекторов, участвовавших в разработке всемирно известной Эйфелевой башни, построенной для Всемирной выставки 1889 года в Париже, Франция.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Charles Léon Stephen Sauvestre was a French architect. He is notable for being one of the architects contributing to the design of the world-famous Eiffel Tower, built for the 1889 Universal Exposition in Paris, France.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+sauvestre <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стефан Совестр)](*<-lang_ru;;*);
+		[Pic. (Stephen Sauvestre)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://sauvestre.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 28121847;
+=> nrel_to_die: 18061919;
+=> nrel_nationality: france;;

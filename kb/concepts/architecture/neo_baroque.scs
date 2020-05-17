@@ -1,0 +1,36 @@
+neo_baroque
+<-sc_node_not_relation;
+<-concept_style;;
+neo_baroque => nrel_main_idtf:
+     [Необарокко](* <-lang_ru;; *);
+     [Neo-Baroque](* <-lang_en;; *);;
+
+neo_baroque 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Необарокко] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Neo-Baroque] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Необарокко — одна из форм архитектурного стиля историзм XIX века, воспроизводившая архитектурные формы барокко. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Neo-Baroque is one of the forms of architectural style historicism of the XIX century, reproducing the architectural forms of the Baroque.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+neo_baroque 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Необарокко)](*<-lang_ru;;*);
+		[Pic. (Neo-Baroque)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://neobaroque.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

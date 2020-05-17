@@ -1,0 +1,36 @@
+vereshchagin
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+vereshchagin => nrel_main_idtf:
+     [Алексей Верещагин](* <-lang_ru;; *);
+     [
+Alexey Vereshchagin](* <-lang_en;; *);;
+
+vereshchagin <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Работал с Российским Национальным оркестром под управлением Михаила Плетнева, ассистируя в подготовке программы симфоний Шуберта в Большом зале консерватории в Москве. Сотрудничает с Юношеским симфоническим оркестром России им. Л.В. Николаева. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[He worked with the Russian National Orchestra under the direction of Mikhail Pletnev, assisting in the preparation of the Schubert symphony program in the Great Hall of the Moscow Conservatory. Collaborates with the Youth Symphony Orchestra of Russia. L.V. Nikolaev.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+vereshchagin <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Верещагин)](*<-lang_ru;;*);
+		[Pic. (vereshchagin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

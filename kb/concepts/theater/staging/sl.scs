@@ -1,0 +1,33 @@
+sl=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Спящая красавица](* <-lang_ru;; *);//ну тут понятно
+    [
+sleeping Beauty](* <-lang_en;; *);;
+
+sl<- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Спящая красавица» была первым знаменитым балетом Чайковского. В нем музыка ничуть не менее важна, чем танцы. История «Спящей красавицы» - идеальное сочетание балетно-королевских торжеств в великолепном замке, битвы добра и зла и торжествующей победы вечной любви. Хореография была создана всемирно известным Мариусом Пепита, который также поставил «Щелкунчик» и « Лебединое озеро». Этот классический балет будет исполняться до скончания времен.
+](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Sleeping Beauty was the first famous Tchaikovsky ballet. In it, music is no less important than dancing. The story of Sleeping Beauty is the perfect combination of royal ballet celebrations in a magnificent castle, the battle of good and evil and the triumphant victory of eternal love. The choreography was created by the world famous Marius Pepita, who also staged The Nutcracker and Swan Lake. This classical ballet will be performed until the end of time.
+
+](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+sl<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьера балета)](*<-lang_ru;;*);
+		[Pic. (The ballet premiered)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/5.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

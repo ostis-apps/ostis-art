@@ -1,0 +1,99 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+ancient_theater => nrel_main_idtf: //это типа основной идентификатор
+	[античный театр](* <-lang_ru;; *);//ну тут понятно
+    [ancient theater](* <-lang_en;; *);;
+ancient_theater <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Древнегреческий театр родился из мистерий, посвященных богам-покровителям земледелия, в первую очередь Дионису: в ходе посвящённых ему празднеств хор «сатиров», одетых в козлиные шкуры, распевал песни (дифирамбы), содержание которых составляли мифы дионисийского круга. От хора сатиров произошло и слово «трагедия» (буквально — «песнь козлов»). ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[The ancient Greek theater was born from the mysteries dedicated to the gods-patrons of agriculture, primarily Dionysus: during the festivals dedicated to him, the chorus of "satyrs" dressed in goatskins sang songs (praises), the contents of which were myths of the Dionysian circle. The word “tragedy” (literally “the song of goats”) came from the choir of satyrs.  ](* <- lang_en;; 	*);;
+->dionysus;dithyramb;;
+		*);;
+	*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Год рождения мирового театра: 534 г. до н. э., когда афинский поэт Феспид во время Великих Дионисий наряду с хором использовал одного актёра-декламатора. Декламатор, которого в VI веке до н. э. называли «гипокритом» («ответчиком» или «комментатором»), мог вступать в диалог с хором, изображать по ходу повествования различных персонажей мифов, и таким образом к диалогу примешивались элементы актёрской игры.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[Year of birth of the world theater: 534 BC. Oe., when the Athenian poet Fespid during the Great Dionysius, along with the choir, used one actor-declarer. Declarer, which in the VI century BC. er They were called “hypocritus” (“respondent” or “commentator”), could engage in dialogue with the chorus, portray various characters of the myths in the course of the narration, and thus the elements of the actor play were mixed with the dialogue.](*<- lang_en;;*);;
+*);;
+	*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ Развитие:позже Эсхил добавил к хору второго актёра-декламатора, а Софокл третьего, — в V веке до н. э. «гипокриты» уже могли общаться не только с хором, но и между собой, что сделало возможным драматическое действие, независимое от хора, и в результате — преобразование хора сатиров в драму.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[
+Development: Aeschyl later added the second actor-declarant to the choir, and Sophocles the third, in the V century BC. er The “hypocrites” could already communicate not only with the choir, but also with each other, which made drama action independent of the choir possible, and as a result, the transformation of the satyric choir into drama.](*<- lang_en;;*);;
+*);;
+	*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В те времена существовали пьесы только двух жанров — трагедии и комедии. Писались они чаще всего на мифологические или исторические сюжеты. Все роли играли мужчины. Актёры выступали в огромных масках и на котурнах. Декораций не было. Женщины (исключая гетер) не всегда и не везде допускались на представления, особенно на комедию, и сидели, как правило, отдельно от мужчин. В Греции профессия актера считалась престижной, а в Риме — позорной.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[In those days, there were plays of only two genres - tragedy and comedy. They were often written on mythological or historical subjects. All roles were played by men. The actors performed in huge masks and on boot logs. There was no scenery. Women (excluding heterosexuals) were not always and not everywhere allowed to see performances, especially comedy, and were, as a rule, separate from men. In Greece, the profession of an actor was considered prestigious, and in Rome - shameful.](*<- lang_en;;*);;
+	*);;
+	*);;
+ancient_theater<- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Знаменитые драматурги того времени: Эсхил, Софокл, Еврипид, которых называют отцами греческой трагедии, Аристофан — отец комедии. В Риме можно отметить Плавта комедиографа и Сенеку, который обрабатывал произведения Еврипида.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 		[Famous playwrights of the time: Aeschylus, Sophocles, Euripides, who are called the fathers of the Greek tragedy, Aristophanes - the father of comedy. In Rome, you can mention Plavis comedian and Seneca, who processed the works of Euripides.](*<- lang_en;;*);;
+->playwright;;
+*);;
+	*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В Греции между драматургами проводились соревнования (агон), при выборе победителя учитывалось мнение публики.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 		[In Greece, playwrights (agon) were held between playwrights, when selecting the winner, the opinion of the public was taken into account.](*<- lang_en;;*);;
+->agon;;
+*);;
+*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В Древнем Риме были популярны ателланы, короткие фарсовые представления в духе буффонады.](*<- lang_ru;;*);;
+		  -> rrel_example: 	[In ancient Rome, atellans were popular, short farce performances in the spirit of buffoonery.](*<- lang_en;;*);;
+->atellana;buffonade ;;
+*);;
+	*);;
+ancient_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Наряду с официальным существовал также античный народный театр, в котором выступали бродячие комедианты — флиаки и мимы. Они разыгрывали примитивные пьески бытового, развлекательного, сатирического, часто непристойного содержанияна улицах и площадях, актеры были без масок, в представлении могли участвовать женщины.](*<- lang_ru;;	*);;
+		  -> rrel_example: 	[Along with the official, there was also an ancient folk theater, in which roving comedians, fliak and mimes, performed. They played primitive pieces of everyday, entertaining, satirical, often obscene content on the streets and squares, the actors were masked, women could participate in the performance.](*<- lang_en;;*);;
+->fliaki;mimes;;
+*);;
+	*);;

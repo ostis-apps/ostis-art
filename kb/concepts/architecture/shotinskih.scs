@@ -1,0 +1,22 @@
+shotinskih
+<-sc_node_not_relation;
+<-concept_architect;;
+shotinskih => nrel_main_idtf:
+     [Шотинских](* <-lang_ru;; *);
+     [Szotyński](* <-lang_en;; *);;
+shotinskih <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Шотинских] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Szotyński] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Шотинских - фамилия известных польских архитекторов современности. Являются архитекторами известного Кривого домика - офисно-торговый центр в Сопоте. выполненого с стиле оптической иллюзии.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Szotyński - a couple of architects from Poland of world-wide known shopping mall called "Krzywy Domek"](*<- lang_en;;*);;
+			*);;
+          *);
+=> nrel_nationality: polish;;

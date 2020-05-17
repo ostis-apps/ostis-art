@@ -1,0 +1,27 @@
+nrel_to_born<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[родиться*](* <- lang_ru;; *);
+	[to be born*](* <- lang_eng;; *);;
+
+nrel_to_born<- rrel_key_sc_element:... (*
+          <- definition;;
+          => nrel_main_idtf: 
+                  [Определение: родиться*](*<- lang_ru;;*);
+                  [Definition: to be born*)](*<- lang_en;;*);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Родиться - значит появиться на свет в процессе родов.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[It is the name of a proccess when one person is giving a life to another, in other words it is a result of childbirth.](*<- lang_en;;*);;
+			*);;
+*);
+
+=>nrel_first_domain:concept_human;
+=>nrel_second_domain:concept_date_of_birth;
+
+<- binary_relation ;
+<- antireflexive_relation ;
+<- antitransitive_relation ;;
+

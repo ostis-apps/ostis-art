@@ -1,0 +1,54 @@
+architectural_styles_of_the_archaic_period
+<-sc_node_not_relation;
+<-concept_construction;;
+architectural_styles_of_the_archaic_period => nrel_main_idtf:
+     [Архитектурные стили архаичного периода](* <-lang_ru;; *);
+     [Architectural styles of the archaic period](* <-lang_en;; *);;
+
+architectural_styles_of_the_archaic_period 
+<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Архитектурные стили архаичного периода] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Architectural styles of the archaic period] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Архитектурные стили архаичного периода - рвннее развитие того или иного исторического направления. Чаще этот термин применяют в отношении египетского искусства.  ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Architectural styles of the archaic period  - the early development of a historical direction. More often this term is used in relation to Egyptian art.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+architectural_styles_of_the_archaic_period 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Архитектурные стили архаичного периода] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Architectural styles of the archaic period] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Архаика.](* <- lang_ru;; *);;
+          -> rrel_example:
+			[Archaic. ](* <- lang_en;; *);;
+		*);;
+	*);;
+
+architectural_styles_of_the_archaic_period 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архитектурные стили архаичного периода)](*<-lang_ru;;*);
+		[Pic. (Architectural styles of the archaic period)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://archaic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

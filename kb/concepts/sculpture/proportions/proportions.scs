@@ -1,0 +1,30 @@
+
+concept_proportions => nrel_idtf: [proportions](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Пропорции)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Пропорции - соотношение величин элементов художественного произведения, а также отдельных элементов и всего произведения в целом](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_proportions;;
+<= nrel_using_constants :...
+(*
+-> concept_value; concept_element;;
+*);;
+*);;
+
+ concept_proportions -> rrel_example: [Пропорции мужского тела.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Пропорции, античное искусство)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Античное искусство установило идеальные пропорции.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_proportions; concept_antic_art;;
+*);; 
+
+

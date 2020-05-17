@@ -1,0 +1,17 @@
+sc_node_not_relation ->pianist ;;
+
+pianist=> nrel_main_idtf:
+[pianist](*<- lang_en;; *);;
+
+pianist<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(пиани́ст )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ музыкант, исполнитель на фортепиано. Пианисты могут выступать сольно, играть в составе ансамбля или оркестра, а также аккомпанировать другим музыкантам.](*<- lang_ru;; *);;
+		*);;
+	*);;

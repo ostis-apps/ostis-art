@@ -1,0 +1,16 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+theatre_in_usa => nrel_main_idtf: //это типа основной идентификатор
+	[театр в сша](* <-lang_ru;; *);//ну тут понятно
+    [theatre in usa](* <-lang_en;; *);;
+theatre_in_usa <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Основное развитие театра США приходится на колониальный период и основывается на западноевропейских театральных традициях. Ключевое отличие — вклад в театральное искусство со стороны чернокожего населения Америки, который обнаруживается начиная с XIX века, но основное значение приобретает только с 1920-х годов](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The main development of the US theater falls on the colonial period and is based on Western European theatrical traditions. The key difference is the contribution of the black population of America to the theatrical art, which has been revealed since the XIX century, but the main importance only since the 1920s](*<- lang_en;;*);;
+			*);;
+		*);;

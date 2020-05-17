@@ -1,0 +1,18 @@
+sc_node_not_relation ->alto ;;
+
+alto=> nrel_main_idtf:
+[альт ](*<- lang_ru;; *);
+[alto](*<- lang_en;; *);;
+
+alto<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Альт )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[струнно-смычковый музыкальный инструмент такого же устройства, что и скрипка, но несколько больших размеров, отчего звучит в более низком регистре. ](*<- lang_ru;; *);;
+		*);;
+	*);;

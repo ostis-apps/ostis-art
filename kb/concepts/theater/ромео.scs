@@ -1,0 +1,79 @@
+romeo_and_juliet=> nrel_main_idtf: //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+	[Ромео и Джульетта](* <-lang_ru;; *);//ну тут понятно
+    [Romeo and Juliet](* <-lang_en;; *);;
+romeo_and_juliet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Роме́о и Джулье́тта» — трагедия Уильяма Шекспира, рассказывающая о любви юноши и девушки из двух враждующих веронских родов — Монтекки и Капулетти. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Romeo and Juliet" - the tragedy of William Shakespeare, telling about the love of boys and girls of the two warring families of Verona - Montecchi and Capuleti.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+romeo_and_juliet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Ромео и Джульетта» — французский мюзикл, написанный по классической пьесе Уильяма Шекспира «Ромео и Джульетта». Музыка и слова были написаны Жераром Пресгюрвиком. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Romeo and Juliet is a French musical based on William Shakespeare’s classic Romeo and Juliet. Music and words were written by Gérard Presgurvic.](*<- lang_en;;*);;
+			*);;
+		*);;
+romeo_and_juliet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Ограничения по возрасту:12+](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Age restrictions: 12+](*<- lang_en;;*);;
+			*);;
+		*);;
+romeo_and_juliet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Первый спектакль состоялся в Париже 19 января 2001 года. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The first performance took place in Paris on January 19, 2001.](*<- lang_en;;*);;
+			*);;
+		*);;
+romeo_and_juliet <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ Продюсерами выступили Жерар Лувэн, GLEM и Universal Music.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The producers were Gerard Louvain, GLEM and Universal Music.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

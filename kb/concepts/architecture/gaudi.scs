@@ -1,0 +1,36 @@
+gaudi 
+<-sc_node_not_relation;
+<-concept_architect;;
+gaudi=> nrel_main_idtf:
+     [Анто́ни Пла́сид Гильéм Гауди́-и-Корне́т](* <-lang_ru;; *);
+     [Antonio Plácido Guillermo Gaudí y Cornet](* <-lang_en;; *);;
+gaudi <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Анто́ни Пла́сид Гильéм Гауди́-и-Корне́т] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Antonio Plácido Guillermo Gaudí y Cornet] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Анто́ни Пла́сид Гильéм Гауди́-и-Корне́т - каталонский архитектор, который стал всемирно признан одним из самых потрясающих специалистов в своей области, а также величайшим представителей модерна. Родился в небольшом городке Реус, недалеко от Таррагоны, в Каталонии. Был пятым, младшим, ребёнком в семье. В семидесятых годах XIX века Гауди переехал в Барселону, где после пяти лет подготовительных курсов был принят в Провинциальную школу архитектуры, которую окончил в 1878 году. За свою жизнь Антонио Гауди создал более 20 архитектурных шедевров, 10 из которых размещены непосредственно в Барселоне.  Главный проект в жизни Антонио Гауди – храм Святого Семейства.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Antonio Plácido Guillermo Gaudí y Cornet is a Catalan architect who has become internationally recognized as one of the most amazing specialists in his field, and as one of the greatest specialists of modernity. He was born in a small town of Reus in Catalonia. He was the fifth, youngest, child in the family. In the seventies of the XIX century, Gaudi moved to Barcelona, ​​where  was accepted into the Provincial School of Architecture, from which he graduated in 1878. During his life, Antonio Gaudi created more than 20 architectural masterpieces, 10 of which are located directly in Barcelona. The main project in the life of Antonio Gaudi - the temple of the Holy Family. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+gaudi <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анто́ни Пла́сид Гильéм Гауди́-и-Корне́т)](*<-lang_ru;;*);
+		[Pic. (Antonio Plácido Guillermo Gaudí y Cornet)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://gaudi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 25061852;
+=> nrel_to_die: 10061926;
+=> nrel_nationality: catalonian;;

@@ -1,0 +1,36 @@
+vespasianus 
+<-sc_node_not_relation;
+<-concept_architect;
+=> nrel_main_idtf:
+     [Тит Флавий Веспасиан](* <-lang_ru;; *);
+     [Titus Flavius Vespasianus](* <-lang_en;; *);;
+
+vespasianus <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Тит Флавий Веспасиан] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Titus Flavius Vespasianus] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Тит Фла́вий Веспасиа́н, вошедший в историю под именем Веспасиан, — римский император в 69—79 годах.В начале правления Веспасиана столица империи переживала не лучший период своей истории: она серьёзно пострадала из-за пожаров 64 и 69 годов. Новый император начал осуществлять грандиозную строительную программу. Он разрешил всем желающим занимать и застраивать пустующие участки, если владельцы земли ничего на ней не строят. При Веспасиане началось строительство ряда новых объектов. Это были, в частности, храм Мира (или Форум Веспасиана),  Амфитеатр Флавиев (позже известный как Колизей).](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Titus Flavius ​​Vespasian, who went down in history as Vespasian, was a Roman emperor in 69-79 years. At the beginning of Vespasian’s reign, the capital of the empire was not the best in its history: it was seriously affected by fires of 64 and 69 years. The new emperor began a grand building program. He allowed everyone to occupy and build up empty plots, if the owners of the land do not build anything on it. When Vespasian began construction of a number of new objects. These were, in particular, the Temple of Peace (or the Forum of Vespasian), the Flavian Amphitheater (later known as the Colosseum).](*<- lang_en;;*);;
+			*);;
+          *);;
+vespasianus <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тит Флавий Веспасиан)](*<-lang_ru;;*);
+		[Pic. (Titus Flavius Vespasianus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://vespasianus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_to_born: 17119;
+=> nrel_to_die: 240679;
+=> nrel_nationality: rome;;

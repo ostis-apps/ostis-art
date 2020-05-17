@@ -1,0 +1,28 @@
+nrel_nationality<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[национальность*](* <- lang_ru;; *);
+	[nationality*](* <- lang_eng;; *);;
+
+nrel_nationality<- rrel_key_sc_element:... (*
+<- definition;;
+=> nrel_main_idtf: 
+[Опр. (национальность*)](*<- lang_ru;;*);
+[Def. (nationality*)](*<- lang_en;;*);;
+
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Обозначение принадлежности человека (или группы людей) к определенной нации (или этнической группе).](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Designation of a person (or group of people) belonging to a certain nation (or ethnic group).](*<- lang_en;;*);;
+			*);;
+*);
+
+=>nrel_first_domain:concept_human;
+=>nrel_second_domain:concept_counrty_of_birth;
+
+<- binary_relation ;
+<- antireflexive_relation ;
+<- antitransitive_relation ;;
+

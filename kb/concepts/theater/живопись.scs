@@ -1,0 +1,31 @@
+painting => nrel_main_idtf: //это типа основной идентификатор
+	[живопись](* <-lang_ru;; *);//ну тут понятно
+    [painting](* <-lang_en;; *);;
+painting <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: живопись] (* <- lang_ru;; *);; //тут тоже ясно
+		=> nrel_main_idtf: [Definition: painting] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Живопись — один из главных видов изобразительного искусства. Правдивая передача внешнего облика предмета, его внешних признаков возможна и графическими средствами — линией и тоном. Но передать все необычайно разнообразное многоцветие окружающего мира, может только живопись.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Painting -  is one of the main types of art. True transfer of the external appearance of the object, its external features is possible and graphic means - a line and tone. But only a painting can convey all of the unusually diverse multicolor of the surrounding world.](*<- lang_en;;*);;
+			*);;
+            <= nrel_using_constants: ...
+            (* //список используемых констант
+                -> art;;
+             _>images;;
+            *);;
+		*);;
+painting<= nrel_subdividing: ...
+(*
+<- explanation;;
+	=> nrel_main_idtf:
+		[Картины](*<-lang_ru;; *);
+		[Pictures](*<-lang_en;; *);;
+	-> portrait_of_dora;the_birth_of_venus;starlight_night;last_supper;mona_lisa;sistinskaya_madonna;transfiguration;athens_school;creation_of_adam;;
+*);;

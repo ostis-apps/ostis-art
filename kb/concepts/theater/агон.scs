@@ -1,0 +1,26 @@
+ //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+agon => nrel_main_idtf: //это типа основной идентификатор
+	[агон](* <-lang_ru;; *);//ну тут понятно
+    [agon](* <-lang_en;; *);;
+agon<- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Агон — словесный спор, столкновение мнений — композиционный элемент древнеаттической комедии; начало агона — словесные диспуты в трагедиях Еврипида. ](* <- lang_ru;; 	*);;
+	  -> rrel_example: [Agon - a verbal dispute, clash of opinions - the compositional element of the ancient static comedy; the beginning of the agon is a verbal dispute in the tragedies of Euripides. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+agon <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:...
+		(*
+		-> rrel_example:
+			[В комедии — это часть, идущая за пародом и заключающая спор действующих лиц, в котором побеждает лицо, выражающее идею автора. ](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[In a comedy, this is the part that follows the parody and enters into a dispute between the characters, in which the person expressing the idea of ​​the author wins.](*<- lang_en;;*);;
+*);;
+	*);;

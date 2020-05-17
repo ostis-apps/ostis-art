@@ -1,0 +1,36 @@
+shapiro
+<-sc_node_not_relation;
+<-concept_postanovshchik;;
+shapiro => nrel_main_idtf:
+     [Адольф Шапиро](* <-lang_ru;; *);
+     [Adolf Shapiro](* <-lang_en;; *);;
+
+shapiro <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Адольф Яковлевич Шапиро — советский, латвийский и российский режиссёр, театральный педагог, драматург, профессор. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Adolf Yakovlevich Shapiro - Soviet, Latvian and Russian director, theater teacher, playwright, professor.
+](*<- lang_en;;*);;
+			*);;
+          *);;
+
+
+shapiro <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Шапиро)](*<-lang_ru;;*);
+		[Pic. (Shapiro)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://5.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

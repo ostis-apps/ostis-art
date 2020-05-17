@@ -1,0 +1,31 @@
+
+concept_counterrelief => nrel_idtf: [counterrelief](* <- lang_en;; *);;
+																																										
+ definition -> ...
+(*
+=> nrel_main_idtf: [Опр.(Контррельеф)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Контррельеф - углублённый рельеф, получающийся от механического оттиска обычного рельефа в мягком материале.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_counterrelief;;
+<= nrel_using_constants :...
+(*
+-> concept_relief; concept_imprint; concept_material;;
+*);;
+*);;
+
+ concept_counterrelief -> rrel_example: [Наиболее известны контррельефы В. Е. Татлина.](* <- lang_ru;; *);;
+
+statement -> ...
+(*
+=> nrel_main_idtf: [Утверждение (Контррельеф, степень)](* <- lang_ru;; *);;
+<= nrel_sc_text_translation:...
+(*
+-> rrel_example: [Контррельеф - "негатив" барельефа.](* <- lang_ru;; *);;
+*);;
+-> rrel_key_sc_element: concept_counterrelief ; concept_barelief;;
+*);; 
+
+concept_relief => nrel_subdividing: concept_counterrelief ;;
+

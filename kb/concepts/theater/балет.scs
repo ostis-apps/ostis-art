@@ -1,0 +1,36 @@
+//если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+concept_ballet => nrel_main_idtf: //это типа основной идентификатор
+	[балет](* <-lang_ru;; *);//ну тут понятно
+    [ ballet](* <-lang_en;; *);;
+concept_ballet  <- rrel_key_sc_element: 
+		... 
+		(*
+		
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Балет — вид сценического искусства; спектакль, содержание которого воплощается в музыкально-хореографических образах. В основе классического балетного спектакля лежит определённый сюжет, драматургический замысел, либретто, в XX веке появился бессюжетный балет, драматургия которого основана на развитии, заложенном в музыке.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Ballet is a type of performing arts; the play, the content of which is embodied in musical and choreographic images. The classic ballet performance is based on a definite plot, a dramatic plan, a libretto, in the 20th century a plotless ballet appeared, the dramaturgy of which is based on the development laid down in music.](*<- lang_en;;*);;
+			*);;
+		*);;
+concept_ballet  <- rrel_key_sc_element:...
+	(*
+	<- explanation;;	
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ В балете есть три основные позиции: солисты, кордебалет (представляющий группа танцоров) и оркестр. Основу балета составляет какое-то литературное произведение, по которому пишется сценарий- либретто. Автор перерабатывает произведение, внося в него некоторые редактирования, не нарушая смысла и сохраняя всех героев. Далее композитор пишет музыку, а уже потом постановщик-балетмейстер ставит танцы. В балете есть основные виды танца: классические танцы и характерный танец, а также пантомима, с помощью которой актёры передают чувства героев, их разговор между собой.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[There are three main positions in the ballet: soloists, corps de ballet (representing a group of dancers) and orchestra. The basis of the ballet is some literary work, according to which the script is written, the libretto. The author recycles the work, making some editing in it, without disturbing the meaning and preserving all the characters. Next, the composer writes music, and only then the production choreographer puts on dancing. In the ballet there are main types of dance: classical dances and characteristic dance, as well as pantomime, with which the actors convey the feelings of the characters, their conversation with each other.](*<- lang_en;;*);;
+->ballet_dancer;ballet_corps;ballet_orchestr;;
+			*);;
+		*);;
+concept_ballet  <= nrel_subdividing: ... //если у тебя твое понятие делится над подмножества, то это нужно
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+	[Балет](* <-lang_ru;; *);//ну тут понятно
+    [Ballet](* <-lang_en;; *);;
+->swan_lake;giselle;little_prince;nutcracker;dream;cop;pen;sl;bay;par;sym;win;sylf;sk;mar;spa;dr;d;;
+*);;

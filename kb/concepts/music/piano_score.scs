@@ -1,0 +1,18 @@
+sc_node_not_relation ->piano_score ;;
+
+piano_score=> nrel_main_idtf:
+[клавир ](*<- lang_ru;; *);
+[piano score](*<- lang_en;; *);;
+
+piano_score<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(клавир )](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ общее название клавишных музыкальных инструментов — клавикорда, клавесина, фортепиано, органа и их разновидностей.](*<- lang_ru;; *);;
+		*);;
+	*);;

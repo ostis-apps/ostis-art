@@ -1,0 +1,21 @@
+concept_postanovshchik
+<-sc_node_not_relation;;
+concept_postanovshchik => nrel_main_idtf:
+     [постановщик](* <-lang_ru;; *);
+     [postanovshchik](* <-lang_en;; *);;
+
+concept_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Режиссёр-постано́вщик  — руководитель творческой группы и ответственный за художественную часть проекта в создании художественных и документальных фильмов, театральных представлений, цирковых выступлений, музыкальных программ и других массовых мероприятий](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Stage Director - the head of the creative group and responsible for the artistic part of the project in the creation of feature and documentary films, theater performances, circus performances, music programs and other public events](*<- lang_en;;*);;
+			*);;
+          *);;

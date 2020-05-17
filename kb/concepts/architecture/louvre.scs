@@ -1,0 +1,56 @@
+louvre
+<-sc_node_not_relation;
+<-concept_construction;;
+louvre => nrel_main_idtf:
+     [Лувр](* <-lang_ru;; *);
+     [Louvre](* <-lang_en;; *);;
+
+louvre <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Лувр] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Louvre] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Лувр или Музей Лувра является крупнейшим в мире художественным музеем и историческим памятником в Париже, Франция.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Louvre or the Louvre Museum is the world's largest art museum and a historic monument in Paris, France.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+louvre <- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: Лувр] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: Louvre] (* <- lang_en;; *);;
+	     <- explanation;;
+	     <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музей Лувра.](* <- lang_ru;; 	*);;
+          -> rrel_example:
+			[Louvre Museum. ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+
+louvre <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лувр)](*<-lang_ru;;*);
+		[Pic. (Louvre)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://louvre.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_constructor: druz;
+=> nrel_city: paris;
+=> nrel_country: france_country;
+=> nrel_style_of_building: the_architecture_of_neo_classicism; neo_baroque; renaissance;;

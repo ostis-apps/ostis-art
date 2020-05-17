@@ -1,0 +1,18 @@
+sc_node_not_relation ->sonata;;
+
+sonata => nrel_main_idtf:
+[сона́та](*<- lang_ru;; *);
+[sonata](*<- lang_en;; *);;
+
+sonata<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:[Опр.(Сона́та)](*<- lang_ru;; *);;
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ общее название бальных, социальных и народных танцев музыкального размера 3/4, исполняется преимущественно в закрытой позиции. ](*<- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,30 @@
+actor_theater //твой идентификатор (в моем случае это причастие). Дальше где встречается participle => меняешь на свое
+<-sc_node_not_relation;
+<-theater;; //если у тебя твое понятие - начало раздела (прям заглавное понятие), то эту строку нафиг убирай. Если оно у тебя с чем-то связано (подмножество и тд), то пишешь здесь идентификатор основного множества
+actor_theater => nrel_main_idtf: //это типа основной идентификатор
+	[актёр театра](* <-lang_ru;; *);//ну тут понятно
+    [actor theater](* <-lang_en;; *);;
+actor_theater <- rrel_key_sc_element: 
+		... 
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мастер перевоплощения. Это человек, который с легкостью может принять образ другой личности, полностью поглотив ее характер и качества.  ](* <- lang_ru;; 	*);;
+  -> rrel_example: 	[
+Master of reincarnation. This is a person who can easily take on the image of another person, completely absorbing her character and qualities.  ](* <- lang_en;; 	*);;
+		*);;
+	*);;
+actor_theater <- rrel_key_sc_element:...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Он несёт искусство в массы, даря людям захватывающие моменты.](* <- lang_ru;; 	*);;
+	  -> rrel_example: 	[He carries art to the masses, giving people exciting moments.](*<- lang_en;;*);;
+*);;
+	*);;
