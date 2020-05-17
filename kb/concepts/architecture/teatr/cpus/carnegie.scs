@@ -1,0 +1,26 @@
+carnegie
+<-sc_node_not_relation;;
+carnegie <- teatr;;
+carnegie=> nrel_main_idtf:
+    [Карнеги-холл](* <-lang_ru;; *);
+    [Carnegie Hall  ](* <-lang_en;; *);;
+
+carnegie => nrel_producer: klim;;
+carnegie => nrel_manufacture_date:1912;;
+carnegie=> nrel_max_flow_quantity: 5;;
+
+carnegie <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Карнеги-холл — концертный зал в Нью-Йорке, на углу Седьмой авеню и 57-й улицы Манхэттена. Одна из самых престижных в мире площадок для исполнения классической музыки. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Carnegie Hall is a concert hall in New York, on the corner of Seventh Avenue and 57th Manhattan Street. One of the most prestigious venues in the world for the performance of classical music.](*<- lang_en;;*);;
+			*);;
+          *);;

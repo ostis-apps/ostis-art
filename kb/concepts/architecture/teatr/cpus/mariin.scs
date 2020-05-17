@@ -1,0 +1,26 @@
+mariin
+<-sc_node_not_relation;;
+mariin <- teatr;;
+mariin=> nrel_main_idtf:
+    [Мариинский театр](* <-lang_ru;; *);
+    [Mariinsky Theatre  ](* <-lang_en;; *);;
+
+mariin => nrel_producer: klim;;
+mariin => nrel_manufacture_date: 1912;;
+mariin=> nrel_max_flow_quantity: 5;;
+
+mariin <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Государственный академический Мариинский театр — театр оперы и балета в Санкт-Петербурге, один из ведущих музыкальных театров России и мира. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The State Academic Mariinsky Theater is an opera and ballet theater in St. Petersburg, one of the leading musical theaters in Russia and the world.](*<- lang_en;;*);;
+			*);;
+          *);;

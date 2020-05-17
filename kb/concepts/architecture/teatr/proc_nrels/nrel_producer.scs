@@ -1,0 +1,24 @@
+sc_node_norole_relation -> nrel_producer;;
+nrel_producer => nrel_system_idtf: [nrel_producer];;
+nrel_producer => nrel_main_idtf: [режиссер*](* <- lang_ru;; *);;
+nrel_producer => nrel_main_idtf: [producer*](* <- lang_en;; *);;
+
+
+
+nrel_producer <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: режиссер*] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: producer*] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Художественный организатор, руководитель театральной, кинематографической постановки.](*<- lang_ru;;*);; 
+			-> rrel_example: 
+				[Artistic organizer, head of theatrical, cinematic production.](*<- lang_en;;*);;
+			*);;
+		*);;
+
+

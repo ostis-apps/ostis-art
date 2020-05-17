@@ -1,0 +1,15 @@
+format_cpu_searching_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат ПИ поиска театральных произведений (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of UI of searching of theatrical works (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;

@@ -1,0 +1,26 @@
+gar
+<-sc_node_not_relation;;
+gar <- teatr;;
+gar => nrel_main_idtf:
+    [Опера Гарнье](* <-lang_ru;; *);
+    [Opera Garnier](* <-lang_en;; *);;
+
+gar => nrel_producer: rimas;;
+gar => nrel_manufacture_date: 1732;;
+gar=> nrel_max_flow_quantity: 4;;
+
+gar <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Пари́жская о́пера, то же, что Гранд-опера́, в современной Франции известна как Опера́ Гарнье́ — театр в Париже, один из самых известных и значимых театров оперы и балета мира. Расположена во дворце Гарнье в IX округе Парижа, в конце проспекта Оперы, около одноимённой станции метро. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Parisian opera, the same as the Grand Opera, in modern France is known as the Opera Garnier, a theater in Paris, one of the most famous and significant opera and ballet theaters in the world. Located in the Garnier Palace in the 9th arrondissement of Paris, at the end of the Opera Avenue, near the metro station of the same name.](*<- lang_en;;*);;
+			*);;
+          *);;
