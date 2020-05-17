@@ -1,0 +1,26 @@
+lane
+<-sc_node_not_relation;;
+lane <- teatr;;
+lane=> nrel_main_idtf:
+    [Друри-Лейн](* <-lang_ru;; *);
+    [Drury lane ](* <-lang_en;; *);;
+
+lane => nrel_producer: marat;;
+lane => nrel_manufacture_date: 1892;;
+lane=> nrel_max_flow_quantity: 7;;
+
+lane <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Королевский театр Друри-Лейн – старейший из непрерывно действующих театров в Великобритании, в период XVII-XIX вв. считался главным драматическим театром Лондона. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Royal Theater Drury Lane - the oldest of the continuously operating theaters in the UK, during the XVII-XIX centuries. considered the main drama theater in London.](*<- lang_en;;*);;
+			*);;
+          *);;

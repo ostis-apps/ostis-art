@@ -1,0 +1,26 @@
+sc_node_norole_relation -> nrel_manufacture_date;;
+nrel_manufacture_date => nrel_system_idtf: [nrel_manufacture_date];;
+nrel_manufacture_date => nrel_main_idtf: [manufacture date*](* <- lang_en;; *);;
+nrel_manufacture_date => nrel_main_idtf: [дата основания*](* <- lang_ru;; *);;
+
+nrel_manufacture_date => nrel_first_domain: teatr;;
+nrel_manufacture_date => nrel_second_domain: year;;
+nrel_manufacture_date => nrel_definitional_domain:...
+	(*
+		<= nrel_combination:...
+		(*
+			-> teatr; quantity;;
+		*);;
+	*);;
+
+
+nrel_manufacture_date <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: дата основания*] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: manufacture date*] (* <- lang_en;; *);;
+        <- definition;;
+          
+		*);;
+

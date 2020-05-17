@@ -1,0 +1,26 @@
+covent
+<-sc_node_not_relation;;
+covent <- teatr;;
+covent => nrel_main_idtf:
+    [Ковент-Гарден](* <-lang_ru;; *);
+    [Covent Garden](* <-lang_en;; *);;
+
+covent => nrel_producer: rimas;;
+covent => nrel_manufacture_date: 1732;;
+covent=> nrel_max_flow_quantity: 4;;
+
+covent <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Королевский театр в Ко́вент-Га́рдене — театр в Лондоне, служащий местом проведения оперных и балетных спектаклей, публичная сцена Королевской оперы и Королевского балета. Расположен в районе Ковент-Гарден, по которому и получил название. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Royal Theater in Covent Garden is a theater in London serving as the venue for opera and ballet performances, and the public stage of the Royal Opera and Royal Ballet. Located in the Covent Garden area, by which it received the name.](*<- lang_en;;*);;
+			*);;
+          *);;

@@ -1,0 +1,26 @@
+scala
+<-sc_node_not_relation;;
+scala <- teatr;;
+scala => nrel_main_idtf:
+    [Ла Скала](* <-lang_ru;; *);
+    [La Scala](* <-lang_en;; *);;
+
+scala => nrel_producer: rimas;;
+scala => nrel_manufacture_date: 1732;;
+scala=> nrel_max_flow_quantity: 4;;
+
+scala <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Здание театра, построенное архитектором Дж. Пьермарини, было одним из красивейших зданий в мире. Оно выдержано в строгом неоклассическом стиле и отличается безукоризненной акустикой. Художественная отделка зрительного зала сочеталась с удобным расположением мест в нем и соответствовало всем строжайшим требованиям оптики. Здание театра равнялось 100 метрам в длину и 38 — в ширину. В середине фасада возвышался портал для въезда карет с дамами и их кавалерами. ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The theater building, built by architect J. Piermarini, was one of the most beautiful buildings in the world. It is designed in a simple neoclassical style and has impeccable acoustics. Artistic decoration of the auditorium was combined with a convenient location of seats in it and met all the most stringent optical requirements. The building of the theater was 100 meters long and 38 meters wide. In the middle of the facade was a portal for the entry of carriages with the ladies and their gentlemen.](*<- lang_en;;*);;
+			*);;
+          *);;

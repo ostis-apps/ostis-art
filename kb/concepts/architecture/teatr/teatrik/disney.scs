@@ -1,0 +1,26 @@
+disney_concert_hall
+<-sc_node_not_relation;;
+disney_concert_hall <- teatr;;
+disney_concert_hall => nrel_main_idtf:
+    [Концертный зал Уолта Диснея ](* <-lang_ru;; *);
+    [Walt Disney Concert Hall  ](* <-lang_en;; *);;
+
+disney_concert_hall=> nrel_producer: rimas;;
+disney_concert_hall => nrel_manufacture_date: 1732;;
+disney_concert_hall=> nrel_max_flow_quantity: 4;;
+
+disney_concert_hall <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Концертный зал Уолта Диснея — яркая «стальная» достопримечательность Лос-Анджелеса, являющаяся домашней сценой для местного филармонического оркестра. Своим появлением концертный зал обязан вдове Уолта Диснея Лилиан ](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Walt Disney Concert Hall - a bright "steel" landmark of Los Angeles, which is the home stage for the local philharmonic orchestra. The concert hall owes its appearance to Walt Disney widow Lillian](*<- lang_en;;*);;
+			*);;
+          *);;

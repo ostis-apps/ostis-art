@@ -1,0 +1,21 @@
+teatr
+<-sc_node_not_relation;
+<-concept_construction;;
+processor => nrel_main_idtf:
+	[Театр](* <-lang_ru;; *);
+    [Theater](* <-lang_en;; *);;
+teatr<- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение:театр] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Definition: theater] (* <- lang_en;; *);;
+        <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Теа́тр — архитектурное сооружение, предназначенное для проведения театрализованных действий, музыкальных концертов или иных видов представлений.](*<- lang_ru;;*);;
+                        -> rrel_example: 
+				[Theater - an architectural structure designed for theatrical performances, music concerts or other types of performances.](*<- lang_en;;*);;
+		*);;
+	*);;

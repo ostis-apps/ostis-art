@@ -1,0 +1,25 @@
+sc_node_norole_relation -> nrel_max_flow_quantity;;
+nrel_max_flow_quantity => nrel_system_idtf: [nrel_max_flow_quantity];;
+nrel_max_flow_quantity => nrel_main_idtf: [максимальное количество постановок*](* <- lang_ru;; *);;
+nrel_max_flow_quantity => nrel_main_idtf: [max flow productions*](* <- lang_en;; *);;
+
+nrel_max_flow_quantity => nrel_first_domain: teatr;;
+nrel_max_flow_quantity => nrel_second_domain: quantity;;
+nrel_max_flow_quantity => nrel_definitional_domain:...
+	(*
+		<= nrel_combination:...
+		(*
+			-> teatr; quantity;;
+		*);;
+	*);;
+
+
+nrel_max_flow_quantity <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: максимальное количество постановок*] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: max flow productions*] (* <- lang_en;; *);;
+        <- definition;;
+		*);;
+

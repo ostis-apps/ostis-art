@@ -1,0 +1,19 @@
+sc_node_not_relation -> quantity;;
+quantity => nrel_main_idtf: 
+[величина](* <-lang_ru;; *);
+[quantity](* <-lang_en;; *);;
+
+sc_node_not_relation -> year;;
+year => nrel_main_idtf: 
+[год](* <-lang_ru;; *);
+[year](* <-lang_en;; *);;
+
+
+5 <- quantity;;
+4 <- quantity;;
+7 <- quantity;;
+
+
+1732 <- year;;
+1892 <- year;;
+1912 <- year;;

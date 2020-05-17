@@ -1,0 +1,14 @@
+producer ->klim;;
+klim => nrel_main_idtf:
+    [Klim](* <-lang_en;; *);
+    [Клим](* <-lang_ru;; *);;
+
+producer ->marat ;;
+marat => nrel_main_idtf:
+    [Марат Гацалов](* <-lang_ru;; *);
+    [Marat Gatsalov](* <-lang_en;; *);;
+
+producer ->rimas ;;
+rimas => nrel_main_idtf:
+    [Римас Туминас](* <-lang_ru;; *);
+    [Rimas Tuminas](* <-lang_en;; *);;
