@@ -1,0 +1,54 @@
+painting_seine_bridge
+<- paris_period;
+=> nrel_main_idtf:
+	[Мост через Сену в Аньере]
+	(* <- lang_ru;;	*);
+	[The Seine Bridge at Asnieres]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_landscape_painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мост через Сену в Аньере)](*<-lang_ru;;*);
+		[Description (The Seine Bridge at Asnieres)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/seine_bridge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/seine_bridge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element: ...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мост через Сену в Аньере)](*<-lang_ru;;*);
+		[Pic. (The Seine Bridge at Asnieres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/seine_bridge.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

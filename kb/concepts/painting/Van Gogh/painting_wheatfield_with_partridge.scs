@@ -1,0 +1,54 @@
+painting_wheatfield_with_partridge
+<- paris_period;
+=> nrel_main_idtf:
+	[Пшеничное поле с жаворонком]
+	(* <- lang_ru;;	*);
+	[Wheatfield with Partridge]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_landscape_painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пшеничное поле с жаворонком)](*<-lang_ru;;*);
+		[Description (Wheatfield with Partridge)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/wheatfield_with_partridge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/wheatfield_with_partridge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_june_july_1887
+            (*
+                => nrel_main_idtf:
+                    [Июнь - Июль 1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element: ...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пшеничное поле с жаворонком)](*<-lang_ru;;*);
+		[Pic. (Wheatfield with Partridge)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/wheatfield_with_partridge.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

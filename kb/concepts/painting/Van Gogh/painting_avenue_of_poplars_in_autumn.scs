@@ -1,0 +1,54 @@
+painting_avenue_of_poplars_in_autumn
+<- dutch_period;
+=> nrel_main_idtf:
+	[Тополиная аллея осенью]
+	(* <- lang_ru;;	*);
+	[Avenue of Poplars in Autumn]
+	(* <- lang_en;;	*);
+	<- genre_landscape_painting;
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тополиная аллея осенью)](*<-lang_ru;;*);
+		[Description (Avenue of Poplars in Autumn)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/avenue_of_poplars_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/avenue_of_poplars_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_october_1884
+            (*
+                => nrel_main_idtf:
+                    [Октябрь 1884 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Netherlands;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тополиная аллея осенью)](*<-lang_ru;;*);
+		[Pic. (Avenue of Poplars in Autumn)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/avenue_of_poplars.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

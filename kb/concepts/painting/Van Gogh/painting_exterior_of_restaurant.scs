@@ -1,0 +1,54 @@
+painting_exterior_of_restaurant
+<- paris_period;
+=> nrel_main_idtf:
+	[Экстерьер ресторана в Аньере]
+	(* <- lang_ru;;	*);
+	[Exterior of a Restaurant in Asnieres]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_landscape_painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Экстерьер ресторана в Аньере)](*<-lang_ru;;*);
+		[Description (Exterior of a Restaurant in Asnieres)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/exterior_of_restaurant_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/exterior_of_restaurant_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_may_june_1887
+            (*
+                => nrel_main_idtf:
+                    [Май - Июнь 1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element: ...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Экстерьер ресторана в Аньере)](*<-lang_ru;;*);
+		[Pic. (Exterior of a Restaurant in Asnieres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/exterior_of_restaurant.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,54 @@
+painting_woman_in_garden
+<- paris_period;
+=> nrel_main_idtf:
+	[Женщина в саду]
+	(* <- lang_ru;;	*);
+	[A Woman Walking in a Garden]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_landscape_painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Женщина в саду)](*<-lang_ru;;*);
+		[Description (A Woman Walking in a Garden)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/woman_in_garden_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/woman_in_garden_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Женщина в саду)](*<-lang_ru;;*);
+		[Pic. (A Woman Walking in a Garden)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/woman_in_garden.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

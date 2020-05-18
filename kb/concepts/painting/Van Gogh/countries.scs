@@ -1,0 +1,37 @@
+country_Netherlands
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Нидерланды] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Нидерланды)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
+
+country_France
+	<- literary_location;
+	<- planet_Earth;
+	=> nrel_main_idtf: 
+		[Франция] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Франция)] (* <-lang_ru;; *);;
+		    
+			<= nrel_using_constants:
+				...
+				(*
+					-> planet_Earth;;
+				*);;
+		*);;
