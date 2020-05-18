@@ -1,0 +1,41 @@
+genre_hardcore_graffiti<- sc_node_not_relation;;
+vandalism => nrel_main_idtf:
+     [вандализм](* <-lang_ru;; *);
+     [vandalism](* <-lang_en;; *);;
+vandalism <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: вандализм] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: vandalism] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Вандализм - это действие, предполагающее умышленное уничтожение или повреждение государственной или частной собственности.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Vandalism is the action involving deliberate destruction of or damage to public or private property.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+vandalism <= nrel_subdividing: ... 
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Разбиение по формам вандализма](*<-lang_ru;; *); 
+		[Subdividing based on forms of vandalism](*<-lang_en;; *);;
+	-> graffiti; genre_bombing;genre_tagging;; //идентификаторы, на которые делится разбиение
+*);;
+
+vandalism
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Вандализм)](*<-lang_ru;;*);
+		[Pic. (Vandalism)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/vandalism.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

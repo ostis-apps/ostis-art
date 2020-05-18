@@ -1,0 +1,48 @@
+person_Saber_MSK
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Сайбер] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Saber MSK] (* <- lang_en;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_bombing;;
+        -> genre_masterpiece;;
+
+    *);;
+
+person_Saber_MSK <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Saber MSK] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Saber MSK] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Saber MSK бомбит улицы с 1990 года, когда он забрал граффити от своих местных друзей. Известный во всем мире благодаря созданию крупнейшей в мире пьесы для граффити в 1997 году, Saber MSK - мирового класса и имеет мировую аудиторию, которая демонстрирует свои работы на улицах почти всех крупных городов в Соединенных Штатах.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Saber has been bombing the streets since 1990 when he picked up graffiti from his local friends. Known throughout the world for producing the World’s Largest Graffiti Piece in 1997, Saber is world class and has a world audience to display his artworks throughout the streets of almost every major city in the United States.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Saber_MSK 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Saber MSK)](*<-lang_ru;;*);
+		[Pic. (Saber MSK)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Saber.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

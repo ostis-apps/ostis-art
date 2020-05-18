@@ -1,0 +1,32 @@
+genre_clean_advertising<- sc_node_not_relation;;
+genre_clean_advertising => nrel_main_idtf:
+     [чистая реклама](* <-lang_ru;; *);
+     [clean advertising](* <-lang_en;; *);;
+genre_clean_advertising <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: чистая реклама] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: clean advertising] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Чистая реклама – это направление появилось относительно недавно, но быстро распространяется на западе благодаря поддержке рекламных агентств, которые заказывают и оплачивают райтерам их работу. Весь смысл заключается в том, что место рисования, здесь смывается грязь в нужных местах благодаря чему, появляется рисунок.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Clean advertising - this direction has appeared relatively recently, but is spreading rapidly in the West thanks to the support of advertising agencies that order and pay for their work for riders. The whole point is that the place of drawing, the dirt is washed off in the right places thanks to which, the picture appears. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_clean_advertising 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чистая реклама)](*<-lang_ru;;*);
+		[Pic. (Clean advertising)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/cleanadvertising.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

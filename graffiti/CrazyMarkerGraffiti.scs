@@ -1,0 +1,32 @@
+font_crazy_marker_graffiti<- sc_node_not_relation;;
+font_crazy_marker_graffiti => nrel_main_idtf:
+     [безумное маркеровое граффити](* <-lang_ru;; *);
+     [сrazy marker graffiti](* <-lang_en;; *);;
+font_crazy_marker_graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: безумное маркеровое граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: сrazy marker graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Одним из многих средств, которые использовались для создания граффити, является чёрный маркер.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[One of the many tools used to create graffiti is a black marker.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_crazy_marker_graffiti 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Безумное маркеровое граффити)](*<-lang_ru;;*);
+		[Pic. (Crazy marker graffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/CrazyMarkerGraffiti.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

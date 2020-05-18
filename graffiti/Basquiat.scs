@@ -1,0 +1,63 @@
+person_Jean_Michel_Basquiat
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Жан-Мишель Баския] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Jean-Michel Basquiat] (* <- lang_en;;*);
+    => nrel_idtf:
+            [SAMO] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_22_12_1960
+            (*
+                => nrel_main_idtf:
+                [22 декабря 1960](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+    => nrel_place_of_death:
+            country_USA;
+    => nrel_date_of_death:
+            date_12_8_1988
+            (*
+                => nrel_main_idtf:
+                [12 августа 1988](* <- lang_ru;;*);;
+            *);
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Jean_Michel_Basquiat <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Жан-Мишель Баския] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Jean-Michel Basquiat] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Жан-Мишель Баския  — американский художник. Прославился сначала как граффити-художник в Нью-Йорке, а затем, в 1980-х годах, как очень успешный неоэкспрессионист. В 1977 году, в возрасте 17 лет, Баския и его друг  начали рисовать граффити на стенах зданий в Манхеттене, подписываясь SAMO или SAMO shit. Изображения состояли из фраз.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Jean-Michel Basquiat - American artist. He became famous first as a graffiti artist in New York, and then in the 1980s, as a very successful neo-expressionist. In 1977, at the age of 17, Basquiat and his friend began to draw graffiti on the walls of buildings in Manhattan, signing SAMO or SAMO shit. Images consisted of phrases.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Jean_Michel_Basquiat 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Жан-Мишель Баския)](*<-lang_ru;;*);
+		[Pic. (Jean-Michel Basquiat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Basquiat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

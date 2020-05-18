@@ -1,0 +1,45 @@
+graffiti_Balloon_Girl
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Девочка с воздушным шаром] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Balloon Girl] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+
+graffiti_Balloon_Girl <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Девочка с воздушным шаром] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Girl With Balloon] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Девочка с воздушным шаром» — рисунок, граффити художника Бэнкси 2002 года с изображением девочки, отпускающей красный воздушный шар в форме сердца. Бэнкси использовал вариант этого образа в 2014 году во время кампании в поддержку сирийских беженцев.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[«Girl with Balloon» is a 2002-started London series of stencil murals by the graffiti artist Banksy, depicting a young girl with her hand extended toward a red heart-shaped balloon carried away by the wind. Banksy used a variant of this image in 2014 during a campaign in support of Syrian refugees.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Balloon_Girl 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Девочка с воздушным шаром)](*<-lang_ru;;*);
+		[Pic. (Girl With Balloon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/BalloonGirl.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

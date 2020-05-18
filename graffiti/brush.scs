@@ -1,0 +1,32 @@
+genre_brush<- sc_node_not_relation;;
+genre_brush => nrel_main_idtf:
+     [браш](* <-lang_ru;; *);
+     [brush](* <-lang_en;; *);;
+genre_brush <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: браш] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: brush] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Особенный стиль в граффити, в котором используют кисти и распылители красок. Чаще всего он лишен каких-либо мелких деталей, но нередко напоминает произведения искусства классического характера. В brush нет лишних линий или каких-то каллиграфических загадок, но эстетической точки зрения этот стиль выглядит впечатляюще.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[A special style in graffiti that uses brushes and paint sprays. Most often, it is devoid of any small details, but often resembles works of art of a classical nature. There are no extra lines or calligraphic puzzles in the brush, but from an aesthetic point of view, this style looks impressive.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_brush 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Браш)](*<-lang_ru;;*);
+		[Pic. (Brush)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/brush.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

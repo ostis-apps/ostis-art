@@ -1,0 +1,52 @@
+person_Eduardo_Kobra
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Эдуардо Кобра] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Eduardo Kobra] (* <- lang_en;;*);  
+
+   => nrel_date_of_birth:
+            date_1_1_1976
+            (*
+                => nrel_main_idtf:
+                [1 января 1976](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_Brazil;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Eduardo_Kobra <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Эдуардо Кобра] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Eduardo Kobra] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эдуардо Кобра вырос в Сан-Паулу, который известен как большой, но более низкий город в Бразилии. На Эдуардо Кобру оказали влияние как современные, так и современные художники со всего мира. На него особенно повлияли такие монументалисты, как Бэнкси, Эрик Гроэ. Основная цель его работы - предоставить публике пространство для взаимодействия с его искусством. Его карьера продолжилась, так как он все еще практикующий художник, рисующий в разных странах мира.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Eduardo Kobra grew up in São Paulo which is known for being a large, but lower-class city in Brazil. Eduardo Kobra was influenced by both modern and contemporary artists all around the world. He was specifically influenced by muralists such as Banksy, Eric Grohe. The main goal of his work is to provide a space for the public to interact with his art. His career has continued as he is a still a practicing artist, painting in different countries around the world.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Eduardo_Kobra 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эдуардо Кобра)](*<-lang_ru;;*);
+		[Pic. (Eduardo Kobra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/EduardoKobra.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

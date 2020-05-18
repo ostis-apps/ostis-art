@@ -1,0 +1,32 @@
+font_bling_blings<- sc_node_not_relation;;
+font_bling_blings => nrel_main_idtf:
+     [шик](* <-lang_ru;; *);
+     [bling bling’s](* <-lang_en;; *);;
+font_bling_blings <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: шик] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: bling bling’s] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Этот стильный шрифт имеет жирное начертание с изогнутыми линиями и традиционной ноткой граффити.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Handcrafted, this unique font represents an aesthetic style of brush writing suitable for the design of your stunning artwork. The download file includes two font files, with upper and lower case letters, including multilingual support.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_bling_blings 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Шик)](*<-lang_ru;;*);
+		[Pic. (Bling Bling’s)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Bling.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

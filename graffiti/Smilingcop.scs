@@ -1,0 +1,44 @@
+graffiti_Smiling_cop
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Улыбающийся коп] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Smiling cop] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Smiling_cop <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Улыбающийся коп] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Smiling cop] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Художник не очень любит полицейских, это мягко говоря. Так как граффити считается вандализмом,  Бэнкси становился объектом преследования. Поэтому у художника  есть целая серия работ, высмеивающих сотрудников полиции. Одна из таких граффити – «Улыбающийся коп», точнее, полицейский со смайлом  вместо лица.  Бэнкси сделал эту работу достаточно большой, чтобы зритель смог увидеть полицейского в полный рост. Никогда еще лицо копа в граффити художника не было таким дружелюбным. Бэнкси предлагает воспринимать эту работу как некую утопию.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The artist does not really like cops, to put it mildly. Since graffiti is considered vandalism, Banksy became the target of persecution. Therefore, the artist has a series of works that make fun of police officers. One of these graffiti is “Smiling cop”, or rather, a policeman with a smiley face instead. Banksy did the job big enough for the viewer to see the policeman at full height. The face of a cop in an artist’s graffiti has never been so friendly. Banksy suggests perceiving this work as a kind of utopia.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Smiling_cop 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Улыбающийся коп)](*<-lang_ru;;*);
+		[Pic. (Smiling cop)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Smilingcop.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

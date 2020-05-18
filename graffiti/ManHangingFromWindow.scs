@@ -1,0 +1,44 @@
+graffiti_Man_Hanging_From_Window
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Человек свисающий из окна] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Man Hanging From Window] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Man_Hanging_From_Window <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Человек свисающий из окна] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Man Hanging From Window] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Это, пожалуй, одна из самых знаменитых работ Бэнкси, и на ней изображен человек, свисающий с окна после того, как его тайная интрижка была раскрыта мужем его любовницы. С типичной для Бэнкси иронией он создал эту работу на стороне клиники сексуального здоровья на Фрогмор-Стрит.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This is perhaps one of Banksy's most famous works, and it depicts a man hanging from a window after his secret affair was revealed by the husband of his mistress. With a typical Banksy irony, he created this work on the side of the Frogmore Street Sexual Health Clinic.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Man_Hanging_From_Window 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Человек свисающий из окна)](*<-lang_ru;;*);
+		[Pic. (Man Hanging From Window)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/ManHangingFromWindow.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

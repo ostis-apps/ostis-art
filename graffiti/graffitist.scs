@@ -1,0 +1,22 @@
+graffitist<-sc_node_not_relation;;
+graffitist => nrel_main_idtf:
+     [райтер](* <-lang_ru;; *);
+     [graffitist](* <-lang_en;; *);;
+graffitist => nrel_idtf:
+            [graffiti writer] (* <- lang_en;;*);;
+
+graffitist <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: райтер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: graffitist] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+(*
+			-> rrel_example: 
+				[Райтер — человек, занимающийся рисованием граффити (сленг)](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The graffiti writer - person, who draw graffiti.](*<- lang_en;;*);;
+			*);;
+          *);;

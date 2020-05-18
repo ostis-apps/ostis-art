@@ -1,0 +1,58 @@
+person_Stash
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Джош Франклин] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Josh Franklin] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Stash] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Стэш] (* <- lang_ru;;*);
+
+   => nrel_date_of_birth:
+            date_1967
+            (*
+                => nrel_main_idtf:
+                [1967](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_wild_style;;
+        -> genre_tagging;;
+        -> genre_blockbuster;;
+    *);;
+
+person_Stash <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Стэш] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Stash] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Джош Франклин, известный как Stash, является американским художником граффити и графическим дизайнером, базирующимся в Бруклине, Нью-Йорк. Сташ начал незаконно рисовать в поездах метро Нью-Йорка в начале 1980-х вместе с другими художниками, такими как Futura и ZEPHYR. Он выставлялся в 17 лет вместе с поп-художниками Китом Харингом и Жаном-Мишелем Баския, а затем продолжил как успешный художник галереи. В 1989 году он появился как художник граффити в короткометражном фильме «Рабы Нью-Йорка».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Josh Franklin, known as Stash, is an American graffiti artist and graphic designer based in Brooklyn, New York. Stash started painting illegally on New York City's subway trains in the early 1980s, alongside other artists such as Futura and ZEPHYR. He exhibited at age 17 with pop artists Keith Haring and Jean-Michel Basquiat, and later continued on as a successful gallery artist. In 1989 he appeared as a Graffiti artist in the short film Slaves of New York.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Stash 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стэш)](*<-lang_ru;;*);
+		[Pic. (Stash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Stash.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,52 @@
+person_TAKI_183
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Таки 183] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [TAKI 183] (* <- lang_en;;*);  
+
+    => nrel_date_of_birth:
+            date_1953_1954
+            (*
+                => nrel_main_idtf:
+                [1953-1954](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+    *);;
+
+person_TAKI_183 <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Таки 183] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: TAKI 183] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Таки 183 — один из основоположников субкультуры граффити в Нью-Йорке и современных граффити в целом. Он работал курьером, и во время своих перемещений по городу писал свой никнейм на стенах и других поверхностях (например, в метро). Его тег состоял из его настоящего имени Таки и номера улицы, на которой он проживал — 183rd Street.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[ He worked as a foot messenger in New York City and would write his nickname around the streets that he frequented.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_TAKI_183 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Таки 183)](*<-lang_ru;;*);
+		[Pic. (TAKI 183)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/taki.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

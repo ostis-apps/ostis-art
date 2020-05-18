@@ -1,0 +1,32 @@
+genre_character<- sc_node_not_relation;;
+genre_character => nrel_main_idtf:
+     [керек](* <-lang_ru;; *);
+     [charaсter](* <-lang_en;; *);;
+genre_character <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: керек] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: charaсter] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Керек – в нем используются образы мультипликационных персонажей, часто с какой либо репликой, исполненные в стиле комиксов. При рисовании часто используются насадки с иглами, помогающие сделать тонкие линии. Этим стилем владеет не каждый райтер, так как он требует художественных навыков. Работать в этом стиле могут только профессиональные райтеры с художественными навыками. Чаще в этом стиле работает команда из нескольких человек, нежели райтеры одиночки по причине высоких временных затрат.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Charaсter uses images of cartoon characters, often with some kind of replica, made in the style of comics. When drawing, nozzles with needles are often used to help make thin lines. This style is not owned by every writer, as it requires artistic skills. Only professional writers with artistic skills can work in this style. More often in this style works a team of several people, rather than lone writers because of the high time.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_character
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Керек)](*<-lang_ru;;*);
+		[Pic. (Charaсter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/character.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

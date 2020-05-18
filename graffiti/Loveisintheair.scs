@@ -1,0 +1,46 @@
+graffiti_Love_is_in_the_air
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Любовь в воздухе] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Love is in the air] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Метатель] (* <- lang_ru;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Love_is_in_the_air <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Любовь в воздухе] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Love is in the air] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Любовь в воздухе» — граффити, на котором участник уличного протеста собирается метнуть цветы вместо коктейля Молотова. Один из опросов 2017 года показал, что это одно из наиболее узнаваемых произведений Бэнкси. Первая такая работа была сделана художником в 2003 году в Палестине. Бэнкси хотел показать, что любые вопросы должны решаться мирным путём. Иначе одно насилие порождает другое. А может быть, художник хотел сказать этим граффити, что протест против капиталистических или военных режимов также бесполезен, как метание цветов во время беспорядков?](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[“Love is in the air” - graffiti on which a street protester is about to throw flowers instead of a Molotov cocktail. One of the 2017 polls showed that this is one of Banksy's most recognizable works. The first such work was done by the artist in 2003 in Palestine. Banksy wanted to show that any issues should be resolved peacefully. Otherwise, one violence gives rise to another. Or maybe the artist wanted to say with this graffiti that a protest against capitalist or military regimes is as futile as throwing flowers during riots?.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Love_is_in_the_air 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Любовь в воздухе)](*<-lang_ru;;*);
+		[Pic. (Love is in the air)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Loveisintheair.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

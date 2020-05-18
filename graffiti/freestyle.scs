@@ -1,0 +1,32 @@
+genre_freestyle<- sc_node_not_relation;;
+genre_freestyle => nrel_main_idtf:
+     [свободный стиль граффити](* <-lang_ru;; *);
+     [freestyle](* <-lang_en;; *);;
+genre_freestyle <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: свободный стиль граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: freestyle] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Это «Свободный стиль», возможно переплетение различных стилей. Как правило, это должна быть свежая и неординарная идея. Рисуется без скетча то, что приходит в голову. Высшее мастерство.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This is “Free Style”, interweaving of different styles is possible. As a rule, this should be a fresh and extraordinary idea. Without sketch, what comes to mind is drawn. Highest craftsmanship.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_freestyle 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Свободный стиль граффити)](*<-lang_ru;;*);
+		[Pic. (Freestyle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/freestyle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

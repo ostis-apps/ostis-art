@@ -1,0 +1,44 @@
+graffiti_Mobile_lovers
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Мобильные любовники] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Mobile lovers] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+    *);;
+
+graffiti_Mobile_lovers <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Мобильные любовники] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Mobile lovers] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В 2014 году на двери юношеского центра, который работает с молодежью Бристоля, появилось граффити «Мобильные любовники». Тема работы – социальные сети, в которые люди погружаются с головой и не могут отвлечься порой даже во время свидания. Интересный факт: это произведение спасло молодежный центр от банкротства. Сотрудники сняли дверь и взимали плату за возможность посмотреть на произведение известного художника. Бэнкси был не против. Однако вмешались городские власти. Они забрали работу и выставили ее в Бристонском музее. Тогда Бэнкси вмешался. Закончилось все тем, что произведение было продано на аукционе, а все вырученные деньги пошли на спасение юношеского центра.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In 2014, at the door of the youth center, which works with the youth of Bristol, graffiti “Mobile lovers” appeared. The subject of the work is social networks into which people plunge headlong and sometimes cannot be distracted even during a date. Interesting fact: this work saved the youth center from bankruptcy. The staff removed the door and charged a fee for the opportunity to look at the work of a famous artist. Banksy did not mind. However, the city authorities intervened. They took the work and exhibited it at the Briston Museum. Then Banksy intervened. It all ended up that the work was sold at auction, and all the proceeds went to the rescue of the youth center.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Mobile_lovers 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мобильные любовники)](*<-lang_ru;;*);
+		[Pic. (Mobile lovers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/mobilelovers.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

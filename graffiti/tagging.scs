@@ -1,0 +1,32 @@
+genre_tagging<- sc_node_not_relation;;
+genre_tagging => nrel_main_idtf:
+     [теггинг](* <-lang_ru;; *);
+     [tagging](* <-lang_en;; *);;
+genre_tagging <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: теггинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: tagging] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Теггинг — вид граффити, представляющий собой быстрое нанесение подписи автора на какие либо поверхности, зачастую в общественных местах, отдельная подпись называется «тег».](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Tagging is a type of graffiti, which is a quick application of the author’s signature on any surface, often in public places, a separate signature is called a “tag”, graffiti ranges from simple written words to elaborate wall paintings.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_tagging 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Теггинг)](*<-lang_ru;;*);
+		[Pic. (Tagging)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/tagging.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

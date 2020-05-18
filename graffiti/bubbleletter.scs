@@ -1,0 +1,32 @@
+genre_bubble_letter<- sc_node_not_relation;;
+genre_bubble_letter => nrel_main_idtf:
+     [бабл](* <-lang_ru;; *);
+     [bubble letter](* <-lang_en;; *);;
+genre_bubble_letter <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: бабл] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: bubble letter] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Бабл — это один из самых первых стилей в граффити, для него характерно написание дутых больших букв и объемность форм, с английского переводится как «пузырь». В основном используются всего пару цветов краски, которые контрастируют друг с другом. Сначала рисуется контур букв, а потом просто закрашивается все остальное. Создание граффити в этом стиле занимает мало время, поэтому чаще всего этот стиль применяют для нелегального и быстрого рисования в оживлённых местах.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Bubble letter is one of the first graffiti styles, it is characterized by spelling of inflated capital letters and volumetric forms, translated from English as “bubble”. Mostly used are just a couple of paint colors that contrast with each other. First, the outline of the letters is drawn, and then everything else is simply painted over. Creating graffiti in this style takes little time, so most often this style is used for illegal and quick drawing in busy places.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_bubble_letter 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бабл)](*<-lang_ru;;*);
+		[Pic. (Bubble letter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/bubbleletter.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

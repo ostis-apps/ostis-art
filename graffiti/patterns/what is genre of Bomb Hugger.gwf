@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <arc type="arc/var/pos" idtf="" shapeColor="193" id="16187624" parent="86576784" id_b="16237208" id_e="87413432" b_x="386" b_y="210" e_x="491" e_y="210" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="87413432" parent="86576784" x="491" y="210" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="16237208" parent="86576784" x="386" y="210" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="graffiti_Bomb_Hugger" shapeColor="0" id="81784168" parent="86576784" left="0" top="0" right="145" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="386" y="105" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="nrel_genre" shapeColor="0" id="87644168" parent="86576784" left="0" top="0" right="74" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="491" y="140" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="16184768" parent="86576784" id_b="87644168" id_e="16187120" b_x="491" b_y="140" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.703488">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="16187120" parent="86576784" id_b="16237208" id_e="81784168" b_x="386" b_y="210" e_x="386" e_y="105" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="what is genre of Bomb Hugger" shapeColor="0" id="86576784" parent="0" left="0" top="0" right="197" bottom="24" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="316" y="35"/>
+                <point x="635" y="32"/>
+                <point x="631" y="280"/>
+                <point x="316" y="280"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

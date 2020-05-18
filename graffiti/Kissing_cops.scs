@@ -1,0 +1,39 @@
+graffiti_Kissing_cops
+    <- painting;
+
+    => nrel_main_idtf:
+            [Целующиеся полицейские] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Kissing cops] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;;
+
+graffiti_Kissing_cops <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Целующиеся полицейские] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Kissing cops] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Целующиеся полицейские» - одна из самых резонансных работ британского художника. Она появилась в 2004 году на фасаде одного из пабов в городе Брайтон. На провокационном рисунке была изображена парочка полицейских, которые слились в страстном поцелуе. Этой работой Бэнкси привлек внимание общественности к проблеме ЛГБТ. Само граффити стало символом протеста в современном обществе. Из-за большего резонанса в 2006 году рисунок был атакован недоброжелателями и закрашен черной краской. Впоследствии владелец паба снял «Целующихся полицейских» со стены своего заведения. Граффити Бэнкси отправили на торги в США – «Fine Art Auctions Miami». Работу продали за 575 тысяч долларов. Новый владелец совершил покупку «Целующихся полицейских» по телефону.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Kissing cops" is one of the most resonant works of the British artist. She appeared in 2004 on the facade of a pub in Brighton. The provocative drawing depicted a couple of policemen who merged in a passionate kiss. This work Banksy drew public attention to the issue of LGBT. Graffiti itself has become a symbol of protest in modern society. Due to the greater resonance in 2006, the drawing was attacked by ill-wishers and painted over with black paint. Subsequently, the pub owner removed Kissing Cops from the wall of his establishment. Banksy graffiti sent for auction in the USA - "Fine Art Auctions Miami". The work was sold for 575 thousand dollars. The new owner made a purchase of Kissing Police by phone.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Kissing_cops
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Целующиеся полицейские)](*<-lang_ru;;*);
+		[Pic. (Kissing cops)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Kissing_cops.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,56 @@
+person_Fab_5_Freddy
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Фред Брэтуэйт] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Fab 5 Freddy] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Fred Brathwaite] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_31_8_1959
+            (*
+                => nrel_main_idtf:
+                [31 августа 1959](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_bubble_letter;;
+        -> genre_bombing;;
+    *);;
+
+person_Fab_5_Freddy <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Фред Брэтуэйт] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Fred Brathwaite] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фред Брэтуэйт, более известный как Fab 5 Freddy — американский граффити-художник, актёр, сценарист, кинорежиссёр, рэпер, телеведущий и хип-хоп пионер. Он появился в нью-йоркской андеграундной творческой сцене в конце 1970-х годов как популярный граффити-художник команды The Fabulous 5. Окончив среднюю школу в конце 70-х годов, Фредди стал членом Бруклинской граффити команды The Fabulous 5, известной разрисовыванием вагонов Нью-Йоркского метрополитена.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Fred Brathwaite, better known as Fab 5 Freddy, is an American graffiti artist, actor, screenwriter, filmmaker, rapper, television personality and hip hop pioneer. He appeared in the New York underground creative scene in the late 1970s as a popular graffiti artist of The Fabulous 5 team. After graduating from high school in the late 70s, Freddie became a member of the Fabulous 5 Brooklyn graffiti team, known for painting New Carriages York subway.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Fab_5_Freddy 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фред Брэтуэйт)](*<-lang_ru;;*);
+		[Pic. (Fred Brathwaite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Fab5Freddy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

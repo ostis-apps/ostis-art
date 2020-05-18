@@ -1,0 +1,24 @@
+festival_STENOGRAFFIA
+
+    => nrel_main_idtf:
+            [Стенограффия] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [STENOGRAFFIA] (* <- lang_en;;*);;  
+
+
+festival_STENOGRAFFIA <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Стенограффия] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: STENOGRAFFIA] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Стенограффия (самоназвание STENOGRAFFIA, игра слов «стена», «граффити» и «стенография») — международный фестиваль уличного искусства, который ежегодно с 2010 года проводится в Екатеринбурге в первые выходные июля. Впервые фестиваль STENOGRAFFIA был проведен в 2010 году в городе Екатеринбурге и властями было принято решение сделать фестиваль ежегодным.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Shorthand (self-designation STENOGRAFFIA, puns “wall”, “graffiti” and “shorthand”) is an international festival of street art, which has been held annually since 2010 in Yekaterinburg on the first weekend of July. For the first time, the STENOGRAFFIA festival was held in 2010 in the city of Yekaterinburg, and the authorities decided to make the festival annual.](*<- lang_en;;*);;
+			*);;
+          *);;
+

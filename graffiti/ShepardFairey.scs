@@ -1,0 +1,53 @@
+person_Frank_Shepard_Fairey
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Фрэнк Шепард Фейри] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Frank Shepard Fairey] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_15_2_1970
+            (*
+                => nrel_main_idtf:
+                [4 мая 1958](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+        -> genre_pop_art;;
+    *);;
+
+person_Frank_Shepard_Fairey <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Фрэнк Шепард Фейри] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Frank Shepard Fairey] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фрэнк Шепард Фейри  — американский художник и дизайнер. Фейри наиболее известен благодаря двум работам в стиле поп-арт, обыгрывающим раскрученные медиа-образы. Его художественное творчество началось с рисования на футболках и скейтбордах товарищей. В 1992 году Фейри окончил Род-Айлендскую школу дизайна со степенью бакалавра изящных искусств и начал зарабатывать на жизнь графическим дизайном и музыкой. Через некоторое время в Бостоне прошла его первая выставка. Ныне Фейри признанный талант, связанный как с андеграундом, так и с массовой культурой. Его произведения хранятся в Музее современного искусства и Смитсоновском институте.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Frank Shepard Fairy is an American artist and designer. Fairy is best known for two works in the style of pop art, playing around untwisted media images. His artistic work began with drawing comrades on T-shirts and skateboards. In 1992, Fairy graduated from the Rhode Island School of Design with a Bachelor of Fine Arts and began making a living from graphic design and music. After some time, his first exhibition was held in Boston. Fairies are now recognized talents associated with both underground and popular culture. His works are kept at the Museum of Modern Art and the Smithsonian Institution.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Frank_Shepard_Fairey 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фрэнк Шепард Фейри)](*<-lang_ru;;*);
+		[Pic. (Frank Shepard Fairey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/ShepardFairey.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

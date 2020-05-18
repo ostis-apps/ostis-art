@@ -1,0 +1,32 @@
+font_ember<- sc_node_not_relation;;
+font_ember => nrel_main_idtf:
+     [эмбер](* <-lang_ru;; *);
+     [ember](* <-lang_en;; *);;
+font_ember <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: эмбер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: ember] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Данный шрифт включает в себя буквы, созданные трафаретом. Выглядит этот шрифт урбанистически или пост-апокалиптически..](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This font includes letters created by a stencil. This font looks urban or post-apocalyptic.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_ember 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эмбер)](*<-lang_ru;;*);
+		[Pic. (Ember)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/ember.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

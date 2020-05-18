@@ -1,0 +1,52 @@
+person_Zephyr
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Эндрю Уиттен] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Andrew Witten] (* <- lang_en;;*);
+    => nrel_idtf:
+            [ZEPHYR] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Зефир] (* <- lang_ru;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_bombing;;
+    *);;
+
+person_Zephyr <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Эндрю Уиттен] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Andrew Witten] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[ZEPHYR, урожденный Эндрю Уиттен, художник граффити, лектор и автор из Нью-Йорка. Он начал писать граффити в 1975 году, используя имя «Зефир» в 1977 году. Зефир был одним из художников, представленных в музее граффити L'Aérosol в Париже с 2017 по 2018 год на выставке Зала славы маки-арта.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[ZEPHYR, born Andrew Witten, is a graffiti artist, lecturer and author from New York City. He began writing graffiti in 1975 using the name "Zephyr" in 1977. Zephyr was one of the artists represented at the L'Aérosol Graffiti Museum in Paris from 2017 to 2018 for the exhibition Maquis-art Hall of Fame.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Zephyr 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эндрю Уиттен)](*<-lang_ru;;*);
+		[Pic. (Andrew Witten)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/zephyr.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

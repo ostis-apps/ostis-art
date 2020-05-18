@@ -1,0 +1,32 @@
+font_rolingline<- sc_node_not_relation;;
+font_rolingline => nrel_main_idtf:
+     [ролинглайн](* <-lang_ru;; *);
+     [rolingline](* <-lang_en;; *);;
+font_rolingline <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: ролинглайн] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: rolingline] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Вдохновленный авангардной гранжевой эстетикой, связанный с рок-культурой, данный шрифт представляет стиль написания жёсткой кистью.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Inspired by avant-garde grunge aesthetics associated with rock culture, this font represents the style of writing with a hard brush.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_rolingline 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ролинглайн)](*<-lang_ru;;*);
+		[Pic. (Rolingline)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/rolingline.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

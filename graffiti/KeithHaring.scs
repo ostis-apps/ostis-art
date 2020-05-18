@@ -1,0 +1,61 @@
+person_Keith_Haring
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Кит Харинг] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Keith Haring] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_4_5_1958
+            (*
+                => nrel_main_idtf:
+                [4 мая 1958](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+    => nrel_place_of_death:
+            country_USA;
+    => nrel_date_of_death:
+            date_16_2_1990
+            (*
+                => nrel_main_idtf:
+                [16 февраля 1990](* <- lang_ru;;*);;
+            *);
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_blockbuster;;
+    *);;
+
+person_Keith_Haring <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Кит Харинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Keith Haring] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кит Харинг  — американский художник, скульптор и общественный деятель. Дружил с Жаном-Мишелем Баския,Энди Уорхолом. Харинг родился в Пенсильвании, рано начал рисовать, воспитывался на американской популярной культуре комиксов, мультфильмов, рекламы. Два семестра проучился на дизайнера в художественной школе в Питтсбурге, бросил занятия. Затем перебрался в Нью-Йорк, вошёл в круги альтернативного искусства. Занимался настенной живописью в нью-йоркской подземке, а также в Мельбурне, Сиднее, Рио-де-Жанейро, Амстердаме, Париже, Берлине.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Keith Allen Haring was an American artist whose pop art and graffiti-like work grew out of the New York City street culture of the 1980s. He was friends with Jean-Michel Basquiat, Andy Warhol. Haring was born in Pennsylvania, began painting early, was brought up on the American popular culture of comics, cartoons, and advertising. He studied for two semesters as a designer at an art school in Pittsburgh and dropped out of classes. Then in the circles of alternative art. He was engaged in wall painting in the New York subway, as well as in Melbourne, Sydney, Rio de Janeiro, Amsterdam, Paris, Berlin.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Keith_Haring 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кит Харинг)](*<-lang_ru;;*);
+		[Pic. (Keith Haring)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/KeithHaring.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

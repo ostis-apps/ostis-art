@@ -1,0 +1,32 @@
+sc_node_not_relation->concept_cap;;
+concept_cap => nrel_main_idtf:
+     [кэп](* <-lang_ru;; *);
+     [cap](* <-lang_en;; *);;
+concept_cap <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: кэп] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: cap] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кэп - распылитель на баллончике с краской или попросту насадка.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Cap - spray gun with a spray can or simply a nozzle.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+concept_cap 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэп)](*<-lang_ru;;*);
+		[Pic. (Cap)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/cap.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

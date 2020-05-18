@@ -1,0 +1,22 @@
+graffiti_Boy_and_dog
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Мальчик и собака] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Boy and dog] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Jean_Michel_Basquiat;;
+
+graffiti_Boy_and_dog <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мальчик и собака)](*<-lang_ru;;*);
+		[Pic. (Boy and dog)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Boyanddog.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

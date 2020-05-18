@@ -1,0 +1,32 @@
+font_in_knots<- sc_node_not_relation;;
+font_in_knots => nrel_main_idtf:
+     [узелочный шрифт](* <-lang_ru;; *);
+     [in knots](* <-lang_en;; *);;
+font_in_knots <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: узелочный шрифт] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: in knots] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Данный шрифт характеризуется небрежностью букв и их яркостью.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This font is characterized by the carelessness of the letters and their brightness.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_in_knots 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Узелочный шрифт)](*<-lang_ru;;*);
+		[Pic. (In knots)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/in_knots.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,32 @@
+genre_calligraffiti<- sc_node_not_relation;;
+genre_calligraffiti => nrel_main_idtf:
+     [каллиграфическое граффити](* <-lang_ru;; *);
+     [calligraffiti](* <-lang_en;; *);;
+genre_brush <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: каллиграфическое граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: calligraffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Каллиграфическое граффити- весьма интересный стиль, который, как становится понятно из названия, объединяет в себе элементы каллиграфии и граффити. По сути, это стилизованные шрифты, выполненные на холстах или стенах. Часто используются в качестве принтов для одежды. Обычно каллиграфическое граффитилегко читается. Этот стиль был изобретен голландским художником.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Calligraphic graffiti is a very interesting style, which, as the name implies, combines elements of calligraphy and graffiti. In fact, these are stylized fonts made on canvases or walls. Often used as prints for clothing. Typically, calligraphic graffiti is easy to read. This style was invented by a Dutch artist.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_brush 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Каллиграфическое граффити)](*<-lang_ru;;*);
+		[Pic. (Calligraffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/calligraffiti.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,46 @@
+person_JULIO_204
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Джулио 204] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [JULIO 204] (* <- lang_en;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_JULIO_204 <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Джулио 204] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: JULIO 204] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Джулио 204 - пуэрториканец, который в молодости писал граффити в своем районе - Манхэттене. Он не был первым граффитистом, пищущим в Нью-Йорке, хотя многие считают его первым нью-йоркским художником граффити. Джулио жил на 204th Street.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[JULIO 204 was a Puerto Rican who wrote graffiti within his Manhattan gang turf as a youth. He is not the first graffitist to write in New York City, even though he's usually credited as being the original New York City writer. Julio lived on 204th Street in the Inwood neighborhood of Manhattan, and was a member of the Savage Skulls.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_JULIO_204 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джулио 204)](*<-lang_ru;;*);
+		[Pic. (JULIO 204)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/julio.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

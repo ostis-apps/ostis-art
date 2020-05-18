@@ -1,0 +1,32 @@
+font_handstyle_graffiti<- sc_node_not_relation;;
+font_handstyle_graffiti => nrel_main_idtf:
+     [хэндстайл граффити](* <-lang_ru;; *);
+     [handstyle graffitii](* <-lang_en;; *);;
+font_handstyle_graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: хэндстайл граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: handstyle graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Так называемый классический шрифт начертания граффити.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The so-called classic initial graffiti font.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_handstyle_graffiti 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хэндстайл граффити)](*<-lang_ru;;*);
+		[Pic. (Handstyle graffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/HandstyleGraffiti.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,32 @@
+sc_node_not_relation->concept_stencil;;
+concept_stencil => nrel_main_idtf:
+     [трафарет](* <-lang_ru;; *);
+     [stencil](* <-lang_en;; *);;
+concept_stencil <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: трафарет] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: stencil] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Трафарет – вырезанный из какого либо материала рисунок. Это может быть как рисунок, так и какие-нибудь фразы. Материалом для трафарета лучше всего служит или плотная бумага, или картон, или тоненький пластик (какая-нибудь пленка или уголок для бумаг).](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Stencil - a picture cut out of any material. It can be either a picture or some phrases. The material for the stencil is best served with thick paper, or cardboard, or thin plastic (some kind of film or corner for papers).](*<- lang_en;;*);;
+			*);;
+          *);;
+
+concept_stencil 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Трафарет)](*<-lang_ru;;*);
+		[Pic. (Stencil)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/stencil.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
