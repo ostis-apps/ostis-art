@@ -26,6 +26,7 @@ include_kpm()
   echo 'add_subdirectory(${SC_MACHINE_ROOT}/../../problem-solver/cxx ${SC_MACHINE_ROOT}/bin)' >> ./CMakeLists.txt
 	cd ./scripts
 	./make_all.sh
+                ./install_interface_comic.sh
 	cd ../..
 }
 
