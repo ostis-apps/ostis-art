@@ -25,8 +25,6 @@ var setSearchComicsWithFeaturingTwoCharactersViewerWindow = function (sandbox) {
                 $(buttonFind).click(function () {
                     var firstString = $(inputFirst).val();
                     var secondString = $(inputSecond).val();
-                    console.log("First " + firstString);
-                    console.log("Second " + secondString);
                     if (firstString && secondString) {
                         var searchParams = {
                             first: firstString.toString(),
@@ -57,18 +55,13 @@ function findComicsWithFeaturingTwoCharacters(searchParams) {
     SCWeb.core.Server.resolveScAddr([searchParams.first, searchParams.second], function (keynodes) {
         addr1 = keynodes[searchParams.first];
         addr2 = keynodes[searchParams.second];
-        console.log("addr1", addr1);
-        console.log("addr2", addr2);
-        console.log("arguments", SCWeb.core.Arguments._arguments);
         if (!addr1 && !addr2){
             return;
         }
         SCWeb.core.Server.resolveScAddr(["ui_menu_file_for_finding_comics_with_featurnig_two_characters"], function (data) {
             var cmd = data["ui_menu_file_for_finding_comics_with_featurnig_two_characters"];
-            console.log("cmd", cmd);
             SCWeb.core.Main.doCommand(cmd, [addr1, addr2], function (result) {
                 if (result.question != undefined) {
-                    consonle.log(result.question);
                     SCWeb.ui.WindowManager.appendHistoryItem(result.question);
                 }
             });
