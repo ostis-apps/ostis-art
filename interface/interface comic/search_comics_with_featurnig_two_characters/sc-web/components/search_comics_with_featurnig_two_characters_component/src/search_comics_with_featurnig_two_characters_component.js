@@ -40,7 +40,6 @@ var setSearchComicsWithFeaturingTwoCharactersViewerWindow = function (sandbox) {
         SCWeb.core.Server.resolveScAddr(keynodes, function (keynodes) {
             SCWeb.core.Server.resolveIdentifiers(keynodes, function (idf) {
                 var buttonLoad = idf[keynodes['ui_search_comics_with_featurnig_two_characters_in_memory']];
-
                 $(buttonFind).html(buttonLoad);
             });
         });
@@ -51,7 +50,6 @@ var setSearchComicsWithFeaturingTwoCharactersViewerWindow = function (sandbox) {
 SCWeb.core.ComponentManager.appendComponentInitialize(SearchComicsWithFeaturingTwoCharacters);
 
 function findComicsWithFeaturingTwoCharacters(searchParams) {
-    console.log(searchParams);
     SCWeb.core.Server.resolveScAddr([searchParams.first, searchParams.second], function (keynodes) {
         addr1 = keynodes[searchParams.first];
         addr2 = keynodes[searchParams.second];
