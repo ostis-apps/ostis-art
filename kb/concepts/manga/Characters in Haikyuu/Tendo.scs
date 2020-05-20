@@ -1,0 +1,96 @@
+character_Tendo_Satori<-school_Shiratrizawa_Academy;
+<-command_Shiratrizawa;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Тендо Сатори] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Tendo_Satori] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	天童覚] (* <- lang_jp;;*);
+
+=> nrel_nickname:
+	nickname_reckless_demon
+(*
+=> nrel_main_idtf:
+	[догадливый демон](* <- lang_ru;;*);;
+*);
+
+=> nrel_date_of_birth:
+	date_20_05_1994
+(*
+=> nrel_main_idtf:
+	[20 мая 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_187
+(*
+=> nrel_main_idtf:
+	[187 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_5;
+
+<=nrel_team_ace:
+	command_Shiratrizawa;
+
+=>nrel_quote: 
+	[Блок – это техника не для остановки мяча... а для вбивания мяча в пол.](*<- lang_ru;;*);;
+
+character_Tendo_Satori <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Тендо Сатори] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Сатори Тендо (яп.: 天童覚 Tendō Satori) – третьегодка Академии Шираторизава, играющий на позиции центрального блокирующего. Он часто упоминается как демон (яп: ゲス モンスター Догадливый демон) для других команд. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tendo_Satori
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Тендо Сатори)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Tendo.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Tendo_Satori <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Тендо Сатори] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Тендо «колючие», светло-красные волосы; тонкие брови такого же цвета. У него глубоко посаженные красно-карие глаза, которые придают ему сонный вид. Сатори довольно высокий и долговязый, с длинными тонкими руками и ногами. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tendo_Satori
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Тендо Сатори)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/TYTaKEw6MGs.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

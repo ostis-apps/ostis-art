@@ -1,0 +1,52 @@
+person_Mizuho_Kusanagi
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Мидзухо Кусанаги] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Mizuho Kusanagi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 草凪 みずほ] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_03_02_1979
+(*
+=> nrel_main_idtf:
+	[3 февраля 1979](* <- lang_ru;;*);;
+*);
+
+=>nrel_famous_work:
+Akatsuki_no_Yona;
+
+=> nrel_place_of_birth:
+	country_Japan;;
+
+person_Mizuho_Kusanagi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Мидзухо Кусанаги] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Mizuho Kusanagi] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Мидзухо Кусанаги (яп. 草凪 みずほ) — японская мангака.Она родилась в Кумамото 3 февраля 1979 года. Ее первая серия, «Йойко но Кокоро», была опубликована в 2003 году. Ее серии, как правило, «Сёджо манга». Yona of the Dawn была адаптирована в аниме в 2014 году студией Pierrot, которая получила серию из 24 эпизодов. Yona of the Dawn осталась ее самой популярной серией.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Mizuho Kusanagi (草凪 みずほ) is a Japanese manga artist. She was born in Kumamoto on 3 February 1979. Her first series, Yoiko no Kokoroe, was published in 2003. Her series are generally Shōjo manga. Yona of the Dawn was adapted into an anime in 2014 by Studio Pierrot which received a 24 episode series. Yona of the Dawn has remained as her most popular series.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Mizuho_Kusanagi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Мидзухо Кусанаги)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Mizuho Kusanagi)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kusanagi.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

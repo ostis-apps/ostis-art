@@ -1,0 +1,51 @@
+character_Tanaka <-person;
+<-male;
+<-Phantomhive_House;
+
+=> nrel_main_idtf:
+	[Танака] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Tanaka] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 田中] (* <- lang_jp;;*);
+	
+=>nrel_quote: 
+	[Смерть слуги не должна выбить из колеи главу дома Фантомхайв. Я никогда прежде не видел, чтобы господин терял свое самообладание из-за таких пустяков.](*<- lang_ru;;*);
+
+=>nrel_occupation:
+		house_manager
+(*
+=> nrel_main_idtf:
+	[управляющий домом](* <- lang_ru;;*);;
+*);
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Tanaka <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Танака] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Танака - пожилой мужчина с седыми волосами и усами. Он одет в чистый костюм и белые перчатки. Также, на своем правом глазу он носит монокль. Почти всегда держит в руках чашку зеленого чая. Танака часто изображается в стиле чиби. В тех редких случаях, когда он принимает обычный вид, он часто сообщает важную новость или историю из прошлого.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tanaka
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Tanaka.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

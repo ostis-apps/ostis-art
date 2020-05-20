@@ -1,0 +1,96 @@
+character_Ushijima_Wakatoshi<-school_Shiratrizawa_Academy;
+<-command_Shiratrizawa;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Ушиджима Вакатоши] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ushijima Wakatoshi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	牛島若利] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_13_08_1994
+(*
+=> nrel_main_idtf:
+	[13 августа 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_190
+(*
+=> nrel_main_idtf:
+	[190 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_1;
+
+<=nrel_team_ace:
+	command_Shiratrizawa;
+
+=>nrel_quote: 
+	[Какими способными бы вы ни были, вы убедитесь, что мы никогда не ослабнем.](*<- lang_ru;;*);
+
+<=nrel_skill:
+{
+	skill_jump_pitch;
+	skill_ideal_reception;
+	skill_delayed_strike
+};;
+
+character_Ushijima_Wakatoshi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Ушиджима Вакатоши] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ушиджима Вакатоши (На японском: 牛島 若利 Ushijima Wakatoshi) — третьегодка Академии Шираторизавы, сразу является и капитаном, и асом школьной волейбольной команды. Сейчас он ас номер один во всей префектуре Мияги, и один из трех крупнейших асов в стране вместе с Сакусой и Кирюу. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Ushijima_Wakatoshi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Ушиджима Вакатоши)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/OCZC5bX5_400x400.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Ushijima_Wakatoshi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Ушиджима Вакатоши] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У него темные оливково-коричневые волосы и тёмно-оливковые глаза, смуглая кожа. Обычно у Вакатоши твёрдое выражение лица, выглядящее довольно устрашающе. У него крупное, спортивное телосложение и высокий рост. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Ushijima_Wakatoshi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Ушиджима Вакатоши)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/CJkrs5NFlUk.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

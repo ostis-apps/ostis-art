@@ -1,0 +1,184 @@
+character_Kageyama_Tobio<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Кагеяма Тобио] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kageyama Tobio] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 影山 飛雄] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_22_12_1996
+(*
+=> nrel_main_idtf:
+	[22 декабря 1996](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+{
+	nickname_king_of_site
+(*
+=> nrel_main_idtf:
+	[король площадки](* <- lang_ru;;*);;
+*);
+
+nickname_your_highness
+(*
+=> nrel_main_idtf:
+	[Ваше Высочество](* <- lang_ru;;*);;
+*);
+
+nickname_simpleton
+(*
+=> nrel_main_idtf:
+	[простофиля идиот](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_182
+(*
+=> nrel_main_idtf:
+	[182 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+{
+[Быть таким связующим чтобы контролировать команду](*<- lang_ru;;*);
+[Быть в таком состоянии чтобы думать и бросать мяч таким образом, чтобы он не был заблокирован.](*<- lang_ru;;*)
+};
+
+<=nrel_sympathy:
+{
+voleybol;
+
+milk_yogurt
+(*
+=> nrel_main_idtf:
+	[молочный йогурт](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_9
+(*
+=> nrel_main_idtf:
+	[№ 9](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[На площадке остаются только победители. Только сильнейшие. Если хочешь стать тем, кто останется — становись сильнее.](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_337
+(*
+=> nrel_main_idtf:
+	[337 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_320
+(*
+=> nrel_main_idtf:
+	[320 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+skill_high_accuracy
+(*
+=> nrel_main_idtf:
+	[высокая точность](* <- lang_ru;;*);;
+*);
+
+skill_fast_punch_at_minus_pace;
+
+skill_royal_pass
+(*
+=> nrel_main_idtf:
+	[королевский пас](* <- lang_ru;;*);;
+*);
+
+skill_jump_pitch
+(*
+=> nrel_main_idtf:
+	[подача в прыжке](* <- lang_ru;;*);;
+*);
+
+skill_reset
+(*
+=> nrel_main_idtf:
+	[сброс](* <- lang_ru;;*);;
+*);
+
+skill_attack_of_two_binders
+(*
+=> nrel_main_idtf:
+	[атака двух связующих](* <- lang_ru;;*);;
+*);
+
+skill_one_tempo_attack
+(*
+=> nrel_main_idtf:
+	[атака с разницей в один темп](* <- lang_ru;;*);;
+*)
+};;
+
+character_Kageyama_Tobio <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Кагеяма Тобио] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Тобио Кагеяма (яп. :影山 飛雄 Kageyama Tobio) – дейтерагонист Haikyuu!! В течение большей части манги он был первогодкой старшей школы Карасуно, играя в качестве стартового связующего в мужском волейбольном клубе. Поначалу его называли «королем площадки» – уничижительное прозвище, связанное с его диктаторским присутствием в команде, которое ему дали сокомандники в Китагава Дайити. Многие игроки и тренеры префектуры считали его выдающимся волейболистом. После прихода в Карасуно ему удается изменить свое прежнее эгоцентричное отношение к лучшему с помощью своих новых товарищей по команде и «заново открыть», что значит быть частью команды.
+
+Он был выбран для обучения во всеяпонском молодежном тренировочном лагере во время своего первого года обучения в средней школе и присоединился к V лиге, как только окончил ее. Он стал частью национальной сборной Японии по волейболу в возрасте 19 лет, участвуя в Олимпийских играх в Рио-де-Жанейро в 2016 году. В настоящее время он играет в качестве связующего за японскую команду V-League Division 1 Schweiden Adlers.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kageyama_Tobio
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Кагеяма Тобио)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Tobio_in_manga.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Kageyama_Tobio <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Кагеяма Тобио] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Говорят, что рост Кагеямы и его впечатляюще острый взгляд являются самыми выдающимися физическими характеристиками. Он очень мускулистого телосложения. Он часто излучает устрашающую ауру, которая усиливается почти постоянной хмуростью на его лице. Его черные волосы коротко подстрижены, а челка свисает чуть выше темно-синих глаз. Его повседневный образ состоит либо из школьной формы, либо из тренировочной одежды.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kageyama_Tobio
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Кагеяма Тобио)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Xxp69zGyCng.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

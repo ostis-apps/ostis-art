@@ -1,0 +1,95 @@
+Kuroshitsuji <-concept_japanese_comic;
+<-genre_mystic;
+<-genre_detective;
+<-genre_black_comedy;
+<-genre_drama;
+
+=> nrel_main_idtf:
+	[Тёмный Дворецкий] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kuroshitsuji] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 黒執事] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Toboso_Yana;
+
+=>nrel_print:
+	Square_Enix;
+	
+=>nrel_startdate:
+date_16_09_2006
+(*
+=> nrel_main_idtf:
+	[16 сентября 2006](* <- lang_ru;;*);;
+*);
+
+=> nrel_status:
+	status_in_progress
+(*
+=> nrel_main_idtf:
+	[в процессе](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_30
+(*
+=> nrel_main_idtf:
+	[30](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_action:
+	country_England;
+
+<=nrel_creatures_in_manga:
+{
+creature_daemon;
+creature_shinigami
+};;
+
+Kuroshitsuji <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Тёмный Дворецкий] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Действия разворачиваются в викторианской Англии. Главным персонажем является граф Сиэль Фантомхайв. В его обязанности входит охрана Её Величества, борьба с мафией. В результате заключённой с демоном сделки, согласно которой тот заберёт его душу после выполнения условия контракта, он получил идеального дворецкого и охранника. Себастьян выполняет любой приказ своего господина и должен защищать Сиэля от смерти, пока не выполнит условия сделки.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Kuroshitsuji <= nrel_character:
+{
+character_Ciel_Phantomhive;
+character_Sebastian_Michaelis;
+character_Bardroy;
+character_Finian;
+character_Meylin;
+character_Tanaka;
+character_Suneeku;
+character_Edowado_Middofodo;
+character_Erizabesu_Middofodo;
+character_Pora;
+character_Grell_Sutcliff;
+character_Uiriamu_Supiazu;
+character_Ronarudo_Nokkusu;
+character_Undertaker;
+character_Joker;
+character_Beast;
+character_Doll;
+character_Dagger
+};;
+
+Kuroshitsuji
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kuroshitsuji.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

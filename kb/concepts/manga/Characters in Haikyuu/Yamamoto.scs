@@ -1,0 +1,105 @@
+character_Yamamoto_Taketora<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Ямамото Такетора] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Yamamoto Taketora] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 山本猛虎] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_22_02_1995
+(*
+=> nrel_main_idtf:
+	[22  февраля 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_nickname:
+	nickname_Tora
+(*
+=> nrel_main_idtf:
+	[Тора](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_177
+(*
+=> nrel_main_idtf:
+	[177 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+yakisoba
+(*
+=> nrel_main_idtf:
+	[якисоба](* <- lang_ru;;*);;
+*)
+};
+
+<=nrel_team_ace:
+	command_Nekoma;
+
+=>nrel_game_number:
+	number_4;;
+
+character_Yamamoto_Taketora <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Ямамото Такетора] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Такетора Ямамото (яп. 山本猛虎 Yamamoto Taketora) — второгодка старшей Некомы, ас команды и доигровщик.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yamamoto_Taketora
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Ямамото Такетора)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/YamamotoTaketora.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Yamamoto_Taketora <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Ямамото Такетора] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Ямамото ирокез, покрашенный в светлый цвет. Это придаёт ему устрашающий вид (несмотря на это, он очень застенчив в присутствии девушек). Также у него «кошачьи» глаза, характерные ученикам Некомы и короткие, но густые брови.
+
+Телосложение для волейболиста у него хорошее, а рост на несколько сантиметров выше, чем у среднестатистического взрослого японца.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yamamoto_Taketora
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Ямамото Такетора)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/AiHa-JQIi0g.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,106 @@
+character_Goshiki_Tsutomu<-school_Shiratrizawa_Academy;
+<-command_Shiratrizawa;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Гошики Тсутому] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Goshiki Tsutomu] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	五色工] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_22_08_1996
+(*
+=> nrel_main_idtf:
+	[22 августа 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_182
+(*
+=> nrel_main_idtf:
+	[182 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_8
+(*
+=> nrel_main_idtf:
+	[№ 8](* <- lang_ru;;*);;
+*);
+
+<=nrel_team_ace:
+	command_Shiratrizawa;
+
+=>nrel_impact_height:
+	height_328
+(*
+=> nrel_main_idtf:
+	[328 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Только тех, кто способен творить чудеса, можно назвать асами.](*<- lang_ru;;*);
+
+<=nrel_skill:
+{
+	skill_jump_pitch;
+	skill_direct_kick
+};;
+
+character_Goshiki_Tsutomu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Гошики Тсутому] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Цутому Гошики (яп. 五色工 Goshiki Tsutomu)— доигровщик команды Azuma Pharmacy Green Rockets, профессиональной волейбольной команды в Дивизионе 1 японской V Лиги.На момент его представления он был новичком в волейбольной команде Академии Шираторизава и был их восходящим асом. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Goshiki_Tsutomu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Гошики Тсутому)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Гошики.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Goshiki_Tsutomu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Гошики Тсутому] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Цутому среднее телосложение, тёмно-карие глаза и чёрные волосы, стрижка в стиле боб.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Goshiki_Tsutomu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Гошики Тсутому)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/0V19UqrfgTw.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,100 @@
+character_Oikawa_Toru<-school_Elder_Aobajosai;
+<-command_Aobajosai;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Ойкава Тоору] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Oikawa Toru] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	及川徹] (* <- lang_jp;;*);
+
+=> nrel_nickname:
+
+	nickname_great_king
+(*
+=> nrel_main_idtf:
+	[великий король](* <- lang_ru;;*);;
+*);
+
+=> nrel_date_of_birth:
+	date_20_07_1994
+(*
+=> nrel_main_idtf:
+	[20 июля 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_184
+(*
+=> nrel_main_idtf:
+	[184 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_1;
+
+<=nrel_team_ace:
+	command_Aobajosai;
+
+=>nrel_quote: 
+	[В волейболе команда с шестью сильными — сильнее.](*<- lang_ru;;*);
+
+=>nrel_skill:
+	skill_jump_pitch;;
+
+character_Oikawa_Toru <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Ойкава Тоору] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ойкава Тоору (яп. 及川徹 Oikawa Tōru ) – третьекурсник старшей Аобаджосай. Он капитан волейбольного клуба Сейджо и по праву считается его связующим-асом.  ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Oikawa_Toru
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Ойкава Тоору)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Oikawa.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Oikawa_Toru <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Ойкава Тоору] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Оикавы тёмные, шоколадно-каштановые волосы и такого же цвета глаза, но немного светлее. Многие находят его привлекательным, пока не увидят группу из нескольких девушек, следующих и говорящих с ним. Оикава часто улыбается и ухмыляется (хотя Иваизуми замечает, что искренними его улыбки бывают редко). Он постоянно делает знак «victory» пальцами, или большие размахивающие жесты, которые часто сопровождаются широкой улыбкой или подмигиванием. Ещё одна фишка – он улыбается и высовывает язык, подмигивая. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Oikawa_Toru
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Ойкава Тоору)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/IQWnIfAWnlU.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,6 @@
+rrel_special_role <- sc_node_role_relation;
+
+=> nrel_main_idtf:
+	[особенная роль'] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[special role] (* <- lang_en;;*);;

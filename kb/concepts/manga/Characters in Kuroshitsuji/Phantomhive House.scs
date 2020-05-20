@@ -1,0 +1,35 @@
+Phantomhive_House <- Kuroshitsuji;
+
+=> nrel_main_idtf:
+	[Дом Фантомхайв] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Phantomhive House] (* <- lang_en;;*);
+
+=>nrel_head_of_family:
+	character_Ciel_Phantomhive;;
+
+Phantomhive_House <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Дом Фантомхайв] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Фантомхайв — имя печально известной знатной семьи, непосредственно контролируемой королевой Викторией. Они являются тайным исполнительным органом Англии и служат королевской семье уже в течение нескольких поколений. Их часто называют «Сторожевыми псами» королевы или «Аристократами зла».
+
+Фантомхайв — дворянский род, глава которого имеет титул графа. Нынешним главой семьи является Сиэль Фантомхайв.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Phantomhive_House
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Фамильный герб семьи Фантомхайв)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Phantomhive_Family_Crest.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

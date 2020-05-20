@@ -1,0 +1,164 @@
+character_Nishinoya_Yu<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_libero;
+
+=> nrel_main_idtf:
+	[Нишиноя Ю] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Nishinoya Yu] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 西谷 夕] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_10_10_1995
+(*
+=> nrel_main_idtf:
+	[10 октября 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17
+(*
+=> nrel_main_idtf:
+	[17 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_160
+(*
+=> nrel_main_idtf:
+	[160 см](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+	nickname_divine_guardian_Karasuno
+(*
+=> nrel_main_idtf:
+	[божественный хранитель Карасуно](* <- lang_ru;;*);;
+*);
+
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+[Делать пасы, которые не позорят имя Божества-Хранителя Карасуно](*<- lang_ru;;*);
+
+
+<=nrel_sympathy:
+{
+voleybol;
+
+ice_cream
+(*
+=> nrel_main_idtf:
+	[мороженое](* <- lang_ru;;*);;
+*);
+
+uniform
+(*
+=> nrel_main_idtf:
+	[униформа Карасуно](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_4
+(*
+=> nrel_main_idtf:
+	[№ 4](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Нечего беспокоиться! Вам, ребята, нужно смотреть только вперёд! А я буду защищать ваши тылы.](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_302
+(*
+=> nrel_main_idtf:
+	[302 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_290
+(*
+=> nrel_main_idtf:
+	[290 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_ideal_reception
+(*
+=> nrel_main_idtf:
+	[идеальный приём](* <- lang_ru;;*);;
+*);
+
+skill_instinctive_movement
+(*
+=> nrel_main_idtf:
+	[инстинктивные движения](* <- lang_ru;;*);;
+*);
+
+skill_thunderclap
+(*
+=> nrel_main_idtf:
+	["раскаты грома"](* <- lang_ru;;*);;
+*);
+
+skill_pass_libero
+(*
+=> nrel_main_idtf:
+	[пас либеро](* <- lang_ru;;*);;
+*)
+};;
+
+character_Nishinoya_Yu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:Нишиноя Ю] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ю Нишиноя (яп. 西谷夕 Nishinoya Yū) — второкурсник старшей школы Карасуно, играющий на позиции либеро, которую он оправдывает, спасая мяч в большинстве случаев. Выбрал эту позицию, так как понимал, что она одна из самых важных в команде. После окончания старшей школы Нишиноя решил путешествовать по миру и с 2018 года он в настоящее время находится в Италии, ловя рыбу для марлинов.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Nishinoya_Yu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Нишиноя Ю)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Nishinoya.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Nishinoya_Yu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Нишиноя Ю] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Нишиноя — самый низкий игрок в команде, его рост составляет 159 см (согласно главе 207 — 160.5 см). Несмотря на маленький рост, Ю имеет худощавое, но крепкое телосложение. У него взлохмаченные вверх тёмные волосы, добавляющие росту 10 см и большие карие глаза необычной формы; прядь волос, спадающая на лоб, была обесцвечена. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Nishinoya_Yu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Нишиноя Ю)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/YsYyEJxylhM.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

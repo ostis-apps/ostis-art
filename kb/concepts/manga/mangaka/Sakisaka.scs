@@ -1,0 +1,52 @@
+//Сакисаки Ио
+person_Sakisaka_Io
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Сакисака Ио] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Sakisaka Io] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 咲坂伊緒] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_08_06_1970
+(*
+=> nrel_main_idtf:
+	[8 июня 1970](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=>nrel_famous_work:
+Ao_Haru_Ride;;
+
+person_Sakisaka_Io <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Сакисака Ио] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Sakisaka Io] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ио Сакисака (яп. 咲坂伊緒) - японский художник манги и дизайнер персонажей. Она дебютировала в 1999 году в короткометражном комиксе «Сакура», «Чиру» и с тех пор известна своими сериями «Strobe Edge», «Ao Haru Ride» и «Love Me, Love Me Not».](*<- lang_ru;;*);;
+-> rrel_example:
+	[Io Sakisaka (Japanese: 咲坂伊緒, Hepburn: Sakisaka Io) is a Japanese manga artist and character designer. She debuted in 1999 with the short comic Sakura, Chiru and since has been known for her series Strobe Edge, Ao Haru Ride, and Love Me, Love Me Not.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Sakisaka_Io
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Сакисака Ио)](*<-lang_ru;;*);
+	[Pic. (Sakisaka Io)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Io.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

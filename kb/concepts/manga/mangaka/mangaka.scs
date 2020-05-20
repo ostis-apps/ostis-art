@@ -1,0 +1,35 @@
+mangaka<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Мангака]
+	(*<-lang_ru;;*);
+	[mangaka]
+	(*<-lang_en;;*);
+=> nrel_idtf:
+	[ 漫画家] (* <- lang_jp;;*);
+
+<-rrel_key_sc_element: ... (*
+	<- definition;;
+	=>nrel_main_idtf:
+	[Опр.(Мангака)] (*<-lang_ru;;*);;
+	=> nrel_using_constants: {
+	person;
+	concept_comic;
+	country_Japan;
+	concept_japanese_comic
+};;
+<= nrel_sc_text_translation: ... (*
+	-> rrel_example:
+	[Мангака(яп. 漫画家) - человек, который рисует комиксы. Вне Японии это слово обычно используется в значении «художник, рисующий мангу».] (*<-lang_ru;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element: ... (*
+	<-explanation;;
+	=> nrel_main_idtf:
+	[Пояснение] (*<-lang_ru;;*);;
+ <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Мангака самостоятельно разрабатывает дизайн персонажей (за редкими исключениями), и часто (даже если не является автором сценария) примерно обозначает сюжет будущего произведения. По данным на 2006 год, в Японии работает около 3000 профессиональных мангак.](*<-lang_ru;;*);;
+      *);;
+*);;
+

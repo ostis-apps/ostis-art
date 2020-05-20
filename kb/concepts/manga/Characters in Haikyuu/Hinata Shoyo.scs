@@ -1,0 +1,224 @@
+character_Hinata_Shoyo<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Хината Шоё] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Hinata Shoyo] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 日向 翔陽] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_21_06_1996
+(*
+=> nrel_main_idtf:
+	[21 июня 1996](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+{
+	nickname_shorty_number_one
+(*
+=> nrel_main_idtf:
+	[коротышка номер один](* <- lang_ru;;*);;
+*);
+
+nickname_idiot
+(*
+=> nrel_main_idtf:
+	[идиот](* <- lang_ru;;*);;
+*);
+
+nickname_shorty
+(*
+=> nrel_main_idtf:
+	[коротышка](* <- lang_ru;;*);;
+*);
+
+nickname_final_bait
+(*
+=> nrel_main_idtf:
+	[окончательная приманка](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_age:
+	age_16
+(*
+=> nrel_main_idtf:
+	[16 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_164
+(*
+=> nrel_main_idtf:
+	[164 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+{
+[Стать игроком как Маленький гигант](*<- lang_ru;;*);
+[Стать асом Карасуно](*<- lang_ru;;*);
+[Усердно работать, чтобы стать выше](*<- lang_ru;;*)
+};
+
+<=nrel_sympathy:
+{
+character_Kageyama_Tobio;
+
+voleybol
+(*
+=> nrel_main_idtf:
+	[волейбол](* <- lang_ru;;*);;
+*);
+
+meat_bun
+(*
+=> nrel_main_idtf:
+	[мясная булочка](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_10
+(*
+=> nrel_main_idtf:
+	[№ 10](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Передо мной стоит высокая-высокая стена. Что скрывается по ту сторону? Как она выглядит? «Вид сверху». Мне одному ни за что не увидеть. Но, если я буду не один, то смогу увидеть всё.](*<- lang_ru;;*);
+
+->rrel_special_role:
+	role_decoy;
+
+=>nrel_impact_height:
+	height_333
+(*
+=> nrel_main_idtf:
+	[333 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_310
+(*
+=> nrel_main_idtf:
+	[310 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+skill_stamina
+(*
+=> nrel_main_idtf:
+	[выносливость](* <- lang_ru;;*);;
+*);
+
+skill_speed
+(*
+=> nrel_main_idtf:
+	[скорость](* <- lang_ru;;*);;
+*);
+
+skill_jumping
+(*
+=> nrel_main_idtf:
+	[высокий прыжок](* <- lang_ru;;*);;
+*);
+
+skill_fast_punch_at_minus_pace
+(*
+=> nrel_main_idtf:
+	[быстрый удар в минус-темпе](* <- lang_ru;;*);;
+*);
+
+skill_blockout 
+(*
+=> nrel_main_idtf:
+	[блок-аут](* <- lang_ru;;*);;
+*);
+
+skill_fint
+(*
+=> nrel_main_idtf:
+	[финт](* <- lang_ru;;*);;
+*);
+
+skill_back_attack
+(*
+=> nrel_main_idtf:
+	[обратная атака](* <- lang_ru;;*);;
+*);
+
+skill_reception
+(*
+=> nrel_main_idtf:
+	[приём](* <- lang_ru;;*);;
+*);
+
+skill_open_shot
+(*
+=> nrel_main_idtf:
+	[открытый удар](* <- lang_ru;;*);;
+*);
+
+skill_pases
+(*
+=> nrel_main_idtf:
+	[пасы](* <- lang_ru;;*);;
+*)
+};;
+
+character_Hinata_Shoyo <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Хината Шоё] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Шоё Хината (яп.:日向 翔陽 Hinata Shōyō) – главный герой аниме и манги Волейбол. Хината был мотивирован начать играть в волейбол, когда он стал свидетелем того, как низкий волейболист Карасуно по прозвищу Маленький гигант обыгрывал гораздо более крупных противников. Проиграв свой первый и единственный официальный волейбольный матч в средней школе против Тобио Кагеямы, «короля площадки», Хината поступил в старшую школу Карасуно, но обнаружил, что Кагеяма тоже решил поступить в неё. В течение большей части серии Хината был первогодкой в Карасуно и одним из центральных блокирующих волейбольной команды. После окончания старшей школы он отправился в Бразилию, чтобы два года тренироваться в пляжном волейболе. Вернувшись в Японию, он стал членом команды MSBY Чёрные шакалы, команды 1-го дивизиона V-Лиги.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Hinata_Shoyo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Хината Шоё)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Shoyo_hinata.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Hinata_Shoyo <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Хината Шоё] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Когда Хината поступил в первый класс старшей школы, его рост составлял 162,8 см, а в середине учебного года он вырос до 164,2 см. Он является вторым самым низким человеком в своей команде, ниже него только Нишиноей (хотя его рост довольно средний для японского старшеклассника мужского пола). У него непослушные оранжевые волосы и карие глаза. Его относительно худощавое телосложение и невысокий рост часто приводят к тому, что его принимают за ученика младших классов средней школы (а в некоторых случаях даже начальной школы). Хината обычно одевается в свою школьную форму Карасуно с черной курткой и черными брюками. Под пиджаком у него бежевая или коричневая толстовка. В первом эпизоде он был одет в зеленую волейбольную форму своей средней школы.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Hinata_Shoyo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Хината Шоё)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/2C9SQd9nGXA.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

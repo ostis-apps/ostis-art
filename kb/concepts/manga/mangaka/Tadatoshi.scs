@@ -1,0 +1,52 @@
+person_Fujimaki_Tadatoshi
+	<- person;
+	<- male;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Фудзимака Тадатоси] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Fujimaki Tadatoshi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 藤巻 忠俊] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_09_07_1982
+(*
+=> nrel_main_idtf:
+	[9 июля 1982](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=>nrel_famous_work:
+Kuroko_no_Basuke;;
+
+
+person_Fujimaki_Tadatoshi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Фудзимака Тадатоси] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Fujimaki Tadatoshi] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Тадатоси Фудзимаки (藤巻 忠俊) — японский мангака,наиболее известный по своей работе "Баскетбол Куроко".Фудзимаки вырос в экологически чистой среде, в хорошей семье. Он учился в Средней Школе Торияма, а затем поступил в Софийский Университет. По окончанию обучения он выбрал карьеру мангаки.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Tadatoshi Fujimaki (藤 巻 忠 俊) - Japanese mangaka, best known for his work, “Kuroko Basketball.” Fujimaki grew up in an environmentally friendly environment, in a good family. He studied at Toriyama High School, and then enrolled at Sofia University. At the end of his studies, he chose a mangaka career.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Fujimaki_Tadatoshi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Фудзимака Тадатоси)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Fujimaki Tadatoshi)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Tadatoshi.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

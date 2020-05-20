@@ -1,0 +1,88 @@
+character_Sebastian_Michaelis <-creature_daemon;
+<-male;
+<-Phantomhive_House;
+
+=> nrel_main_idtf:
+	[Себастьян Михаэлис] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Sebastian Michaelis] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ セバスチャン・ミカエリス] (* <- lang_jp;;*);
+
+=>nrel_nickname:
+	nickname_Black
+(*
+=> nrel_main_idtf:
+	[Блэк](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_186
+(*
+=> nrel_main_idtf:
+	[186 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_occupation:
+		butler
+(*
+=> nrel_main_idtf:
+	[дворецкий](* <- lang_ru;;*);;
+*);
+	
+=>nrel_quote: 
+	[Я просто дьявольски хороший дворецкий](*<- lang_ru;;*);
+
+=>nrel_favorite_animal:
+	cat
+(*
+=> nrel_main_idtf:
+	[кот](* <- lang_ru;;*);;
+*);
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Sebastian_Michaelis <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Себастьян Михаэлис] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Себастьян имеет внешность высокого, статного молодого человека с черными волосами, красными глазами и бледной кожей. Как правило, он одет в типичный наряд дворецкого, состоящий из черных брюк, черных туфель, двубортного фрака на шести пуговицах и серого жилета. На пуговицах его пиджака и манжет изображен герб дома Фантомхайв. Также, он носит белые перчатки, карманные часы и прикрепленную к воротнику его пиджака булавку с гербом Фантомхайв, которую традиционно носили главные дворецкие дома.
+
+На тыльной части левой руки Себастьяна находится его печать контракта с Сиэлем Фантомхайв, а также у него черные ногти.
+
+Демоническая форма Себастьяна не была показана полностью. Известно только, что эта форма включает в себя сапоги на высоком каблуке, острые когти, светящуюся радужку глаз, вертикальные зрачки, более длинные, острые зубы и черные крылья.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Sebastian_Michaelis
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Печать контракта Себастьяна)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Sebastian_contract.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Sebastian_Michaelis
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Sebastian.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

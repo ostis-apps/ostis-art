@@ -1,0 +1,5 @@
+country_England
+=> nrel_main_idtf:
+	[Англия] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[England] (* <- lang_en;;*);;

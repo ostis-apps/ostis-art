@@ -1,0 +1,5 @@
+nrel_team_ace<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[ас команды*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[team ace] (* <- lang_en;;*);;

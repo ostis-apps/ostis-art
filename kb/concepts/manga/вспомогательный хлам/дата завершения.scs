@@ -1,0 +1,16 @@
+ nrel_enddate <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [дата завершения*](*<- lang_ru;;*);
+  => nrel_main_idtf: [end date](*<- lang_en;;*);;
+
+nrel_enddate <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Дата заверщения] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[дата завершения - дата, которая показывает, когда был завершен выпуст той или иной манги.](*<- lang_ru;;*);;
+*);;
+*);;

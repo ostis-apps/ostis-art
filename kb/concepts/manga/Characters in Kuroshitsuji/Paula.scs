@@ -1,0 +1,50 @@
+character_Pora <-person;
+<-female;
+
+=> nrel_main_idtf:
+	[Паула] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Pora] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ ポーラ] (* <- lang_jp;;*);
+
+=>nrel_friend:
+	character_Erizabesu_Middofodo;
+
+<=nrel_maid:
+	character_Erizabesu_Middofodo;
+	
+=>nrel_quote: 
+	[Дзинь, Дзинь, Дзинь!](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Pora <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Паула] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Паула — молодая девушка с бледной кожей, темно-карими глазами и длинными каштановыми волосами. Обычно она носит бордовое платье с белым передником сверху; на улице она надевает коричневое пальто, черную шляпу и перчатки.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Pora
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Paula.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

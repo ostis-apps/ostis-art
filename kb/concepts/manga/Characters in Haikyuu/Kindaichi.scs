@@ -1,0 +1,91 @@
+character_Kindaichi_Yutaro<-school_Elder_Aobajosai;
+<-command_Aobajosai;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Киндаичи Ютаро] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kindaichi Yutaro] (* <- lang_en;;*);
+=> nrel_idtf:
+	[金田一勇太郎] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_06_06_1996
+(*
+=> nrel_main_idtf:
+	[6 июня 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_190
+(*
+=> nrel_main_idtf:
+	[190 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_12;
+
+=>nrel_impact_height:
+	height_332
+(*
+=> nrel_main_idtf:
+	[332 см](* <- lang_ru;;*);;
+*);;
+
+
+character_Kindaichi_Yutaro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Киндаичи Ютаро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ютаро Киндаичи (Japanese: 金田一勇太郎 Kindaichi Yūtarō) — ренее, ученик - первогодка Аобаджосай и центральный блокирующий соответственной волейбольной команды. В настоящее время он является студентом колледжа и средним блокирующим игроком команды Tamaden Elephants, профессиональной волейбольной команды в дивизионе 2 японской V. League. Он также собирается стать электриком в Сайтаме. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kindaichi_Yutaro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Киндаичи Ютаро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Киндаичи.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Kindaichi_Yutaro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Киндаичи Ютаро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Киндаичи молодой человек, для своего возраста слишком «длинный», в команде он самый высокий. У него тёмные волосы, торчащие вверх, из-за чего Хината дал ему прозвище «лукоголовый», потому что его силуэт напомнил Хинате луковицу, когда встретил его в туалете Аобаджосай, хотя подразумевается, что он сам пока не подозревает об этом. Лицо Кидаичи в основном хмурое, точнее, «бездействующее», а не пугающее как у Кагеямы.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kindaichi_Yutaro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Киндаичи Ютаро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/iM-w_pfeAF8.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

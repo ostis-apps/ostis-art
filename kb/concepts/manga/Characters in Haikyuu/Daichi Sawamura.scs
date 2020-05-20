@@ -1,0 +1,144 @@
+character_Daichi_Sawamura<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Савамура Дайчи] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Daichi Sawamura] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 澤村大地] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_31_12_1994
+(*
+=> nrel_main_idtf:
+	[31 декабря 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18
+(*
+=> nrel_main_idtf:
+	[18 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_177
+(*
+=> nrel_main_idtf:
+	[177 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+{
+[Поехать на национальные](*<- lang_ru;;*);
+[Стать студентом.](*<- lang_ru;;*);
+[Повысить число поступающих в клуб](*<- lang_ru;;*)
+};
+
+<=nrel_sympathy:
+{
+voleybol;
+
+shoyu_ramen
+(*
+=> nrel_main_idtf:
+	[сёю рамен](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_1
+(*
+=> nrel_main_idtf:
+	[№ 1](* <- lang_ru;;*);;
+*);
+
+->rrel_special_role:
+	role_defender;
+
+=>nrel_quote: 
+	[Мы никогда не выиграем, если не будем верить, что сможем.](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_310
+(*
+=> nrel_main_idtf:
+	[310 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_298
+(*
+=> nrel_main_idtf:
+	[298 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_strong_body
+(*
+=> nrel_main_idtf:
+	[сильное тело](* <- lang_ru;;*);;
+*);
+
+skill_back_line_attack
+(*
+=> nrel_main_idtf:
+	[атака с задней линии](* <- lang_ru;;*);;
+*)
+};;
+
+character_Daichi_Sawamura <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:Савамура Дайчи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Дайчи Савамура (яп. 澤村大地 Daichi Sawamura) — третьекурсник старшей школы Карасуно и капитан волейбольного клуба, играющий на позиции доигровщика. Отличный предводитель, умеющий воодушевить товарищей по команде, но страшен в гневе. В тот период, когда первый тренер Укай был госпитализирован, он был одним из капитанов, которые должны были выступать в качестве тренера команды. С 2018 года он в настоящее время является частью полиции Мияги.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Daichi_Sawamura
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Савамура Дайчи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Six_links_sawamura_daichi_by_selvatic-d9ls3ui.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Daichi_Sawamura <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Савамура Дайчи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У него короткие тёмные волосы, тёмно-карие глаза и загорелая кожа. Дайчи имеет крупное телосложение, и многие люди говорят, что его внешний вид сразу выделяет его статус капитана. Обычно у него мягкая улыбка на лице, но когда он сердится, его глаза тускнеют.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Daichi_Sawamura
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Савамура Дайчи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/fSA0G6vh6jQ.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

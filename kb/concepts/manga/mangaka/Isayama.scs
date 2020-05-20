@@ -1,0 +1,54 @@
+person_Isayama_Hajime
+	<- person;
+	<- male;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Исаяма Хадзиме] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Isayama Hajime] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 諫山 創] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_29_08_1986
+(*
+=> nrel_main_idtf:
+	[29 августа 1986](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=> nrel_famous_work:
+	Shingeki_no_Kyojin;
+
+=> nrel_reward:
+	Kodansya_prize;;
+
+person_Isayama_Hajime <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Исаяма Хадзиме] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Isayama Hajime] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Хадзимэ Исаяма (諫山 創 ) — японский мангака. Выпускник старшей школы Хитарин с техническим уклоном префектуры Оита, профессионального технического училища на базе Института дизайна Кюсю в Фукуоке, факультета, специализирующегося на обучении рисованию манги.Исаяма родился в Ояме (префектура Оита). Рисовал с детства. В старших классах школы он начал отправлять свою мангу на различные конкурсы. После того, как его короткая работа Shingeki no Kyojin была высоко оценена жюри на одном из конкурсов, он переехал в Токио и, чтобы заработать на жизнь, начал работу в интернет-кафе.В 2011 году «Shingeki no Kyojin» была присуждена 35-я награда «премии Коданся» в категории «Сёнэн»](*<- lang_ru;;*);;
+-> rrel_example:
+	[Hajime Isayama (諫 山 創) - Japanese mangaka. A graduate of Khitarin High School with a technical background in Oita Prefecture, a vocational technical school based at the Kyushu Design Institute in Fukuoka, a faculty specializing in teaching manga, Isayama was born in Oyama (Oita Prefecture). Drew since childhood. In high school, he began sending his manga to various contests. After his short work Shingeki no Kyojin was highly praised by the jury at one of the competitions, he moved to Tokyo and began working in an Internet cafe to earn a living. In 2011, Shingeki no Kyojin was awarded the 35th Kodansha Prize Award in the Shonen Category.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Isayama_Hajime
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Фурудатэ Харуити)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Furudate Haruichi)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Isayama.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

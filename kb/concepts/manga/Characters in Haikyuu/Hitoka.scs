@@ -1,0 +1,70 @@
+character_Yachi_Hitoka<-person;
+<-female;
+<-school_Elder_Karasuno;
+
+=> nrel_main_idtf:
+	[Хитока Ячи] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Yachi Hitoka] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 谷地 仁花] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_05_04_1986
+(*
+=> nrel_main_idtf:
+	[4 сентября 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_150
+(*
+=> nrel_main_idtf:
+	[150 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_quote: 
+	[Я никогда не пыталась сделать что-то самостоятельно, или кто-то нуждался во мне... Но когда Симидзу-сэмпай так усердно трудилась, чтобы нанять такого гражданина Б, как я, у которого нет ни опыта, ни знаний о волейболе, я была по-настоящему счастлива](*<- lang_ru;;*);;
+
+character_Yachi_Hitoka <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Хитока Ячи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Хитока Ячи (яп. 谷地 仁花 Yachi Hitoka) – первогодка старшей Карасуно. Она одна из менеджеров волейбольного клуба.С 2018 года она учится в колледже и начнет работать в компании по дизайну рекламы в Токио, как только закончит учебу.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yachi_Hitoka
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Хитока Ячи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/%3F%3F%3F%3F%3F%3F_%3F%3F%3F.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Yachi_Hitoka <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Хитока Ячи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Хитоки светлые, неровно обрезанные волосы чуть выше плеч. Она обычно носит яркую заколку в виде звезды, которой собирает часть волос в конский хвост с левой стороны.
+Эта деталь придаёт её внешности больше выразительности. Чаще всего она бывает в форме старшей Карасуно. ](*<- lang_ru;;*);;
+*);;
+*);;

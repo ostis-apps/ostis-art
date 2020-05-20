@@ -1,0 +1,109 @@
+command_Karasuno <- school_Elder_Karasuno;
+<- Haikyuu;
+
+=> nrel_main_idtf:
+	[Карасуно] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Karasuno] (* <- lang_en;;*);
+
+=>nrel_past_trainer:
+	Ikkey_Ukay
+(*
+=> nrel_main_idtf:
+	[Иккей Укай](* <- lang_ru;;*);;
+*);
+
+=>nrel_nickname:
+	nickname_ravens
+(*
+=> nrel_main_idtf:
+	[«вороны»](* <- lang_ru;;*);;
+*);
+
+=>nrel_trainer:
+	character_Ukai_Keishin;
+
+=>nrel_captain_of_command:
+	character_Daichi_Sawamura;
+
+=>nrel_vice_captain:
+	character_Sugawara_Koshi;
+
+<=nrel_manager:
+{
+character_Shimizu_Kiyoko;
+character_Yachi_Hitoka
+};
+
+=>nrel_curator:
+character_Takeda_Ittetsu;
+
+<=nrel_main_cast:
+{
+character_Hinata_Shoyo;
+character_Kageyama_Tobio;
+character_Daichi_Sawamura;
+character_Tanaka_Ryunosuke;
+character_Tsukishima_Kei;
+character_Nishinoya_Yu;
+character_Azumane_Asahi
+};
+
+<=>nrel_rivals:
+command_Aobajosai;
+
+<=>nrel_rivals:
+command_Nekoma;
+
+<=>nrel_rivals:
+command_Shiratrizawa;;
+
+command_Karasuno <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [волейбольная команда "Карасуно"] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Карасуно  — волейбольная команда старшей школы Карасуно](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Karasuno <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Форма для волейбольного клуба для мальчиков состоит из черного спортивного костюма с белыми деталями. Участники тренинга носят белые футболки и черные шорты во время тренировочных матчей и часто надевают желтый спортивный нагрудник сверху. Во время официальных матчей большинство игроков надевают черные майки и шорты с оранжевыми деталями. У либеро контрастная майка оранжевого цвета с черными деталями. На весеннем турнире меняется форма у либеро с оранжевого на чёрный, а у остальных игроков с чёрного на оранжевый.](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Karasuno <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [История] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Карасуно участвовала в национальных чемпионатах лишь однажды, под руководством тренера Укая-старшего и с игроком по прозвищу «Маленький Гигант», который был известен даже за пределами префектуры. Однако, после столь успешного начала, Карасуно не смогла пройти следующие отборочные соревнования и постепенно «скатилась», после чего игроки команды получили прозвище «Падшие Чемпионы» и «Бескрылые вороны».
+В начале развития сюжета у команды Карасуно нет тренера, потому что Укая-старшего госпитализируют после нескольких месяцев возвращения к работе тренера. Дайчи Савамура берёт на себя обязанности капитана и тренера, пока внук Укая-старшего, Кейшин Укай, не встаёт на эту должность после длительных уговоров.
+Самым сильным атрибутом Карасуно является его наступательная мощь, с большим акцентом на такие атаки, как быстрый удар,  синхронизированные атаки с использованием темпа. Он также использует необычные методы, такие как атака двух связующих, подача с плавающей точкой прыжка и бросок либеро, чтобы сбросить противников.](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Karasuno
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Фотография команды)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Карасуно1.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

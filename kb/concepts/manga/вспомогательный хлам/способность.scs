@@ -1,0 +1,4 @@
+ nrel_power <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [способность*](*<- lang_ru;;*);
+  => nrel_main_idtf: [power](*<- lang_en;;*);;

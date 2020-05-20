@@ -1,0 +1,47 @@
+character_Edowado_Middofodo <-person;
+<-male;
+
+=> nrel_main_idtf:
+	[Эдвард Мидфорд] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Edowado Middofodo] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ エドワード・ミッドフォード] (* <- lang_jp;;*);
+
+=>nrel_cousin:
+	character_Ciel_Phantomhive;	
+
+=>nrel_quote: 
+	[Мы - английские рыцари. Мы защищаем слабых. ](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Edowado_Middofodo <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Эдвард Мидфорд] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Эдвард - молодой человек с короткими золотистыми волосами и изумрудно-зелеными глазами, как у его сестры и отца. Первый раз он появился в костюме и с цилиндром, вокруг которого был повязан бант.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Edowado_Middofodo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Edward.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

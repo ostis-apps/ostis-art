@@ -1,0 +1,93 @@
+character_Shibayama_Yuki<-school_Elder_Nekoma;
+<- command_Nekoma;
+<-person;
+<-male;
+<-position_libero;
+
+=> nrel_main_idtf:
+	[Сибаяма Юки] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shibayama Yuki] (* <- lang_en;;*);
+=> nrel_idtf:
+	[芝山優生] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_16_12_1996
+(*
+=> nrel_main_idtf:
+	[16 декабря 1996](* <- lang_ru;;*);;
+*);
+
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_163
+(*
+=> nrel_main_idtf:
+	[163 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+=>nrel_sympathy:
+voleybol;
+
+
+
+=>nrel_game_number:
+	number_12
+(*
+=> nrel_main_idtf:
+	[№ 12](* <- lang_ru;;*);;
+*);;
+
+character_Shibayama_Yuki <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Сибаяма Юки] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Юки Сибаяма (芝山優生 Shibayama Yūki) — первогодка из старшей школы Некома. Также он является либеро мужской волейбольной команды.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Shibayama_Yuki
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа:Сибаяма Юки)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Yuuki_shibayama_60390.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Shibayama_Yuki <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Сибаяма Юки] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Юки самый низкий из команды Некома. У него густые брови и темные глаза. Также у него чёрные волосы с пробором посередине. В аниме он был показан в красном спортивном костюме и тренировочной одежде. В манге он наконец был показан в волейбольной форме только в 200 главе.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Shibayama_Yuki
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Сибаяма Юки)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Nv7FXt227Qc.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

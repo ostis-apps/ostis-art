@@ -1,0 +1,94 @@
+character_Kentaro_Chiotani<-school_Elder_Aobajosai;
+<-command_Aobajosai;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Кьёнтани Кентаро] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kentaro Chiotani] (* <- lang_en;;*);
+=> nrel_idtf:
+	[京谷 賢太郎] (* <- lang_jp;;*);
+
+=> nrel_nickname:
+
+	nickname_angry_dog_chan
+(*
+=> nrel_main_idtf:
+	[злой пёс-чан](* <- lang_ru;;*);;
+*);
+
+=> nrel_date_of_birth:
+	date_07_12_1995
+(*
+=> nrel_main_idtf:
+	[7 декабря 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_179;
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_16
+(*
+=> nrel_main_idtf:
+	[№ 16](* <- lang_ru;;*);;
+*);
+
+=>nrel_skill:
+	skill_jump_pitch;;
+
+character_Kentaro_Chiotani <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Кьёнтани Кентаро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кентаро Кьётани (яп. 京谷 賢太郎 Кёутани Кэнтаро) — доигровщик-второгодка из старшей Аобаджосай, отличающийся скверным характером и эгоистичной игрой на площадке.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kentaro_Chiotani
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Кьёнтани Кентаро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Kentaro_Chiotani <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Кьёнтани Кентаро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кьётани легко узнаваемый персонаж, особенно с его коротко постриженными светлыми волосами, через которые проходят две горизонтальные тёмные полосы, чуть повыше ушей. Его глаза остры, и выглядят довольно агрессивными и враждебными (кажется, как будто он пользуется подводкой для глаз, или у него очень большие синяки под глазами). Он оправдывает свое прозвище «Бешеный пёс» (хоть эта кличка, данная Оикавой, не описывала внешность, а только была составлена из иероглифов его имени и фамилии).](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kentaro_Chiotani
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Кьёнтани Кентаро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/mBA5Dg6cXAY.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

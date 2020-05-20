@@ -1,0 +1,69 @@
+Akatsuki_no_Yona <-concept_japanese_comic;
+<-genre_adventure;
+<-genre_fantasy;
+<-genre_romantic_comedy;
+
+=> nrel_main_idtf:
+	[Рассвет Йоны] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Akatsuki no Yona] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 暁のヨナ] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Mizuho_Kusanagi;
+
+=>nrel_print:
+	Hakusensha;
+	
+=>nrel_startdate:
+date_04_08_2009
+(*
+=> nrel_main_idtf:
+	[4 августа 2009](* <- lang_ru;;*);;
+*);
+
+=> nrel_status:
+	status_in_progress
+(*
+=> nrel_main_idtf:
+	[в процессе](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_31
+(*
+=> nrel_main_idtf:
+	[31](* <- lang_ru;;*);;
+*);;
+
+Akatsuki_no_Yona <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Рассвет Йоны] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Манга, повествующая о шестнадцатилетней девушке по имени Йона . 
+
+Будучи единственной наследницей императорского трона, Йона наслаждается жизнью. У нее есть все: самые лучшие наряды и дорогие украшения, вкуснейшие сладости, личный телохранитель, любящий отец-Император и, конечно, любовь в сердце к кузену Су-Вону. Правда, любовь её безответна, но Йона не унывает. 
+
+Но ее беззаботная жизнь меняется за один вечер, когда Су-вон, который всегда был защитником и другом, убивает Императора. Чудом спасшись от солдатов, Йона вместе со своим телохранителем по имени Сон Хак сбегает из столицы. 
+
+Её дальнейшую судьбу определяет некое пророчество о четырех драконах. Напротяжении путешествия, в которое превратилась их жизнь, они встречают множество новых людей и переживают приключения. Йона узнает о настоящей жизни в империи, которой правил её отец. Она учится сражаться за себя и своих друзей, становясь с каждым днем все сильнее и мудрее.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Akatsuki_no_Yona
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Yona.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

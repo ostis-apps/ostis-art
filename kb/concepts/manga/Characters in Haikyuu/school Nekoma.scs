@@ -1,0 +1,40 @@
+school_Elder_Nekoma <- concept_high_school;
+<-Haikyuu;
+
+=> nrel_main_idtf:
+	[Старшая Некома] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Elder Nekoma] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 都立音駒高校] (* <- lang_jp;;*);
+
+=>nrel_location:
+	city_Tokyo
+(*
+=> nrel_main_idtf:
+	[Токио](* <- lang_ru;;*);;
+*);;
+
+school_Elder_Nekoma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Старшая школа Некома] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Старшая школа Некома (яп.: 都立音駒高校, Toritsu Nekoma Kōkō), или сокращенно старшая Некома — старшая школа в округе Нерима, города Токио в Японии.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Elder_Nekoma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Некома, как и большинство японских школ, имеет форму и дресс-код. Мужская униформа выполнена в «католическом» стиле, состоит из белой рубашки, красного галстука, черного жилета свитера, темно-синего блейзера и серых брюк. Женская униформа выполнена в стиле «матросский костюм» или «сэйфуку». Похоже, что у него светлый (скорее всего, белый) топ и такой же матросский воротник, с бантом на шее и более темной юбкой.](*<- lang_ru;;*);;
+*);;
+*);;

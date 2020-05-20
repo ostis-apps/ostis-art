@@ -1,0 +1,101 @@
+character_Yaku_Morisuke<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_libero;
+
+=> nrel_main_idtf:
+	[Яку Мориске] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Yaku Morisuke] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 夜久衛輔] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_08_08_1994
+(*
+=> nrel_main_idtf:
+	[8 августа 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_166
+(*
+=> nrel_main_idtf:
+	[166 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+vegetables
+(*
+=> nrel_main_idtf:
+	[овощи](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_3;
+
+=>nrel_quote: 
+	[Я... всегда зарабатываю ссадины и ушибы. Это так естественно для меня. Но в этом году у меня не было никаких серьёзных травм, я даже не болел. Так почему... Именно сейчас... Почему?!](*<- lang_ru;;*);
+
+=>nrel_rival:
+	character_Nishinoya_Yu;;
+
+character_Yaku_Morisuke <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Яку Мориске] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Яку Мориске(яп. 夜久衛輔 Yaku Morisuke) — третьекурсник старшей школы Некома, играющий на позиции основного либеро.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yaku_Morisuke
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Яку Мориске)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Яку.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Yaku_Morisuke <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Яку Мориске] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ростом 166 см, Яку чувствует себя неуверенно из-за этого. Товарищи по команде однажды сказали, что его рост - это запретная тема, когда Лев указал на него (впоследствии Яку его пнул).
+
+У Яку светло-карие глаза и песочного цвета волосы, а одевается он чаще всего в свитер или спортивный костюм Некомы.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yaku_Morisuke
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Яку Мориске)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/XqOsr9YAfMs.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

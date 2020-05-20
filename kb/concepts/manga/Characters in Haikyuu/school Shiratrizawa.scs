@@ -1,0 +1,48 @@
+school_Shiratrizawa_Academy <- concept_high_school;
+<-Haikyuu;
+
+=> nrel_main_idtf:
+	[Академия Шираторизава] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shiratrizawa Academy] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 白鳥沢学園] (* <- lang_jp;;*);
+
+=>nrel_location:
+	prefecture_Miyagi;;
+
+school_Shiratrizawa_Academy <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Академия Шираторизава] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Академия Шираторизава (На японском: 白鳥沢学園 / Shiratorizawa Gakuen) — старшая школа в префектуре Мияги. Поскольку попасть туда крайне сложно, многие студенты поступают туда усердно учась, или через спортивные секции.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Shiratrizawa_Academy <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У академии Шираторизавы, как и у большинства японских школ, есть своя форма и дресс-код. Мужская форма состоит из белого пиджака с пурпурными полосками на отвороте, светло-голубой классической рубашки, пурпурного галстука, пурпурных брюк и коричневых мокасин. Женская форма состоит из белого классического пиджака с пурпурными полосками на отвороте, светло-голубой рубашки, пурпурного галстука-бабочки, пурпурной юбки и серого свитера.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Shiratrizawa_Academy
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Униформа)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Shiratorizawa_uniform.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

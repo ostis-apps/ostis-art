@@ -1,0 +1,74 @@
+Shingeki_no_Kyojin_Kuinaki_Sentaku <-concept_japanese_comic;
+<-genre_action;
+<-genre_drama;
+<-genre_fantasy;
+<-genre_post_apocalyptic;
+
+=> nrel_main_idtf:
+	[Атака титанов: выбор без сожалений] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shingeki no Kyojin Kuinaki Sentaku] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 進撃の巨人リヴァイ外伝「悔いなき選択」] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Hikaru_Suruga;
+
+<=nrel_spin_off:
+	Shingeki_no_Kyojin;
+
+=>nrel_print:
+	Kodansha;
+	
+=>nrel_startdate:
+date_28_09_2013
+(*
+=> nrel_main_idtf:
+	[28 сентября 2013](* <- lang_ru;;*);;
+*);
+
+=>nrel_enddate:
+date_28_05_2014
+(*
+=> nrel_main_idtf:
+	[ 28 мая 2014](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_2
+(*
+=> nrel_main_idtf:
+	[2](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_chapters:
+	number_8
+(*
+=> nrel_main_idtf:
+	[8](* <- lang_ru;;*);;
+*);;
+
+Shingeki_no_Kyojin_Kuinaki_Sentaku <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Атака титанов: выбор без сожалений] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[В подземных катакомбах столицы орудуют разбойники, свои дерзкие набеги они осуществляют с помощью устройств пространственного маневрирования! В этом мастерстве главарь банды по имени Леви не уступает ветеранам разведкорпуса. И тогда лейтенант разведкорпуса Эрвин предлагает банде сделку... Этот спин-офф "Атаки на титанов" рассказывает, как Леви прошел путь от городского бродяги до величайшего воина человечества!](*<- lang_ru;;*);;
+*);;
+*);;
+
+Shingeki_no_Kyojin_Kuinaki_Sentaku
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Noregrets.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

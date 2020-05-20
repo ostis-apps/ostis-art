@@ -1,0 +1,52 @@
+school_Fukurodani_Academy <- concept_high_school;
+<-Haikyuu;
+
+=> nrel_main_idtf:
+	[Академия Фукуродани] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Elder Aobajosai] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 梟谷学園] (* <- lang_jp;;*);
+
+=>nrel_location:
+	Kantmo_district
+(*
+=> nrel_main_idtf:
+	[район Канто](* <- lang_ru;;*);;
+*);;
+
+school_Fukurodani_Academy <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Академия Фукуродани] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Академия Фукуродани (яп.梟谷学園 / Fukurōdani Gakuen) — старшая школа в районе Канто.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Fukurodani_Academy <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Фукуродани, как и большинство японских школ, имеет униформу и дресс-код. Мужская форма выполнена в "католическом" стиле. Она состоит из белой рубашки с воротником, полосатого сине-белого галстука, серого пиджака и чёрных брюк. Женская форма была частично показана в манге. Она состоит из рубашки с воротником, юбки и нашивки.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Fukurodani_Academy
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Униформа)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Fukurodani(uniform).jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

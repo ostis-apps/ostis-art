@@ -1,0 +1,4 @@
+nrel_pseudonym<- sc_node_norole_relation;;
+
+ nrel_pseudonym => nrel_main_idtf: [псевдоним*](*<- lang_ru;;*);
+               => nrel_main_idtf: [pseydonym](*<- lang_en;;*);;

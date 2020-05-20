@@ -1,0 +1,5 @@
+city_London
+=> nrel_main_idtf:
+	[Лондон] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[London] (* <- lang_en;;*);;

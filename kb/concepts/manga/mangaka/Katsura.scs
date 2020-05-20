@@ -1,0 +1,75 @@
+//Хошино Кацура
+person_Hoshino_Katsura
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Хоширо Кацура] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Hoshino Katsura] (* <- lang_en;;*);
+=> nrel_idtf:
+	[星野 桂] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_21_04_1980
+(*
+=> nrel_main_idtf:
+	[21 апреля 1980](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=> nrel_first_publication:
+	year_2002
+(*
+=> nrel_main_idtf:
+	[2002 год](* <- lang_ru;;*);;
+*);
+
+=>nrel_famous_work:
+D_Gray_man;;
+
+
+person_Hoshino_Katsura <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Хошино Кацура] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Hoshino Katsura] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Хошино Кацура (星野 桂) — мангака родом из префектуры Сига. Дебютировала в июле 2003, опубликовав свою первую серию манги Continue, и стала известной благодаря работе D.Gray-man, которая начала выпускаться в журнале Weekly Shonen Jump в мае 2004 года.
+Известно, что у Хосино есть старшие сёстры-близнецы, которые часто её навещают, а также младший брат. Чтобы радовать свою сестру, она рисует мангу каждый день, она также любила рисовать себя.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Hoshino Katsura (星野 桂) is a Japanese mangaka hails from Shiga Prefecture. She made her debut in July 2003, publishing her first Continue manga series, and became famous thanks to the work of D.Gray-man, which began to be published in Weekly Shonen Jump magazine in May 2004.
+Hoshino is known to have older twin sisters, who often visit her, as well as a younger brother. To please her sister, she draws manga every day, she also loved to paint herself.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Hoshino_Katsura
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Хошино Кацура)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Hoshino Katsura)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Hoshino.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+person_Hoshino_Katsura
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Хошино Кацура)](*<-lang_ru;;*);
+	[Pic. (Hoshino Katsura)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Katsura.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

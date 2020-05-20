@@ -1,0 +1,4 @@
+ nrel_own <- sc_node_norole_relation;;
+
+ nrel_own => nrel_main_idtf: [собственность*](*<- lang_ru;;*);
+               => nrel_main_idtf: [own](*<- lang_en;;*);;

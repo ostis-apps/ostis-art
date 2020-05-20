@@ -1,0 +1,96 @@
+character_Bokuto_Kotaro<-school_Fukurodani_Academy;
+<-command_Fukurodani;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Бокуто  Котара] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Bokuto Kotaro] (* <- lang_en;;*);
+=> nrel_idtf:
+	[木兎 光太郎] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_20_09_1994
+(*
+=> nrel_main_idtf:
+	[20 сентября 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_186
+(*
+=> nrel_main_idtf:
+	[186 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+=>nrel_game_number:
+	number_4;
+
+<=nrel_team_ace:
+	command_Fukurodani;
+
+=>nrel_impact_height:
+	height_339
+(*
+=> nrel_main_idtf:
+	[339 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Что там будет в будущем, победишь ты или проиграешь следующую игру... на какой-то момент все это становится неважным. Сокрушение стоящих перед тобой противников и это потрясающее чувство, когда ты демонстрируешь 120% своей силы, значат для тебя всё.](*<- lang_ru;;*);;
+
+character_Bokuto_Kotaro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Бокуто  Котара] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Котаро Бокуто (яп. 木兎 光太郎 Bokuto Kōtarō) — третьегодка Академии Фукуродани, играющий на позиции доигровщика, а также ас и капитан волейбольной команды. Один из пяти лучших асов в стране. Является нападающим команды MSBY Black Jackals, команды 1-го дивизиона японской V-Лиги. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Bokuto_Kotaro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Бокуто  Котара)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Bokuto6.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Bokuto_Kotaro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Бокуто  Котара] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Бокуто круглые, золотистые глаза, широкие брови вразлет и торчащие во все стороны бело-серебряные волосы с черными прядями. Подобный внешний вид делает его как бы отдаленно похожим на сову. Всячески усиливая сходство, он и некоторые другие персонажи так его и называют. Телосложение у него крепкое. В аниме он гораздо менее мускулистый, чем в манге. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Bokuto_Kotaro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Бокуто  Котара)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/s2rzZW9cW4Q.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

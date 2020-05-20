@@ -1,0 +1,102 @@
+Haikyuu <-concept_japanese_comic;
+<-genre_spokon;
+<-genre_comedy;
+
+=> nrel_main_idtf:
+	[Волейбол] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Haikyuu!!] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ ハイキュー!!] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Furudate_Haruichi;
+
+
+=>nrel_print:
+	Shueisha_Inc;
+	
+=>nrel_startdate:
+date_20_02_2012
+(*
+=> nrel_main_idtf:
+	[20 февраля 2012](* <- lang_ru;;*);;
+*);
+
+=> nrel_status:
+	status_in_progress
+(*
+=> nrel_main_idtf:
+	[в процессе](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_38
+(*
+=> nrel_main_idtf:
+	[38](* <- lang_ru;;*);;
+*);;
+
+Haikyuu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Волейбол] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Сёё Хината — ученик средней школы, который случайно увидел матч национального чемпионата по телевизору, после чего полюбил волейбол. Хината решил стать похожим на того популярного игрока, которого он увидел по телевизору, из-за его прозвища «маленький гигант», несмотря на свой небольшой рост. Вскоре Сёё создаёт волейбольный клуб в школе, где и начинает самостоятельную практику. Из-за отсутствия участников клуб превратился в кружок, но на последнем году средней школы в кружок вступает ещё пятеро человек, и Хината решает создать волейбольную команду и отправиться на турнир. На турнир отправляется команда из трёх первогодок, которые ещё не полностью выучили правила волейбола, двух третьегодок и самого Хинаты. На своём первом турнире команда проигрывает, ведь они играли против школы Китагава Дайти, которая известна своей сильной игрой и знаменитым игроком Тобио Кагэямой, который получил прозвище «король площадки». Несмотря на проигрыш, Хината показал свой потенциал и невероятно высокие прыжки в высоту, что заинтересовало Тобио. Не собираясь принимать поражение, Сёё клянётся победить и превзойти Тобио Кагэяму. После перехода в старшую школу Карасуно Хината встречает своего давнего соперника. Первые несколько дней у них были очень напряжённые отношения, но потом они нашли общий язык, и их жизнь начала очень быстро меняться в лучшую сторону.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Haikyuu <= nrel_character:
+{
+character_Hinata_Shoyo;
+character_Kageyama_Tobio;
+character_Daichi_Sawamura;
+character_Sugawara_Koshi;
+character_Tanaka_Ryunosuke;
+character_Tsukishima_Kei;
+character_Nishinoya_Yu;
+character_Azumane_Asahi;
+character_Yamaguchi_Tadashi;
+character_Kozume_Kenma;
+character_Kuroo_Tetsuro;
+character_Inuoka_So;
+character_Haiba_Riefu;
+character_Yamamoto_Taketora;
+character_Yaku_Morisuke;
+character_Kai_Nobuyuki;
+character_Fukunaga_Shohei;
+character_Shibayama_Yuki;
+character_Ushijima_Wakatoshi;
+character_Shirabu_Kenjiro;
+character_Tendo_Satori;
+character_Goshiki_Tsutomu;
+character_Semi_Eita;
+character_Oikawa_Toru;
+character_Iwaizumi_Hajime;
+character_Kindaichi_Yutaro;
+character_Akira_Kunimi;
+character_Kentaro_Chiotani;
+character_Bokuto_Kotaro;
+character_Keiji_Akaashi;
+character_Ukai_Keishin;
+character_Nekomata_Yasufumi;
+character_Shimizu_Kiyoko;
+character_Yachi_Hitoka;
+character_Takeda_Ittetsu
+};;
+
+Haikyuu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Haikyuu.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,13 @@
+concept_creature <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[существо]
+	(*<-lang_ru;;*);
+	[creature]
+	(*<-lang_en;;*);;
+
+concept_manor <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[поместье]
+	(*<-lang_ru;;*);
+	[manor]
+	(*<-lang_en;;*);;

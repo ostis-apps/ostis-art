@@ -1,0 +1,40 @@
+Midford_House <- Kuroshitsuji;
+
+=> nrel_main_idtf:
+	[Дом Мидфорд] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Midford House] (* <- lang_en;;*);
+
+<=nrel_members_of_family:
+{
+character_Edowado_Middofodo;
+character_Erizabesu_Middofodo
+};;
+
+Midford_House <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Дом Мидфорд] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Мидфорд — имя влиятельного дворянского рода, принципиально защищающего Англию на протяжении нескольких поколений. Глава семьи имеет законный титул маркиза.
+
+Семья Мидфорд состоит из дворян высокого звания, передающегося по наследству. Они служат королеве, а их основная обязанность заключается в защите Великобритании, отсюда главе семьи, то есть маркизу, присваивается титул «Предводителя рыцарей Британии».
+
+Кроме того, для каждого члена семьи Мидфорд крайне важно быть адептом в области фехтования и парирования.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Midford_House
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Мидфорды, готовясь к бою)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Midfords.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

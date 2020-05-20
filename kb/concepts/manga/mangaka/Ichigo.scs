@@ -1,0 +1,36 @@
+person_Takano_Ichigo
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Итиго Такано] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ichigo Takano] (* <- lang_en;;*);
+=> nrel_idtf:
+	[高野 苺] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_11_01_1986
+(*
+=> nrel_main_idtf:
+	[11 января 1986](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=>nrel_famous_work:
+Orange;;
+
+person_Takano_Ichigo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Итиго Такано)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Ichigo Takano)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Takano.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

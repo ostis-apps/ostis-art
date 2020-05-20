@@ -1,0 +1,29 @@
+concept_positions_of_players <- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[позиции игроков] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[positions] (* <- lang_en;;*);;
+
+concept_positions_of_players <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Позиции игроков] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Волейбол - это командная игра, и от действий одного игрока, зависят действия другого. Поэтому существуют различные позиции для игры.
+
+Существует пять позиций. Каждая из этих позиций играет особую, ключевую роль в победе.](*<- lang_ru;;*);;
+*);;
+*);;
+
+concept_positions_of_players <= nrel_subdividing: ...
+(*
+	<-position_binder;;
+	<-position_center_blocker;;
+	<-position_libero;;
+	<-position_do_it_yourself_player;;
+	<-position_diagonal;;
+*);;

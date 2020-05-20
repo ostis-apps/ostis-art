@@ -1,0 +1,88 @@
+character_Grell_Sutcliff <-creature_shinigami;
+<-male;
+
+=> nrel_main_idtf:
+	[Грелль Сатклифф] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Grell Sutcliff] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ グレル・サトクリフ] (* <- lang_jp;;*);
+
+=>nrel_nickname:
+	nickname_Jack_the_Ripper
+(*
+=> nrel_main_idtf:
+	[Джек Потрошитель](* <- lang_ru;;*);;
+*);
+
+=> nrel_age:
+	age_28
+(*
+=> nrel_main_idtf:
+	[28 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_175
+(*
+=> nrel_main_idtf:
+	[175 см](* <- lang_ru;;*);;
+*);
+
+=> nrel_place_of_work:
+	Reaper_Department
+(*
+=> nrel_main_idtf:
+	[Департамент Жнецов](* <- lang_ru;;*);;
+*);
+
+=>nrel_weapon:
+"file://images/Grelle_death_scythe.png"(*=>nrel_format:format_png;;*);
+	
+=>nrel_quote: 
+	[Красный - это цвет огненной страсти, поэтому я тоже пылаю!](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Grell_Sutcliff <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Грелль Сатклифф] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[В обличье жнеца у Грелля длинные ярко-красные волосы, заострённые зубы и очки в красной оправе с цепочкой, на которую нанизаны декоративные черепа. Его костюм состоит из коричневого жилета, белой рубашки, черных прямых брюк со стрелками, черных кожаных перчаток, шейной ленты в красно-белую полоску и ботильонов на высоком каблуке. Кроме того, у него есть красный плащ, снятый им с Анджелины после того, как Грелль убил ее. "Вы недостойны носить красное", - сказал он и натянул плащ на себя. Носит его приспущенным на локтях, так как в плечах плащ Греллю узок. Предплечья Грелля перетянуты ремешками, как у банковского служащего или клерка викторианской Англии.
+Грелль имеет специально модифицированную Косу Смерти в виде бензопилы, поскольку, по его словам, обыкновенные косы смерти старомодны, а его - имеет первоклассное качество. Свою Косу Грелль переделал и усовершенствовал сам, о чем упоминает с гордостью.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Grell_Sutcliff
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Грелль Сатклифф)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/6.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Grell_Sutcliff
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Grell.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

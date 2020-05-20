@@ -1,0 +1,52 @@
+creature_shinigami <- Kuroshitsuji;
+<- concept_creature;
+
+=> nrel_main_idtf:
+	[Жнец] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shinigami] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 死神] (* <- lang_jp;;*);
+
+=>nrel_power:
+	power_collecting_souls;
+
+<=nrel_dislike:
+	creature_daemon;;
+
+creature_shinigami <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Описание] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Люди, совершившие самоубийство, в качестве наказания становятся жнецами. И до момента, когда они будут прощены, они должны усердно работать, непрерывно наблюдая человеческие смерти.
+Жнецы должны оставаться одинаково нейтральными по отношению как к людям, так и к Богу; им строго запрещено вмешиваться в человеческие дела или влиять на них. Жнецы получают от своего начальства список душ для сбора, владельцам которых предстоит скоро умереть. Список содержит значительную информацию о человеке, включая его имя, данные о его родителях, дату смерти и её причины, а также некоторые дополнительные примечания. Их главной задачей является проверка одного за другим воспоминаний умирающей души — его Киноплёнку жизни, чтобы определить, заслуживает ли человек смерти или нет.](*<- lang_ru;;*);;
+*);;
+*);;
+
+creature_shinigami
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Киноплёнка жизни человека, от начала до конца жизни)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Life_and_Death.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+creature_shinigami
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Слева направо: Рональд Нокс, Эрик Слингби, Алан Хамфрис, Грелль Сатклифф, Уильям Т. Спирс)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Shinigami.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

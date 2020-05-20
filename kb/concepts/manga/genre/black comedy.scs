@@ -1,0 +1,18 @@
+genre_black_comedy<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[чёрная комедия]
+	(*<-lang_ru;;*);
+	[black comedy]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (чёрная комедия)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ чёрная комедия — жанр, который затрагивает запрещённые и спорные темы.](*<- lang_ru;;*);;
+*);;
+*);;

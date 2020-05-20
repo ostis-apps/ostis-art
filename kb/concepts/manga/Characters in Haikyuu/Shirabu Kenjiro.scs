@@ -1,0 +1,86 @@
+character_Shirabu_Kenjiro<-school_Shiratrizawa_Academy;
+<-command_Shiratrizawa;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Ширабу Кенджиро] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shirabu Kenjiro] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	白布賢二郎] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_04_05_1995
+(*
+=> nrel_main_idtf:
+	[4 мая 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_175
+(*
+=> nrel_main_idtf:
+	[175 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_10;
+
+=>nrel_quote: 
+	[Я стану самым неприметным связующим.](*<- lang_ru;;*);;
+
+character_Shirabu_Kenjiro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Ширабу Кенджиро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кенджиро Ширабу (яп.: 白布賢二郎 Shirabu Kenjiro) – связующий-второгодка Академии Шираторизавы. В 2018 году учится на пятом курсе медицинского вуза. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Shirabu_Kenjiro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Ширабу Кенджиро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Shirabu1.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Shirabu_Kenjiro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Ширабу Кенджиро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У него темные оливково-коричневые волосы и тёмно-оливковые глаза, смуглая кожа. Обычно у Вакатоши твёрдое выражение лица, выглядящее довольно устрашающе. У него крупное, спортивное телосложение и высокий рост. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Shirabu_Kenjiro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Ширабу Кенджиро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/-SE0l5S6pjM.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

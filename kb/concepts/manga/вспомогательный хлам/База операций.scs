@@ -1,0 +1,5 @@
+nrel_base_of_operations<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[База операций*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[base of operations] (* <- lang_en;;*);;

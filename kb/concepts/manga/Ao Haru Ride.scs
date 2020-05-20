@@ -1,0 +1,63 @@
+Ao_Haru_Ride <-concept_japanese_comic;
+<-genre_romance;
+
+=> nrel_main_idtf:
+	[Дорога юности] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ao Haru Ride] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ アオハルライド] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Sakisaka_Io;
+
+=>nrel_print:
+	Shueisha;
+	
+=>nrel_startdate:
+date_13_01_2011
+(*
+=> nrel_main_idtf:
+	[13 января 2011](* <- lang_ru;;*);;
+*);
+
+=>nrel_enddate:
+date_13_02_2015
+(*
+=> nrel_main_idtf:
+	[13 февраля 2015](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_13
+(*
+=> nrel_main_idtf:
+	[13](* <- lang_ru;;*);;
+*);;
+
+Ao_Haru_Ride <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Дорога Юности] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[В средней школе Йошиока Футаба была влюблена в мальчика по имени Танака. Однако, после того как Футаба узнала, что он переводится в другую школу после летних каникул, их дружеские отношения начали разваливаться.
+
+Когда Футаба перешла в старшую школу и встретила там Танаку, но на этот раз под другим именем, ее мир перевернулся. Смогут ли они встретиться снова?](*<- lang_ru;;*);;
+*);;
+*);;
+
+Ao_Haru_Ride
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Haru.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,60 @@
+Geu_Kkeute_Issneun_Geos <-concept_japanese_comic;
+<-concept_web_comic;
+<-genre_drama;
+<-genre_romance;
+<-genre_supernatural;
+<-genre_psychology;
+
+=> nrel_main_idtf:
+	[Итог] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[At the End of the Road] (* <- lang_en;;*);
+
+<=nrel_authors:
+	person_Haribo;
+	
+=>nrel_startdate:
+year_2016
+(*
+=> nrel_main_idtf:
+	[2016](* <- lang_ru;;*);;
+*);
+
+=>nrel_enddate:
+year_2019
+(*
+=> nrel_main_idtf:
+	[2019](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_chapters:
+	number_63
+(*
+=> nrel_main_idtf:
+	[63](* <- lang_ru;;*);;
+*);;
+
+Geu_Kkeute_Issneun_Geos <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Итог] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Жизнь - постоянная борьба за существование. Каждый день как белка в колесе. Какая школа? Не до жиру - быть бы живу. Одна отрада - бокс. Закрыть бы глаза и проснуться другим человеком... Но что ты будешь делать если твое желание сбудется? Кем ты станешь в новой жизни?](*<- lang_ru;;*);;
+*);;
+*);;
+
+Geu_Kkeute_Issneun_Geos
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/End.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

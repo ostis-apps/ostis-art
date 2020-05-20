@@ -1,0 +1,66 @@
+character_Shimizu_Kiyoko<-person;
+<-female;
+<-school_Elder_Karasuno;
+
+=> nrel_main_idtf:
+	[Киёко Шимизу] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Shimizu Kiyoko] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 清水潔子] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_06_01_1994
+(*
+=> nrel_main_idtf:
+	[6 января 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_166
+(*
+=> nrel_main_idtf:
+	[166 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;;
+
+character_Shimizu_Kiyoko <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Киёко Шимизу] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Киёко Шимизу (清水潔子 Shimizu Kiyoko) — менеджер волейбольного клуба старшей школы Карасуно. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Shimizu_Kiyoko
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Киёко Шимизу)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kiyoko_Shimizu_%28Anime%29.PNG.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Shimizu_Kiyoko <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Киёко Шимизу] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Киёко — привлекательная девушка, с короткими чёрными волосами чуть ниже плеч. Внешняя ее отличительная черта — маленькая родинка, которая находится на левой нижней части подбородка. Также она голубоглазая и носит очки. ](*<- lang_ru;;*);;
+*);;
+*);;

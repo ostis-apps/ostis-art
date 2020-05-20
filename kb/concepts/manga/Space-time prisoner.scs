@@ -1,0 +1,56 @@
+Space_time_prisoner <-concept_japanese_comic;
+	<-concept_web_comic;
+<-genre_action;
+<-genre_supernatural;
+
+=> nrel_main_idtf:
+	[Узники времени и пространства] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Space-time prisoner] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 时空囚徒] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Bai_Xiao;
+	
+=>nrel_startdate:
+year_2015
+(*
+=> nrel_main_idtf:
+	[2015-й год](* <- lang_ru;;*);;
+*);
+
+=> nrel_status:
+	status_in_progress;
+
+=>nrel_number_of_chapters:
+	number_183
+(*
+=> nrel_main_idtf:
+	[183](* <- lang_ru;;*);;
+*);;
+
+Space_time_prisoner <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Узники времени и пространства] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Шестьдесят лет назад для исцеления от эпидемии бессонницы, разрушающей психику, было применено лекарство, чудовищным побочным эффектом которого стало появление новой расы людей-вампиров, или Homo cruoramarus. Их более двадцати миллионов, и, чтобы обезопасить людей, вампиров обязали носить D-GPS ошейники, активирующиеся сигналом мобильного телефона в случае агрессии со стороны кровопийцы. Главный герой этой истории - Ми Лиу - попадает в тюрьму после неудачного ограбления страховой компании. Но его приключения только начинаются...](*<- lang_ru;;*);;
+*);;
+*);;
+
+Space_time_prisoner
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Spacetime.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

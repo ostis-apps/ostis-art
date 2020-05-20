@@ -1,0 +1,18 @@
+genre_romance<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[романтика]
+	(*<-lang_ru;;*);
+	[romance]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (романтика)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ романтика — жанр, повествующий о любовных переживаниях.](*<- lang_ru;;*);;
+*);;
+*);;

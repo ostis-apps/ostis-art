@@ -1,0 +1,73 @@
+Orange <-concept_japanese_comic;
+<-genre_drama;
+<-genre_romance;
+<-genre_daily_routine;
+<-genre_mystic;
+
+=> nrel_main_idtf:
+	[Апельсин] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Orange] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ オレンジ] (* <- lang_jp;;*);
+
+<=nrel_authors:
+	person_Takano_Ichigo;
+
+=>nrel_print:
+	Shueisha;
+	
+=>nrel_startdate:
+date_13_05_2012
+(*
+=> nrel_main_idtf:
+	[13 мая 2012](* <- lang_ru;;*);;
+*);
+
+=>nrel_enddate:
+date_25_08_2015
+(*
+=> nrel_main_idtf:
+	[25 августа 2015](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_volumes:
+	number_5
+(*
+=> nrel_main_idtf:
+	[5](* <- lang_ru;;*);;
+*);
+
+=>nrel_number_of_chapters:
+	number_22
+(*
+=> nrel_main_idtf:
+	[22](* <- lang_ru;;*);;
+*);;
+
+Orange <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Сюжет: Апельсин] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Однажды Нахо Такамия получает письмо от самой себя — взрослой, старше на десять лет. В письме точно описываются события, еще не наступившие, включая перевод нового студента, Какэру Нарусэ, в ее класс.
+
+В письме взрослая Такамия неоднократно повторяет, что о многом жалеет и хочет все исправить, надеясь, что Нахо из прошлого будет принимать правильные решения, особенно по отношению к Нарусэ. Дочитав письмо, девушка узнает, что в будущем, десять лет спустя, Какэрус ними уже не будет. Нахо из будущего настоятельно просит внимательно приглядывать за Какэру,так как она не хочет потерять столь драгоценного для нее человека.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Orange
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Обложка первого тома манги)](*<-lang_ru;;*);
+	[Pic. (Cover of the first volume of manga)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Orange.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

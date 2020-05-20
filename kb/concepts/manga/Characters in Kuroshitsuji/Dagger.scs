@@ -1,0 +1,57 @@
+character_Dagger <-person;
+<-male;
+<-Circus_Noahs_Ark;
+
+=> nrel_main_idtf:
+	[Даггер] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Dagger] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ ダガー] (* <- lang_jp;;*);
+	
+=>nrel_occupation:	
+	knife_thrower
+(*
+=> nrel_main_idtf:
+	[метатель ножей](* <- lang_ru;;*);;
+*);
+
+=>nrel_fall_in_love:
+	character_Beast;
+
+=>nrel_quote: 
+	[Я так хотел... С тобой... Через холмы... Вдаль... Как в нашей песне...](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_dead
+(*
+=> nrel_main_idtf:
+	[погиб](* <- lang_ru;;*);;
+*);;
+
+character_Dagger <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Даггер] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Даггер — стройный молодой парень. У него зеленые глаза и выбеленные светлые волосы с черной челкой. В качестве макияжа он использует подводку для глаз, фиолетовые тени для век и нарисованные красные точки под каждым глазом.
+
+Даггер обычно одет в свой цирковой костюм, состоящий из рубашки с длинными рукавами в черно-белую полоску, жабо и надетого поверх рубашки простого жилета. Также он носит красную шляпу и черные брюки, поверх которых надевает черный щит. Его правая нога отсутствует, ее заменяет искусственный протез, сделанный доктором. В прошлом Даггер носил пластырь на носу по неизвестной причине.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Dagger
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Dagger.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

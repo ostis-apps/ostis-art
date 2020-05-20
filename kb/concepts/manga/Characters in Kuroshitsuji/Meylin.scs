@@ -1,0 +1,81 @@
+character_Meylin <-person;
+<-female;
+<-Phantomhive_House;
+
+=> nrel_main_idtf:
+	[Мэйлин] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Meylin] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ メイリン] (* <- lang_jp;;*);
+
+=> nrel_age:
+	age_23
+(*
+=> nrel_main_idtf:
+	[23 года](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_165
+(*
+=> nrel_main_idtf:
+	[165 см](* <- lang_ru;;*);;
+*);
+
+=> nrel_date_of_birth:
+	date_24_01
+(*
+=> nrel_main_idtf:
+	[24 января](* <- lang_ru;;*);;
+*);
+
+=>nrel_previous_profession:
+	professional_sniper
+(*
+=> nrel_main_idtf:
+	[профессиональный снайпер](* <- lang_ru;;*);;
+*);
+	
+=>nrel_quote: 
+	[Эти чудесные очки мне купил сам господин! И одежду тоже. А ведь раньше я не носила ничего похожего на юбку. Я так рада быть горничной здесь.](*<- lang_ru;;*);
+
+=>nrel_occupation:
+		maid
+(*
+=> nrel_main_idtf:
+	[горничная](* <- lang_ru;;*);;
+*);
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Meylin <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Мейлин] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Мэйлин — молодая девушка японского происхождения, с красно-сливовыми волосами, связанными в косички и украшенными кружевной оборкой, а также прямо обрезанной челкой.У неё светло-карие глаза, обладающие невероятной дальнозоркостью, которые она скрывает за чрезмерно большими круглыми очками.
+
+Наряд Мэйлин представляет собой типичный костюм горничной: полуночно-синее платье с соответствующими пуговицами и белый передник с оборками вокруг плеч. Кроме того, в её наряд входят высокие по колено коричневые сапоги и черные чулки, держащиеся на подвязках.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Meylin
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Meyrin.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

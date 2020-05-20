@@ -1,0 +1,89 @@
+character_Keiji_Akaashi<-school_Fukurodani_Academy;
+<-command_Fukurodani;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Акааши Кейджи] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Keiji Akaashi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[赤葦 京治] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_05_12_1995
+(*
+=> nrel_main_idtf:
+	[5 декабря 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_182
+(*
+=> nrel_main_idtf:
+	[182 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+=>nrel_game_number:
+	number_5;
+
+<=nrel_vice_captain::
+	command_Fukurodani;
+
+=>nrel_quote: 
+	[Тогда, не думай ни о чем и просто сконцентрируйся на атаках по диагонали. Прислушивайся к инстинктам и бей. Я расчищу для тебя путь.](*<- lang_ru;;*);;
+
+character_Keiji_Akaashi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Акааши Кейджи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кейджи Акааши (яп. 赤葦 京治 Keiji Akaashi) – второгодка академии Фукуродани. Также он является вице-капитаном и связующим волейбольного клуба. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Keiji_Akaashi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Акааши Кейджи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Akaashi.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Keiji_Akaashi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Акааши Кейджи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Акааши короткие, лохматые, чёрные волосы, светло-серые глаза и густые брови. Как правило, лицо у него безэмоциональное или слегка раздраженное. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Keiji_Akaashi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Акааши Кейджи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/kcZqP7rs9OY.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

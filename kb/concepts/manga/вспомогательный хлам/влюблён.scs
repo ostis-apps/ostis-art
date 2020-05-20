@@ -1,0 +1,5 @@
+nrel_fall_in_love<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[влюблён*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[fall in love] (* <- lang_en;;*);;

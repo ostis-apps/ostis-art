@@ -1,0 +1,5 @@
+nrel_nickname<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[прозвище*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[nickname] (* <- lang_en;;*);;

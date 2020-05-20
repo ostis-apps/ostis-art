@@ -1,0 +1,18 @@
+genre_mystic<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мистика]
+	(*<-lang_ru;;*);
+	[mystic]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (мистика)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ мистика — жанр, рассказывающий о взаимодействии людей с сверхъестественными силами, не поддающимся логичному описанию, в отличие от магии в фэнтези. Часто подобное взаимодействие влечет различные моральные проблемы.](*<- lang_ru;;*);;
+*);;
+*);;

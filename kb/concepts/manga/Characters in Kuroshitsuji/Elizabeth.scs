@@ -1,0 +1,66 @@
+character_Erizabesu_Middofodo <-person;
+<-female;
+
+=> nrel_main_idtf:
+	[Элизабет Мидфорд] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Erizabesu Middofodo] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ エリザベス・ミッドフォード] (* <- lang_jp;;*);
+
+=> nrel_age:
+	age_14
+(*
+=> nrel_main_idtf:
+	[14 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_162
+(*
+=> nrel_main_idtf:
+	[162 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_brother:
+	character_Edowado_Middofodo;
+
+=>nrel_groom:
+	character_Ciel_Phantomhive;	
+
+=>nrel_quote: 
+	[Я дочь предводителя рыцарей Британии, маркиза Алексиса Леона Мидфорд — Элизабет! Супруга «Сторожевого пса» королевы!](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Erizabesu_Middofodo <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Элизабет Мидфорд] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Элизабет – молодая девушка с изумрудно-зелеными глазами. У нее кудрявые золотисто-светлые волосы, которые она закрепляет в два хвоста.
+
+Элизабет одевается в элегантные платья, украшенные различными цветами и лентами. Она дополняет свои наряды золотыми серьгами и обувью на низком каблуке. В первом сезоне сериала ее повседневным нарядом было красное платье, украшенное розами и белыми лентами, красный ободок на голове и розовое пальто.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Erizabesu_Middofodo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Elizabeth.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

@@ -1,0 +1,56 @@
+character_Ronarudo_Nokkusu <-creature_shinigami;
+<-male;
+
+=> nrel_main_idtf:
+	[Рональд Нокс] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ronarudo Nokkusu] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ ロナルド ノックス] (* <- lang_jp;;*);
+
+=>nrel_height:
+	height_175;
+
+=> nrel_place_of_work:
+	Reaper_Department;
+
+=>nrel_base_of_operations:
+	city_London;
+
+=>nrel_weapon:
+"file://images/Ronald's_death_scythe.png"(*=>nrel_format:format_png;;*);
+	
+=>nrel_quote: 
+	[Я эффектно появился, не так ли? Я так спешил, но все равно опоздал. Странно, что-то ты не рад мне совсем...](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive;;
+
+character_Ronarudo_Nokkusu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Рональд Нокс] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Рональд — молодой человек с жёлто-зелеными глазами и короткими светлыми волосами, на затылке окрашенными в черный цвет. Одна прядь волос всегда торчит вверх.
+
+Рональд носит очки в толстой пятиугольной оправе и часы на правой руке. Он одевается в стандартную для жнеца одежду: костюм, галстук, перчатки. Однако, вместо традиционных чёрных туфель он носит белые.
+
+Коса Рональда была изменена. Она напоминает газонокосилку. Он заявляет, что сделал ее такой чтоб избегать сверхурочных работ. Сверху есть надпись «Коса смерти». Коса имеет четыре круглых лезвия, два из них могут работать горизонтально. У нее есть два колеса, которые позволяют ей маневрировать, а также небольшой шнур, который помогает тянуть триггер на рукоятке, чтобы включить Косу смерти.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Ronarudo_Nokkusu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Рональд Нокс)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Ronald.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
