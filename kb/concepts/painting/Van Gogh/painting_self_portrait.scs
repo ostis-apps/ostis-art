@@ -1,0 +1,54 @@
+painting_self_portrait
+<- paris_period;
+=> nrel_main_idtf:
+	[Автопортрет]
+	(* <- lang_ru;;	*);
+	[Self-Portrait]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_self_portrait;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Автопортрет)](*<-lang_ru;;*);
+		[Description (Self-Portrait)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_self_portrait
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/self_portrait_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/self_portrait_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element: self_portait_of_Van_Gogh
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Автопортрет Ван Гога)](*<-lang_ru;;*);
+		[Pic. (Self-Portrait of Van Gogh)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/self_portrait.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

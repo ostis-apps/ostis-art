@@ -1,0 +1,54 @@
+painting_view_of_butcher_shop
+<- late_period;
+=> nrel_main_idtf:
+	[Лавка мясника. Вид из окна]
+	(* <- lang_ru;;	*);
+	[View of a Butcher's Shop]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_landscape_painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лавка мясника. Вид из окна)](*<-lang_ru;;*);
+		[Description (View of a Butcher's Shop)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_landscape_painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/view_of_butcher_shop_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/view_of_butcher_shop_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_february_1888
+            (*
+                => nrel_main_idtf:
+                    [Февраль 1888 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_France;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element: ...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лавка мясника. Вид из окна)](*<-lang_ru;;*);
+		[Pic. (View of a Butcher's Shop)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/view_of_butcher_shop.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,54 @@
+painting_cornflowers_and_poppies
+<- paris_period;
+=> nrel_main_idtf:
+	[Ваза с васильками и маками]
+	(* <- lang_ru;;	*);
+	[Vase with Cornflowers and Poppies]
+	(* <- lang_en;;	*);
+	<- genre_still_life;
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ваза с васильками и маками)](*<-lang_ru;;*);
+		[Description (Vase with Cornflowers and Poppies)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_still_life
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/cornflowers_and_poppies_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/cornflowers_and_poppies_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+//
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ваза с васильками и маками)](*<-lang_ru;;*);
+		[Pic. (Vase with Cornflowers and Poppies)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cornflowers_and_poppies.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

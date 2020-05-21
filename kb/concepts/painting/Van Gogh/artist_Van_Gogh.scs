@@ -1,0 +1,259 @@
+concept_author_Van_Gogh
+=> nrel_main_idtf:
+	[Винсент Ван Гог]
+	(* <- lang_ru;;	*);
+	[Vincent Van Gogh]
+	(* <- lang_en;;	*);
+	<- concept_artist;
+
+<= nrel_subdividing:...
+	(*	
+		=> nrel_main_idtf:[Разбиение по периодам его живописи](* <- lang_ru;; *);;
+		-> dutch_period;;
+		-> paris_period;;
+		-> late_period;;
+	*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Винсент Ван Гог)](*<-lang_ru;;*);
+		[Description (Vincent Van Gogh)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_artist
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/van_gogh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/van_gogh_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_birth:
+        date_30_03_1853
+            (*
+                => nrel_main_idtf:
+                    [30 марта 1853 года]
+                        (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_birth:
+        country_Netherlands;
+
+    => nrel_date_of_death:
+        date_29_07_1890
+            (*
+                => nrel_main_idtf:
+                    [29 июля 1890 года]
+                        (* <- lang_ru;; *);;
+            *);
+=> nrel_place_of_death:
+        country_France;
+
+<= nrel_working_genres: {
+            genre_landscape_painting;
+            genre_portrait;
+			genre_still_life;
+			genre_drawing;
+            genre_self_portrait
+        };
+		
+<-rrel_key_sc_element: self_portait_of_Van_Gogh;;
+
+dutch_period
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Голландский период]
+	(* <- lang_ru;;	*);
+	[The Dutch period]
+	(* <- lang_en;;	*);
+	<- concept_time_period;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (Голландский период)](*<-lang_ru;;*);
+		[Definition (The Dutch period)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+		concept_author_Van_Gogh
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Голландский период</b> - период, 
+			в котором художник стал прежде всего писать 
+			людей, их суровый быт, тяжелую жизнь. Полотна 
+			этого периода совсем не похожи на яркие красивые 
+			творения Ван Гога, которые впоследствии и принесли 
+			ему оглушительную посмертную славу.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+
+			*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-explanation;;
+		=>nrel_main_idtf:
+			[Описание (Голландский период)](*<-lang_ru;;*);
+			[Description (The Dutch period)](*<-lang_en;;*);;
+		<=nrel_using_constants:
+		{
+				concept_author_Van_Gogh
+		};;
+		<=nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				[В этот период художнику не хватало знаний, но 
+				он упорно работал, изучая работы великих мастеров 
+				прошлого и искусство современников. Во имя этой 
+				художественной правды Ван Гог отказался от 
+				фотографической достоверности. Уже в первых 
+				работах он смело деформировал лица и фигуры 
+				персонажей, сознательно огрубляя их. Именно 
+				поэтому, как писала критика, «они пахнут землей, 
+				которую обрабатывают».]
+				(* <- lang_ru;;*);;
+		*);;
+*);;
+
+paris_period
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Парижский период]
+	(* <- lang_ru;;	*);
+	[The Paris period]
+	(* <- lang_en;;	*);
+	<- concept_time_period;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (Парижский период)](*<-lang_ru;;*);
+		[Definition (The Paris period)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+		concept_author_Van_Gogh
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Парижский период</b> - период, 
+			в котором Ван Гог пробует учиться живописи, 
+			посещает выставки модных живописцев, знакомится с 
+			творчеством импрессионистов. Ван Гог начинает 
+			уделять большое внимание цвету, теперь его 
+			привлекают не только люди, но также пейзажи и 
+			натюрморты. Палитра художника становится более 
+			яркой и светлой, в работах парижского периода 
+			начинает проявляться талант Ван Гога как 
+			прекрасного колориста.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+
+			*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-explanation;;
+		=>nrel_main_idtf:
+			[Описание (Парижский период)](*<-lang_ru;;*);
+			[Description (The Paris period)](*<-lang_en;;*);;
+		<=nrel_using_constants:
+		{
+			concept_author_Van_Gogh
+		};;
+		<=nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				[В Париже он познакомился с Камилем Писарро, 
+				Полем Гогеном, Эдгаром Дега и другими 
+				художниками-постимпрессионистами. За два года 
+				пребывания здесь Ван Гог освоил достижения 
+				французской живописи последнего двадцатилетия. 
+				Для этого этапа характерна смена палитры: 
+				исчезла омраченность настроений и красок, 
+				социальные проблемы уступили место натюрмортам, 
+				видам Монмартра, портретам. Этюды с букетами 
+				цветов выходят из-под его кисти десятками: это 
+				дало художнику возможность освоить достижения 
+				новой системы цвета, поэкспериментировать с 
+				красками палитры, испробовать технику мазков.]
+				(* <- lang_ru;;*);;
+		*);;
+*);;
+
+late_period
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Поздний период]
+	(* <- lang_ru;;	*);
+	[The Late period]
+	(* <- lang_en;;	*);
+	<- concept_time_period;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (Поздний период)](*<-lang_ru;;*);
+		[Definition (The Late period)](*<-lang_en;;*);;
+		<=nrel_using_constants:
+		{
+			concept_author_Van_Gogh
+		};;
+		<=nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b>Поздний период</b> - период, 
+			в котором проблема цвета играет решающую роль 
+			для художника: Ван Гог использовал два основных 
+			цвета, которые расценивал как противоположные. 
+			Первый – от нежно-лимонного до ярко-оранжевого – 
+			казался ему сродни солнечному свету; второй – 
+			от голубого до почти черного – был таинственным, 
+			выражающим такие понятия, как фатальная 
+			неизбежность и смерть.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+
+			*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-explanation;;
+		=>nrel_main_idtf:
+			[Описание (Поздний период)](*<-lang_ru;;*);
+			[Description (The Late period)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+		concept_author_Van_Gogh
+	};;
+		<=nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				[Напряженная работа и разгульный образ жизни 
+				(Ван Гог злоупотреблял абсентом) в последние 
+				годы привели к периодическому появлению 
+				приступов безумия. Психическое здоровье 
+				ухудшалось, и в итоге Ван Гог добровольно 
+				удалился в больницу для душевнобольных. Здесь 
+				он продолжил работать. Ван Гог всегда 
+				стремился, чтобы его изображения предельно 
+				точно выражали то, что он видит в природе, 
+				и утверждал, что его полотна – это «не 
+				столько язык живописи, сколько язык природы, 
+				которую нужно уметь слушать». Спустя год 
+				пребывание в клинике начало тяготить художника. 
+				В мае 1890 он поселился в Овере. Последние 
+				работы Ван Гога («Звездная ночь», «Мэрия в 
+				Овере», «Церковь в Овере») полны зловещего 
+				смысла, в них причудливо соединилось реальное 
+				и фантастическое. Художник покончил жизнь 
+				самоубийством в возрасте тридцати семи лет, 
+				выстрелив себе в сердце.]
+				(* <- lang_ru;;*);;
+		*);;
+*);;

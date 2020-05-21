@@ -1,0 +1,54 @@
+painting_alyscamps
+<- late_period;
+=> nrel_main_idtf:
+	[Алискан]
+	(* <- lang_ru;;	*);
+    [Les Alyscamps]
+	(* <- lang_en;;	*);
+	<- genre_landscape_painting;
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Алискан)](*<-lang_ru;;*);
+		[Description (Les Alyscamps)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_portrait
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/alyscamps_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/alyscamps_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_1890
+            (*
+                => nrel_main_idtf:
+                    [1890 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_France;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алискан)](*<-lang_ru;;*);
+		[Pic. (Les Alyscamps)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/alyscamps.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

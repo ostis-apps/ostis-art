@@ -1,0 +1,53 @@
+painting_weaver
+<- dutch_period;
+=> nrel_main_idtf:
+	[Ткач]
+	(* <- lang_ru;;	*);
+	[Weaver]
+	(* <- lang_en;;	*);
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ткач)](*<-lang_ru;;*);
+		[Description (Weaver)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/weaver_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/weaver_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_august_1884
+            (*
+                => nrel_main_idtf:
+                    [Август 1884 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Netherlands;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ткач)](*<-lang_ru;;*);
+		[Pic. (Weaver)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/weaver.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

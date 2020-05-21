@@ -1,0 +1,270 @@
+//сюда кидаем формализацию всех понятий
+//удаалить из kse/additional_ids
+/*
+	genre_painting <- concept_artgenre;;
+	genre_painting => nrel_main_idtf:
+	[живопись](*<-lang_ru;;*);
+		[painting](*<-lang_en;;*);;
+
+	genre_homoeroticism <- concept_artgenre;;
+	genre_homoeroticism => nrel_main_idtf:
+	[гомоэротизм](*<-lang_ru;;*);
+		[homoeroticism](*<-lang_en;;*);;
+
+	genre_paysage <- concept_artgenre;;
+	genre_paysage => nrel_main_idtf:
+	[пейзаж](*<-lang_ru;;*);
+		[paysage](*<-lang_en;;*);;
+
+	genre_still_life <- concept_artgenre;;
+	genre_still_life => nrel_main_idtf:
+	[натюрморт](*<-lang_ru;;*);
+		[still life](*<-lang_en;;*);;
+
+	genre_portrait <- concept_artgenre;;
+	genre_portrait => nrel_main_idtf:
+	[портрет](*<-lang_ru;;*);
+		[portrait](*<-lang_en;;*);;
+
+	concept_artgenre => nrel_main_idtf:
+	[жанр изобразительного искусства](*<-lang_ru;;*);
+		[artgenre](*<-lang_en;;*);;
+*/
+
+//удаалить из IAS_kb/concepts without a section/additional_ids
+/*
+	genre_painting => nrel_main_idtf:
+	[живопись](*<-lang_ru;;*);
+		[painting](*<-lang_en;;*);;
+
+	genre_paysage => nrel_main_idtf:
+	[пейзаж](*<-lang_ru;;*);
+		[paysage](*<-lang_en;;*);;
+
+	genre_still_life => nrel_main_idtf:
+	[натюрморт](*<-lang_ru;;*);
+		[still life](*<-lang_en;;*);;
+
+	genre_portrait => nrel_main_idtf:
+	[портрет](*<-lang_ru;;*);
+		[portrait](*<-lang_en;;*);;
+*/
+
+//удаалить из IAS_kb/kse_kb/additional_ids
+/*
+	genre_painting => nrel_main_idtf:
+	[живопись](*<-lang_ru;;*);
+		[painting](*<-lang_en;;*);;
+
+	genre_paysage => nrel_main_idtf:
+	[пейзаж](*<-lang_ru;;*);
+		[paysage](*<-lang_en;;*);;
+
+	genre_still_life => nrel_main_idtf:
+	[натюрморт](*<-lang_ru;;*);
+		[still life](*<-lang_en;;*);;
+
+	genre_portrait => nrel_main_idtf:
+	[портрет](*<-lang_ru;;*);
+		[portrait](*<-lang_en;;*);;
+
+	concept_artgenre => nrel_main_idtf:
+	[жанр изобразительного искусства](*<-lang_ru;;*);
+		[artgenre](*<-lang_en;;*);;
+*/ 
+
+concept_artgenre 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[жанр изобразительного искусства]
+	(*<-lang_ru;;*);
+	[artgenre]
+	(*<-lang_en;;*);;
+
+genre_homoeroticism 
+	<- concept_artgenre;
+	=> nrel_main_idtf:
+	[гомоэротизм]
+	(*<-lang_ru;;*);
+	[homoeroticism]
+	(*<-lang_en;;*);;
+
+concept_painting_type 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[жанр живописи]
+	(*<-lang_ru;;*);
+	[type of painting]
+	(*<-lang_en;;*);
+	<- concept_artgenre;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (жанр живописи)](*<-lang_ru;;*);
+		[Definition (type of painting)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<b>Жанры живописи</b> - исторически 
+		сложившееся деление произведений живописи в 
+		соответствии с темами и объектами изображения.]
+		(* <- lang_ru;; => nrel_format: format_html;; *);;
+	*);;
+*);;	
+
+genre_landscape_painting
+<- sc_node_not_relation;
+	<- concept_painting_type;
+	=> nrel_main_idtf:
+	[пейзаж]
+	(*<-lang_ru;;*);
+	[landscape painting]
+	(*<-lang_en;;*);
+	
+	<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (пейзаж)](*<-lang_ru;;*);
+		[Definition (landscape painting)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Пейзаж</b> - это изображение 
+			ландшафтов в искусстве - природных видов, таких 
+			как горы, долины, деревья, реки и леса, особенно 
+			там, где основной предмет - широкий обзор, - с 
+			элементами, объединенными в последовательную 
+			композицию.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+			-> rrel_example:[<b>Landscape painting</b> is 
+			the depiction of landscapes in art — natural 
+			scenery such as mountains, valleys, trees, 
+			rivers, and forests, especially where the main 
+			subject is a wide view — with its elements arranged 
+			into a coherent composition.]
+			(* <- lang_en;; => nrel_format: format_html;; *);;
+			*);;
+*);;
+
+genre_still_life 
+<- sc_node_not_relation;
+	<- concept_painting_type;
+	=> nrel_main_idtf:
+	[натюрморт]
+	(*<-lang_ru;;*);
+	[still life]
+	(*<-lang_en;;*);
+	
+	<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (натюрморт)](*<-lang_ru;;*);
+		[Definition (still life)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Натюрморт</b> - это 
+			произведение искусства, изображающее в основном 
+			неодушевленные предметы, как правило, обычные 
+			предметы, которые являются либо естественными 
+			(еда, цветы, мертвые животные, растения, камни, 
+			ракушки и т. Д.), либо искусственными (стаканы, 
+			книги, вазы, ювелирные изделия, монеты, трубки 
+			и т.д.).]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+			-> rrel_example:[<b>Still life</b> is a work of 
+			art depicting mostly inanimate subject matter, 
+			typically commonplace objects which are either 
+			natural (food, flowers, dead animals, plants, 
+			rocks, shells, etc.) or man-made (drinking glasses, 
+			books, vases, jewelry, coins, pipes, etc.).]
+			(* <- lang_en;; => nrel_format: format_html;; *);;
+			*);;
+*);;
+
+genre_portrait 
+<- sc_node_not_relation;
+	<- concept_painting_type;
+	=> nrel_main_idtf:
+	[портрет]
+	(*<-lang_ru;;*);
+	[portrait]
+	(*<-lang_en;;*);
+		
+	<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (портрет)](*<-lang_ru;;*);
+		[Definition (portrait)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Портрет</b> - это художественное 
+			изображение человека, в котором преобладает лицо и 
+			его выражение.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+			-> rrel_example:[A <b>portrait</b> is an artistic 
+			representation of a person, in which the face and 
+			its expression is predominant.]
+			(* <- lang_en;; => nrel_format: format_html;; *);;
+			*);;
+*);;
+
+genre_self_portrait
+<- sc_node_not_relation;
+	<- concept_painting_type;
+	=> nrel_main_idtf:
+	[автопортрет]
+	(*<-lang_ru;;*);
+	[self-portrait]
+	(*<-lang_en;;*);
+			
+	<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (автопортрет)](*<-lang_ru;;*);
+		[Definition (self-portrait)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Автопортрет</b> - это изображение 
+			художника, нарисованное, нарисованное, 
+			сфотографированное или созданное этим художником.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+			-> rrel_example:[A <b>self-portrait</b> is a 
+			representation of an artist that is drawn, painted, 
+			photographed, or sculpted by that artist.]
+			(* <- lang_en;; => nrel_format: format_html;; *);;
+			*);;
+*);;
+
+genre_drawing 
+<- sc_node_not_relation;
+	<- concept_painting_type;
+	=> nrel_main_idtf:
+	[рисунок]
+	(*<-lang_ru;;*);
+	[drawing]
+	(*<-lang_en;;*);
+				
+	<-rrel_key_sc_element:...
+	(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Определение (рисунок)](*<-lang_ru;;*);
+		[Definition (drawing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+			-> rrel_example:[<b>Рисунок</b> является формой 
+			визуального искусства, в котором человек использует 
+			различные инструменты для рисования, чтобы создать 
+			изображение на плоскости.]
+			(* <- lang_ru;; => nrel_format: format_html;; *);;
+			-> rrel_example:[<b>Drawing</b> is a form of visual 
+			art in which a person uses various drawing instruments 
+			to mark paper or another two-dimensional medium.]
+			(* <- lang_en;; => nrel_format: format_html;; *);;
+			*);;
+*);;

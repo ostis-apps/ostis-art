@@ -1,0 +1,54 @@
+painting_portrait_of_pere_tanguy
+<- paris_period;
+=> nrel_main_idtf:
+	[Портрет папаши Танги]
+	(* <- lang_ru;;	*);
+	[Portrait of Pere Tanguy]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_portrait;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Портрет папаши Танги)](*<-lang_ru;;*);
+		[Description (Portrait of Pere Tanguy)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_portrait
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/portrait_of_pere_tanguy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/portrait_of_pere_tanguy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Портрет папаши Танги)](*<-lang_ru;;*);
+		[Pic. (Portrait of Pere Tanguy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/portrait_of_pere_tanguy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

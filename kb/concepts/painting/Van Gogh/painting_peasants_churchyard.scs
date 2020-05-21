@@ -1,0 +1,57 @@
+painting_peasants_churchyard
+<- dutch_period;
+=> nrel_main_idtf:
+	[Старая церковь в Нейнене]
+	(* <- lang_ru;;	*);
+	[Крестьянское кладбище]
+	(* <- lang_ru;;	*);
+	[The Old Church Tower at Nuenen]
+	(* <- lang_en;;	*);
+	[The Peasants' Churchyard]
+	(* <- lang_en;;	*);
+	<- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крестьянское кладбище)](*<-lang_ru;;*);
+		[Description (The Peasants' Churchyard)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        painting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/peasants_churchyard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/peasants_churchyard_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_may_june_1885
+            (*
+                => nrel_main_idtf:
+                    [Май - Июнь 1885 года]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_Netherlands;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Крестьянское кладбище)](*<-lang_ru;;*);
+		[Pic. (The Peasants' Churchyard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/peasants_churchyard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

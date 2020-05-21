@@ -1,0 +1,54 @@
+painting_self_portrait_in_front_of_easel
+<- paris_period;
+=> nrel_main_idtf:
+	[Автопортрет у мольберта]
+	(* <- lang_ru;;	*);
+	[Self-Portrait in Front of the Easel]
+	(* <- lang_en;;	*);
+    <- painting;
+	<- genre_self_portrait;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Автопортрет у мольберта)](*<-lang_ru;;*);
+		[Description (Self-Portrait in Front of the Easel)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_self_portrait
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/self_portrait_in_front_of_easel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/self_portrait_in_front_of_easel_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_february_1888
+            (*
+                => nrel_main_idtf:
+                    [Февраль 1888 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Автопортрет у мольберта)](*<-lang_ru;;*);
+		[Pic. (Self-Portrait in Front of the Easel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/self_portrait_in_front_of_easel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

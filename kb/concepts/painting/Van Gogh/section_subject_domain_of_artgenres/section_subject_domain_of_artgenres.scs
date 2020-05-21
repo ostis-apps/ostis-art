@@ -1,0 +1,21 @@
+section_subject_domain_of_artgenres
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанров изобразительного искусства]
+		(* <- lang_ru;; *);
+
+<- not_enough_formed_structure;;
+
+section_subject_domain_of_artgenres =  [*^"file://section_subject_domain_of_artgenres.scsi"*];;
+
+//section_subject_domain_of_artgenres-> rrel_key_sc_element: ;;
+
+
+
+	
+
+
+
+
+
+
+

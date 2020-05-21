@@ -1,0 +1,54 @@
+painting_gauguin_chair
+<- late_period;
+=> nrel_main_idtf:
+	[Кресло Гогена]
+	(* <- lang_ru;;	*);
+	[Gauguin's Chair]
+	(* <- lang_en;;	*);
+	<- genre_still_life;
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кресло Гогена)](*<-lang_ru;;*);
+		[Description (Gauguin's Chair)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_still_life
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/gauguin_chair_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/gauguin_chair_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=> nrel_date_of_creation:
+        date_january_1889
+            (*
+                => nrel_main_idtf:
+                    [Январь 1888 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        country_France;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кресло Гогена)](*<-lang_ru;;*);
+		[Pic. (Gauguin's Chair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/gauguin_chair.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

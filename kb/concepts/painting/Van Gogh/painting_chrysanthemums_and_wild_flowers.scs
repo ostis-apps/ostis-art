@@ -1,0 +1,54 @@
+painting_chrysanthemums_and_wild_flowers
+<- paris_period;
+=> nrel_main_idtf:
+	[Хризантемы и полевые цветы в вазе]
+	(* <- lang_ru;;	*);
+	[Chrysanthemums and Wild Flowers in a Vase]
+	(* <- lang_en;;	*);
+	<- genre_still_life;
+    <- painting;
+    => nrel_author:
+        concept_author_Van_Gogh;
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хризантемы и полевые цветы в вазе)](*<-lang_ru;;*);
+		[Description (Chrysanthemums and Wild Flowers in a Vase)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        genre_still_life
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/chrysanthemums_and_wild_flowers_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/chrysanthemums_and_wild_flowers_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+//
+=> nrel_date_of_creation:
+        date_1887
+            (*
+                => nrel_main_idtf:
+                    [1887 год]
+                    (* <- lang_ru;; *);;
+            *);
+
+=> nrel_place_of_creation:
+        city_Paris;
+
+    => nrel_material:
+        material_oil_paints;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хризантемы и полевые цветы в вазе)](*<-lang_ru;;*);
+		[Pic. (Chrysanthemums and Wild Flowers in a Vase)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chrysanthemums_and_wild_flowers.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

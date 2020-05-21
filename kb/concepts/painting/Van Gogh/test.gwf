@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="27394224" parent="29410368" x="836" y="727" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="concept_author_Van_Gogh" shapeColor="0" id="27424800" parent="29410368" left="0" top="0" right="264.609" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="824" y="867" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/group" idtf="" shapeColor="0" id="26666608" parent="29410368" x="733" y="721" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_subdividing" shapeColor="0" id="27438816" parent="29410368" left="0" top="0" right="168.734" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="901" y="810" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="139817560144512" parent="29410368" id_b="27394224" id_e="26666608" b_x="836" b_y="727" e_x="733" e_y="721" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="27442208" parent="29410368" id_b="27438816" id_e="27448384" b_x="901" b_y="810" e_x="1.5" e_y="604.5" dotBBalance="0" dotEBalance="0.57694">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="27448384" parent="29410368" id_b="27394224" id_e="27424800" b_x="836" b_y="727" e_x="824" e_y="867" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="На какие периоды живописи делится творчество Ван Гога" shapeColor="193" id="29410368" parent="0" left="0" top="0" right="591.203" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="616" y="673"/>
+                <point x="1177" y="688"/>
+                <point x="1192" y="916"/>
+                <point x="611" y="920"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="27248656" parent="28634640" x="752" y="1261" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_place_of_death" shapeColor="0" id="27092144" parent="28634640" left="0" top="0" right="201.734" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="842" y="1081" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="country_France" shapeColor="0" id="29566448" parent="28634640" left="0" top="0" right="158.125" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="947" y="1141" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_author" shapeColor="0" id="27480016" parent="28634640" left="0" top="0" right="124.125" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="632" y="1216" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="genre_portrait" shapeColor="0" id="27141024" parent="28634640" left="0" top="0" right="151.266" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="902" y="1261" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="27095936" parent="28634640" x="752" y="1141" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="21140736" parent="28634640" id_b="27248656" id_e="27095936" b_x="752" b_y="1261" e_x="752" e_y="1141" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="26658304" parent="28634640" id_b="27480016" id_e="21140736" b_x="632" b_y="1216" e_x="14" e_y="154" dotBBalance="0" dotEBalance="0.351485">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="139817560124128" parent="28634640" id_b="27141024" id_e="27248656" b_x="902" b_y="1261" e_x="752" e_y="1261" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="29158432" parent="28634640" id_b="27092144" id_e="29159472" b_x="842" b_y="1081" e_x="17.5" e_y="940" dotBBalance="0" dotEBalance="0.457386">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="29159472" parent="28634640" id_b="27095936" id_e="29566448" b_x="752" b_y="1141" e_x="947" e_y="1141" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="Какая картина в жанре портрет была написана автором, умершим во Франции" shapeColor="0" id="28634640" parent="0" left="0" top="0" right="797.016" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="541" y="997"/>
+                <point x="1245" y="1011"/>
+                <point x="1236" y="1350"/>
+                <point x="505" y="1331"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="27217584" parent="29578816" x="825" y="465" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="country_France" shapeColor="0" id="26445088" parent="29578816" left="0" top="0" right="158.125" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="975" y="465" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_place_of_creation" shapeColor="0" id="26709344" parent="29578816" left="0" top="0" right="223.5" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="885" y="390" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="genre_landscape_painting" shapeColor="0" id="27337392" parent="29578816" left="0" top="0" right="260.219" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="825" y="600" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="late_period" shapeColor="0" id="26388784" parent="29578816" left="0" top="0" right="120.109" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="660" y="465" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="27339968" parent="29578816" id_b="26388784" id_e="27217584" b_x="660" b_y="465" e_x="825" e_y="465" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="26404192" parent="29578816" id_b="27337392" id_e="27217584" b_x="825" b_y="600" e_x="825" e_y="465" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="27342048" parent="29578816" id_b="27217584" id_e="26445088" b_x="825" b_y="465" e_x="975" e_y="465" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="27341008" parent="29578816" id_b="26709344" id_e="27342048" b_x="885" b_y="390" e_x="28.5" e_y="327.5" dotBBalance="0" dotEBalance="0.385496">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какая картина написана в Поздний период, во Франции, в жанре пейзаж" shapeColor="0" id="29578816" parent="0" left="0" top="0" right="742.375" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="615" y="315"/>
+                <point x="1170" y="315"/>
+                <point x="1170" y="645"/>
+                <point x="607" y="642"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="20086576" parent="30577632" x="825" y="30" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="date_january_1889" shapeColor="0" id="27130992" parent="30577632" left="0" top="0" right="191.969" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="825" y="165" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_date_of_creation" shapeColor="0" id="27141456" parent="30577632" left="0" top="0" right="215.75" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="900" y="105" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="country_France" shapeColor="0" id="26628160" parent="30577632" left="0" top="0" right="158.125" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="945" y="30" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_place_of_creation" shapeColor="0" id="19755744" parent="30577632" left="0" top="0" right="223.5" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="885" y="-45" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="genre_still_life" shapeColor="0" id="26263424" parent="30577632" left="0" top="0" right="149.859" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="645" y="30" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="24827808" parent="30577632" id_b="26263424" id_e="20086576" b_x="645" b_y="30" e_x="825" e_y="30" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="25981808" parent="30577632" id_b="20086576" id_e="27130992" b_x="825" b_y="30" e_x="825" e_y="165" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="26699760" parent="30577632" id_b="27141456" id_e="25981808" b_x="900" b_y="105" e_x="23" e_y="-102" dotBBalance="0" dotEBalance="0.564655">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="27249920" parent="30577632" id_b="20086576" id_e="26628160" b_x="825" b_y="30" e_x="945" e_y="30" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="22919968" parent="30577632" id_b="19755744" id_e="27249920" b_x="885" b_y="-45" e_x="23" e_y="-102" dotBBalance="0" dotEBalance="0.5">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какая картина написана в Январе 1889 года, во Франции, в жанре натюрморт" shapeColor="0" id="30577632" parent="0" left="0" top="0" right="790.172" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="615" y="-90"/>
+                <point x="1155" y="-105"/>
+                <point x="1140" y="225"/>
+                <point x="615" y="225"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
