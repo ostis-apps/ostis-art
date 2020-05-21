@@ -1,0 +1,8 @@
+ui_search_comics_with_featurnig_two_characters_in_memory
+	<- ui_scg_control; sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Найти комиксы]
+		(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+        [Find comics]
+(* <- lang_en;; *);;

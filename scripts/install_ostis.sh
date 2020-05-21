@@ -29,6 +29,13 @@ include_kpm()
 	cd ../..
 }
 
+install_interface_comic()
+{
+cd scripts
+./install_interface_comic.sh
+cd ..
+}
+
 cd ..
 if [ -d "ostis" ]; 
 	then
@@ -44,5 +51,6 @@ if [ -d "ostis" ];
 		prepare_platform
 		include_kb
 		include_kpm
+		install_interface_comic
 fi
 
