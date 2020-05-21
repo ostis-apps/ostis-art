@@ -1,0 +1,174 @@
+character_Tsukishima_Kei<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Цукишима Кей] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Tsukishima Kei] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 月島蛍] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_27_09_1996
+(*
+=> nrel_main_idtf:
+	[27 сентября 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16
+(*
+=> nrel_main_idtf:
+	[18 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_190
+(*
+=> nrel_main_idtf:
+	[190 см](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+{
+	nickname_clever_blocking_Tsukki
+(*
+=> nrel_main_idtf:
+	[умный блокирующий Цукки](* <- lang_ru;;*);;
+*);
+
+nickname_four_eyed
+(*
+=> nrel_main_idtf:
+	[четырёхглазый](* <- lang_ru;;*);;
+*);
+
+nickname_regular_guy
+(*
+=> nrel_main_idtf:
+	[обычный парень](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+strawberry_cake
+(*
+=> nrel_main_idtf:
+	[клубничный торт](* <- lang_ru;;*);;
+*);
+
+dinosaur
+(*
+=> nrel_main_idtf:
+	[динозавр](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_11
+(*
+=> nrel_main_idtf:
+	[№ 11](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Вспыльчивые люди меня раздражают...](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_334
+(*
+=> nrel_main_idtf:
+	[334 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_325
+(*
+=> nrel_main_idtf:
+	[325 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_fint;
+
+skill_blocking
+(*
+=> nrel_main_idtf:
+	[блокирование](* <- lang_ru;;*);;
+*);
+
+skill_logical_thinking
+(*
+=> nrel_main_idtf:
+	[логическое мышление](* <- lang_ru;;*);;
+*);
+skill_attack_with_time_difference_of_one_pace
+(*
+=> nrel_main_idtf:
+	[атака с разницой во времени одного темпа](* <- lang_ru;;*);;
+*);
+
+skill_throw
+(*
+=> nrel_main_idtf:
+	[бросок](* <- lang_ru;;*);;
+*)
+};;
+
+character_Tsukishima_Kei <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:Цукишима Кей] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кей Цукишима (яп. 月島蛍 Tsukishima Kei) — первогодка старшей Карасуно, играющий на позиции центрального блокирующего. В настоящее время он является студентом колледжа, а также центральным блокирующим для команды дивизиона 2 в V Лиге, и после окончания колледжа начнет работать в Городском музее Сендая. У него есть старший брат, также волейболист — Акитеру Цукишима.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tsukishima_Kei
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Цукишима Кей)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/8b38b848c64416b782323e94ec6c73aa.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Tsukishima_Kei <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Цукишима Кей] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Цукишима очень высокий и имеет среднее телосложение для волейболиста. Несмотря на то, что он только первогодка, Кей самый высокий игрок в Карасуно. У него короткие, чуть растрёпанные светлые волосы, золотистые глаза и бледная кожа. Цукишиму часто можно заметить нахмурившимся или с ехидной ухмылкой на лице.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tsukishima_Kei
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Цукишима Кей)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/cVwg_f6ONzw.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

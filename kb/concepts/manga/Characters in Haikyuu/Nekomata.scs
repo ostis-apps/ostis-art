@@ -1,0 +1,59 @@
+character_Nekomata_Yasufumi<-person;
+<-male;
+
+=> nrel_main_idtf:
+	[Ясуфуми Нэкомата] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Nekomata Yasufumi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 猫又育史] (* <- lang_jp;;*);
+
+=>nrel_age:
+	age_68
+(*
+=> nrel_main_idtf:
+	[68 лет](* <- lang_ru;;*);;
+*);
+
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+=>nrel_quote: 
+	[В конечном счете, те, кто не хочет измениться — остановят свое развитие.](*<- lang_ru;;*);;
+
+character_Nekomata_Yasufumi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Ясуфуми Нэкомата] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ясуфуми Нэкомата (猫又育史, Nekomata Yasufumi) — главный тренер мужской волейбольной команды Старшей Некома.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Nekomata_Yasufumi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Ясуфуми Нэкомата)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Nekomata1.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Nekomata_Yasufumi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Ясуфуми Нэкомата] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Лицо Нэкомата покрыто морщинами, что не удивительно для его возраста, однако поразительно то, что в свои годы он способен передвигаться, не сутуля спину и не используя трость. Его волосы седые и почти всегда он улыбается.](*<- lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,75 @@
+character_Takeda_Ittetsu<-person;
+<-male;
+
+=> nrel_main_idtf:
+	[Иттетсу Такеда] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ittetsu Takeda] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 武田一鉄] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_10_01_1983
+(*
+=> nrel_main_idtf:
+	[10 января 1983](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_29
+(*
+=> nrel_main_idtf:
+	[29 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_167
+(*
+=> nrel_main_idtf:
+	[167 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_teacher:
+	school_Elder_Karasuno;
+
+=>nrel_quote: 
+	[Основные цвета... Когда только начинаешь их смешивать, они становятся грязными и неразличимыми. Но когда они сливаются воедино, в конечном итоге мы получаем тот самый цвет, превосходящий все остальные — чёрный. Прошу вас, станьте командой чёрного цвета. Как вороны, которых вы представляете](*<- lang_ru;;*);;
+
+character_Takeda_Ittetsu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Иттетсу Такеда] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Иттетсу Такеда (яп.: 武田一鉄 Takeda Ittetsu) –куратор волейбольного клуба Старшей Карасуно. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Takeda_Ittetsu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Иттетсу Такеда)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Takeda-sensei.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Takeda_Ittetsu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Иттетсу Такеда] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Такеды беспорядочные черные волосы и карие глаза, на которые он надевает очки. Он часто носит зеленую спортивную куртку с чёрным галстуком. Его рост примерно такой же, как и у Хинаты, что заставляет его выглядеть моложе, чем есть на самом деле. ](*<- lang_ru;;*);;
+*);;
+*);;

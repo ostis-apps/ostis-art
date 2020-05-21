@@ -1,0 +1,18 @@
+genre_romantic_comedy<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[романтическая комедия]
+	(*<-lang_ru;;*);
+	[romantic comedy]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (романтическая комедия)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ романтическая комедия — жанр, в котором внимание сосредоточено на беззаботной, юмористической линии сюжета.](*<- lang_ru;;*);;
+*);;
+*);;

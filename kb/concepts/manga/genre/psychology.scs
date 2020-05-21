@@ -1,0 +1,18 @@
+genre_psychology<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[психологический триллер]
+	(*<-lang_ru;;*);
+	[psychology]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (психологический триллер)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ психологический триллер —жанр аниме, описывающий «злоключения человеческой души». Попадая в тяжелые ситуации, герои таких аниме переживают сложные и непредсказуемые психологические изменения.](*<- lang_ru;;*);;
+*);;
+*);;

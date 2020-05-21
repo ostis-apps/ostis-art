@@ -1,0 +1,4 @@
+ nrel_impact_height <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [высота удара*](*<- lang_ru;;*);
+  => nrel_main_idtf: [impact heignt](*<- lang_en;;*);;

@@ -1,0 +1,6 @@
+nrel_age<- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+	[возраст*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[age] (* <- lang_en;;*);;

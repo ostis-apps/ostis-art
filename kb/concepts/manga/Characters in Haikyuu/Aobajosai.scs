@@ -1,0 +1,70 @@
+command_Aobajosai <- school_Elder_Aobajosai;
+<- Haikyuu;
+
+=> nrel_main_idtf:
+	[Аобаджосай] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Aobajosai] (* <- lang_en;;*);
+
+=>nrel_captain_of_command:
+	character_Oikawa_Toru;
+
+<=>nrel_rivals:
+	command_Shiratrizawa;
+
+<=>nrel_rivals:
+	command_Karasuno;
+
+
+=>nrel_motto:
+	[Мы словно кровь в наших венах: бежим без остановки, перемещаем кислород и заставляем «мозг» работать.](* <- lang_ru;; *);;
+
+command_Aobajosai <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [волейбольная команда "Аобаджосай"] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Аобаджосай  — волейбольная команда старшей школы Аобаджосай](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Aobajosai <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Форма мужского волейбольного клуба состоит из белого спортивного костюма с бирюзовыми деталями. На тренировочных матчах члены команды носят бирюзовые футболки и белые шорты, а также лаймовые спортивные майки с номерами. Во время официальных матчей игроки носят белые майки с бирюзовыми вставками и такие же бирюзовые шорты. У либеро контрастная футболка бирюзового цвета с белыми вставками. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Aobajosai <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [История] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Мужская волейбольная команда Аоба Джосай входит в четвёрку лучших команд во всей префектуре. На протяжении многих лет они всегда доходили до финала Весенних игр, но проигрывали лишь Шираторизаве. Многие из игроков Аоба Джосай достаточно сильны, чтобы стать асами. Многие выпускники Китагавы Даичи были приглашены в волейбольную команду Аоба Джосай.
+
+Было отмечено, что сила команды фактически основана на их связующем — Тооре Ойкаве, который уравновешивает и выявляет все способности игроков.](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Aobajosai
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Фотография команды)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Aobajousai.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

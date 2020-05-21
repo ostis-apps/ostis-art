@@ -1,0 +1,76 @@
+command_Nekoma <- school_Elder_Nekoma;
+<- Haikyuu;
+
+=> nrel_main_idtf:
+	[Некома] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Nekoma] (* <- lang_en;;*);
+
+=>nrel_nickname:
+	nickname_cats
+(*
+=> nrel_main_idtf:
+	[«кошки»](* <- lang_ru;;*);;
+*);
+
+=>nrel_trainer:
+	character_Nekomata_Yasufumi;
+
+=>nrel_captain_of_command:
+	character_Kuroo_Tetsuro;
+
+<=nrel_main_cast:
+{
+character_Kuroo_Tetsuro;
+character_Kozume_Kenma;
+character_Inuoka_So;
+character_Yamamoto_Taketora;
+character_Yaku_Morisuke;
+character_Kai_Nobuyuki;
+character_Fukunaga_Shohei
+};
+
+<=>nrel_rivals:
+	command_Fukurodani;
+<=>nrel_rivals:
+	command_Karasuno;
+=>nrel_motto:
+	[Мы словно кровь в наших венах: бежим без остановки, перемещаем кислород и заставляем «мозг» работать.](* <- lang_ru;; *);;
+
+command_Nekoma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [волейбольная команда "Некома"] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Некома  — волейбольная команда старшей школы Некома](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Nekoma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Форма волейбольного клуба для мальчиков состоит из красного спортивного костюма с белыми деталями. Члены клуба носят черные футболки и красные шорты во время тренировочных матчей и часто надевают сверху синий спортивный нагрудник. Во время официальных матчей большинство игроков надевают красную майку и шорты с черными деталями. Либеро имеет контрастный трикотаж белого цвета с красными и черными деталями.
+
+Если у их противников есть униформа, похожая на их цвет, то игроки будут носить белую майку с красными и черными деталями, а либеро — красную майку с черными деталями.](*<- lang_ru;;*);;
+*);;
+*);;
+
+command_Nekoma
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Фотография команды)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Nekoma_Season_2.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

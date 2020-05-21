@@ -1,0 +1,4 @@
+ nrel_motto <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [девиз команды*](*<- lang_ru;;*);
+  => nrel_main_idtf: [motto](*<- lang_en;;*);;

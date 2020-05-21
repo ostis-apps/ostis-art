@@ -1,0 +1,5 @@
+nrel_weapon<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[оружие*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[weapon] (* <- lang_en;;*);;

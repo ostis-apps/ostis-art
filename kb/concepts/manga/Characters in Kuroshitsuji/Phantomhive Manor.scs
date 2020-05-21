@@ -1,0 +1,48 @@
+Phantomhive_Manor <- concept_manor;
+
+=> nrel_main_idtf:
+	[Поместье Фантомхайв] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Phantomhive Manor] (* <- lang_en;;*);
+
+=>nrel_location:
+	city_London;
+
+<=nrel_own:
+	Phantomhive_House;;
+
+Phantomhive_Manor <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Поместье Фантомхайв] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Поместье Фантомхайв — основная база операций семьи Фантомхайв.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Phantomhive_Manor <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [История Поместья Фантомхайв] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[На десятый день рождения Сиэля Фантомхайв, поместье было полностью разрушено пожаром, который также привел к гибели родителей Сиэля, Винсента и Рэйчел Фантомхайв. Однако, позже поместье было легко восстановлено Себастьяном Михаэлисом.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Phantomhive_Manor
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Восстановленное поместье Фантомхайв)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Phantomhive_Manor.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

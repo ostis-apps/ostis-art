@@ -1,0 +1,97 @@
+character_Akira_Kunimi<-school_Elder_Aobajosai;
+<-command_Aobajosai;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Куними Акира] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Akira Kunimi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[国見英] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_25_03_1996
+(*
+=> nrel_main_idtf:
+	[25 марта 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_183
+(*
+=> nrel_main_idtf:
+	[183 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_13
+(*
+=> nrel_main_idtf:
+	[№13](* <- lang_ru;;*);;
+*);
+
+=>nrel_impact_height:
+	height_320
+(*
+=> nrel_main_idtf:
+	[320 см](* <- lang_ru;;*);;
+*);;
+
+
+character_Akira_Kunimi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Куними Акира] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Акира Куними (яп.: 国見 英 Akira Kunimi) — ученик-первогодка Аобаджосай и доигровщик её волейбольной команды. Он был одним из лучших игроков волейбольного клуба для мальчиков. В настоящее время он студент колледжа.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Akira_Kunimi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Куними Акира)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kunimi.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Akira_Kunimi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Куними Акира] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Он никогда не показывает своих эмоций. По словам Кагеямы, он никогда не видел Куними на волейбольной площадке улыбающимся.
+
+У Куними тёмные волосы с пробором на две стороны в середине лба. У него тёмно-карие глаза, а также спортивное телосложение. Он обладает средним ростом для волейбола 183 см, хотя несколько высоковат для первокурсника старшей школы.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Akira_Kunimi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Куними Акира)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/PVoeLDNqGWA.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

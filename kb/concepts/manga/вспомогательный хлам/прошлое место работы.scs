@@ -1,0 +1,5 @@
+nrel_past_place_of_work
+=> nrel_main_idtf:
+	[прошлое место работы*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[past place of work] (* <- lang_en;;*);;

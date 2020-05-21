@@ -1,0 +1,89 @@
+character_Semi_Eita<-school_Shiratrizawa_Academy;
+<-command_Shiratrizawa;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Семи Эйта] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Semi Eita] (* <- lang_en;;*);
+=> nrel_idtf:
+	[	瀬見英太] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_11_11_1994
+(*
+=> nrel_main_idtf:
+	[11 ноября 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_185
+(*
+=> nrel_main_idtf:
+	[185 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_3;
+
+->rrel_special_role:
+	role_schedule_feed;
+
+=>nrel_quote: 
+	[Я хочу демонстрировать свои способности. Пускай я понимаю, что нынешней Шираторизаве такой связующий не нужен, это желание неудержимо. Но когда я подаю, я свободен.](*<- lang_ru;;*);;
+
+character_Semi_Eita <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Семи Эйта] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Семи Эйта (яп.: 瀬見英太, Semi Eita) — третьекурсник Академии Шираторизава, играющий на позиции связующего и выполняющий в команде роль "Подающего на замену" (силовая подача).С 2018 года он является государственным служащим, а также музыкантом в группе. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Semi_Eita
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Семи Эйта)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Eita_Semi_Anime.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Semi_Eita <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Семи Эйта] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Сэми густые, растрёпанные светлые волосы с концами пепельного цвета, которые, скорее всего, окрашены. У него тёмные густые брови, контрастирующие с волосами. Кареглазый. Чаще всего он ходит с угрюмым или серьёзным выражением лица.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Semi_Eita
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Семи Эйта)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Hv3yGCeOtDg.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

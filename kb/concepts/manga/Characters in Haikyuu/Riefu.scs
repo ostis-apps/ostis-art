@@ -1,0 +1,100 @@
+character_Haiba_Riefu<-school_Elder_Nekoma;
+<-command_Nekoma;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Хайба Лев] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Haiba Riefu] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 灰羽リエーフ] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_30_10_1996
+(*
+=> nrel_main_idtf:
+	[30 октября 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_nickname:
+	nickname_hippo
+(*
+=> nrel_main_idtf:
+	[бегемот](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_196
+(*
+=> nrel_main_idtf:
+	[196 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+=>nrel_sympathy:
+	voleybol;
+
+
+=>nrel_game_number:
+	number_11;
+
+<=nrel_team_ace:
+	command_Nekoma;
+
+=>nrel_quote: 
+	[Диагональный - это тот, кто зарабатывает больше всего очков. Вот и всё.](*<- lang_ru;;*);;
+
+character_Haiba_Riefu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Хайба Лев] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Лев Хайба (яп. 灰羽リエーフ Haiba Riēfu) — первокурсник Старшей школы Некома, играющий на позиции центрального блокирующего, а также самопровозглашённый ас команды. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Haiba_Riefu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Хайба Лев)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/2018-07-11_14-41-56.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Haiba_Riefu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Хайба Лев] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Лев имеет светло-серые, зачёсанные назад волосы и зелёные, похожие формой на кошачьи глаза, а также тонкие брови. Его русские корни дают ему высокий рост, исключительно длинные конечности и физические данные.  ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Haiba_Riefu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Хайба Лев)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/JpSpJILGApo.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

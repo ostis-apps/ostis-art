@@ -1,0 +1,95 @@
+character_Iwaizumi_Hajime<-school_Elder_Aobajosai;
+<-command_Aobajosai;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Иваизуми Хаджиме] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Iwaizumi Hajime] (* <- lang_en;;*);
+=> nrel_idtf:
+	[岩泉 一] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_10_06_1994
+(*
+=> nrel_main_idtf:
+	[10 июня 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_179
+(*
+=> nrel_main_idtf:
+	[179 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_game_number:
+	number_4;
+
+<=nrel_team_ace:
+	command_Aobajosai;
+
+<=nrel_vice_captain:
+	command_Aobajosai;
+
+=>nrel_quote: 
+	[Тот, кто не видит противника, который стоит перед ним, не сможет одолеть и противника за пределами зрения.](*<- lang_ru;;*);
+
+=>nrel_skill:
+	skill_jump_pitch;;
+
+character_Iwaizumi_Hajime <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Иваизуми Хаджиме] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Хаджиме Иваизуми (яп. 岩泉一 Iwaizumi Hajime) — третьекурсник старшей Аобаджосай, играющий на позиции доигровщика, а также ас команды. Лучший друг Ойкавы Тооры и его «опора».](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Iwaizumi_Hajime
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Иваизуми Хаджиме)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Apprehension_iwaizumi_hajime_x_reader_by_oceanhues-dazlgbx.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Iwaizumi_Hajime <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Иваизуми Хаджиме] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Иваизуми чёрные, «колючие» волосы и более толстые, чем обычные, брови. Глаза в манге у него тёмно-карие, но в аниме они зелёные. Чаще всего у его лица серьёзное или раздражённое выражение. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Iwaizumi_Hajime
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:Иваизуми Хаджиме)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/2aMORp9t7HY.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,64 @@
+character_Uiriamu_Supiazu <-creature_shinigami;
+<-male;
+
+=> nrel_main_idtf:
+	[Уильям Ти Спирс] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Uiriamu Supiazu] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ウィリアム・T・スピアーズ] (* <- lang_jp;;*);
+
+=>nrel_height:
+	height_183
+(*
+=> nrel_main_idtf:
+	[183 см](* <- lang_ru;;*);;
+*);
+
+=> nrel_place_of_work:
+	Reaper_Department
+(*
+=> nrel_main_idtf:
+	[Департамент Жнецов](* <- lang_ru;;*);;
+*);
+
+<= nrel_director:
+	Reaper_Department;
+
+=>nrel_weapon:
+"file://images/UTS.jpg"(*=>nrel_format:format_jpg;;*);
+	
+=>nrel_quote: 
+	[Заманить жертву сладкими речами, а затем низвергнуть ее в пучину тьмы... Разве это не стиль демона?](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive;
+
+<= nrel_second_cast:
+	Circus_Noahs_Ark;;
+
+character_Uiriamu_Supiazu <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Уильям Ти Спирс] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Уильям — высокий мужчина с короткими, аккуратно уложенными черными волосами и жёлто-зелеными глазами. Он носит очки в прямоугольной оправе, которые имеют четыре декоративные линии на каждой дужке. Он часто носит темный классический костюм, галстук, черные перчатки и туфли.
+Косой смерти Уильяма является секатор серебристого цвета с красными вставками. По сути, он представляет из себя длинный металлический стержень с кусачками на обоих концах. Его коса обладает уникальной способностью удлиняться на любое расстояние. При этом он использует её не только по назначению, но и в качестве трости, для поправления очков и для балансировки, когда однажды шёл по канату в цирке «Ноев ковчег».](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Uiriamu_Supiazu
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/William.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

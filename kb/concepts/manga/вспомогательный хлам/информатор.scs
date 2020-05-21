@@ -1,0 +1,5 @@
+nrel_informant<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[информатор*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[informant] (* <- lang_en;;*);;

@@ -1,0 +1,24 @@
+person_Bai_Xiao
+	<- person;
+	<- male;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Бай Сяо] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Bai Xiao] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 白驍] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_09_04_1982
+(*
+=> nrel_main_idtf:
+	[9 апреля 1982](* <- lang_ru;;*);;
+*);
+
+=> nrel_famous_work:
+	Space_time_prisoner;
+
+=> nrel_place_of_birth:
+	country_Japan;;

@@ -1,0 +1,116 @@
+character_Kuroo_Tetsuro<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Куроо Тетсуро] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kuroo Tetsuro] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 黒尾鉄朗] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_17_11_1994
+(*
+=> nrel_main_idtf:
+	[17 ноября 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_nickname:
+	nickname_brain_of_command
+(*
+=> nrel_main_idtf:
+	[коварный капитан](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_188
+(*
+=> nrel_main_idtf:
+	[188 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+mackerel
+(*
+=> nrel_main_idtf:
+	[скумбрия](* <- lang_ru;;*);;
+*);
+
+dog
+(*
+=> nrel_main_idtf:
+	[собака](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_1;
+
+=>nrel_quote: 
+	[Мы словно кровь в наших венах: бежим без остановки, перемещаем кислород и заставляем «мозг» работать.](*<- lang_ru;;*);
+
+=>nrel_skill:
+	skill_attack_difference
+(*
+=> nrel_main_idtf:
+	[разница во время атаки](* <- lang_ru;;*);;
+*);;
+
+character_Kuroo_Tetsuro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Куроо Тетсуро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Куроо Тецуро (яп. 黒尾鉄朗 Kuroo Tetsurō) — третьекурсник старшей школы Некома. Капитан мужского волейбольного клуба, играющий на позиции центрального блокирующего.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kuroo_Tetsuro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Куроо Тетсуро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/%3F%3F%3F%3F%3F.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Kuroo_Tetsuro <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Куроо Тетсуро] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Куроо отличается высоким ростом и атлетическим телосложением. У него янтарные глаза и довольно циничный взгляд. Он очень высокий, грациозный и гибкий, своими движениями напоминающий кота. У Тецуро чёрные растрёпанные волосы, с чёлкой на правой стороне, частично закрывающей его правый глаз. Из-за этого капитан Некомы получил прозвище «голова-колючка». Большая часть его гардероба - вещи тёмных тонов.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kuroo_Tetsuro
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Куроо Тетсуро)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/ZlF2emlXQE4.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

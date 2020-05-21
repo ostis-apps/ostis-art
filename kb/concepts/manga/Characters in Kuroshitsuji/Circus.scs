@@ -1,0 +1,53 @@
+Circus_Noahs_Ark <- Kuroshitsuji;
+
+=> nrel_main_idtf:
+	[Цирк «Ноев ковчег»] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Circus Noah's Ark] (* <- lang_en;;*);
+
+<=nrel_main_cast:
+{
+character_Joker;
+character_Beast;
+character_Doll;
+character_Dagger;
+character_Suneeku
+};;
+
+Circus_Noahs_Ark <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Описание] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ноев ковчег — передвижная цирковая труппа. Состав труппы включает в себя каскадеров и трюковых артистов. Главой цирка является барон Кельвин, к которому основной состав цирка относится как к Отцу.
+Цирк «Ноев ковчег» посетили множество мест для проведения своих захватывающих представлений и обеспечивали развлечения для своей аудитории. 
+Однако, в каждом городе, в котором выступала данная цирковая труппа, случались странные инциденты, при которых бесследно пропадали дети. Несмотря на серьезное расследование правительства, дети так и не были найдены.Поскольку передвижения труппы, кажется, совпадали с местами инцидентов пропажи детей, нераскрытая деятельность труппы была весьма сомнительной. Вследствие этого, королева Виктория посылает Сиэля Фантомхайв на задание по расследованию деятельности цирка Ноев Ковчег, а также найти детей и безопасно вернуть их в семьи.](*<- lang_ru;;*);;
+*);;
+*);;
+
+Circus_Noahs_Ark
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Цирк «Ноев ковчег»)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Noah's_Ark_Circus.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+Circus_Noahs_Ark
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Члены основного состава. Слева направо: Бист, Долл, Джокер, Снейк, Питер, Даггер, Джамбо и Венди)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/First_members.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

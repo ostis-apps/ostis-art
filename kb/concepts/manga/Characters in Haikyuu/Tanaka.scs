@@ -1,0 +1,136 @@
+character_Tanaka_Ryunosuke<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Танака Рюноске] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Tanaka Ryunosuke] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 田中 龍之介] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_3_03_1995
+(*
+=> nrel_main_idtf:
+	[3 марта 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17
+(*
+=> nrel_main_idtf:
+	[17 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_178
+(*
+=> nrel_main_idtf:
+	[178 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_sympathy:
+{
+voleybol;
+character_Shimizu_Kiyoko;
+melon
+(*
+=> nrel_main_idtf:
+	[дыня](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_5
+(*
+=> nrel_main_idtf:
+	[№ 5](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Если ты будешь так на нас смотреть, мы тебя сожрем и выплюнем.](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_324
+(*
+=> nrel_main_idtf:
+	[324 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_312
+(*
+=> nrel_main_idtf:
+	[312 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_jump_pitch;
+
+skill_inner_cross_country
+(*
+=> nrel_main_idtf:
+	[внутренний кросс](* <- lang_ru;;*);;
+*);
+
+skill_direct_kick
+(*
+=> nrel_main_idtf:
+	[прямой удар](* <- lang_ru;;*);;
+*)
+};;
+
+character_Tanaka_Ryunosuke <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:Танака Рюноске] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Рюноске Танака (яп. 田中 龍之介 Tanaka Ryūnosuke) — ранее он был членом старшей волейбольной команды Карасуно . В течение большей части серии он был второгодкой и доигровщик в команде Карасуно и ее перспективным асом. После окончания старшей школы он стал личным тренером и женился на Киеко Шимидзу.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tanaka_Ryunosuke
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Танака Рюноске)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/3321.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Tanaka_Ryunosuke <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Танака Рюноске] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Танаки бритая голова с вдовьим пиком и острые серо-голубые глаза (золотисто-карие на цветных иллюстрациях манги), которые заставляют многих ошибочно принимать его за преступника. Еще в первый год учебы в Карасуно у Танаки были короткие пушистые волосы, выкрашенные в светлый цвет. Он среднего роста и худощавого, но крепкого телосложения. Он имеет тенденцию делать устрашающие лица, чтобы попытаться напугать других, за что Дайчи ругает его.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Tanaka_Ryunosuke
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Танака Рюноске)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/CXTbzwsfu8Q.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

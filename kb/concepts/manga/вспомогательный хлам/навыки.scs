@@ -1,0 +1,4 @@
+ nrel_skill <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [навыки*](*<- lang_ru;;*);
+  => nrel_main_idtf: [skill](*<- lang_en;;*);;

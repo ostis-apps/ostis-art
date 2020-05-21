@@ -1,0 +1,73 @@
+character_Beast <-person;
+<-female;
+<-Circus_Noahs_Ark;
+
+=> nrel_main_idtf:
+	[Бист] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Beast] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ ビースト] (* <- lang_jp;;*);
+
+=> nrel_age:
+	age_24
+(*
+=> nrel_main_idtf:
+	[24 года](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_172
+(*
+=> nrel_main_idtf:
+	[172 см](* <- lang_ru;;*);;
+*);
+	
+=>nrel_occupation:
+	animal_trainer
+(*
+=> nrel_main_idtf:
+	[дрессировщица животных](* <- lang_ru;;*);;
+*);
+
+=>nrel_in_love:
+	character_Joker;
+
+=>nrel_quote: 
+	[Да, мы все - имущество Отца.](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_dead
+(*
+=> nrel_main_idtf:
+	[погиб](* <- lang_ru;;*);;
+*);;
+
+character_Beast <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Бист] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Бист — молодая девушка с красными глазами и кудрявыми темно-каштановыми волосами. Она обладает пышной фигурой. Отличительная черта Бист — большая грудь.
+
+Бист одевается в откровенный наряд, состоящий из черного кожаного лифа, связанного тонкими веревками и черной кожаной юбки с красным поясом. Также она дополняет свой наряд длинными сетчатыми чулками, украшенными тонкими повязками. Кроме того чуть ниже плеч, она носит ажурные перчатки. Ее аксессуары и макияж состоят из темно красной помады, накладных ресниц, маленьких красных знаков и камней под левым глазом и красным цветком в волосах.
+
+Как часть своего циркового наряда, Бист почти всегда носит с собой кнут. У нее отсутствует левая нога, которую заменяет искусственный протез.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Beast
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Beast.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

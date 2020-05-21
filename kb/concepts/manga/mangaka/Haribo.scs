@@ -1,0 +1,28 @@
+//Харибо
+person_Haribo
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Харибо] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Haribo] (* <- lang_en;;*);
+=> nrel_idtf:
+	[하리보] (* <- lang_jp;;*);
+
+=>nrel_famous_work:
+Geu_Kkeute_Issneun_Geos;;
+
+person_Haribo
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Харибо)](*<-lang_ru;;*);
+	[Pic. (Haribo)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Haribo.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

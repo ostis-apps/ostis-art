@@ -1,0 +1,153 @@
+character_Azumane_Asahi<-school_Elder_Karasuno;
+<-person;
+<-male;
+<-position_diagonal;
+
+=> nrel_main_idtf:
+	[Азумане Асахи] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Azumane Asahi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 東峰旭] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_01_01_1994
+(*
+=> nrel_main_idtf:
+	[1 января 1994](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_18
+(*
+=> nrel_main_idtf:
+	[18 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_186
+(*
+=> nrel_main_idtf:
+	[186 см](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+{
+	nickname_negative_bearded_man
+(*
+=> nrel_main_idtf:
+	[негативный бородач](* <- lang_ru;;*);;
+*);
+
+	nickname_samurai
+(*
+=> nrel_main_idtf:
+	[самурай](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+{
+[Не сдаваться](*<- lang_ru;;*);
+[Не подводить команду](*<- lang_ru;;*);
+[Обладать подсознанием аса](*<- lang_ru;;*)
+};
+
+<=nrel_team_ace:
+	command_Karasuno;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+tonkotsu_ramen
+(*
+=> nrel_main_idtf:
+	[тонкоцу рамен](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_3
+(*
+=> nrel_main_idtf:
+	[№ 3](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Чтобы ударить мимо всех препятствий...Вот это и есть ас!](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_333;
+
+nrel_block_height:
+	height_310
+(*
+=> nrel_main_idtf:
+	[310 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_jump_pitch;
+
+skill_back_line_attack;
+
+skill_delayed_strike
+(*
+=> nrel_main_idtf:
+	[задержанный удар](* <- lang_ru;;*);;
+*)
+};;
+
+character_Azumane_Asahi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Азумане Асахи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Асахи Азумане (яп. 東峰 旭 Azumane Asahi) — третьекурсник старшей школы Карасуно, играющий на позиции доигровщика, является асом Карасуно. С 2018 года он работает дизайнером одежды в Токио. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Azumane_Asahi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Азумане Асахи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/181283.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Azumane_Asahi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Азумане Асахи] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Асахи достаточно высокий парень. Он имеет довольно крепкое, спортивное телосложение. У него длинные каштановые волосы, от корней убранные назад, и большие карие глаза. Есть бородка. Немного позже он стал носить специальную резинку, поддерживающую его волосы, чтобы они не мешались во время игры.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Azumane_Asahi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Азумане Асахи)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/2u3yjXqpu6w.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

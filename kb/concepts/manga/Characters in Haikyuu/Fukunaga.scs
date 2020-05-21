@@ -1,0 +1,101 @@
+character_Fukunaga_Shohei<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Фукунага Сёхэй] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Fukunaga Shohei] (* <- lang_en;;*);
+=> nrel_idtf:
+	[福永招平] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_29_09_1995
+(*
+=> nrel_main_idtf:
+	[29 сентября 1995](* <- lang_ru;;*);;
+*);
+
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_179
+(*
+=> nrel_main_idtf:
+	[179 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+squid
+(*
+=> nrel_main_idtf:
+	[кальмар](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_6
+(*
+=> nrel_main_idtf:
+	[№ 6](* <- lang_ru;;*);;
+*);
+
+=>nrel_skill:
+	skill_ideal_reception;;
+
+character_Fukunaga_Shohei <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Фукунага Сёхэй] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Сёхэй Фукунага (яп.: 福永招平 Fukunaga Shōhei) — студент-второгодка из Некомы. Он один из доигровщиков волейбольной команды.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Fukunaga_Shohei
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Фукунага Сёхэй)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Fukunaga.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Fukunaga_Shohei <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Фукунага Сёхэй] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Фукунаги широкие, почти что кошачьи глаза с маленькими зрачками. Небольшие брови и чёрные волосы. Его кожа невероятно бледная. Множество раз он был показан с руками поднятыми в воздух, как у Манэки-нэко.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Fukunaga_Shohei
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Фукунага Сёхэй)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/SSzwDD6JHjs.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

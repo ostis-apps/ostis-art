@@ -1,0 +1,18 @@
+genre_action<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[боевик]
+	(*<-lang_ru;;*);
+	[action]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (боевик)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ боевик — жанр, изобилующий сценами боевого противостояния.](*<- lang_ru;;*);;
+*);;
+*);;

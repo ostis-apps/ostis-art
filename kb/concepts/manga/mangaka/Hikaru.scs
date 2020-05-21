@@ -1,0 +1,14 @@
+person_Hikaru_Suruga
+	<- person;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Хикару Суруга] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Hikaru Suruga] (* <- lang_en;;*);
+=> nrel_idtf:
+	[駿河 ヒカル] (* <- lang_jp;;*);
+
+=>nrel_famous_work:
+Shingeki_no_Kyojin_Kuinaki_Sentaku;;
+

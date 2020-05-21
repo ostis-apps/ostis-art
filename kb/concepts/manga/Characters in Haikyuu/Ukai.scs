@@ -1,0 +1,74 @@
+character_Ukai_Keishin<-person;
+<-male;
+
+=> nrel_main_idtf:
+	[Кейшин Укай] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Ukai Keishin] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 烏養繋心] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_05_04_1986
+(*
+=> nrel_main_idtf:
+	[5 апреля 1986](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_26
+(*
+=> nrel_main_idtf:
+	[26 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_178
+(*
+=> nrel_main_idtf:
+	[178 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+=>nrel_quote: 
+	[Не смотреть вниз! Волейбол - это спорт, где всегда смотрят вверх!](*<- lang_ru;;*);;
+
+character_Ukai_Keishin <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Кейшин Укай] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кейшин Укай (яп. 烏養繋心 Ukai Keishin) – в настоящее время является тренером мужского волейбольного клуба старшей Карасуно. В прошлом учился в этой школе и был её игроком-связующим. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Ukai_Keishin
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Внешность: Кейшин Укай)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/KeishinUkai.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Ukai_Keishin <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:Кейшин Укай] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Укая крашеные светлые волосы, на которые он обычно надевает головную повязку. Он рассказал тренеру Некомы – Нэкомата, – что он похож на своего деда – бывшего тренера Укая. На левом ухе у него две серьги.
+
+В юности у него была тёмная короткая стрижка, но в остальном он выглядел также. ](*<- lang_ru;;*);;
+*);;
+*);;

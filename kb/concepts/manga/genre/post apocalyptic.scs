@@ -1,0 +1,18 @@
+genre_post_apocalyptic<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[постапокалиптика]
+	(*<-lang_ru;;*);
+	[post apocalyptic]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (постапокалиптика)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ постапокалиптика — разновидность аниме и манги, повествующая о жизни после конца света.](*<- lang_ru;;*);;
+*);;
+*);;

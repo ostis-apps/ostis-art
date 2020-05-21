@@ -1,0 +1,74 @@
+character_Finian <-person;
+<-male;
+<-Phantomhive_House;
+
+=> nrel_main_idtf:
+	[Финниан] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Finian] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ フィニアン] (* <- lang_jp;;*);
+
+=> nrel_age:
+	age_16
+(*
+=> nrel_main_idtf:
+	[16 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_163
+(*
+=> nrel_main_idtf:
+	[163 см](* <- lang_ru;;*);;
+*);
+	
+=>nrel_nickname:
+	nickname_S_012
+(*
+=> nrel_main_idtf:
+	[Объект #12](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Эти чудесные очки мне купил сам господин! И одежду тоже. А ведь раньше я не носила ничего похожего на юбку. Я так рада быть горничной здесь.](*<- lang_ru;;*);
+
+=>nrel_occupation:
+		gardener
+(*
+=> nrel_main_idtf:
+	[садовник](* <- lang_ru;;*);;
+*);
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Finian <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Финниан] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Финниан — молодой парень с большими бирюзовыми глазами и бледной кожей. У него короткие светлые волосы, которые он закалывает назад пятью красными заколками: двумя на правой стороне и тремя в левой.
+
+Обычно Финниан одет в простую рубашку с красной окантовкой вокруг воротника, клетчатые гольфы, черные сапоги и соломенную шляпу, которую он носит на шее, дабы скрыть знак «S-012», оставшийся с тех времён, когда Финниан был объектом медицинских экспериментов. Финниан очень любит эту шляпу, поскольку это подарок его господина, Сиэля Фантомхайв.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Finian
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Fin.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

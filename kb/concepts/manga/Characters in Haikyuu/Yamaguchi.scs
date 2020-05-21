@@ -1,0 +1,141 @@
+character_Yamaguchi_Tadashi<-school_Elder_Karasuno;
+<-command_Karasuno;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[Ямагучи Тадаши] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Yamaguchi Tadashi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 山口忠] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_10_11_1996
+(*
+=> nrel_main_idtf:
+	[10 ноября 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16
+(*
+=> nrel_main_idtf:
+	[16 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_180
+(*
+=> nrel_main_idtf:
+	[180 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+prefecture_Miyagi;
+
+<=nrel_goal:
+{
+[Больше практиковаться](*<- lang_ru;;*);
+[Играть стабильнее, чтобы попасть в стартовый состав](*<- lang_ru;;*);
+[Исправить осанку](*<- lang_ru;;*)
+};
+
+<=nrel_sympathy:
+{
+voleybol;
+
+fries
+(*
+=> nrel_main_idtf:
+	[картофель фри](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_12
+(*
+=> nrel_main_idtf:
+	[№ 12](* <- lang_ru;;*);;
+*);
+
+->rrel_special_role:
+	role_schedule_feed;
+
+=>nrel_quote: 
+	[Я не талантлив как остальные и все что я могу - это мои подачи](*<- lang_ru;;*);
+
+=>nrel_impact_height:
+	height_300
+(*
+=> nrel_main_idtf:
+	[300 см](* <- lang_ru;;*);;
+*);
+
+nrel_block_height:
+	height_315
+(*
+=> nrel_main_idtf:
+	[315 см](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+{
+
+skill_jump_pitch;
+
+skill_combo_from_serve_and_block
+(*
+=> nrel_main_idtf:
+	[комбо из подачи и блока](* <- lang_ru;;*);;
+*)
+};;
+
+character_Yamaguchi_Tadashi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:Ямагучи Тадаши] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Тадаши Ямагучи (яп. 山口忠, Yamaguchi Tadashi) — первогодка Старшей школы Карасуно, играющий на позиции центрального блокирующего. Он играет роль «Подающего на замену» (планирующая подача) в команде. На третьем году он стал капитаном команды. В настоящее время он студент колледжа и планирует работать в компании домашней электроники в Мияги, как только он закончит учебу .](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yamaguchi_Tadashi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Ямагучи Тадаши)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Tadashi_x_shoyo.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Yamaguchi_Tadashi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Ямагучи Тадаши] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Ямагучи — молодой парень среднего телосложения. У него короткие, чёрные волосы, которые часто изображают коричневого или даже зелёного цвета, растрёпанные и торчащие во все стороны. До поступления в среднюю школу, Тадаши дразнили за его веснушки и чрезмерную костлявость. Но сейчас он вырос и больше не беспокоится по этому поводу.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Yamaguchi_Tadashi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Ямагучи Тадаши)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/GRrLLlITplc.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

@@ -1,0 +1,18 @@
+genre_drama<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[драма]
+	(*<-lang_ru;;*);
+	[drama]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (драма)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ драма — жанр драматико-трагическое повествования. Встречается в аниме редко. Один из основных признаков — отсутствие ярко выраженного «счастливого конца».](*<- lang_ru;;*);;
+*);;
+*);;

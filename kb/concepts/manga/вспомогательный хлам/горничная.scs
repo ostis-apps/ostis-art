@@ -1,0 +1,4 @@
+ nrel_maid <- sc_node_norole_relation;;
+
+ nrel_maid => nrel_main_idtf: [горничная*](*<- lang_ru;;*);
+               => nrel_main_idtf: [maid](*<- lang_en;;*);;

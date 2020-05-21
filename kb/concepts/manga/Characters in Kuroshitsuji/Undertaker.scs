@@ -1,0 +1,103 @@
+character_Undertaker <-creature_shinigami;
+<-male;
+
+=> nrel_main_idtf:
+	[Гробовщик] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Undertaker] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ アンダーテイカー] (* <- lang_jp;;*);
+
+<=nrel_nickname:
+{
+	nickname_136649
+(*
+=> nrel_main_idtf:
+	[136649](* <- lang_ru;;*);;
+*);
+
+nickname_director
+(*
+	=> nrel_main_idtf:
+	[Директор](* <- lang_ru;;*);;
+*);
+
+nickname_Silver_Fox
+(*
+	=> nrel_main_idtf:
+	[Серебряный Лис](* <- lang_ru;;*);;
+*);
+
+nickname_Aristocrats_of_Evil
+(*
+	=> nrel_main_idtf:
+	[Аристократы зла](* <- lang_ru;;*);;
+*)
+};
+
+=> nrel_past_place_of_work:
+	Reaper_Department;
+
+=>nrel_weapon:
+"file://images/Undertaker's_Death_Scythe.png"(*=>nrel_format:format_png;;*);
+	
+=>nrel_quote: 
+	[Как грустно было бы, если бы исчез смех.](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive;
+
+<=nrel_informant:
+	Phantomhive_House;;
+
+character_Undertaker <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Гробовщик] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Гробовщик - худощавый мужчина с длинными серыми волосами и челкой, скрывающей его глаза, имеющие типичный для жнеца цвет — жёлто-зеленый. 
+
+У Гробовщика длинные черные ногти. Также имеется несколько больших шрамов: один — проходящий через все лицо и под правым глазом, еще один — вокруг его шеи, и последний выглядит как кольцо вокруг его левого мизинца. Его одежда преобладающе черная; дополнительно, его одеяние включает невероятно длинный цилиндр и серый шарф, надетый через его грудь и завязанный узлом на бедрах. Он носит кольцо на левом указательном пальце.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Undertaker <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [История персонажа: Гробовщик] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Гробовщик является жнецом в отставке. Грелль Сатклифф и Рональд Нокс называют его «дезертиром». В манге, он служил жнецом в течение длительного времени, неоднократно пожиная души в относительно мирной, равнодушной обстановке, пока он не устал от мирного процесса и не начал экспериментировать и вмешиваться в человеческую жизнь.
+Некоторое время спустя Гробовщик основал свое похоронное бюро и познакомился с Винсентом Фантомхайв. Его периодические деловые отношения с графом принесли ему статус одного из Аристократов зла.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Undertaker
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Силуэт Гробовщика, когда он работал в качестве жнеца)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Undertaker_silhouette.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Undertaker
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Undertaker.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

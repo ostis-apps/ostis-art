@@ -1,0 +1,97 @@
+character_Kai_Nobuyuki<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_do_it_yourself_player;
+
+=> nrel_main_idtf:
+	[Кай Нобуюки] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kai Nobuyuki] (* <- lang_en;;*);
+=> nrel_idtf:
+	[海 信行] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_08_04_1994
+(*
+=> nrel_main_idtf:
+	[8 апреля 1994](* <- lang_ru;;*);;
+*);
+
+
+=>nrel_age:
+	age_18;
+
+=>nrel_height:
+	height_176
+(*
+=> nrel_main_idtf:
+	[176 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+sea_grapes
+(*
+=> nrel_main_idtf:
+	[морской виноград](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_2;
+
+<=nrel_vice_captain:
+	command_Nekoma;;
+
+character_Kai_Nobuyuki <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Кай Нобуюки] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Нобуюки Кай (яп.: 海 信行 Kai Nobuyuki) — третьегодка Некомы. Он вице-капитан и доигровщик команды.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kai_Nobuyuki
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Кай Нобуюки)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Kai.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Kai_Nobuyuki <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Кай Нобуюки] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Нобуюки Кай — смуглый парень, среднего телосложения. У него светло-карие глаза и темные волосы. А также короткая стрижка и густые брови среднего размера .](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kai_Nobuyuki
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Кай Нобуюки)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/VLiBVyIp42s.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

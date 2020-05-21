@@ -1,0 +1,53 @@
+person_Furudate_Haruichi
+	<- person;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Фурудатэ Харуити] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Furudate Haruichi] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 古舘 春一] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_07_03_1983
+(*
+=> nrel_main_idtf:
+	[7 марта 1983](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=> nrel_famous_work:
+	Haikyuu;
+
+=> nrel_place_of_work:
+	Shueisha_Inc;;
+
+person_Furudate_Haruichi <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Фурудатэ Харуити] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Furudate Haruichi] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Харуити Фурудате (яп. 古舘春一) — 37-летний японец, мангака, наиболее известный серией манги «Haikyuu!!». Харуичи Фурудате родился 7 марта 1983 года в префектуре Ивате, Япония, и в настоящее время трудоустроен в качестве мангаки корпорации Shueisha Inc. Фурудате не заявлял о том, какого он(а) пола, но распространено мнение, что мангака женщина.Он(а) был волейболистом в младшей школе и занимал позицию центрального блокирующего.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Haruichi Furudate (古 舘 春 一) is a 37-year-old Japanese mangaka, best known for the "Haikyuu!!" manga series. Haruichi Furudate was born on March 7, 1983 in Iwate Prefecture, Japan, and is currently employed as a mangaka by Shueisha Inc. Furudate did not declare what gender he was, but it is widely believed that mangaka is a woman. He(she) was a volleyball player in elementary school and held the position of a central blocker.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Furudate_Haruichi
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Фурудатэ Харуити)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Furudate Haruichi)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Furudate.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

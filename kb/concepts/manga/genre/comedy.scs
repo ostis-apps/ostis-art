@@ -1,0 +1,18 @@
+genre_comedy<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[комедия]
+	(*<-lang_ru;;*);
+	[comedy]
+	(*<-lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Опр. (комедия)] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[ комедия — жанр, характеризующийся наличием юмористических сцен, в том числе пародий, комедии положений, словесных и прикладных шуток.](*<- lang_ru;;*);;
+*);;
+*);;

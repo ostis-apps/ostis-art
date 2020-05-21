@@ -1,0 +1,127 @@
+character_Kozume_Kenma<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_binder;
+
+=> nrel_main_idtf:
+	[Козуме Кенма] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Kozume Kenma] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 孤爪 研磨] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_16_10_1995
+(*
+=> nrel_main_idtf:
+	[16 октября 1995](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_17;
+
+=>nrel_height:
+	height_169
+(*
+=> nrel_main_idtf:
+	[169 см](* <- lang_ru;;*);;
+*);
+
+<= nrel_nickname:
+{
+	nickname_puddinghead
+(*
+=> nrel_main_idtf:
+	[пудингоголовый](* <- lang_ru;;*);;
+*);
+
+		nickname_brain_of_command
+(*
+=> nrel_main_idtf:
+	["мозг" команды](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+apple_pie
+(*
+=> nrel_main_idtf:
+	[яблочный пирог](* <- lang_ru;;*);;
+*);
+
+video_games
+(*
+=> nrel_main_idtf:
+	[видеоигры](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_5
+(*
+=> nrel_main_idtf:
+	[№ 5](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[Я не лажу с людьми и не хочу с ними общаться.](*<- lang_ru;;*);
+
+<=nrel_skill:
+	skill_reset;
+
+<=>nrel_childhood_friend:
+	character_Kuroo_Tetsuro;;
+
+character_Kozume_Kenma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж: Козуме Кенма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кенма Козуме (яп. 孤爪研磨 Kozume Kenma) — второгодка старшей школы Некома. Является связующим, «Мозгом» и «Сердцем» команды.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kozume_Kenma
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Козуме Кенма)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/KenmaKozume.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;
+
+character_Kozume_Kenma <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Козуме Кенма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Кенма невысокий и худощавый. Благодаря своему спокойствию и рассудительности, является отличным связующим. При этом не имеет каких-либо других особенностей, кроме «кошачьих» глаз золотистого цвета и светлых волос с чёрными корнями (иногда его называют «Пудингоголовым»). Он окрасил волосы, когда был младше, заявив, что не хочет «выделяться». Прежде у него были чёрные волосы. Он одевается небрежно и носит стандартную, чёрно-красную форму волейбольного клуба старшей Некома. Обычно у него в руках переносная, игровая консоль или мобильный телефон.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Kozume_Kenma
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока: Козуме Кенма)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/vRK_8Owlvd8.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

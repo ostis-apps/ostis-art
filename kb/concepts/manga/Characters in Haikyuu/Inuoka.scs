@@ -1,0 +1,100 @@
+character_Inuoka_So<-school_Elder_Nekoma;
+<-person;
+<-male;
+<-position_center_blocker;
+
+=> nrel_main_idtf:
+	[ Инуока Соу] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Inuoka_So] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 犬岡走] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_1_11_1996
+(*
+=> nrel_main_idtf:
+	[1 ноября 1996](* <- lang_ru;;*);;
+*);
+
+=>nrel_age:
+	age_16;
+
+=>nrel_height:
+	height_185
+(*
+=> nrel_main_idtf:
+	[185 см](* <- lang_ru;;*);;
+*);
+
+=>nrel_place_of_living:
+city_Tokyo;
+
+<=nrel_sympathy:
+{
+voleybol;
+
+fry_chicken
+(*
+=> nrel_main_idtf:
+	[жареный цыплёнок](* <- lang_ru;;*);;
+*)
+};
+
+=>nrel_game_number:
+	number_7
+(*
+=> nrel_main_idtf:
+	[№7](* <- lang_ru;;*);;
+*);
+
+<=nrel_skill:
+	skill_speed;;
+
+character_Inuoka_So <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Персонаж:  Инуока Соу] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Соу Инуока (яп. 犬岡走 Inuoka Sō) —  первокурсник из старшей школы Некома, играющий на позиции центрального блокирующего. На данный момент его место в команде занимает Лев.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Inuoka_So
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа: Инуока Соу)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Inuoka1.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+character_Inuoka_So <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность:  Инуока Соу] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Инуока довольно крупный для первогодки, один из самых высоких игроков Некомы. Волосы у него «колючие», каштанового цвета. Кареглазый. В манге он почти такой же, за исключением некоторых вещей — он блондин, а глаза более янтарные, чем карие. ](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Inuoka_So
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Показатели игрока:  Инуока Соу)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/pkmx2wX3jgM.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

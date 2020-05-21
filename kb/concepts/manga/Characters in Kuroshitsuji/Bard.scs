@@ -1,0 +1,66 @@
+character_Bardroy <-person;
+<-male;
+<-Phantomhive_House;
+
+=> nrel_main_idtf:
+	[Бардрой] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Bardroy] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ バルドロイ] (* <- lang_jp;;*);
+
+=> nrel_age:
+	age_37
+(*
+=> nrel_main_idtf:
+	[37 лет](* <- lang_ru;;*);;
+*);
+
+=>nrel_height:
+	height_181
+(*
+=> nrel_main_idtf:
+	[181 см](* <- lang_ru;;*);;
+*);
+
+=> nrel_previous_profession:
+	sergeant_of_american_army
+(*
+=> nrel_main_idtf:
+	[cержант американской армии](* <- lang_ru;;*);;
+*);
+
+=>nrel_quote: 
+	[В поместье есть всего одно место, где нельзя повышать голос на повара. Эта кухня — святая всех святых. Даже дворецкий не знает всех тайн этого места.](*<- lang_ru;;*);
+
+
+=> nrel_status_of_character:
+	status_alive
+(*
+=> nrel_main_idtf:
+	[жив](* <- lang_ru;;*);;
+*);;
+
+character_Bardroy <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Внешность: Бардрой] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Бардрой — американец с грязно-светлыми волосами и бирюзовым цветом глаз. Он одевается в типичную для повара форму с длинным белым фартуком, на его шее постоянно болтаются защитные очки, а у него во рту часто можно увидеть сигарету.](*<- lang_ru;;*);;
+*);;
+*);;
+
+character_Bardroy
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Прорисовка персонажа в манге)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Bard.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

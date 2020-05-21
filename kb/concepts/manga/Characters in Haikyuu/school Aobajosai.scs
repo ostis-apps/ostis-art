@@ -1,0 +1,52 @@
+school_Elder_Aobajosai <- concept_high_school;
+<-Haikyuu;
+
+=> nrel_main_idtf:
+	[Старшая Аобаджосай] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Elder Aobajosai] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 青葉|あおば] (* <- lang_jp;;*);
+
+=>nrel_location:
+	prefecture_Miyagi
+(*
+=> nrel_main_idtf:
+	[Префектура Мияги](* <- lang_ru;;*);;
+*);;
+
+school_Elder_Aobajosai <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Старшая школа Аобаджосай] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Старшая Аобаджосай (яп. 青葉|あおば Aoba Jōsai Kōkō) также известна, как Сейджо (яп.: 青城 Seijō) — частная школа в префектуре Мияги.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Elder_Aobajosai <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Форма] (* <- lang_ru;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[У Аоба Джосай, как и у большинства других японских школ, есть своя униформа и дресс-код. Мужская униформа исполнена в «католическом» стиле. Состоит она из бледно-лиловой рубашки, тёмно-красного галстука, светло-кремового жилета, белого пиджака и светло-коричневых брюк с тёмными полосками, образующими квадраты.](*<- lang_ru;;*);;
+*);;
+*);;
+
+school_Elder_Aobajosai
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Униформа)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/AobaJohsai(uniform).jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;

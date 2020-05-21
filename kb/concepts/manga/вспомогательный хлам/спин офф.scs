@@ -1,0 +1,4 @@
+ nrel_spin_off <- sc_node_norole_relation;
+
+  => nrel_main_idtf: [спин-офф*](*<- lang_ru;;*);
+  => nrel_main_idtf: [spin off](*<- lang_en;;*);;

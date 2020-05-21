@@ -1,0 +1,80 @@
+person_Toboso_Yana
+	<- person;
+	<- female;
+	<- mangaka;
+
+=> nrel_main_idtf:
+	[Тобосо Яна] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[Toboso Yana] (* <- lang_en;;*);
+=> nrel_idtf:
+	[ 枢 やな] (* <- lang_jp;;*);
+
+=> nrel_date_of_birth:
+	date_24_01_1984
+(*
+=> nrel_main_idtf:
+	[24 января 1984](* <- lang_ru;;*);;
+*);
+=> nrel_place_of_birth:
+	country_Japan;
+
+=>nrel_famous_work:
+Kuroshitsuji;
+
+<=nrel_pseudonym:
+{
+pseudonym_Yanao_Rock
+(*
+=> nrel_main_idtf:
+	[Янао Рок](* <- lang_ru;;*);;
+*);
+pseudonym_Takaragi_Yana
+(*
+=> nrel_main_idtf:
+	[Такараги Яна](* <- lang_ru;;*);;
+*)
+};;
+
+person_Toboso_Yana <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Биография: Тобосо Яна] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Biography: Toboso Yana] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Яна Тобосо (枢 やな, Toboso Yana) — японская мангака, известная под псевдонимами Янао Рок и Такараги Яна. Ее наиболее известной работой является манга Kuroshitsuji.Она ведет свой блог, а также у нее есть веб сайт.Яне Тобосо 36 лет, но на настоящее время нет ни одной фотографии, подтверждающей ее реальную внешность, а также ни одного доказательства ее появления на публике.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Yana Toboso (枢 や な) is a Japanese mangaka known by the pseudonyms Yanao Rock and Takaragi Yana. Her most famous work is the manga Kuroshitsuji. She has a blog and also has a website. Yana Toboso is 36 years old, but there is currently no photo confirming her real appearance, as well as no evidence of her appearance in public.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Toboso_Yana <- rrel_key_sc_element: ...
+(*
+<- sc_definition;;
+	=> nrel_main_idtf: [Интересы Тобосо Яна] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Interests of Toboso Yana] (* <- lang_en;; *);;
+<- definition;;
+<= nrel_sc_text_translation: ...
+(*
+-> rrel_example:
+	[Яна является поклонницей множества известных групп и исполнителей, таких как: Slipknot, Linkin Park, SID, Becca, Gackt, HYDE, Tommy heavenly6, UVERworld, L'arc~en~Ciel, Kalafina и Дэнни Эльфмана. Также Тобосо любит кошек, спать и вампиров. Кроме того, она является поклонницей фильма-мюзикла Кошмар перед Рождеством.](*<- lang_ru;;*);;
+-> rrel_example:
+	[Yana is a fan of many famous bands and artists such as: Slipknot, Linkin Park, SID, Becca, Gackt, HYDE, Tommy heavenly6, UVERworld, L'arc ~ en ~ Ciel, Kalafina and Danny Elfman. Toboso also loves cats, sleep and vampires. In addition, she is a fan of the musical film The Nightmare Before Christmas.](*<- lang_en;;*);;
+*);;
+*);;
+
+person_Toboso_Yana
+<-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+	[Рис. (Автопортрет Тобосо Яна)](*<-lang_ru;;*);
+	[Pic. (Self-portrait of Toboso Yana)](*<-lang_en;;*);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://images/Yana.png"(*=>nrel_format:format_png;;*);;
+*);;
+*);;

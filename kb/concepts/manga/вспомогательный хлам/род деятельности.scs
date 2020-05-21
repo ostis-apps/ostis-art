@@ -1,0 +1,5 @@
+nrel_occupation<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[род деятельности*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[occupation] (* <- lang_en;;*);;

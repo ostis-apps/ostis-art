@@ -1,0 +1,13 @@
+nrel_trainer<-sc_node_norole_relation;
+
+=> nrel_main_idtf:
+	[тренер*] (* <- lang_ru;;*);
+=> nrel_idtf:
+	[trainer] (* <- lang_en;;*);;
+
+definition ->...
+(*
+->rrel_key_sc_element: nrel_trainer;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[тренер —  человек во главе команды.Он берет тайм-ауты, общаются с судьями, принимает все важные для команды решения, такие как принятие основного состава и т.д. Он ответственный за тренировки и стратегию для команды.](*<-lang_ru;;*);;*);;
+=> nrel_main_idtf: [Опр (тренер*)](*<- lang_ru;;*);;
+*);;
