@@ -1,0 +1,56 @@
+graffiti<-sc_node_not_relation;;
+graffiti => nrel_main_idtf:
+     [граффити](* <-lang_ru;; *);
+     [graffiti](* <-lang_en;; *);;
+graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Граффити — изображения или надписи, выцарапанные, написанные или нарисованные краской или чернилами на стенах и других поверхностях, к граффити можно отнести любой вид уличного раскрашивания стен, на которых можно найти всё: от просто написанных слов до изысканных рисунков.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Graffiti is writing or drawings made on a wall or other surface, usually as a form of artistic expression, without permission and within public view. Graffiti ranges from simple written words to elaborate wall paintings. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti -> genre_masterpiece;;
+graffiti -> genre_computer_roc_style;;
+graffiti -> genre_freestyle;;
+graffiti -> genre_abstract_graffiti;;
+graffiti -> genre_clean_advertising;;
+graffiti -> genre_spray_art;;
+graffiti -> genre_scratching;;
+graffiti -> genre_tagging;;
+graffiti -> genre_bombing;;
+graffiti -> genre_blockbuster;;
+graffiti -> genre_wild_style;;
+graffiti -> genre_brush;;
+graffiti -> genre_3D_style;;
+graffiti -> genre_bubble_letter;;
+graffiti -> genre_calligraffiti;;
+graffiti -> genre_character;;
+graffiti -> genre_abstract_graffiti;;
+graffiti -> genre_hardcore_graffiti;;
+graffiti -> genre_messiah_style;;
+graffiti -> genre_stencil_graffiti;;
+
+graffiti -> font_acids;;
+graffiti -> font_ember;;
+graffiti -> font_handstyle_graffiti;;
+graffiti -> font_crazy_marker_graffiti;;
+graffiti -> font_bling_blings;;
+graffiti -> font_Gas_Rock;;
+graffiti -> font_LAM;;
+graffiti -> font_in_knots;;
+graffiti -> font_mingser;;
+graffiti -> font_minority;;
+graffiti -> font_mischief;;
+graffiti -> font_okami;;
+graffiti -> font_resize;;
+graffiti -> font_rolingline;;
+

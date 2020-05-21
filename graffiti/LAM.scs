@@ -1,0 +1,32 @@
+font_LAM<- sc_node_not_relation;;
+font_LAM => nrel_main_idtf:
+     [ЛЭМ](* <-lang_ru;; *);
+     [LAM](* <-lang_en;; *);;
+font_LAM <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: ЛЭМ] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: LAM] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Данный стиль характеризуется хаотичностью стиля написания букв. Шрифт LAM имеет длинные, вытянутые буквы с резьбой и грубой эстетикой.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This style is characterized by the chaotic style of writing letters. The LAM font has long, elongated letters with carvings and rude aesthetics.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_LAM 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ЛЭМ)](*<-lang_ru;;*);
+		[Pic. (LAM)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/LAM.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

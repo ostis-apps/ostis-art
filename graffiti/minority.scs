@@ -1,0 +1,32 @@
+font_minority<- sc_node_not_relation;;
+font_minority => nrel_main_idtf:
+     [меньшинство](* <-lang_ru;; *);
+     [minority](* <-lang_en;; *);;
+font_minority <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: меньшинство] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: minority] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Этот шрифт имеет грубый, расписанный вручную стиль, который идеально подходит для дизайна, вдохновленного уличным искусством.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This font has a crude, hand-painted style that is perfect for street art inspired designs.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_minority 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Меньшинство)](*<-lang_ru;;*);
+		[Pic. (Minority)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/minority.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

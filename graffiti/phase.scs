@@ -1,0 +1,71 @@
+person_PHASE_2
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Майкл Лоуренс Марроу] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [PHASE 2] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Michael Lawrence Marrow] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Lonny Wood] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Лонни Вуд] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [ФАЗА 2] (* <- lang_ru;;*);
+
+   => nrel_date_of_birth:
+            date_2_8_1955
+            (*
+                => nrel_main_idtf:
+                [2 августа 1955](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+ => nrel_date_of_death:
+            date_19_12_2019
+            (*
+                => nrel_main_idtf:
+                [19 декабря 2019](* <- lang_ru;;*);;
+            *);
+   => nrel_place_of_death:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_bubble_letter;;
+        -> genret_bombing;;
+    *);;
+
+person_PHASE_2 <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Майкл Лоуренс Марроу] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Michael Lawrence Marrow] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Майкл Лоуренс Марроу, известный как PHASE 2 и Лонни Вуд, был американским художником по аэрозольным краскам в Нью-Йорке. Наиболее активный в 1970-х годах, Фаза 2, как правило, ему приписывается возникновению стиля аэрозольного письма «пузырьковая буква», также известного как «мягкость». Он также оказал влияние на раннюю сцену хип-хопа. В конце 1972 года Лонни Вуд впервые использовал раннюю версию «пузырчатого письма» или «софти», который стал бы чрезвычайно влиятельным и считается «гигантским скачком» в художественном виде.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Michael Lawrence Marrow, known as PHASE 2 and Lonny Wood, was an American aerosol paint artist based in New York City. Mostly active in the 1970s, Phase 2 is generally credited with originating the "bubble letter" style of aerosol writing, also known as "softies". He was also influential in the early hip hop scene. In late 1972, Phase 2 first used an early version of the "bubble letter" or "softie", a style of writing which would become extremely influential and is considered a "giant leap" in the art form.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_PHASE_2 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Майкл Лоуренс Марроу)](*<-lang_ru;;*);
+		[Pic. (Michael Lawrence Marrow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/phase.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

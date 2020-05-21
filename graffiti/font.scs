@@ -1,0 +1,29 @@
+nrel_font
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[шрифт*] (* <-lang_ru;; *);
+
+<- binary_relation;
+<- oriented_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+<- antireflexive_relation;
+
+=> nrel_first_domain: graffiti;
+=> nrel_second_domain: concept_genre;;
+
+nrel_font
+    <- rrel_key_sc_element:...
+    (*
+        => nrel_main_idtf: [(Опр.(шрифт*)] (* <- lang_ru ;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:...
+        (*
+            -> rrel_example: [Шрифт - это литералы определенного размера и стиля.] (* <- lang_ru;; *);;
+        *);;
+        <= nrel_using_constants:...
+        (*
+            -> graffiti;;
+            -> concept_genre;;
+        *);;
+    *);;

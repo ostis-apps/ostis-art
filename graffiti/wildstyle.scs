@@ -1,0 +1,32 @@
+genre_wild_style<- sc_node_not_relation;;
+genre_wild_style => nrel_main_idtf:
+     [дикий стиль](* <-lang_ru;; *);
+     [wild style](* <-lang_en;; *);;
+genre_wild_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: дикий стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: wild style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Дикий стиль» — это динамичный стиль, трудный для прочтения. Рисуется 3-4 и более цветами, с множеством различных деталей и переплетений, которые сильно затрудняют прочтения текста. Зачастую только сами авторы работ способны прочитать, что они нарисовали, в этом стиле рисуют уже опытные уличные художники, которые продумали всё до мельчайших деталей на скетче, но даже после всех приготовлений рисование граффити в этом стиле занимает довольно много времени. Дикий стиль придумали для привлечения внимания прохожих, главное заставить их обратить внимание на граффити и вызвать у них интерес к расшифровке написанного.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[«Wild style» is a dynamic style that is difficult to read. It is drawn in 3-4 or more colors with many different details and interweaving, which greatly complicate the reading of the text. Often, only the authors of the works themselves are able to read what they painted, already experienced street artists draw this style, who thought out everything to the smallest detail on the sketch, but even after all the preparations, drawing graffiti in this style takes quite a lot of time. A wild style was invented to attract the attention of passers-by, the main thing is to make them pay attention to graffiti and arouse their interest in decoding what is written.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_wild_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дикий стиль)](*<-lang_ru;;*);
+		[Pic. (Wild style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/wildstyle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

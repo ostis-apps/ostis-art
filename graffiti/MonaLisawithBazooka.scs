@@ -1,0 +1,44 @@
+graffiti_Mona_Lisa_with_Bazooka
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Мона Лиза с базукой] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Mona Lisa with Bazooka] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Mona_Lisa_with_Bazooka <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Мона Лиза с базукой] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Mona Lisa with Bazooka] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Первый вариант граффити в Сохо был закрашен уже через несколько дней после своего появления. Мона Лиза — идеал женственности и безмятежности. Возможно, художник хотел подчеркнуть диссонанс между нежной улыбкой Джоконды и мощным оружием уничтожения…    Но есть и другая трактовка: спокойствие Моны Лизы отражает пресыщенность благополучного общества новостями о войнах, происходящих где-то далеко.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The first version of graffiti in Soho was painted over a few days after its appearance. Mona Lisa is the ideal of femininity and serenity. Perhaps the artist wanted to emphasize the dissonance between the gentle smile of Gioconda and the powerful weapon of destruction ... But there is another interpretation: the calm of Mona Lisa reflects the satiety of a prosperous society with news of wars that take place somewhere far away.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Mona_Lisa_with_Bazooka 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мона Лиза с базукой)](*<-lang_ru;;*);
+		[Pic. (Mona Lisa with Bazooka)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/MonaLisawithBazooka.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

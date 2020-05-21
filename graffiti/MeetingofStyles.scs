@@ -1,0 +1,24 @@
+festival_Meeting_of_Styles
+
+    => nrel_main_idtf:
+            [Встреча Стилей] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Meeting of Styles] (* <- lang_en;;*);;  
+
+
+festival_Meeting_of_Styles <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Встреча Стилей] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Meeting of Styles] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Встреча Стилей - международная сеть художников и сторонников граффити, которая спонсирует мероприятия по созданию надписей на стенах в более чем шестнадцати странах. Целью мероприятий является продвижение и узаконивание формы искусства. Идея возникла в 1995 году в Германии, реорганизовавшись под нынешним названием в 2002 году. События создают фрески в различных местах, которые могут включать общественные места, такие как метро. Однако во время и даже после событий имели место конфликты с властями.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Meeting of Styles is an international network of graffiti artists and supporters, which sponsors graffiti mural creation events in over sixteen countries. The purpose of the events is to promote and legitimize the art form. The idea surged in 1995 in Germany, reorganized under the current name in 2002. Events create murals in various kinds of locations, which can include public spaces such as subways. However, there have been conflicts with authorities during and even after events.](*<- lang_en;;*);;
+			*);;
+          *);;
+

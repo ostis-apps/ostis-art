@@ -1,0 +1,55 @@
+person_Dmitri_Vrubel
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Дмитрий Владимирович Врубель] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Dmitri Vladimirovich Vrubel] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_17_4_1958
+            (*
+                => nrel_main_idtf:
+                [17 апреля 1958](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USSR;
+    => nrel_place_of_birth:
+            country_Russia;
+
+    <= nrel_genre:...
+    (*
+        -> genre_character;;
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Dmitri_Vrubel <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Дмитрий Владимирович Врубель] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Kurt Wenner] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Дмитрий Владимирович Врубель — российский художник, известный главным образом как автор граффити «Господи! Помоги мне выжить среди этой смертной любви». Живёт в Берлине.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Dmitri Vladimirovich Vrubel is a Russian painter. He is best known for his East Side Gallery-painting My God, Help Me to Survive This Deadly Love, depicting the kissing communist leaders Leonid Brezhnev and Erich Honecker.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Dmitri_Vrubel 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дмитрий Владимирович Врубель)](*<-lang_ru;;*);
+		[Pic. (Dmitri Vladimirovich Vrubel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/dmitrivrubel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,56 @@
+person_T_KID
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Джулио Каверо] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Julius Cavero] (* <- lang_en;;*);
+    => nrel_idtf:
+            [T-KID] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Terrible] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [T-KID 170] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [King 13] (* <- lang_en;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_wild_style;;
+    *);;
+
+person_Claw_Money <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Джулио Каверо] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Julius Cavero] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Джулио Каверо - известный художник граффити из Бронкса, Нью-Йорк. Он начал в 1970-х годах, помечая именем "Король 13" улицы, каждый раз, когда побеждал в соревнования трюков на качелях в местных парках. Он недолго был членом банд под названиями "Чародеи Бронкса" и "Отступники Гарлема"я. где он научился разрисовывать поезда.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Julius Cavero, T-KID (or Terrible T-KID 170) is a well-known graffiti artist from the Bronx, New York. He started in the 1970s, tagging the name "King 13" every time he'd win a challenge, performing daredevil tricks on swings in local parks. He was a short lived member of a gang called the Bronx Enchanters and The Renegades of Harlem, where he learned how to paint trains.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Claw_Money 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джулио Каверо)](*<-lang_ru;;*);
+		[Pic. (Julius Cavero)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/TKID.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

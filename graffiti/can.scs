@@ -1,0 +1,32 @@
+sc_node_not_relation->concept_can;;
+concept_can => nrel_main_idtf:
+     [кэн](* <-lang_ru;; *);
+     [can](* <-lang_en;; *);;
+concept_can <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: кэн] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: can] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Кэн — аэрозольная краска в баллончиках для граффити.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Can - spray paint in graffiti spray cans.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+concept_can 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэн)](*<-lang_ru;;*);
+		[Pic. (Can)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/can.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

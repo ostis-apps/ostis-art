@@ -1,0 +1,64 @@
+person_Stay_High_149
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Уэйн Робертс] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Стей Хай 149] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Wayne Roberts] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Stay High 149] (* <- lang_en;;*);  
+
+   => nrel_date_of_birth:
+            date_20_10_1950
+            (*
+                => nrel_main_idtf:
+                [20 октября 1950](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+    => nrel_place_of_death:
+            country_USA;
+    => nrel_date_of_death:
+            date_11_7_2012
+            (*
+                => nrel_main_idtf:
+                [11 июля 2012](* <- lang_ru;;*);;
+            *);
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+    *);;
+
+person_Stay_High_149 <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Стей Хай 149] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Stay High 149] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Робертс родился в Эмпории, штат Вирджиния, и переехал в Бронкс в Нью-Йорке в возрасте шести лет. В конце 1970-х его стали назвать «суперзвездой» мира граффити. Считается, что его тег один из самых используемых в мире, а его работы использовались в британской телевизионной программе 1960-х "Святой".](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Roberts was born in Emporia, Virginia, moving to the Bronx, New York at age six. He was called a "superstar" of the graffiti world in the late 1970s. Widely considered to use one of the most famous graffiti tags in the world, his trademark includes a smoking version of the stick figure from 1960s British television program The Saint.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Stay_High_149 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стей Хай 149)](*<-lang_ru;;*);
+		[Pic. (Stay High 149)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/StayHigh149.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

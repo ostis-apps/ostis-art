@@ -1,0 +1,44 @@
+graffiti_Interest_in_People
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Интерес к людям] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Interest in People] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Interest_in_People <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Интерес к людям] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Interest in People] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эта работа Бэнкси впервые появилась на стороне магазина одежды в Торонто примерно в мае 2010 года. Он изображает продавца и, без сомнения, нацелен на капиталистическое общество, где уважение к людям часто можно рассматривать как менее важное, чем товары. Граффити продолжалось всего пару дней, прежде чем оно было закрашено сотрудниками магазина.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This work Banksy first appeared on the side of a clothing store in Toronto around May 2010. He portrays a seller and, without a doubt, is aimed at a capitalist society where respect for people can often be seen as less important than goods. Graffiti lasted only a couple of days before it was painted over by store employees.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Interest_in_People 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Интерес к людям)](*<-lang_ru;;*);
+		[Pic. (Interest in People)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/InterestinPeople.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

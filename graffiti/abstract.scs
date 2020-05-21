@@ -1,0 +1,32 @@
+genre_abstract_graffiti<- sc_node_not_relation;;
+genre_abstract_graffiti=> nrel_main_idtf:
+     [абстрактное граффити](* <-lang_ru;; *);
+     [abstract graffiti](* <-lang_en;; *);;
+genre_abstract_graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: абстрактное граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: abstrac graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Здесь название говорит само за себя. Абстрактное граффити отличается от остальных тем, что не ставит целью создать читаемый рисунок. Здесь это не главное. Совокупность линий, точек, цветов, эффектов и прочих визуальных элементов направлена на то, чтобы создать этакий коллаж, который будет приятно смотреться и восприниматься скорее на психологическом уровне (эта черта присуща практически всем видам абстрактного искусства). Чаще всего в abstract не заложены какие-либо послания, тут важнее настроение, которое несет рисунок.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Here the name speaks for itself. Abstract graffiti differs from the rest in that it does not aim to create a readable picture. This is not the point here. The combination of lines, dots, colors, effects and other visual elements is aimed at creating a sort of collage that will look nice and be perceived more likely at the psychological level (this feature is inherent in almost all types of abstract art). Most often, abstract messages are not embedded in any abstract, the mood that the drawing carries is more important.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_abstract_graffiti
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Абстрактное граффити)](*<-lang_ru;;*);
+		[Pic. (Abstract graffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/abstract.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

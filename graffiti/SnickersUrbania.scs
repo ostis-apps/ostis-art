@@ -1,0 +1,24 @@
+festival_Snickers_Urbania
+
+    => nrel_main_idtf:
+            [Snickers Урбания] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Snickers Urbania] (* <- lang_en;;*);;  
+
+
+festival_Snickers_Urbania <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Snickers Урбания] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Snickers Urbania] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Snickers Urbania is an annual youth street culture festival. Official spelling: SNICKERS URBANIA. There is a spelling of the name in Cyrillic: "Snickers Urbania." The festival was held for the first time in 2001, today it includes almost all the main areas of street culture: extreme sports, graffiti, break dance, beatbox, freestyle, as well as a non-profit competition for young music groups. The aim of the festival is to give modern youth a chance to express themselves and their talent, as well as provide an opportunity to try their hand at professional equipment for extreme sports. It is held in the largest cities of Russia.](*<- lang_en;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Snickers Урбания — ежегодный молодёжный фестиваль уличной культуры. Официальное написание: SNICKERS URБАNиЯ. Встречается написание названия кириллицей: «Сникерс Урбания». Фестиваль впервые состоялся в 2001 году, на сегодняшний день включает в себя почти все основные направления уличной культуры: экстремальный спорт, граффити, брейк-данс, битбокс, фристайл, а также некоммерческий конкурс для молодых музыкальных групп. Цель фестиваля — дать шанс современной молодёжи заявить о себе и о своём таланте, а также предоставить возможность попробовать свои силы на профессиональном оборудовании для экстремальных видов спорта. Проводится в крупнейших городах России.](*<- lang_ru;;*);;
+			*);;
+          *);;
+

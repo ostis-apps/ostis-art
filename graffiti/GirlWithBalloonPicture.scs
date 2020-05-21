@@ -1,0 +1,52 @@
+graffiti_Girl_With_Balloon
+    <- painting;
+
+    => nrel_main_idtf:
+            [Девочка с воздушным шаром] (* <- lang_ru;;*);
+    => nrel_main_idtf:
+            [Любовь в мусорном баке] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Balloon Girl] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Girl With Balloon] (* <- lang_en;;*); 
+    => nrel_idtf:
+            [Girl With A Balloon] (* <- lang_en;;*); 
+    => nrel_idtf:
+            [Love Is in the Bin] (* <- lang_en;;*); 
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Girl_With_Balloon <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Девочка с воздушным шаром] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Girl With Balloon] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Девочка с воздушным шаром» — созданная Бэнкси в 2006 году авторская копия одноимённого граффити 2002 года, а также перформанс по её уничтожению во время аукциона. Картина была разрезана встроенным в раму шредером во время аукциона Sotheby's сразу после объявления о её продаже. Искусствоведы Sotheby's отмечали, что, как и большая часть работ Бэнкси, изображение неоднозначно, оставляя зрителя в размышлении, пытается ли девочка поймать летящий воздушный шар — символ детского счастья, или же она позволила ему выскользнуть из руки и смотрит с сожалением, как он улетает. В этом случае картина — метафора, возможно, окончания детства и потери невинности.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				["Girl With Balloon" - created by Banksy in 2006, the author's copy of the eponymous graffiti of 2002, as well as the performance to destroy it during the auction. The painting was cut by a shredder built into the frame during the Sotheby's auction immediately after the announcement of its sale. Sotheby's art historians noted that, like most Banksy's works, the image is ambiguous, leaving the viewer wondering if the girl is trying to catch a flying balloon - a symbol of childhood happiness, or whether she allowed him to slip out of her hand and looks with regret as he flies away. In this case, the picture is a metaphor, perhaps the end of childhood and the loss of innocence.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Girl_With_Balloon 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Девочка с воздушным шаром)](*<-lang_ru;;*);
+		[Pic. (Girl With Balloon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/GirlWithBalloon.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

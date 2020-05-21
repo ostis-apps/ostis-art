@@ -1,0 +1,44 @@
+graffiti_Bomb_Hugger
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [В обнимку с бомбой] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Bomb Hugger] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Bomb_Hugger <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: В обнимку с бомбой] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Bomb Hugger] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фотография молодой девушки, прижимающей к груди бомбу, была одним из популярных творений Бэнкси еще в 2003 году. Она была исполнена на стене в Ист-Энде Лондона. Работа символизирует ужас войны рядом с невинностью и чистотой молодой девушки – добро и зло объединились и задались вопросом о том, почему мы по своей сути занимаемся войной и борьбой, когда вокруг нас может быть мир.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The photo of a young girl who was one of the most popular creative works was back in 2003. She was a wall performer in the East End of London. The work symbolizes the horror of war along with the innocence and purity of young girls - good and evil unite and wonder why we fight and fight when there can be peace around us.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Bomb_Hugger 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (В обнимку с бомбой)](*<-lang_ru;;*);
+		[Pic. (Bomb Hugger)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/BombHugger.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

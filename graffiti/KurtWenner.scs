@@ -1,0 +1,53 @@
+person_Kurt_Wenner
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Курт Веннер] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Kurt Wenner] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_17_4_1958
+            (*
+                => nrel_main_idtf:
+                [17 апреля 1958](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Kurt_Wenner <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Курт Веннер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Kurt Wenner] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Курт Веннер — художник, известный своей монументальной и уличной живописью мелом с использованием проекции, называемой анаморфозом. Курт Веннер создал свою первую заказную работу в возрасте шестнадцати лет, а уже в семнадцать решил посвятить свою жизнь живописи. Его объёмные рисунки на асфальте и брусчатке были описаны во многих газетах и показаны в нескольких телевизионных шоу.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Kurt Wenner is an artist known for his monumental and street chalk painting using a projection called anamorphosis. Kurt Wenner created his first commissioned work at the age of sixteen, and at seventeen decided to devote his life to painting. His voluminous drawings on asphalt and paving stones have been described in many newspapers and shown in several television shows.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Kurt_Wenner 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Курт Веннер)](*<-lang_ru;;*);
+		[Pic. (Kurt Wenner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/KurtWenner.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

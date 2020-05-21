@@ -1,0 +1,44 @@
+graffiti_Flying_Shopper
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Летящий покупатель] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Flying Shopper] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Flying_Shopper <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Летящий покупатель] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Flying Shopper] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[У Бэнкси есть серия работ с изображением тележек из супермаркета. Художник высмеивает потребительскую суть современного человека. На граффити «Летящий покупатель» женщина так крепко держится за тележку, что готова разбиться вместе с ней, но не отпустить. Работа появилась на заброшенном здании Лондона в 2011 году. Это место тут же стало популярным. Однако здание давно пустует, и его собираются снести.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Banksy has a series of works featuring supermarket trolleys. The artist makes fun of the consumer essence of modern man. In Flying Shopper graffiti, a woman clings to the cart so tightly that she is ready to break with it, but not let go. The work appeared on an abandoned building in London in 2011. This place immediately became popular. However, the building has long been empty, and they are going to demolish it.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Flying_Shopper 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Летящий покупатель)](*<-lang_ru;;*);
+		[Pic. (Flying Shopper)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/FlyingShopper.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

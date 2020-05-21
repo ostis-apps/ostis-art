@@ -1,0 +1,57 @@
+person_Claw_Money
+    <- person;
+    <- female;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Клау Моней] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Claw Money] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Claudia Gold] (* <- lang_en;;*);  
+    => nrel_idtf:
+            [Клаудия Голд] (* <- lang_ru;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+   => nrel_date_of_birth:
+            date_1968
+            (*
+                => nrel_main_idtf:
+                [1968](* <- lang_ru;;*);;
+            *);
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_bombing;;
+    *);;
+
+person_Claw_Money <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Клаудия Голд] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Claudia Gold] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Клау Моней - нью-йоркский автор граффити, ставшая модельером. В 2009 году Tag au Grand Palais в Париже, Франция, назвал Клаудию Голд одним из самых влиятельных художников граффити всех времен.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Claw Money is a New York-based graffiti writer turned fashion designer. In 2009 Tag au Grand Palais in Paris, France named Claudia Gold one of the most influential graffiti artists of all time.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Claw_Money 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Клаудия Голд)](*<-lang_ru;;*);
+		[Pic. (Claudia Gold)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/ClawMoney.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

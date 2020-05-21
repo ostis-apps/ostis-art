@@ -1,0 +1,31 @@
+font_Gas_Rock<- sc_node_not_relation;;
+font_Gas_Rock => nrel_main_idtf:
+     [Gas’Rock](* <-lang_en;; *);;
+font_Gas_Rock <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: Gas’Rock] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: Gas’Rock] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Этот смелый шрифт сочетает в себе шероховатость и четкость линий, что делает его заметным.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This bold font combines roughness and sharpness of lines, which makes it noticeable.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_Gas_Rock 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Gas’Rock)](*<-lang_ru;;*);
+		[Pic. (Gas’Rock)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Gas’Rock.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

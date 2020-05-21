@@ -1,0 +1,34 @@
+genre_stencil_graffiti<- sc_node_not_relation;;
+genre_stencil_graffiti => nrel_main_idtf:
+     [трафаретноe граффити](* <-lang_ru;; *);
+     [stencil graffiti](* <-lang_en;; *);;
+genre_stencil_graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: трафаретноe граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: stencil graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Трафаретное граффити - это граффити, для нанесения которого был использован трафарет. Для работы в данном жарне используется метод воспроизведения как текстов и надписей, так и изображений при помощи трафаретной печатной формы, сквозь которую краска проникает на запечатываемый материал.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[
+Screen graffiti is a graffiti for the application of which a stencil was used. To work in this roast, the method of reproducing both texts and inscriptions, and images using a screen printing form, through which ink penetrates onto the printed material, is used.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_stencil_graffiti 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Трафаретноe граффити)](*<-lang_ru;;*);
+		[Pic. (Stencil graffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/stencilgraffiti.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

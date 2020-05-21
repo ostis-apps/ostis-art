@@ -1,0 +1,49 @@
+genre_3D_style<- sc_node_not_relation;;
+genre_3D_style => nrel_main_idtf:
+     [объемный стиль](* <-lang_ru;; *);
+     [3D style](* <-lang_en;; *);;
+genre_3D_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: объемный стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: 3D style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Объемный стиль» – одно из необычных и самых сложных направлений искусства стрит-арта, оно представляет собо1 изображение в двухмерном пространстве трехмерных объектов. Большинство таких граффити легальные и рисуются за деньги заказчиков. По этой причине этим занимаются профессионалы с художественными навыками, которые могут гарантировать результат и хорошо понимают предъявляемые к ним требования..](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[3D style is one of the most unusual and most complex areas of street art, it represents a single image in a two-dimensional space of three-dimensional objects. Most of these graffiti are legal and are drawn for the money of customers. For this reason, professionals with artistic skills who can guarantee the result and well understand the requirements for them are engaged in this.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_3D_style 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: объемный стиль] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: 3D style] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[FX](* <- lang_ru;; *);
+			[FX](* <- lang_en;; *);;
+		*);;
+	*);;
+
+genre_3D_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Объемный стиль)](*<-lang_ru;;*);
+		[Pic. (3D style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/3d.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

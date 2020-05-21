@@ -1,0 +1,39 @@
+graffiti_Kate_Moss
+    <- painting;
+
+    => nrel_main_idtf:
+            [Кейт Мосс] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Kate Moss] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;;
+
+graffiti_Kate_Moss <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Кейт Мосс] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Kate Moss] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эта работа — своеобразный ответ на безумие арт-рынка, а также дань уважения Энди Уорхолу, который в свое время сумел показать потребительскую суть рынка искусства. Сегодня, как и во времена Уорхола,  бренд важнее истинного мастерства. На момент создания этого принта Кейт Мосс была на пике своей популярности. Художник решил выбрать именно ее и не прогадал. Работы сразу начали скупать.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This work is a kind of response to the madness of the art market, as well as a tribute to Andy Warhol, who at one time managed to show the consumer essence of the art market. Today, as in the days of Warhol, the brand is more important than true craftsmanship. At the time of the creation of this print, Kate Moss was at the peak of her popularity. The artist decided to choose it and did not lose. Work immediately began to buy up.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Kate_Moss
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кейт Мосс)](*<-lang_ru;;*);
+		[Pic. (Kate Moss)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/KateMoss.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

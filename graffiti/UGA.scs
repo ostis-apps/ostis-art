@@ -1,0 +1,44 @@
+festival_United_Graffiti_Artists
+
+    => nrel_main_idtf:
+            [Объединение граффитри художников] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [United Graffiti Artists] (* <- lang_en;;*);;  
+
+festival_United_Graffiti_Artists <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Объединение граффитри художников] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: United Graffiti Artists] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Объединение граффитри художников (он же ОГХ) - ранний американский коллектив художников-граффити, основанный в 1972 году Хьюго Мартинесом в Нью-Йорке. Мартинес, в то время студенческий активист из Городского колледжа Нью-Йорка, организовал группу подростков, которые метили метро в свободный коллектив, формализовали свою работу и проложили путь для коммерциализации. В сентябре 1973 года UGA организовала первую выставку граффити в галерее Razor в Сохо.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[United Graffiti Artists (aka UGA) was an early American graffiti artists collective, founded in 1972 by Hugo Martinez in New York City. Martinez, then a student activist at City College of New York, organized a group of teenagers who had been tagging the subways into a loose collective, formalizing their work and paving the way for commercialization. In September 1973, UGA organized the first ever gallery show of graffiti at the Razor Gallery in SoHo.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+festival_United_Graffiti_Artists 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сын мигранта из Сирии)](*<-lang_ru;;*);
+		[Pic. (The Son of a Migrant from Syria)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/UGA.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+festival_United_Graffiti_Artists <= nrel_inclusion: ... 
+(*
+	<- explanation;;
+	=> nrel_main_idtf:
+		[Участники](*<-lang_ru;; *); 
+		[Members](*<-lang_en;; *);;
+	-> person_PHASE_2; person_TAKI_183;; //идентификаторы, на которые делится разбиение
+*);;

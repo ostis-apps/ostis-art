@@ -1,0 +1,53 @@
+person_Banksy
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Бэнкси] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Banksy] (* <- lang_en;;*);
+
+   => nrel_date_of_birth:
+            date_1974
+            (*
+                => nrel_main_idtf:
+                [1974](* <- lang_ru;;*);;
+            *);
+    => nrel_place_of_birth:
+            country_Great_Britain;
+
+    <= nrel_genre:...
+    (*
+        -> genre_tagging;;
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Banksy <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Бэнкси] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Banksy] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Бэнкси — псевдоним английского андерграундного художника стрит-арта, политического активиста и режиссёра. Вокруг его биографии ведётся много споров; в частности, ведутся споры о настоящем имени и происхождении Бэнкси. В начале марта 2016 года ряд СМИ опубликовали новость, что учёные из колледжа Королевы Марии Лондонского университета выяснили настоящее имя Бэнкси — Робин Каннингем. По другой версии, Бэнкси — это Роберт Дель Ная, британский музыкант (группа Massive Attack), певец и граффитист.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Banksy is the pseudonym of the English underground street art artist, activist and director. Around his biography there is much debate; in particular, disputes are underway about Banksy's real name and origin. At the beginning of March 2016, several news articles were published dedicated to the College of the Kingdom of Mary of the University of London, London and found out Banksy's real name is Robin Cunningham. According to another version, Robert Del Nye, a British musician (Massive Attack band), singer and graffiti artist.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Banksy 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бэнкси)](*<-lang_ru;;*);
+		[Pic. (Banksy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/banksy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

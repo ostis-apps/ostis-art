@@ -1,0 +1,49 @@
+genre_scratching<- sc_node_not_relation;;
+genre_scratching => nrel_main_idtf:
+     [скрэтчинг](* <-lang_ru;; *);
+     [scratching](* <-lang_en;; *);;
+genre_scratching <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: скрэтчинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: scratching] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Скрэтчинг – это царапины которые вы видите в метро или в другом транспорте. Даже среди райтеров считается другим тоном, так как редко из этого может получиться, что-либо стоящее.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Scratching, or scrabbing - these are scratches that you see in the subway or in other vehicles. Even among the writers it is considered a different tone, since it rarely can turn out to be anything worthwhile.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_scratching 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: скрэтчинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: scratching] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[скрэббинг](* <- lang_ru;; *);
+			[scrabbing](* <- lang_en;; *);;
+		*);;
+	*);;
+
+genre_scratching 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Скрэтчинг)](*<-lang_ru;;*);
+		[Pic. (Scratching)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/scratching.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

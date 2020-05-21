@@ -1,0 +1,33 @@
+genre_spray_art<- sc_node_not_relation;;
+genre_spray_art => nrel_main_idtf:
+     [спрей-арт](* <-lang_ru;; *);
+     [spray art](* <-lang_en;; *);;
+
+genre_spray_art <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: спрей-арт] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: spray art] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Спрей-арт — одна из разновидностей граффи́ти, нанесение на здания и другие объекты городского пейзажа рисунков и надписей с помощью аэрозольной краски.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Spray art - one of the varieties of graphic images, drawing on buildings and other objects of city landscapes and inscriptions with spray paint.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_spray_art 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Спрей-арт)](*<-lang_ru;;*);
+		[Pic. (Spray art)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/sprayart.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

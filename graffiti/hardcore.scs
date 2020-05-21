@@ -1,0 +1,32 @@
+genre_hardcore_graffiti<- sc_node_not_relation;;
+genre_hardcore_graffiti=> nrel_main_idtf:
+     [хардкор граффити](* <-lang_ru;; *);
+     [hardcore graffiti](* <-lang_en;; *);;
+genre_hardcore_graffiti <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: хардкор граффити] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: abstrac graffiti] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Стиль, особенности которого выражаются в грязных элементах, кислотности и вандальности.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[A style whose features are expressed in dirty elements, acidity and vandalism.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_hardcore_graffiti
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хардкор граффити)](*<-lang_ru;;*);
+		[Pic. (Hardcore graffiti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/hardcore.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

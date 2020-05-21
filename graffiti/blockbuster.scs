@@ -1,0 +1,49 @@
+genre_blockbuster<- sc_node_not_relation;;
+genre_blockbuster => nrel_main_idtf:
+     [блокбастер](* <-lang_ru;; *);
+     [blockbuster](* <-lang_en;; *);;
+genre_blockbuster <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: блокбастер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: blockbuster] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Блокбастер» или «роллер» — это огромные куски, обычно выполненные в простой печатной манере — большие буквы, которые рисуются отдельно, имеют более-менее стандартную форму и легко читаются — с целью покрытия большой поверхности с использованием двух контрастных цветов. Главная задача блокбастеров — занять большую площадь за короткий период времени.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[A blockbuster or roller is a large piece, almost always done in a block-shaped style, done simply to cover a large area solidly with two contrasting colors, sometimes with the whole purpose of blocking other writers from painting on the same wall. These are usually accomplished with extended paint rollers and gallons of cheap exterior paint.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_blockbuster 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: блокбастер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: blockbuster] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[роллер](* <- lang_ru;; *);
+			[roller](* <- lang_en;; *);;
+		*);;
+	*);;
+
+genre_blockbuster 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блокбастер)](*<-lang_ru;;*);
+		[Pic. (Blockbuster)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/blockbuster.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

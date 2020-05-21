@@ -1,0 +1,49 @@
+person_Cope2
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Карло Фернандо] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Fernando Carlo] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Cope2] (* <- lang_en;;*);  
+
+    => nrel_place_of_birth:
+            country_USA;
+
+    <= nrel_genre:...
+    (*
+        -> genre_wild_style;;
+        -> genre_bombing;;
+    *);;
+
+person_Cope2 <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Карло Фернандо] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Fernando Carlo] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Фернандо Карло - художник из района Кингсбридж в Бронксе, Нью-Йорк. Cope2 хорошо известен своим "бомбингом" и также нередко использует "дикий стиль" граффити, который возник в Бронксе.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Fernando Carlo is an artist from the Kingsbridge section of the Bronx, New York. Cope2 is well known for his "throw-up" and is also a user of "wildstyle" graffiti, a style which originated in the Bronx.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Cope2 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Карло Фернандо)](*<-lang_ru;;*);
+		[Pic. (Fernando Carlo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Cope2.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

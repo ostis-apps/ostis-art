@@ -1,0 +1,32 @@
+font_okami<- sc_node_not_relation;;
+font_okami => nrel_main_idtf:
+     [оками](* <-lang_ru;; *);
+     [okami](* <-lang_en;; *);;
+font_okami <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: оками] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: okami] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Данный шрифт имеет выразительный стиль кисти с грубыми краями и жирными буквами. Этот шрифт позволяет почувствовать себя городским самураем.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This font has an expressive brush style with rough edges and bold letters. This font makes you feel like an urban samurai.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_okami 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Оками)](*<-lang_ru;;*);
+		[Pic. (Okami)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Okami.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

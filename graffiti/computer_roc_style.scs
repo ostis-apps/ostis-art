@@ -1,0 +1,32 @@
+genre_computer_roc_style<- sc_node_not_relation;;
+genre_computer_roc_style => nrel_main_idtf:
+     [перелом](* <-lang_ru;; *);
+     [computer roc style](* <-lang_en;; *);;
+genre_computer_roc_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: перелом] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: computer roc style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Стиль "перелом" характеризуется тем, что буквы разделяются на отдельные фразменты, каждый из которых наклоняется в разные стороны. Стиль придуман Case2 из Нью-Йорка.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The Computer Roc Style is characterized by the fact that letters are divided into separate phrases, each of which tilts in different directions. Style coined by Case2 from New York.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_computer_roc_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Перелом)](*<-lang_ru;;*);
+		[Pic. (Computer roc style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/computer_roc_style.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

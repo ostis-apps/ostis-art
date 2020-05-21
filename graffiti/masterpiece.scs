@@ -1,0 +1,32 @@
+genre_masterpiece<- sc_node_not_relation;;
+genre_masterpiece => nrel_main_idtf:
+     [кусок](* <-lang_ru;; *);
+     [masterpiece](* <-lang_en;; *);;
+genre_masterpiece <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: кусок] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: masterpiece] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Кусок» — это более сложное исполнение имени райтера, которое включает более стилизованные буквы и большее количество цветов, конечно, создание «куска» требует большего времени и увеличивает вероятность того, что художника поймают.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[ A piece is a more elaborate representation of the artist's name, incorporating more stylized letters, usually incorporating a much larger range of colors. This is more time-consuming and increases the likelihood of the artist getting caught. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_masterpiece 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кусок)](*<-lang_ru;;*);
+		[Pic. (Masterpiece)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/masterpiece.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,32 @@
+font_mingser<- sc_node_not_relation;;
+font_mingser => nrel_main_idtf:
+     [минзер](* <-lang_ru;; *);
+     [mingser](* <-lang_en;; *);;
+font_mingser <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: минзер] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: mingser] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Эпический шрифт минзер имеет каллиграфический с правными линиями, используя его можно добавить работе немного фактуры.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The epic font minzer has a calligraphic font with the right lines, using it you can add a little texture to the work.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_mingser 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (минзер)](*<-lang_ru;;*);
+		[Pic. (Mingser)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/mingser.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

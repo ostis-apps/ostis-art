@@ -1,0 +1,44 @@
+graffiti_Follow_Your_Dreams_Cancelled
+    <- graffiti;
+
+    => nrel_main_idtf:
+            [Следуйте за своими мечтами – Отменено] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Follow Your Dreams – Cancelled] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+graffiti_Follow_Your_Dreams_Cancelled <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Следуйте за своими мечтами – Отменено] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Follow Your Dreams – Cancelled] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Довольно печально выглядящий художник рабочего класса, нарисовавший фразу «следуйте за своими мечтами», прежде чем слово «отменено» было отпечатано в довольно яркой прямоугольной плашке. Эта работа была первоначально нанесена в мае 2010 года на задней части ресторана Shabu Shabu в китайском квартале Бостона.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[A rather sad looking working-class artist who drew the phrase “follow your dreams” before the word “canceled” was printed in a rather bright rectangular die. This work was originally applied in May 2010 at the back of the Shabu Shabu restaurant in Boston's Chinatown.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Follow_Your_Dreams_Cancelled 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Следуйте за своими мечтами – Отменено)](*<-lang_ru;;*);
+		[Pic. (Follow Your Dreams – Cancelled)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/FollowYourDreamsCancelled.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

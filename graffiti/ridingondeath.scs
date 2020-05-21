@@ -1,0 +1,39 @@
+graffiti_Riding_on_death
+    <- painting;
+
+    => nrel_main_idtf:
+            [Верхом на смерти] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Riding on death] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Jean_Michel_Basquiat;;
+
+graffiti_Riding_on_death <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Верхом на смерти] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: Riding on death] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[В феврале 1987 года во время несложных операций скончался Энди Уорхол. Для Жана-Мишеля Баския это был самый серьезный удар в его жизни. Уорхол был его наставником, учителем или гуру. Он помог молодому протеже войти в мир американского искусства, познакомил его со многими влиятельными и интересными людьми. Обеспечил его жильем и дал мне возможность писать без ограничений. В конце концов, просто говорил с Жан-Мишелем обо всем, начиная с историй из его детства и заканчивая философией. Можно сказать, что эта странная дружба была выгодна обоим. Уорхол подпитывался неудержимой энергией Баскии, потому что к тому времени, когда они встретились, он был почти в обмороке как художник, аудитория почти не интересовалась его работой. Хотя Баскии здесь, в общем-то, мало что могло изменить: их совместная выставка была встречена очень крутой аудиторией. Но, по крайней мере, рядом с ним Уорхол хотя бы изредка мог чувствовать себя молодым. Когда Уорхол умер, у Баскии был мяч. Он почти перестал писать, прекратил много контактов, давно ушел (запираясь в своей домашней студии и даже покидая страну) и постоянно накачивая наркотики. Иногда он просыпался посреди улицы, пытаясь понять, кто и где он находится. Однажды в одурманенном бреде он в моей пижаме ворвался в дом своей прежней страсти. В какой-то момент наступило разрешение: Баския, субъект программы реабилитации, «сломался» сам, он покинул Нью-Йорк. Затем он снова начал писать. В один из последних дней своей жизни художник создал картину «Верховая смерть». «Спидбол» - смесь кокаина и героина, убившая баскского, славится тем, что «сжигает» все негативные эмоции, оставляя гул в чистом виде. Конечно, под влиянием пары Баския мог найти себя способным на что угодно, даже на смертельную поездку. Характер его картины, по-видимому, изображает сам художник. Его руки крепко прижаты к телу, в то время как «призрачные» конечности свободно летят. Схематично нарисованный скелет, представляющий смерть, кажется полностью послушным всаднику, но в пустых глазницах черепа отчетливо видна угроза. Вполне возможно, что эта минималистская работа была своего рода предсмертной запиской Баскии, который понимал, что у человека, который едет на смерть, есть только один путь.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[In February 1987, during simple operations died Andy Warhol. For Jean-Michel Basquiat, this was the most serious blow of his life. Warhol was his mentor, teacher or guru. He helped the young protégé to enter the world of American art, introduced him to many influential and interesting people. Provided him with housing and gave me the opportunity to write without restrictions. In the end, was just talking to Jean-Michel about everything, starting with stories from his childhood and ending with philosophy. We can say that this strange friendship was beneficial to both. Warhol was fuelled by the irrepressible energy of Basquiat, because by the time they met he was almost out of steam as the artist, the audience had little interest in his work. Although Basquiat here, in General, there was little to change: their exhibition of the joint work were greeted with a very cool audience. But, at least, next to it is Warhol at least occasionally could feel young. When Warhol died, Basquiat had a ball. He almost stopped writing, stopped a lot of contacts, long gone (locking in his home Studio, and even leaving the country) and constantly pumped drugs. Sometimes he would awake in the middle of the street, trying to figure out who and where he is. One day in a drugged delirium he is in my pajamas broke into the house of his former passion. At some point came clearance: Basquiat, the subject of a rehabilitation program, "broke" himself, he left new York. Then he began to write again. In one of the last days of his life the artist created the picture "Riding death". "Speedball" - a mixture of cocaine and heroin that killed Basque, is famous for the fact that "burns" all the negative emotions, leaving a buzz in its purest form. Surely, under the influence of the couple Basquiat could find yourself capable of anything, even to the death ride. Character of his painting, apparently, depicts the artist himself. His hands held tightly to the body, while "phantom" limbs fly freely. Schematically drawn skeleton representing death, seems to be completely obedient to the rider, but in the empty eye sockets of the skull clearly read the threat. It is possible that this minimalist work was a kind of suicide note Basquiat, who understood that the man riding a death, there is only one way.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Riding_on_death 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Верхом на смерти)](*<-lang_ru;;*);
+		[Pic. (Riding on death)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/ridingondeath.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

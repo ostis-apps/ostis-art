@@ -1,0 +1,39 @@
+graffiti_Slave_work
+    <- painting;
+
+    => nrel_main_idtf:
+            [Рабский труд] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Slave work] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;;
+
+graffiti_Slave_work <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Рабский труд] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description:Slave work] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Этим граффити Бэнкси отреагировал на создание детьми тысяч сувениров для Олимпийских игр в 2012 году. Работа художника появилась незадолго до празднования 60-летия правления королевы Елизаветы II. В начале 2013 рисунок был вырезан из стены дома и украден. Местные жители обратились к властям с просьбой вернуть на место работу стрит-арт художника. Спустя несколько дней «Рабский труд» всплыл на сайте аукциона в Майами. Граффити перепродавалось несколько раз, пока не попало в руки художника Рона Инглиша. Он заявил, что планирует замазать белилами скандальную картину, которую купил за 730 тысяч долларов. Таким образом он хотел поддержать Бэнкси в его протесте против продажи стрит-арта. В то же время Инглиш отметил, что планирует перепродать закрашенную картину за миллион долларов.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[With this graffiti, Banksy reacted to the children creating thousands of souvenirs for the 2012 Olympics. The artist’s work appeared shortly before the celebration of the 60th anniversary of the reign of Queen Elizabeth II. In early 2013, the drawing was cut out of the wall of the house and stolen. Local residents turned to the authorities with a request to return to the place of the work of street art artist. A few days later, “Slave Labor” surfaced on the auction site in Miami. Graffiti was resold several times, until it fell into the hands of the artist Ron English. He said that he plans to gloss over the scandalous picture, which he bought for 730 thousand dollars. So he wanted to support Banksy in his protest against the sale of street art. At the same time, English said that he plans to resell the painted picture for a million dollars.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_Slave_work
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рабский труд)](*<-lang_ru;;*);
+		[Pic. (Slave work)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Slavework.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

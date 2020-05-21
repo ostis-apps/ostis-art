@@ -1,0 +1,39 @@
+graffiti_If_graffiti_changed_anything
+    <- painting;
+
+    => nrel_main_idtf:
+            [Если бы граффити могло что-то изменить] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [If graffiti changed anything] (* <- lang_en;;*);  
+
+    <= nrel_author:
+            person_Banksy;;
+
+graffiti_If_graffiti_changed_anything <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Описание: Если бы граффити могло что-то изменить] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Description: If graffiti changed anything] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Если бы граффити могло изменить что-либо, оно было бы незаконно! Этой работой Бэнкси отдал дань уважения анархистке и активистке за права женщин Эмми Гольдман, которая сказала: «Если бы голосование могло изменить что-либо, оно было бы незаконно». Граффити было создано в 2011 году на Оксфорд-стрит в Лондоне. Под надписью расположилась черно-белая крыса Бэнкси, своеобразный символ его творчества.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[If graffiti changed anything – it would be illegal! By this work, Banksy paid tribute to the anarchist and activist for women's rights, Emmy Goldman, who said: “If voting could change anything, it would be illegal.” Graffiti was created in 2011 at Oxford Street in London. Under the inscription is a black and white Banksy rat, a kind of symbol of his work.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+graffiti_If_graffiti_changed_anything
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Если бы граффити могло что-то изменить)](*<-lang_ru;;*);
+		[Pic. (If graffiti changed anything)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Ifgraffitichangedanything.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,56 @@
+person_Blek_le_Rat
+    <- person;
+    <- male;
+    <- graffitist;
+
+    => nrel_main_idtf:
+            [Ксавье Проу] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Xavier Prou] (* <- lang_en;;*);
+    => nrel_idtf:
+            [Блек ле Рат] (* <- lang_ru;;*);
+    => nrel_idtf:
+            [Blek le Rat] (* <- lang_en;;*);  
+
+    => nrel_place_of_birth:
+            country_France;
+   => nrel_date_of_birth:
+            date_1951_1952
+            (*
+                => nrel_main_idtf:
+                [1951-1952](* <- lang_ru;;*);;
+            *);
+
+    <= nrel_genre:...
+    (*
+        -> genre_stencil_graffiti;;
+    *);;
+
+person_Blek_le_Rat <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Биография: Блек ле Рат] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Biography: Blek le Rat] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Блек ле Рат  Ксавье Проу — французский художник, один из первых граффитчиков Парижа, родоначальник жанра трафаретного граффити. Первыми рисунками Проу на улицах Парижа стали изображения крыс, которых сам художник называет «единственными свободными животными в городе» .](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Black le Rat Xavier Proou is a French artist, one of the first Paris graffiti artists, the pioneer of the screen graffiti genre. The first drawings of Prou ​​on the streets of Paris were the images of rats, which the artist himself calls "the only free animals in the city".](*<- lang_en;;*);;
+			*);;
+          *);;
+
+person_Blek_le_Rat 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блек ле Рат)](*<-lang_ru;;*);
+		[Pic. (Blek le Rat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/BlekleRat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

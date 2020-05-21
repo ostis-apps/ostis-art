@@ -1,0 +1,32 @@
+genre_messiah_style<- sc_node_not_relation;;
+genre_messiah_style => nrel_main_idtf:
+     [стиль мессии](* <-lang_ru;; *);
+     [messiah style](* <-lang_en;; *);;
+genre_messiah_style <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: стиль мессии] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: messiah style] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Стиль мессии характеризуется тем, что буквы данного стиля пишутся словно на отдельных листах и накладываются друг на друга. Этот стиль изобрел нью-йоркский граффитист.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The style of the messiah is characterized by the fact that the letters of this style are written as if on separate sheets and superimposed on each other. This style was invented by a New York graffiti artist..](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_messiah_style 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стиль мессии)](*<-lang_ru;;*);
+		[Pic. (Messiah style)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/messiah_style.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

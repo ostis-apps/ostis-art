@@ -1,0 +1,49 @@
+genre_bombing<- sc_node_not_relation;;
+genre_bombing => nrel_main_idtf:
+     [бомбинг](* <-lang_ru;; *);
+     [bombing](* <-lang_en;; *);;
+genre_bombing <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: бомбинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: bombing] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[«Бомбинг» или «троу-ап» — ещё одна форма граффити, «троу-апы» рисуют очень быстро, в 2-3 цвета, жертвуя качеством ради скорости. Иногда троу-апы наносят контурно одним цветом.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[The bombing, also known as a throw-up, which is normally painted very quickly with two or three colors, sacrificing aesthetics for speed, throw-ups can also be outlined on a surface with one color. ](*<- lang_en;;*);;
+			*);;
+          *);;
+
+genre_bombing 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Синонимичные названия: бомбинг] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Synonymous names: bombing] (* <- lang_en;; *);;
+	     <- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[троу-ап](* <- lang_ru;; *);
+			[throw-up](* <- lang_en;; *);;
+		*);;
+	*);;
+
+genre_bombing 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бомбинг)](*<-lang_ru;;*);
+		[Pic. (Bombing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/bombing.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

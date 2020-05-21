@@ -1,0 +1,31 @@
+font_resize => nrel_main_idtf:
+     [ресайз](* <-lang_ru;; *);
+     [resize](* <-lang_en;; *);;
+font_resize <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: ресайз] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: resize] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Этот шрифт представляет эстетический стиль написания кистью.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[This font represents an aesthetic style of brush writing.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+font_resize 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ресайз)](*<-lang_ru;;*);
+		[Pic. (Resize)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/Resize.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

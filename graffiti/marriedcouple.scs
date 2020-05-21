@@ -1,0 +1,32 @@
+sc_node_not_relation->concept_family_couple;;
+concept_married_couple => nrel_main_idtf:
+     [супружеская пара](* <-lang_ru;; *);
+     [married couple](* <-lang_en;; *);;
+concept_married_couple <- rrel_key_sc_element: 
+		... 
+		(*
+		<- sc_definition;;
+		=> nrel_main_idtf: [Определение: супружеская пара] (* <- lang_ru;; *);; 
+		=> nrel_main_idtf: [Definition: married couple] (* <- lang_en;; *);;
+          <- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Семейная пара — работа, состоящий из трёх полностью окрашенных локомотивов, соединённых вместе на железной дороге. В настоящее время встречается редко, так как поезда очень быстро очищают.](*<- lang_ru;;*);; //вставляешь свое понятие
+			-> rrel_example: 
+				[Family Couple is a graffiti consisting of fully painted locomotives connected together on a railway. Trains get cleaned very quickly.](*<- lang_en;;*);;
+			*);;
+          *);;
+
+concept_married_couple 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Супружеская пара)](*<-lang_ru;;*);
+		[Pic. (Married couple)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/marriedcouple.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
